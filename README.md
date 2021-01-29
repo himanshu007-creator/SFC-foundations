@@ -17,7 +17,7 @@ To make a new website from scratch and suggest an aletrnative for current websit
 - Blog uploading feature
 
 # Contributions
-We welcome develoeprs to contribute in our project. Their efforts will be supporting a noble cause , and they will get Hands-on experience with their skills.
+We welcome developers to contribute in our project. Their efforts will be supporting a noble cause , and they will get Hands-on experience with their skills.
 
 
 
