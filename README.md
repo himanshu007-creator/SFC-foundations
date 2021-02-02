@@ -20,6 +20,7 @@ To make a new website from scratch and suggest an aletrnative for current websit
 We welcome developers to contribute in our project. Their efforts will be supporting a noble cause , and they will get Hands-on experience with their skills.
  
 # HOW TO START ❓
+- have a look <a href="https://drive.google.com/file/d/1H2ccWkUz61b31WbKgvF-6n6Q9R9e98uD/view?usp=sharing">here</a>
 - fork this repo
 - drop a :star:
 - make changes in forked repo
