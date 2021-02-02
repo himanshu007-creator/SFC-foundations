@@ -18,6 +18,14 @@ To make a new website from scratch and suggest an aletrnative for current websit
 
 # :heavy_plus_sign:Contributions
 We welcome developers to contribute in our project. Their efforts will be supporting a noble cause , and they will get Hands-on experience with their skills.
+ 
+# HOW TO START ❓
+-fork this repo
+- drop a :star:
+- make changes in forked repo
+- make pull request
+- get it merged
+- repeat :repeat:
 
 
 
