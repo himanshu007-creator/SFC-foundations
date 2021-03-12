@@ -14,19 +14,13 @@ Fixes # (issue no.)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
-# How Has This Been Tested?
-
-<!---Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration-->
-
-- [ ] Test A
-- [ ] Test B
+# Explain the Testing instructions
 
 **Test Configuration**:
-* Firmware version:
-* Hardware:
-* Toolchain:
-* SDK:
-
+* Operating system:
+* Version:
+* Text-editors used:
+ 
 # Checklist:
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 - [ ] My code follows the style guidelines of this project
@@ -37,3 +31,4 @@ Fixes # (issue no.)
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
+# ATTACH SCREEN-SHOTS
