@@ -1,18 +1,22 @@
-name: check
- 
+name: Label Commenter
+
 on:
   issues:
-    types: [opened]
+    types:
+      - labeled
+      - unlabeled
+  pull_request_target:
+    types:
+      - labeled
+      - unlabeled
 
 jobs:
-  first-job:
-    runs-on: ubuntu-latest
+  comment:
+    runs-on: ubuntu-18.04
     steps:
-      - name: Checkout code
-        uses: anushkrishnav/Issue-Police@main
-      - name: Run Action
-        uses: ./
+      - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }} # default token in GitHub Workflow
-          author: anushkrishnav
-          repo: himanshu007-creator/SFC-foundations
+          ref: main # Set your default branch
+
+      - name: Label Commenter
+        uses: peaceiris/actions-label-commenter@v1
