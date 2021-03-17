@@ -1,4 +1,4 @@
- name: Spamtoberfest | Pull request spam checker
+- name: Spamtoberfest | Pull request spam checker
   # You may pin to the exact commit or the version.
   # uses: maximelafarie/spamtoberfest@eb55a9c0f9bd857a44833caa39a5ee1bf1e4f0f2
   uses: maximelafarie/spamtoberfest@v1.1
