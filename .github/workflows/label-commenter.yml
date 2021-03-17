@@ -16,6 +16,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
               with:
+                  config_file: ../label-commenter-config.yml
                   ref: label_commenter # Set your default branch
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
             - name: Label Commenter
