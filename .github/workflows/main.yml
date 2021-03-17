@@ -1,0 +1,20 @@
+name: check
+ 
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+        uses: actions/checkout@main
+    - name: Run Action
+        uses: anushkrishnav/Issue-Watcher@main
+        uses: ./
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # default token in GitHub Workflow
+          author: anushkrishnav
+          repo: himanshu007-creator/SFC-foundations
+          maxIssue: 2
