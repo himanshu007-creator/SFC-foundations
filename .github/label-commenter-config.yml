@@ -35,17 +35,11 @@ labels:
     - name: under review
       labeled:
           issue:
-              body:  Thank you  @{{ pull_request.user.login }} for raising the issue. Our mentors will review it soon.
-              action: open
-          pr:
-              body:Thank you @{{ pull_request.user.login }} for the PR. Our mentors will review it soon.
+              body: Thank you @{{ pull_request.user.login }} for raising the issue. Our mentors will review it soon.
               action: open
 
     - name: changes requested
       labeled:
           issue:
-              body: Thank you  @{{ pull_request.user.login }} for raising the issue. Please incorporate the suggested changes.
-              action: open
-          pr:
-              body: Thank you @{{ pull_request.user.login }} for the PR. Please incorporate the suggested changes.
+              body: Thank you @{{ pull_request.user.login }} for raising the issue. Please incorporate the suggested changes.
               action: open
