@@ -35,11 +35,11 @@ labels:
     - name: under review
       labeled:
           issue:
-              body: Thank you @{{ pull_request.user.login }} for raising the issue. Our mentors will review it soon.
+              body: Thank you for raising the issue. Our mentors will review it soon.
               action: open
 
     - name: changes requested
       labeled:
           issue:
-              body: Thank you @{{ pull_request.user.login }} for raising the issue. Please incorporate the suggested changes.
+              body: Thank you for raising the issue. Please incorporate the suggested changes.
               action: open
