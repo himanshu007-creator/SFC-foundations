@@ -20,7 +20,7 @@ labels:
               body: This issue comes under level 1.
               action: open
           pr:
-              body: Thank you  @{{ pull_request.user.login }} for the PR. Our mentors will review it soon.
+              body: Thank you  @{{ pull_request.user.login }} for the PR under level 1. Our mentors will review it soon.
               action: open
 
     - name: level2
@@ -29,7 +29,7 @@ labels:
               body: This issue comes under level 2.
               action: open
           pr:
-              body: Thank you  @{{ pull_request.user.login }} for the PR. Our mentors will review it soon.
+              body: Thank you  @{{ pull_request.user.login }} for the PR under level 2. Our mentors will review it soon.
               action: open
 
     - name: level3
@@ -38,7 +38,7 @@ labels:
               body: This issue comes under level 3.
               action: open
           pr:
-              body: Thank you  @{{ pull_request.user.login }} for the PR. Our mentors will review it soon.
+              body: Thank you  @{{ pull_request.user.login }} for the PR under level 3. Our mentors will review it soon.
               action: open
 
     - name: under review
