@@ -1,0 +1,63 @@
+labels:
+    - name: gssoc21
+      labeled:
+          issue:
+              body: Thank you @{{ pull_request.user.login }}. This issue counts towards the GSSOC'21
+              action: open
+          pr:
+              body: Thank you @{{ pull_request.user.login }} for the PR. Our mentors will review it soon. This issue counts towards the GSSOC'21
+              action: open
+
+    - name: level0
+      labeled:
+          issue:
+              body: This issue comes under level 0.
+              action: open
+          pr:
+              body: Thank you  @{{ pull_request.user.login }} for the PR under level 0. Our mentors will review it soon.
+              action: open
+
+    - name: level1
+      labeled:
+          issue:
+              body: This issue comes under level 1.
+              action: open
+          pr:
+              body: Thank you  @{{ pull_request.user.login }} for the PR under level 1. Our mentors will review it soon.
+              action: open
+
+    - name: level2
+      labeled:
+          issue:
+              body: This issue comes under level 2.
+              action: open
+          pr:
+              body: Thank you  @{{ pull_request.user.login }} for the PR under level 2. Our mentors will review it soon.
+              action: open
+
+    - name: level3
+      labeled:
+          issue:
+              body: This issue comes under level 3.
+              action: open
+          pr:
+              body: Thank you  @{{ pull_request.user.login }} for the PR under level 3. Our mentors will review it soon.
+              action: open
+
+    - name: under review
+      labeled:
+          issue:
+              body: Thank you for raising the issue. Our mentors will review it soon.
+              action: open
+          pr:
+              body: Thank you  @{{ pull_request.user.login }} for the PR. Your PR is currently under review.
+              action: open
+
+    - name: changes requested
+      labeled:
+          issue:
+              body: Thank you for raising the issue. Please incorporate the suggested changes.
+              action: open
+          pr:
+              body: Thank you  @{{ pull_request.user.login }} for the PR. Please incorporate the suggested changes.
+              action: open
