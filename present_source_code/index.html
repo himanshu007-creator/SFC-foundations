@@ -12,6 +12,14 @@
     <link rel='dns-prefetch' href='//s.w.org' />
     <link rel="alternate" type="application/rss+xml" title="SFC FOUNDATIONS &raquo; Feed" href="http://sfcfoundations.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="SFC FOUNDATIONS &raquo; Comments Feed" href="http://sfcfoundations.com/comments/feed/" />
+    <!-- bootsrap file cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css"/>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>    
+    
+    
     <!-- This site uses the Google Analytics by ExactMetrics plugin v6.4.0 - Using Analytics tracking - https://www.exactmetrics.com/ -->
     <script type="text/javascript" data-cfasync="false">
         (window.gaDevIds = window.gaDevIds || []).push("dNDMyYj");
@@ -276,7 +284,12 @@
     <link rel='stylesheet' id='charitize-style-css' href='http://sfcfoundations.com/wp-content/themes/charitize/style.css?ver=5.4.2' type='text/css' media='all' />
     <link rel='stylesheet' id='charitize-google-fonts-css' href='https://fonts.googleapis.com/css?family=Kreon%3A400%2C300%2C700%7CLato%3A400%2C300%2C400italic%2C900%2C700&#038;ver=5.4.2' type='text/css' media='all' />
     <link rel='stylesheet' id='wpcw-css' href='http://sfcfoundations.com/wp-content/plugins/contact-widgets/assets/css/style.min.css?ver=1.0.1' type='text/css' media='all' />
-    <link rel="stylesheet" type="text/css" href="//sfcfoundations.com/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css?ver=f9404e8d" media="all" />
+    <link rel="stylesheet" type="text/css" href='http://sfcfoundations.com/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css?ver=f9404e8d' media="all" />
+
+    <!-- // Custom css file -->
+
+    <link rel="stylesheet" type="text/css"  href="./my_changed_code/home.css" media="all" />
+
     <style type="text/css">
         .n2-ss-spinner-simple-white-container {
             position: absolute;
@@ -290,13 +303,13 @@
             border-radius: 50%;
             z-index: 1000;
         }
-        
+
         .n2-ss-spinner-simple-white {
             outline: 1px solid RGBA(0, 0, 0, 0);
             width: 100%;
             height: 100%;
         }
-        
+
         .n2-ss-spinner-simple-white:before {
             position: absolute;
             top: 50%;
@@ -306,7 +319,7 @@
             margin-top: -11px;
             margin-left: -11px;
         }
-        
+
         .n2-ss-spinner-simple-white:not(:required):before {
             content: '';
             border-radius: 50%;
@@ -314,7 +327,7 @@
             border-right: 2px solid transparent;
             animation: n2SimpleWhite .6s linear infinite;
         }
-        
+
         @keyframes n2SimpleWhite {
             to {
                 transform: rotate(360deg);
@@ -361,7 +374,7 @@
         /*----------------------------------*/
         /*Primary color option*/
         /*Link color option*/
-        
+
         .contact-widget ul li a,
         .contact-widget ul li a i,
         .posted-on a,
@@ -389,7 +402,7 @@
             color: #313131;
             /*#332e2b*/
         }
-        
+
         .wrapper-slider .slide-item .slider-title a,
         .wrapper-slider .slide-item,
         .page-inner-title .taxonomy-description,
@@ -401,7 +414,7 @@
             color: #fff;
             /*#fff*/
         }
-        
+
         @media screen and (max-width: 1199px) {
             .main-navigation ul li a,
             .main-navigation ul li a:visited {
@@ -409,19 +422,19 @@
                 /*#fff*/
             }
         }
-        
+
         .site-header .site-title a,
         .site-header .site-description {
             color: #dd3333;
             /*#332e2b*/
         }
-        
+
         .site-header .site-title a,
         .site-header .site-description {
             font-family: "Lato";
             /*"Lato"*/
         }
-        
+
         h1,
         h2,
         h3,
@@ -437,7 +450,7 @@
             font-family: "Kreon";
             /*"Lato"*/
         }
-        
+
         .page-inner-title {
             background-image: url(http://sfcfoundations.com/wp-content/uploads/2020/07/background-3.png);
         }
@@ -452,35 +465,35 @@
             margin: 0;
             padding: 0;
         }
-        
+
         .slick-track {
             width: 89%!important;
             margin-left: 5.5%;
             margin-top: 5%
         }
-        
+
         .carousel-item {
             width: 50%!important;
         }
-        
+
         .carousel-item img {
             width: 100%;
         }
-        
+
         .so-widget-sow-post-carousel {
             margin-top: 40px!important;
             margin-bottom: 70px!important;
         }
-        
+
         li.sow-carousel-item {
             max-width: 945px;
         }
-        
+
         .sow-carousel-thumbnail {
             visibility: hidden;
             display: none;
         }
-        
+
         .sow-carousel-wrapper ul.sow-carousel-items li.sow-carousel-item h3 a {
             text-decoration: none;
             color: inherit;
@@ -489,13 +502,13 @@
             padding-top: 49px!important;
             float: left;
         }
-        
+
         .sow-carousel-title {
             font-size: 27px;
             font-weight: bold;
             text-align: center;
         }
-        
+
         @media screen and (min-width: 1200px) {
             .main-navigation a,
             .main-navigation a:visited {
@@ -507,21 +520,21 @@
                 border-bottom: none;
             }
         }
-        
+
         article#post-369 {
             border: none;
             padding: 0%;
             padding-top: 0;
             background: transparent;
         }
-        
+
         article#post-369 .wp-block-columns.has-3-columns img {
             float: none;
             display: inline-block;
             height: 120px;
             border-radius: 23px;
         }
-        
+
         article#post-369 .wp-block-columns.has-3-columns {
             margin-bottom: 50px;
             padding-bottom: 20px;
@@ -529,28 +542,28 @@
             padding-left: 10%;
             padding-right: 10%;
         }
-        
+
         div#slider_777 {
             padding-bottom: 20px;
         }
-        
+
         .site-footer .copyright {
             width: 100%;
         }
-        
+
         .fleft {
             float: left;
         }
-        
+
         .fleft a {
             color: #fff;
             padding-left: 10px;
         }
-        
+
         .fright {
             float: right;
         }
-        
+
         article#post-369 h1 {
             background: #fff;
             padding: 11px;
@@ -560,7 +573,7 @@
             display: block;
             position: relative;
         }
-        
+
         article#post-369 .wp-block-columns.has-2-columns {
             padding-left: 10%;
             padding-right: 10%;
@@ -569,11 +582,11 @@
             padding-top: 60px;
             margin-bottom: 50px;
         }
-        
+
         article#post-369 .wp-block-columns.has-3-columns {
             margin-top: 50px;
         }
-        
+
         .page-inner-title {
             padding-bottom: 1%;
             padding-top: 1.5%;
@@ -1027,20 +1040,20 @@
                         <div class="col-xs-12 col-sm-6 col-md-4">
                             <div class="site-branding">
                                 <a href="http://sfcfoundations.com/" class="custom-logo-link" rel="home"><img width="2618" height="2613" src="http://sfcfoundations.com/wp-content/uploads/2019/07/cropped-SFC-TRANSPARENT-LOGO.png" class="custom-logo" alt="SFC FOUNDATIONS" srcset="http://sfcfoundations.com/wp-content/uploads/2019/07/cropped-SFC-TRANSPARENT-LOGO.png 2618w, http://sfcfoundations.com/wp-content/uploads/2019/07/cropped-SFC-TRANSPARENT-LOGO-300x300.png 300w, http://sfcfoundations.com/wp-content/uploads/2019/07/cropped-SFC-TRANSPARENT-LOGO-1024x1022.png 1024w, http://sfcfoundations.com/wp-content/uploads/2019/07/cropped-SFC-TRANSPARENT-LOGO-150x150.png 150w, http://sfcfoundations.com/wp-content/uploads/2019/07/cropped-SFC-TRANSPARENT-LOGO-768x767.png 768w, http://sfcfoundations.com/wp-content/uploads/2019/07/cropped-SFC-TRANSPARENT-LOGO-1536x1533.png 1536w, http://sfcfoundations.com/wp-content/uploads/2019/07/cropped-SFC-TRANSPARENT-LOGO-2048x2044.png 2048w"
-                                        sizes="(max-width: 2618px) 100vw, 2618px" /></a>
-                                <p class="site-title"><a href="http://sfcfoundations.com/" rel="home">SFC FOUNDATIONS</a></p>
-                                <h2 class="site-description">Reviving lives</h2>
+                                    sizes="(max-width: 2618px) 100vw, 2618px" /></a>
+                                 <p class="site-title"><a href="http://sfcfoundations.com/" rel="home">SFC FOUNDATIONS</a></p>
+                               <!-- <h2 class="site-description">Reviving lives</h2> -->
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-8">
+                        <div class="col-xs-12 col-sm-6 col-md-8" id="navbar">
                             <div class="row">
                                 <div class="nav-holder">
                                     <div class="col-xs-9 mb-device go-left">
                                         <button id="menu-toggle" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span class="fa fa-bars"></span></button>
                                         <div id="site-header-menu" class="site-header-menu">
                                             <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
-                                                <div class="menu-primary-menu-container">
-                                                    <ul id="primary-menu" class="primary-menu">
+                                                <div class="menu-primary-menu-container" id="menu">
+                                                    <ul>
                                                         <li id="menu-item-796" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-796"><a href="#">About  SFC</a>
                                                             <ul class="sub-menu">
                                                                 <li id="menu-item-800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-800"><a href="http://sfcfoundations.com/know-sfc-2/">Know SFC</a></li>
@@ -1373,11 +1386,11 @@
                                         div#n2-ss-14 {
                                             width: 1200px;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slider-1 {
                                             position: relative;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slider-background-video-container {
                                             position: absolute;
                                             left: 0;
@@ -1386,7 +1399,7 @@
                                             height: 100%;
                                             overflow: hidden;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slider-2 {
                                             position: relative;
                                             overflow: hidden;
@@ -1401,12 +1414,12 @@
                                             background-attachment: scroll;
                                             z-index: 1;
                                         }
-                                        
+
                                         div#n2-ss-14.n2-ss-mobileLandscape .n2-ss-slider-2,
                                         div#n2-ss-14.n2-ss-mobilePortrait .n2-ss-slider-2 {
                                             background-attachment: scroll;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slider-3 {
                                             position: relative;
                                             width: 100%;
@@ -1415,7 +1428,7 @@
                                             outline: 1px solid rgba(0, 0, 0, 0);
                                             z-index: 10;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slide-backgrounds,
                                         div#n2-ss-14 .n2-ss-slider-3>.n-particles-js-canvas-el,
                                         div#n2-ss-14 .n2-ss-slider-3>.n2-ss-divider {
@@ -1425,19 +1438,19 @@
                                             width: 100%;
                                             height: 100%;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slide-backgrounds {
                                             z-index: 10;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slider-3>.n-particles-js-canvas-el {
                                             z-index: 12;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slide-backgrounds>* {
                                             overflow: hidden;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slide {
                                             position: absolute;
                                             top: 0;
@@ -1448,38 +1461,38 @@
                                             display: block;
                                             -webkit-backface-visibility: hidden;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-layers-container {
                                             position: relative;
                                             width: 1200px;
                                             height: 400px;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-parallax-clip>.n2-ss-layers-container {
                                             position: absolute;
                                             right: 0;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slide {
                                             perspective: 1500px;
                                         }
-                                        
+
                                         div#n2-ss-14[data-ie] .n2-ss-slide {
                                             perspective: none;
                                             transform: perspective(1500px);
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-slide-active {
                                             z-index: 21;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow {
                                             cursor: pointer;
                                             overflow: hidden;
                                             line-height: 0 !important;
                                             z-index: 18;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow img {
                                             position: relative;
                                             min-height: 0;
@@ -1491,160 +1504,160 @@
                                             max-height: 100%;
                                             display: inline;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow img.n2-arrow-hover-img {
                                             display: none;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow:HOVER img.n2-arrow-hover-img {
                                             display: inline;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow:HOVER img.n2-arrow-normal-img {
                                             display: none;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated {
                                             overflow: hidden;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated>div {
                                             position: relative;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated .n2-active {
                                             position: absolute;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated-fade {
                                             transition: background 0.3s, opacity 0.4s;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated-horizontal>div {
                                             transition: all 0.4s;
                                             left: 0;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated-horizontal .n2-active {
                                             top: 0;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-previous.nextend-arrow-animated-horizontal:HOVER>div,
                                         div#n2-ss-14 .nextend-arrow-previous.nextend-arrow-animated-horizontal:FOCUS>div,
                                         div#n2-ss-14 .nextend-arrow-next.nextend-arrow-animated-horizontal .n2-active {
                                             left: -100%;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-previous.nextend-arrow-animated-horizontal .n2-active,
                                         div#n2-ss-14 .nextend-arrow-next.nextend-arrow-animated-horizontal:HOVER>div,
                                         div#n2-ss-14 .nextend-arrow-next.nextend-arrow-animated-horizontal:FOCUS>div {
                                             left: 100%;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow.nextend-arrow-animated-horizontal:HOVER .n2-active,
                                         div#n2-ss-14 .nextend-arrow.nextend-arrow-animated-horizontal:FOCUS .n2-active {
                                             left: 0;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated-vertical>div {
                                             transition: all 0.4s;
                                             top: 0;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated-vertical .n2-active {
                                             left: 0;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated-vertical .n2-active {
                                             top: -100%;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated-vertical:HOVER>div,
                                         div#n2-ss-14 .nextend-arrow-animated-vertical:FOCUS>div {
                                             top: 100%;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-arrow-animated-vertical:HOVER .n2-active,
                                         div#n2-ss-14 .nextend-arrow-animated-vertical:FOCUS .n2-active {
                                             top: 0;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-control-bullet {
                                             visibility: hidden;
                                             text-align: center;
                                             justify-content: center;
                                             z-index: 14;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-control-bullet--calculate-size {
                                             left: 0 !important;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-control-bullet-horizontal.n2-ss-control-bullet-fullsize {
                                             width: 100%;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-control-bullet-vertical.n2-ss-control-bullet-fullsize {
                                             height: 100%;
                                             flex-flow: column;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-bullet-bar {
                                             display: inline-flex;
                                             visibility: visible;
                                             align-items: center;
                                             flex-wrap: wrap;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-bar-justify-content-left {
                                             justify-content: flex-start;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-bar-justify-content-center {
                                             justify-content: center;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-bar-justify-content-right {
                                             justify-content: flex-end;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-control-bullet-vertical>.nextend-bullet-bar {
                                             flex-flow: column;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-control-bullet-fullsize>.nextend-bullet-bar {
                                             display: flex;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-control-bullet-horizontal.n2-ss-control-bullet-fullsize>.nextend-bullet-bar {
                                             flex: 1 1 auto;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-control-bullet-vertical.n2-ss-control-bullet-fullsize>.nextend-bullet-bar {
                                             height: 100%;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-bullet-bar .n2-bullet {
                                             cursor: pointer;
                                             transition: background-color 0.4s;
                                         }
-                                        
+
                                         div#n2-ss-14 .nextend-bullet-bar .n2-bullet.n2-active {
                                             cursor: default;
                                         }
-                                        
+
                                         div#n2-ss-14 div.n2-ss-bullet-thumbnail-container {
                                             position: absolute;
                                             opacity: 0;
                                             z-index: 10000000;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-ss-bullet-thumbnail-container .n2-ss-bullet-thumbnail {
                                             background-size: cover;
                                             background-repeat: no-repeat;
                                             background-position: center;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-5d4b18cc65b298abe6ea5a722df46c1c-hover {
                                             font-family: 'Montserrat', 'Arial';
                                             color: #111111;
@@ -1660,7 +1673,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-style-1761538edca9a5fd34e78e8a2caf11b9-heading {
                                             background: #ced3d5;
                                             opacity: 1;
@@ -1672,7 +1685,7 @@
                                             border-color: RGBA(0, 0, 0, 1);
                                             border-radius: 20px;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-19489aa675138ce9ad0cf0f19521ba6c-paragraph {
                                             font-family: 'Open Sans', 'Arial';
                                             color: #000000;
@@ -1688,7 +1701,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-19489aa675138ce9ad0cf0f19521ba6c-paragraph a,
                                         div#n2-ss-14 .n2-font-19489aa675138ce9ad0cf0f19521ba6c-paragraph a:FOCUS {
                                             font-family: 'Open Sans', 'Arial';
@@ -1705,7 +1718,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-19489aa675138ce9ad0cf0f19521ba6c-paragraph a:HOVER,
                                         div#n2-ss-14 .n2-font-19489aa675138ce9ad0cf0f19521ba6c-paragraph a:ACTIVE {
                                             font-family: 'Open Sans', 'Arial';
@@ -1722,7 +1735,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-489635f8cee7c3f443667ee02330c35f-hover {
                                             font-family: 'Montserrat', 'Arial';
                                             color: #111111;
@@ -1738,7 +1751,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-style-500ec9b50cb689ea467b77aa2442d647-heading {
                                             background: #ced3d5;
                                             opacity: 1;
@@ -1750,7 +1763,7 @@
                                             border-color: RGBA(0, 0, 0, 1);
                                             border-radius: 20px;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-ffbb51949c9ff910e41cc822fcfa8ce3-paragraph {
                                             font-family: 'Open Sans', 'Arial';
                                             color: #000000;
@@ -1766,7 +1779,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-ffbb51949c9ff910e41cc822fcfa8ce3-paragraph a,
                                         div#n2-ss-14 .n2-font-ffbb51949c9ff910e41cc822fcfa8ce3-paragraph a:FOCUS {
                                             font-family: 'Open Sans', 'Arial';
@@ -1783,7 +1796,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-ffbb51949c9ff910e41cc822fcfa8ce3-paragraph a:HOVER,
                                         div#n2-ss-14 .n2-font-ffbb51949c9ff910e41cc822fcfa8ce3-paragraph a:ACTIVE {
                                             font-family: 'Open Sans', 'Arial';
@@ -1800,7 +1813,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-b436f645cf56b1c4484b3e827c840cfc-paragraph {
                                             font-family: 'Open Sans', 'Arial';
                                             color: #000000;
@@ -1816,7 +1829,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-b436f645cf56b1c4484b3e827c840cfc-paragraph a,
                                         div#n2-ss-14 .n2-font-b436f645cf56b1c4484b3e827c840cfc-paragraph a:FOCUS {
                                             font-family: 'Open Sans', 'Arial';
@@ -1833,7 +1846,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-b436f645cf56b1c4484b3e827c840cfc-paragraph a:HOVER,
                                         div#n2-ss-14 .n2-font-b436f645cf56b1c4484b3e827c840cfc-paragraph a:ACTIVE {
                                             font-family: 'Open Sans', 'Arial';
@@ -1850,7 +1863,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-02b54c07317870f4f3eab10f760c14aa-paragraph {
                                             font-family: 'Open Sans', 'Arial';
                                             color: #000000;
@@ -1866,7 +1879,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-02b54c07317870f4f3eab10f760c14aa-paragraph a,
                                         div#n2-ss-14 .n2-font-02b54c07317870f4f3eab10f760c14aa-paragraph a:FOCUS {
                                             font-family: 'Open Sans', 'Arial';
@@ -1883,7 +1896,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-font-02b54c07317870f4f3eab10f760c14aa-paragraph a:HOVER,
                                         div#n2-ss-14 .n2-font-02b54c07317870f4f3eab10f760c14aa-paragraph a:ACTIVE {
                                             font-family: 'Open Sans', 'Arial';
@@ -1900,7 +1913,7 @@
                                             text-transform: none;
                                             font-weight: 600;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-style-c65dc3560c7973fb135fd2d39eb80ee4-heading {
                                             background: #ffffff;
                                             opacity: 1;
@@ -1912,13 +1925,13 @@
                                             border-color: RGBA(0, 0, 0, 1);
                                             border-radius: 99px;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-style-c65dc3560c7973fb135fd2d39eb80ee4-heading:Hover,
                                         div#n2-ss-14 .n2-style-c65dc3560c7973fb135fd2d39eb80ee4-heading:ACTIVE,
                                         div#n2-ss-14 .n2-style-c65dc3560c7973fb135fd2d39eb80ee4-heading:FOCUS {
                                             background: #107eb6;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-style-13db8e01048e160765b65c9fb1f05ec6-dot {
                                             background: RGBA(11, 115, 168, 0.46);
                                             opacity: 1;
@@ -1931,13 +1944,13 @@
                                             border-radius: 50px;
                                             margin: 4px;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-style-13db8e01048e160765b65c9fb1f05ec6-dot.n2-active,
                                         div#n2-ss-14 .n2-style-13db8e01048e160765b65c9fb1f05ec6-dot:HOVER,
                                         div#n2-ss-14 .n2-style-13db8e01048e160765b65c9fb1f05ec6-dot:FOCUS {
                                             background: #0b73a8;
                                         }
-                                        
+
                                         div#n2-ss-14 .n2-style-540018aaa523dc91fd73a2d36259dba5-simple {
                                             background: #ffffff;
                                             opacity: 1;
@@ -2759,6 +2772,36 @@
             </div>
         </div>
     </section>
+
+
+    <footer class="footer">
+        <div class="container">
+           <h1>Connect Us </h1>
+           <div class="row">
+              <div class="col-md-4"></div><!-- .Col ends here -->
+              <div class="col-md-4">
+                 <div class="footer-box">
+                    <ul class="social">
+                      
+                       <li><a href="https://m.facebook.com/profile.php?id=1630269837076825&#038;ref=content_filter" target="_blank" title="Visit SFC FOUNDATIONS on Facebook"><i class="fa  fa-facebook"></i></a></li>
+                       <li><a href="https://instagram.com/sfc_foundations?igshid=aydainwtfmeh" target="_blank" title="Visit SFC FOUNDATIONS on Instagram"><i class="fa fa-instagram"></i></a></li>
+                       <li><a href="https://www.linkedin.com/company/sfc-foundations" target="_blank" title="Visit SFC FOUNDATIONS on LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                       <li><a href="https://www.youtube.com/channel/UCFc2_KouvzbleEd-FMcS51Q" target="_blank" title="Visit SFC FOUNDATIONS on Youtube"><i class="fa fa-youtube"></i></a></li>
+                    </ul>   
+     <div class="copyright">
+     
+                    </div>
+                 </div><!-- .Footer-box ends here -->
+              </div><!-- .Col ends here -->
+              <div class="col-md-4"></div><!-- .Col ends here -->
+           </div><!-- .Row ends here -->
+        </div><!-- .Container ends here -->
+     </footer><!-- .Footer-box ends here -->
+
+
+
+
+
     <!-- *****************************************
                  Footer before section ends
         ****************************************** -->

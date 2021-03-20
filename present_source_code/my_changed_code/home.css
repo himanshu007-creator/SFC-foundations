@@ -1,0 +1,76 @@
+
+.site-description{
+  margin-left: 4px;
+  color:black;
+}
+
+.header-btn,.button{
+  color: white ;
+  background-color: black;
+
+
+}
+
+#navbar{
+  margin-top:13px;
+  padding-top:3px;
+}
+
+ #menu{
+    background-color:darkslategrey !important;
+ }
+ #menu:hover{
+   background-color:2px solid #0e0f0f;
+ }
+
+
+
+
+
+ footer.footer {
+  text-align: center;
+  color: #9da1a6;
+  position: relative;
+  background-color: #141414;
+  padding: 70px 0px 70px 0px;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+}
+ul.social{
+margin: 0;
+padding: 0;
+}
+footer.footer ul.social{
+margin: 0px 0px 20px 0px;
+
+}
+footer.footer ul.social li{
+display: inline-block;
+margin: 0px 10px;
+}
+footer.footer ul.social li a{
+color: #ffff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border-color: #ffffff;
+  position: relative;
+  border: 2px solid #393939;
+  display: inline-block;
+  line-height: 40px;
+  margin-bottom: 10px;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -moz-transition: all .3s ease-in-out 0s;
+  -ms-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+}
+footer.footer ul.social li a:hover {
+  color: #f74949;
+  border-color: #f74949;
+}
+footer.footer .copyright{
+color: #515151;
+}
