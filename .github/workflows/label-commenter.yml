@@ -17,7 +17,7 @@ jobs:
             - uses: actions/checkout@v2
               with:
                   config_file: ../label-commenter-config.yml
-                  ref: main # Default branch here
+                  ref: master # Default branch here
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
             - name: Label Commenter
               uses: peaceiris/actions-label-commenter@v1
