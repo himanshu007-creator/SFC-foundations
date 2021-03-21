@@ -14,7 +14,7 @@ labels:
               body: This issue comes under level 0.
               action: open
           pr:
-              body: Thank you  @{{ pull_request.user.login }} for the PR under level 0. Our mentors will review it soon.
+              body: Thank you @{{ pull_request.user.login }} for the PR under level 0. Our mentors will review it soon.
               action: open
 
     - name: level1
