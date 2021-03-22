@@ -28,5 +28,16 @@ We welcome developers to contribute to our project. Their efforts will be suppor
 - get it merged
 - repeat :repeat:
 
+# Contributor
+## Credit goes to these people !!
 
+<table>
+	<tr>
+		<td>
+      <a href="https://github.com/himanshu007-creator/SFC-foundations/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=himanshu007-creator/SFC-foundations" />
+</a>
+		</td>
+	</tr>
+</table>
 
