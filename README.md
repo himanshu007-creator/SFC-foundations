@@ -16,6 +16,10 @@ To make a new website from scratch and suggest an aletrnative for current websit
 - Create admin dashboard
 - Blog uploading feature
 
+### Tech Used
+
+![HTML5,CSS3,JavaScript](https://i.imgur.com/nMTD04v.jpg)
+
 # :heavy_plus_sign:Contributions
 We welcome developers to contribute in our project. Their efforts will be supporting a noble cause , and they will get Hands-on experience with their skills.
  
