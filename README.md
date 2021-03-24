@@ -45,7 +45,7 @@ GirlScript Summer of Code is the 3 month long Open Source program during summers
 ## Credit goes to <a href="https://github.com/himanshu007-creator/SFC-foundations/graphs/contributors">these </a>people !!
 
 <table>
-      <tr><td><img src="C:\Users\Mansi\Desktop\SFC-foundations\images\himanshu.JPG" width = "10%" ></td>
+      <tr><td><img src="himanshu.JPG" width = "10%" ></td>
 	  <td><a href="https://github.com/himanshu007-creator">Himanshu</a></td></tr>
 	  <tr><td><img src="aditi.JPG" width = "10%" ></td>
 	  <td><a href="https://github.com/aditi1403">Aditi Yadav</a></td></tr>
