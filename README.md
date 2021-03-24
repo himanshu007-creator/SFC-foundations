@@ -45,21 +45,21 @@ GirlScript Summer of Code is the 3 month long Open Source program during summers
 ## Credit goes to <a href="https://github.com/himanshu007-creator/SFC-foundations/graphs/contributors">these </a>people !!
 
 <table>
-      <tr><td><img src="himanshu.JPG" width = "10%" ></td>
+      <tr><td><img src="C:\Users\Mansi\Desktop\SFC-foundations\images\himanshu.JPG" width = "10%" ></td>
 	  <td><a href="https://github.com/himanshu007-creator">Himanshu</a></td></tr>
-	  <tr><td><img src="aditi.JPG" width = "10%" ></td>
+	  <tr><td><img src="C:\Users\Mansi\Desktop\SFC-foundations\images\aditi.JPG" width = "10%" ></td>
 	  <td><a href="https://github.com/aditi1403">Aditi Yadav</a></td></tr>
-	  <tr><td><img src="divya.JPG" width = "10%" ></td>
+	  <tr><td><img src="C:\Users\Mansi\Desktop\SFC-foundations\images\divya.JPG" width = "10%" ></td>
 	  <td><a href="https://github.com/divyashukla23">Divya Shukla</a></td></tr>
-	  <tr><td><img src="hrishita.JPG" width = "10%"></td>
+	  <tr><td><img src="C:\Users\Mansi\Desktop\SFC-foundations\images\hrishita.JPG" width = "10%"></td>
 	  <td><a href="https://github.com/Hrishita1">Hrishita Bagree</a></td></tr>
-	  <tr><td><img src="kriti.JPG" width = "10%"></td>
+	  <tr><td><img src="C:\Users\Mansi\Desktop\SFC-foundations\images\kriti.JPG" width = "10%"></td>
 	  <td><a href="https://github.com/Kriti-bit">Kriti</a></td></tr>
-	  <tr><td><img src="raveena.JPG" width = "10%"></td>
+	  <tr><td><img src="C:\Users\Mansi\Desktop\SFC-foundations\images\raveena.JPG" width = "10%"></td>
 	  <td><a href="https://github.com/RaveenaBhasin">RaveenaBhasin</a></td></tr>
-	  <tr><td><img src="rohan.JPG" width = "10%"></td>
+	  <tr><td><img src="C:\Users\Mansi\Desktop\SFC-foundations\images\rohan.JPG" width = "10%"></td>
 	  <td><a href="github.com/rohank2502">Rohan Kulkarni</a></td></tr>
-	  <tr><td><img src="subhangini.JPG" width = "10%"></td>
+	  <tr><td><img src="C:\Users\Mansi\Desktop\SFC-foundations\images\subhangini.JPG" width = "10%"></td>
 	  <td><a href="https://github.com/Subhangini">Coder_Subhangini</a></td></tr>
 </table>
 
