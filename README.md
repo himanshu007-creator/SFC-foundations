@@ -4,10 +4,12 @@ The SFC is a Youth NGO that has its roots in Tricity and Delhi. SFC inspires the
 Hence our projects are designed keeping in mind the barbaric surroundings of our Society. With the help of our stalwart volunteers, we can focus on capacity-building activities rather than the traditional gap-filling initiatives. SFC is an organization of dedicated and staunch amateurs who are dead set at uplifting the unfortunate lots in our society and sheltering our Country.
 
 # :exclamation:Problem
-Currently, our website is made using WordPress templates. It looks very plain and that doesn't look good. There is no simpler way to add new blogs/posts/articles to the website without changing the codebase every time.
- 
+<img align="center" height="200" width="325" src="https://media.giphy.com/media/h5cjqz8bIHl3RdVc3M/giphy.gif">
+Currently, our website is made using WordPress templates. It looks very plain and that doesn't look good. There is no simpler way to add new blogs/posts/articles to the website without changing the codebase every time. 
+  
 # :bulb:Solution
-To make a new website from scratch and suggest an alternative for the current website
+<img align="center" height="200" width="325" src="https://media.giphy.com/media/5bivKwxhVzshNk2Rjw/giphy.gif">
+So we have to make a new website from scratch and suggest an alternative for the current website.
  
 # :white_check_mark:Objectives 
 - make a new website for the NGO
@@ -26,13 +28,15 @@ To make a new website from scratch and suggest an alternative for the current we
 We welcome developers to contribute to our project. Their efforts will be supporting a noble cause, and they will get Hands-on experience with their skills.
  
 # HOW TO START ❓
-- have a look <a href="https://drive.google.com/file/d/1H2ccWkUz61b31WbKgvF-6n6Q9R9e98uD/view?usp=sharing">here</a>
-- fork this repo
-- drop a :star:
-- make changes in forked repo
-- make pull request
-- get it merged
-- repeat :repeat:
+<img align="right" src="https://media.giphy.com/media/3o7buirYcmV5nSwIRW/giphy.gif">
+
+1. Have a look <a href="https://drive.google.com/file/d/1H2ccWkUz61b31WbKgvF-6n6Q9R9e98uD/view?usp=sharing">here</a>
+2. Fork this repo
+3. Drop a :star:
+4. Make changes in forked repo
+5. Make pull request
+6. Get it merged
+7. Repeat :repeat:
 
 # Contributor
 ## Credit goes to these people !!
