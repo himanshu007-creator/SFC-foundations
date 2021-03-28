@@ -1,1 +1,0 @@
-I've added 3 images of the wireframe I created for the homepage of the website.
