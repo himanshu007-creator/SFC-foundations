@@ -31,7 +31,7 @@ We welcome developers to contribute to our project. Their efforts will be suppor
 <img align="right" src="https://media.giphy.com/media/3o7buirYcmV5nSwIRW/giphy.gif">
 
 1. Have a look <a href="https://drive.google.com/file/d/1H2ccWkUz61b31WbKgvF-6n6Q9R9e98uD/view?usp=sharing">here</a>
-2. Give a good read <a href="https://github.com/himanshu007-creator/SFC-foundations/blob/master/CONTRIBUTING.md">Here</a?
+2. Give a good read <a href="#">Here</a>
 3. Fork this repo
 4. Drop a :star:
 5. Make changes in forked repo
