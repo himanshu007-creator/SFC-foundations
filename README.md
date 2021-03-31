@@ -2,6 +2,7 @@
 <div align="center"><h1>SFC FOUNDATIONS</h1></div>
 The SFC is a Youth NGO that has its roots in Tricity and Delhi. SFC inspires the younger generation to come forward to serve Mother Earth by igniting a spark in them. SFC is established to launch and nurture activities and programs which will reach the most impecunious and vulnerable people from our community. The motive is that Youth is the beaming future of our country and they are the ONLY ones who can change trite plots into buoyant podiums.
 Hence our projects are designed keeping in mind the barbaric surroundings of our Society. With the help of our stalwart volunteers, we can focus on capacity-building activities rather than the traditional gap-filling initiatives. SFC is an organization of dedicated and staunch amateurs who are dead set at uplifting the unfortunate lots in our society and sheltering our Country.
+SFC has set up two more units (JALANDHAR,MUMBAI)✨
 
 # :exclamation:Problem
 <img align="center" height="200" width="325" src="https://media.giphy.com/media/h5cjqz8bIHl3RdVc3M/giphy.gif">
