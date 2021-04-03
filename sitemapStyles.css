@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(20, 20, 20) !important;
+}
+a{
+    color: #fff !important;
+    font-weight: bolder !important;
+    text-decoration: none !important;
+}
+a:hover{
+    color: #f9b52e !important;
+}
+h1{
+    color: #f0b52e !important;
+}
+div.section div {
+    background: #333 !important;
+}
