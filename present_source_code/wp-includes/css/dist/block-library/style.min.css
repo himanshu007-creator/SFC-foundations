@@ -126,6 +126,11 @@
     display: flex;
     margin-bottom: 28px;
     flex-wrap: wrap
+    
+}
+.wp-image-929:hover
+{
+    width: 600px;
 }
 
 @media (min-width:782px) {
@@ -144,6 +149,7 @@
     word-break: break-word;
     overflow-wrap: break-word
 }
+
 
 @media (max-width:599px) {
     .wp-block-column {
