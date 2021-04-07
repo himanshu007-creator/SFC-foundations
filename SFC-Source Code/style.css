@@ -1,0 +1,358 @@
+@import url(https://fonts.googleapis.com/css?family=Parisienne);
+html, body{
+    width: 1400px;
+    overflow-x: hidden;
+}
+.head:link, .head:visited, .head:hover, .head:active{
+    text-decoration: none;
+    color: orange;
+}
+a:active,a:link,a:visited,a:hover{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.orange{
+    color:orange;
+    font-weight: bolder;
+}
+.dots{
+    font-size: xx-large;
+    font-weight: bolder;
+    float: right;
+    color: orange;
+}
+.header{
+    display:flex;
+    color:orange;
+}
+.head1{
+    margin-left: 50px;
+}
+.logo{
+    display:flex;
+    margin-left:17px;
+    margin-top:7px;
+}
+.head1 h6{
+    margin-top:-10px;
+    color:green
+}
+.head2,.head2 h4{
+    display:flex;
+    margin-left:70px;
+}
+.dv{
+    border-radius:50px;
+    margin-left:50px;
+    margin-top: 10px;
+}
+.earth{
+    margin-left:900px;
+    float: right;
+}
+.body{
+    font-family:Parisienne, cursive;
+    color:green;
+    margin-left:50px;
+    margin-top:50px;
+    width:1000px;
+    font-size: 30px;
+    display:flex;
+
+}
+.body1{
+    width: 50%;
+    cursor: pointer;
+}
+.body2{
+    width:20%;  
+    padding-left: 300px;
+    margin-top: -50px; 
+}
+
+.body p{
+    font-family:serif;
+    font-size:25px;
+}
+.about{
+    width:1200px;
+    text-align: center;
+    color: rgb(73, 128, 0);
+    margin-top: 37px;
+}
+.ones{
+    display: flex;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+.one{
+    width:33%;
+    padding-right: 120px;
+    padding-left: 10px;
+    margin-left: 65px;
+}
+.footer,.foot{
+    width:1250px;
+    display: block;
+    margin-top: 50px;
+}
+.foots{
+    
+    display: flex;
+}
+br{
+    line-height: 0%;
+}
+.footerone{
+    width:25%;
+    background-color: lightblue;
+    color:honeydew;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.footerone h2{
+    color:black;
+    cursor:context-menu;
+}
+.buttons{
+    display: flex;
+}
+.but{
+    width: 33%;
+    font-size:24px;
+    background-color: lightblue;
+    padding:none;
+    border:none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.em{
+    background-color:black;
+    color:white;
+    padding:none;
+    border:none;
+    cursor: pointer;
+    font-size:20px;
+}
+.mail{
+    background-color: black;
+    height: 30px;
+    width:220px;
+    padding:5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.main{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    width:1000px;
+    height: 450px;
+    color: green;
+    font-weight: bolder;
+}
+.main h2{
+    margin-left: 150px;
+}
+.container {
+    padding-left: 80px;
+    width: 100%;
+    height:300px;
+}
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+}
+.item {
+    flex: 1;
+    height: 100%;
+    transition: flex 0.4s ease;
+}
+.inside{
+    width: 400px;
+    height: 400px;
+    padding-left: 80px;
+}
+.hide{
+ display:none;
+ height:500px;
+ padding-right: 20px;
+ cursor: context-menu;
+}
+.hide h1{
+    font-family: Parisienne, cursive;
+    color: green;
+}
+.item:hover + .hide{
+    flex: 7;
+  display:flex;
+}
+.item h1{
+    transform: rotate(270deg);
+    margin-top: 130px;
+    cursor: context-menu;
+}
+.item-1 {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    width: 100px;
+    border: 2px solid goldenrod;
+}
+.item-2 {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    width: 100px;
+    border: 2px solid goldenrod;
+}
+.item-3 {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    width: 100px;
+    border: 2px solid goldenrod;
+}
+.item-4 {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    width: 100px;
+    border: 2px solid goldenrod;
+}
+.item-5 {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    width: 100px;
+    border: 2px solid goldenrod;
+}
+.slideshow-container h1{
+    color: green;
+    font-weight: bold;
+    margin-left:230px;
+}
+
+
+.slideshow-container {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    padding-left: 200px;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-left: -42px;
+  }
+  
+  .next {
+    right: 357;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .text {
+    color: black;
+    background-color:white;
+    margin-bottom:200px;
+    margin-left:300px;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.teams{
+    text-align: center;
+    margin-left: -170px;
+    font-family: Parisienne, cursive;
+    color: orangered;
+    font-size: 50px;
+}
+.team{
+    display: flex;
+    width: 1400px;
+    margin-left: 90px;
+
+}
+.person{
+    width: 15%;
+    text-align: center;
+    
+}
+
+.av{
+    width: 100px;
+    height: 100px;
+}
