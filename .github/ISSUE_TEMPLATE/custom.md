@@ -21,15 +21,6 @@ assignees: ''
 - Describe the solution you thought of.
 
 
-- Check This :
--[ ] Does your code follow contribution guidelines
--[ ] Does your code require any changes in Documentation
--[ ] Have you updated the Documentation if Required 
--[ ] Does your code generate any warning 
-
-
-
-
 ## **Screenshots**
 
 - If applicable, add screenshots to help explain your problem.
