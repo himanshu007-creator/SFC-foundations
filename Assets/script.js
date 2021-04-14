@@ -38,6 +38,17 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 
+function darkmodetoggle() {
+    let logo1 = document.querySelector('.modetoggle');
+    var element1 = document.body;
+    if (element1.classList.contains('dark-mode')) {
+        logo1.src = "images/Lightmode.jpg";
+    }
+    else {
+        logo1.src ="images/Darkmode.jpg";
+    }
+}
+
 $(document).on('click','.member-1',function(){
             $('.detail-box-1').toggleClass('show-details-1')
             $('.detail-box-2').removeClass('show-details-2')
