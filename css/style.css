@@ -1118,3 +1118,9 @@ transition: all 1s ease;
         grid-row: 7/8;
     }
 }
+
+
+.modetoggle{
+
+    height: 5vmax;
+}
