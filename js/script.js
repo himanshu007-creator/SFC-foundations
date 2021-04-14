@@ -43,10 +43,10 @@ function darkmodetoggle() {
     let logo1 = document.querySelector('.modetoggle');
     var element1 = document.body;
     if (element1.classList.contains('dark-mode')) {
-        logo1.src = '/images/Lightmode.jpg';
+        logo1.src = 'https://cdn4.iconfinder.com/data/icons/multimedia-flat-30px/30/sun_light_mode_day-512.png';
     }
     else {
-        logo1.src = '/images/Darkmode.jpg';
+        logo1.src = 'https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/moon_dark_mode_night-2-512.png';
     }
 }
 
