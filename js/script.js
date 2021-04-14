@@ -43,10 +43,10 @@ function darkmodetoggle() {
     let logo1 = document.querySelector('.modetoggle');
     var element1 = document.body;
     if (element1.classList.contains('dark-mode')) {
-        logo1.src = '/images/Lightmode.jpg';
+        logo1.src = 'https://github.com/rohank2502/SFC-foundations/blob/42b3018305b277fbb9198cbcdfe18517503cf361/images/Lightmode.jpg';
     }
     else {
-        logo1.src = '/images/Darkmode.jpg';
+        logo1.src = 'https://github.com/rohank2502/SFC-foundations/blob/42b3018305b277fbb9198cbcdfe18517503cf361/images/Darkmode.jpg';
     }
 }
 
