@@ -37,7 +37,7 @@ We welcome developers to contribute to our project. Their efforts will be suppor
 </ol>
 <hr>
 
-<h2 >Contributor :</h2>
+<h2 >Contributors :</h2>
 <h3 >Credit goes to these people !!</h3>
 <table>
 	<tr>
