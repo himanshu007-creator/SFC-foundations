@@ -33,22 +33,23 @@ $(document).ready(function () {
     });
 
 });
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-    darkmodetoggle();
+var isLight = true;
+function darkMode(){
+
+    if(isLight)
+    {
+        document
+          .getElementById("DarkModeTogglerId")
+          .setAttribute("class", "dark-mode");
+          isLight=false;
+    } else{
+        document
+          .getElementById("DarkModeTogglerId")
+          .setAttribute("class", "");
+          isLight=true;
+    }
 }
 
-function darkmodetoggle() {
-    let logo1 = document.querySelector('.modetoggle');
-    var element1 = document.body;
-    if (element1.classList.contains('dark-mode')) {
-        logo1.src = "images/Lightmode.jpg";
-    }
-    else {
-        logo1.src ="images/Darkmode.jpg";
-    }
-}
 
 $(document).on('click', '.member-1', function () {
     $('.detail-box-1').toggleClass('show-details-1')

@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="DarkModeTogglerId">
     <div class="spinner-wrapper">
         <img class="pim" src="images/home.png">
     </div>
@@ -39,9 +39,14 @@
                 <li><a href="#">DONATE</a></li>
             </ul>
         </nav>
-        <button onclick="myFunction()">
-            <div class="icon-box"><img src="images/Darkmode.jpg" class="modetoggle"></div>
-        </button>
+        <div>
+	<input type="checkbox" class="checkbox" id="chk" />
+	<label class="label" for="chk" onclick=darkMode()>
+		<i class="fa fa-moon"></i>
+		<i class="fa fa-sun"></i>
+		<div class="ball"></div>
+	</label>
+</div>
     </header>
     <!-- header section ends -->
 
