@@ -17,28 +17,28 @@ SFC has set up two more units (JALANDHAR,MUMBAI)✨
 </ul>
 <hr>
 
-<h2 align="center">TECH STACK :</h2>
+<h2 align="center" style="font-size:6vmin;">TECH STACK :</h2>
 <p align="center">
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>  <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/></p>
 <hr>
 
 
-<h2>Contributions :</h2>
-<p>
+<h2 style="font-size:6vmin;">Contributions :</h2>
+<p style="font-size:3vmin;">
 We welcome developers to contribute to our project. Their efforts will be supporting a noble cause, and they will get Hands-on experience with their skills.
 </p>
 <hr>
 
-<h2>How to get started with Us :</h2>
-<ol>
+<h2 style="font-size:6vmin;">How to get started with Us :</h2>
+<ol style="font-size:3vmin;">
 <li>If you like our Initiative drop a ⭐</li>
 <li>Have a look <a href="https://drive.google.com/file/d/1H2ccWkUz61b31WbKgvF-6n6Q9R9e98uD/view?usp=sharing">here</a>.</li>
 <li>Read  <a href="https://github.com/himanshu007-creator/SFC-foundations/blob/master/CONTRIBUTING.md">Contributing Guidelines</a>.</li>
 </ol>
 <hr>
 
-<h2>Contributor :</h2>
-<h3>Credit goes to these people !!</h3>
+<h2 style="font-size:6vmin;">Contributor :</h2>
+<h3 style="font-size:3vmin;">Credit goes to these people !!</h3>
 <table>
 	<tr>
 		<td>
@@ -50,5 +50,5 @@ We welcome developers to contribute to our project. Their efforts will be suppor
 </table>
 <hr>
 
-<h2 align="center">Made With 💖 By Developers !</h2>
+<h2 align="center" style="font-size:6vmin;">Made With 💖 By Developers !</h2>
 
