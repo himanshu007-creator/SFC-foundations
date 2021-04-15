@@ -23,6 +23,7 @@ h1, h3{
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -1017,6 +1018,13 @@ transition: all 1s ease;
     }
 }
 @media(max-width:800px){
+    .spinner-wrapper .pim
+    {
+        width: 40vh;
+    height: 40vh;
+    margin-top: 20vh;
+    margin-left: 15vw;
+    }
     .team-box-container{
         grid-template-columns: 340px 340px;
     }
