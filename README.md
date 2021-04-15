@@ -1,47 +1,44 @@
-![](bnr.gif)
-<div align="center"><h1>SFC FOUNDATIONS</h1></div>
+<img src="bnr.gif" align="center"><hr>
+<div align="center" ><h1>SFC FOUNDATIONS</h1></div>
+<p >
 The SFC is a Youth NGO that has its roots in Tricity and Delhi. SFC inspires the younger generation to come forward to serve Mother Earth by igniting a spark in them. SFC is established to launch and nurture activities and programs which will reach the most impecunious and vulnerable people from our community. The motive is that Youth is the beaming future of our country and they are the ONLY ones who can change trite plots into buoyant podiums.
 Hence our projects are designed keeping in mind the barbaric surroundings of our Society. With the help of our stalwart volunteers, we can focus on capacity-building activities rather than the traditional gap-filling initiatives. SFC is an organization of dedicated and staunch amateurs who are dead set at uplifting the unfortunate lots in our society and sheltering our Country.
+SFC has set up two more units (JALANDHAR,MUMBAI)✨
+</p>
+<hr>
 
-# :exclamation:Problem
-<img align="center" height="200" width="325" src="https://media.giphy.com/media/h5cjqz8bIHl3RdVc3M/giphy.gif">
-Currently, our website is made using WordPress templates. It looks very plain and that doesn't look good. There is no simpler way to add new blogs/posts/articles to the website without changing the codebase every time. 
-  
-# :bulb:Solution
-<img align="center" height="200" width="325" src="https://media.giphy.com/media/5bivKwxhVzshNk2Rjw/giphy.gif">
-So we have to make a new website from scratch and suggest an alternative for the current website.
- 
-# :white_check_mark:Objectives 
-- make a new website for the NGO
-- new UI/UX
-- payment gateway integration
-- Create an admin dashboard
-- Blog uploading feature
+<h2 >Objectives :</h2>
+<ul>
+<li>Make a Website for the NGO.</li>
+<li>Design new UI / UX </li>
+<li>Payment Gateway Integration.</li>
+<li>Create an Admin Dashboard.</li>
+<li>Blog Uploading Feature.</li>
+</ul>
+<hr>
 
-
-## TECH STACK
-
-<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>  <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
+<h2 align="center" >TECH STACK :</h2>
+<p align="center">
+<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>  <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/></p>
+<hr>
 
 
-# :heavy_plus_sign:Contributions
+<h2 >Contributions :</h2>
+<p >
 We welcome developers to contribute to our project. Their efforts will be supporting a noble cause, and they will get Hands-on experience with their skills.
- 
-# HOW TO START ❓
-<img align="right" src="https://media.giphy.com/media/3o7buirYcmV5nSwIRW/giphy.gif">
+</p>
+<hr>
 
-1. Have a look <a href="https://drive.google.com/file/d/1H2ccWkUz61b31WbKgvF-6n6Q9R9e98uD/view?usp=sharing">here</a>
-2. Give a good read <a href="https://github.com/himanshu007-creator/SFC-foundations/blob/master/CONTRIBUTING.md">Here</a>
-3. Fork this repo
-4. Drop a :star:
-5. Make changes in forked repo
-6. Make pull request
-7. Get it merged
-8. Repeat :repeat:
+<h2 >How to get started with Us :</h2>
+<ol >
+<li>If you like our Initiative drop a ⭐</li>
+<li>Have a look <a href="https://drive.google.com/file/d/1H2ccWkUz61b31WbKgvF-6n6Q9R9e98uD/view?usp=sharing">here</a>.</li>
+<li>Read  <a href="https://github.com/himanshu007-creator/SFC-foundations/blob/master/CONTRIBUTING.md">Contributing Guidelines</a>.</li>
+</ol>
+<hr>
 
-# Contributor
-## Credit goes to these people !!
-
+<h2 >Contributors :</h2>
+<h3 >Credit goes to these people !!</h3>
 <table>
 	<tr>
 		<td>
@@ -51,4 +48,7 @@ We welcome developers to contribute to our project. Their efforts will be suppor
 		</td>
 	</tr>
 </table>
+<hr>
+
+<h1 align="center">Made With 💖 By Developers !</h1>
 
