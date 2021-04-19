@@ -150,6 +150,7 @@ header #menu-bar{
     padding:2rem;
     flex:1 1 40rem;
     border-radius: 1rem;
+    
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
@@ -417,6 +418,7 @@ header #menu-bar{
 }
 
 
+
  .counter{
     position: fixed; 
     bottom: 0px; 
@@ -462,6 +464,33 @@ header button .icon-box .fa{
 .dark-mode .cancel:hover{
     color:#0e0e0e ;
     background-color: #fff;
+}
+
+.dark-mode .row .video1{
+    background-color: white;
+}
+
+.dark-mode .row .video2{
+    background-color: white;
+}
+
+.dark-mode .textp1 {
+    
+    color: white;
+    font-size: 2.5vmin;
+}
+
+.dark-mode .textp2 {
+    color: white;
+    font-size: 2.5vmin;
+}
+
+
+
+.dark-mode .hashheading{
+    color: white;
+    font-size: 6vmin;
+    text-align: center;
 }
 
 .spinner-wrapper {
