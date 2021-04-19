@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SFC FOUNDATIONS</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/logo-img - Copy.png" />
+
     <!-- aos css cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <!-- google fonts cdn link  -->
@@ -20,7 +24,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="DarkModeTogglerId">
     <div class="spinner-wrapper">
         <img class="pim" src="images/home.png">
     </div>
@@ -39,9 +43,14 @@
                 <li><a href="#">DONATE</a></li>
             </ul>
         </nav>
-        <button onclick="myFunction()">
-            <div class="icon-box"><img src="images/Darkmode.jpg" class="modetoggle"></div>
-        </button>
+        <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk" onclick=darkMode()>
+                <i class="fa fa-moon"></i>
+                <i class="fa fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
     </header>
     <!-- header section ends -->
 
@@ -103,22 +112,22 @@
             </div>
             <div class="content">
                 <div class="info">
-                    <h3> <span>01.</span> Revive the lives </h3>
+                    <h3> <span>01.</span>Sampuran</h3>
                     <p>holistic project of SFC which focuses to revive the lives that are long lost and forgotten
                         through numerous activities like Old Age Home Visits, Awareness Drives etc. …</p>
-                    <a href="#"><button class="btn">Read</button></a>
+                    <a href="pages/Sampuran.html"><button class="btn">Read</button></a>
                 </div>
                 <div class="info">
-                    <h3> <span>02.</span> Educate</h3>
+                    <h3> <span>02.</span>Gyan</h3>
                     <p>aims to impart education to the underprivileged Kids. To unveil the hidden talents of the youth
                         via enhancing their Learning Curve is the true objective of Gyan. …</p>
-                    <a href="#"><button class="btn">Read</button></a>
+                    <a href="pages/gyan.html"><button class="btn">Read</button></a>
                 </div>
                 <div class="info">
-                    <h3> <span>03.</span> Environment and animal protection </h3>
+                    <h3> <span>03.</span>Vatavaran</h3>
                     <p>is a campaigns focusing on the protection of our environment, animal protection and other
                         creatures too. Currently, our ongoing campaign, under this project is #Feedingpaws </p>
-                    <a href="#"><button class="btn">Read</button></a>
+                    <a href="pages/vatavaran.html"><button class="btn">Read</button></a>
                 </div>
             </div>
         </div>
@@ -253,9 +262,9 @@
                 <!--img---->
                 <div class="member-img">
                     <!--front-img-->
-                    <img src="images/t2-a.jpg">
+                    <img src="/images/man1.png">
                     <!--hover-img-->
-                    <img class="hover-img" src="images/t2-b.jpg">
+                    <img class="hover-img" src="/images/man2.png">
                 </div>
                 <!--text----->
                 <div class="member-name">
@@ -268,9 +277,9 @@
                 <!--img---->
                 <div class="member-img">
                     <!--front-img-->
-                    <img src="images/t3-a.jpg">
+                    <img src="/images/man1.png">
                     <!--hover-img-->
-                    <img class="hover-img" src="images/t3-b.jpg">
+                    <img class="hover-img" src="/images/man2.png">
                 </div>
                 <!--text----->
                 <div class="member-name">
