@@ -1133,3 +1133,16 @@ transition: all 1s ease;
 
     height: 5vmax;
 }
+
+
+
+/* Join Us Section Starts */
+.joinus{
+    text-align: center;
+    word-spacing: 2vmin;
+}
+
+.Join{
+    font-size: 3vmin;
+}
+/* Join Us Section Ends */
