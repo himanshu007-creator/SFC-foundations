@@ -381,9 +381,6 @@ header #menu-bar{
 
 
 
-
-
-
 /*dark mode*/
 .dark-mode,
 .dark-mode nav,
@@ -422,8 +419,6 @@ header #menu-bar{
     background-color: white;
 }
 
-
-
  .counter{
     position: fixed; 
     bottom: 0px; 
@@ -439,9 +434,6 @@ header #menu-bar{
     background-image: linear-gradient(to right,#bdc3c7,#2c3e50);
 }
 
-
-
-
 header button .icon-box .fa{
     font-size: 40px;
     background-color: white;
@@ -452,7 +444,6 @@ header button .icon-box .fa{
     font-size: 40px;
     background-color: black;
     color:white;
-   
 }
 
 .dark-mode header .navbar ul li a.active,
@@ -490,11 +481,8 @@ header button .icon-box .fa{
     font-size: 2.5vmin;
 }
 
-
-
 .dark-mode .subheading{
     color: white;
-    /* font-size: 6vmin; */
     text-align: center;
 }
 
@@ -529,11 +517,6 @@ transition: all 1s ease;
         padding-top: 8.5rem;
     }
 }
-
-
-
-
-
 .modetoggle{
 
     height: 5vmax;
