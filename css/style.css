@@ -167,37 +167,18 @@ header #menu-bar{
 }
 
 .about{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
+    height: 30vmin;
+    margin-top: 20vmin;
+    margin-bottom: 0vmin;
+    
 }
 
 
-.about .image{
-    flex:1 1 40rem;
-    height:50rem;
-    background:url(../images/about-frame-img.png), url(../images/about-img.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: screen;
+.about .btn{
+    
+    font-size: 3vmin;
 }
-
-.about .content{
-    flex:1 1 50rem;
-    padding:2rem;
-    margin-right: 40px;
-}
-.about .content h3{
-    font-size: 4rem;
-    color:#333;
-}
-
-.about .content p{
-    font-size: 2rem;
-    color:#666;
-    padding:1rem 0;
-} 
 
 .projects .list{
     display: flex;
