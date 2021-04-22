@@ -340,13 +340,15 @@ header #menu-bar{
     flex-wrap: wrap;
 }
 
+
+
 .events .box-container .box{
-    height:60rem;
-    width:45rem;
+
     margin:2rem;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative;
+    padding:2rem;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
 .events .box-container .box img{
