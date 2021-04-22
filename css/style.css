@@ -81,9 +81,10 @@ header{
     position: fixed;
     top:0; left:0;
     z-index: 1000;
-    width:100%;
+    width: 100%;
     background:#fff;
     padding:1.5rem 10%;
+    height: 10vmin;
     box-shadow: 0 .3rem 2rem rgba(0,0,0,.1);
     display: flex;
     align-items: center;
@@ -305,6 +306,32 @@ header #menu-bar{
     transform: scale(1.02);
     box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
 }
+
+.banner{
+    margin-top: 3vmin;
+    width: 70%;
+}
+
+
+
+.joinimg{
+    margin-top: 3vmin;
+    width: 80%;
+}
+
+.dark-mode .banner{
+    width: 80%;
+}
+
+
+
+.dark-mode .joinimg{
+    width: 80%;
+}
+
+
+
+
 
 .events .box-container{
     display: flex;
