@@ -329,18 +329,12 @@ header #menu-bar{
     width: 80%;
 }
 
-
-
-
-
 .events .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-
-
 
 .events .box-container .box{
 
@@ -1169,7 +1163,6 @@ transition: all 1s ease;
         grid-row: 7/8;
     }
 }
-
 
 .modetoggle{
 
