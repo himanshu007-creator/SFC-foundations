@@ -1,47 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-*
+
+.contact
 {
-margin: 0;
-padding:0;
-box-sizing: border-box;
-font-family: 'Montserrat', sans-serif;
-}
-body
-{
-    background-color: #eeeeee;
+   background-color: white;
     display: flex;
     justify-content: center;
     margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
 }
-.contact-container
+.contact .contact-container
 {
     margin: 10% 0;
     display: flex;
     flex-direction: row;
     width: 900px;
     max-width: 90%;
-    box-shadow:  9px 9px 18px #cdcdcd,              -9px -9px 18px #ffffff;
+    box-shadow:  9px 9px 18px #cdcdcd,             
+                -9px -9px 18px #ffffff;
 }
 /* Left side Design*/
-.contact-left
+.contact .contact-left
 {
     width: 60%;
     padding: 20px;
     color: #52565e;
 }
-.contact-form
+.contact .contact-form
 {
     margin-top: 10px;
     width: 100%;
 }
-.single-row
+ .contact .single-row
 {
     display: flex;
     justify-content: space-between;
 }
-.form-in
+.contact .form-in
 {
     padding: 0.5em;
     font-size: 14px;
@@ -55,28 +49,28 @@ body
             outline: none;
     color: #52565e;
 }
-.single-row + input
+.contact .single-row + input
 {
 margin: 0 10px;
 }
-.ml
+.contact .ml
 {
     margin-left: 10px;
 }
-.mr
+.contact .mr
 {
     margin-right: 10px;
 }
 
-.multiple-row
+ .contact .multiple-row
 {
     position: relative;
 }
-#submit
+.contact #submit
 {
     display: none;
 }
-#submit + label
+.contact #submit + label
 {
     position: absolute;
     font-size: 14px;
@@ -91,39 +85,41 @@ margin: 0 10px;
     cursor: pointer;
 }
 
-#submit + label:hover
+.contact #submit + label:hover
 {
     box-shadow: inset 6px 6px 12px #2954b9, 
             inset -6px -6px 12px #3d7eff;
 }
 /* Right side Design*/
-.contact-right
+.contact .contact-right
 {
-    padding: 20px;
+    padding:20px;
+    margin-bottom:110px;
     width: 40%;
     background: linear-gradient(#3369e798,#3369e798),url('https://images.unsplash.com/photo-1597773026935-df49538167e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
     color: #eeeeee;
+    
 }
 textarea
 {
     min-height: 200px;
 }
 
-.contact-info,.social-links
+.contact .contact-info,.social-links
 {
 font-size: 14px;
 margin-top: 40px;
 }
-.contact-info p
+.contact .contact-info p
 {
     margin-bottom: 20px;
 }
-.contact-info p  i
+.contact .contact-info p  i
 {
     margin-right: 20px;
 }
 
-.social-links a
+.contact .social-links a
 {
     font-size: 20px;
     cursor: pointer;
@@ -132,7 +128,7 @@ margin-top: 40px;
     margin-right: 20px;
     transition: 0.3s;
 }
-.social-links a:hover
+.contact .social-links a:hover
 {
 margin-left: 10px;
 }
@@ -140,11 +136,11 @@ margin-left: 10px;
 
 @media only screen and (max-width: 770px)
 {
-    .contact-container
+    .contact .contact-container
     {
         flex-direction: column;
     }
-    .contact-right,.contact-left
+    .contact .contact-right,.contact-left
     {
         width: 100%;
     }

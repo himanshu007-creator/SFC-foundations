@@ -1127,3 +1127,149 @@ transition: all 1s ease;
     font-size: 3vmin;
 }
 /* Join Us Section Ends */
+
+
+.contact
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contact .contact-container
+{
+    margin: 10% 0;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    max-width: 90%;
+    box-shadow:  9px 9px 18px #cdcdcd,             
+                -9px -9px 18px #ffffff;
+}
+/* Left side Design*/
+.contact .contact-left
+{
+    width: 60%;
+    padding: 20px;
+    color: #52565e;
+}
+.contact .contact-form
+{
+    margin-top: 10px;
+    width: 100%;
+}
+ .contact .single-row
+{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .form-in
+{
+    padding: 0.5em;
+    font-size: 14px;
+    width: 100%;
+    resize: vertical;
+    margin-top: 1em;
+    background: #eeeeee;
+    border: none;
+    box-shadow: inset 5px 5px 12px #e0e0e0, 
+            inset -5px -5px 12px #fcfcfc;
+            outline: none;
+    color: #52565e;
+}
+.contact .single-row + input
+{
+margin: 0 10px;
+}
+.contact .ml
+{
+    margin-left: 10px;
+}
+.contact .mr
+{
+    margin-right: 10px;
+}
+
+ .contact .multiple-row
+{
+    position: relative;
+}
+.contact #submit
+{
+    display: none;
+}
+.contact #submit + label
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #3369e7;
+    border-radius: 100%;
+    color: #eeeeee;
+    box-shadow:  6px 6px 12px #bebebe, 
+             -6px -6px 12px #ffffff;
+    cursor: pointer;
+}
+
+.contact #submit + label:hover
+{
+    box-shadow: inset 6px 6px 12px #2954b9, 
+            inset -6px -6px 12px #3d7eff;
+}
+/* Right side Design*/
+.contact .contact-right
+{
+    padding: 20px;
+    width: 40%;
+    background: linear-gradient(#3369e798,#3369e798),url('https://images.unsplash.com/photo-1597773026935-df49538167e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    color: #eeeeee;
+}
+textarea
+{
+    min-height: 200px;
+}
+
+.contact .contact-info,.social-links
+{
+font-size: 14px;
+margin-top: 40px;
+}
+.contact .contact-info p
+{
+    margin-bottom: 20px;
+}
+.contact .contact-info p  i
+{
+    margin-right: 20px;
+}
+
+.contact .social-links a
+{
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #eeeeee;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.contact .social-links a:hover
+{
+margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 770px)
+{
+    .contact .contact-container
+    {
+        flex-direction: column;
+    }
+    .contact .contact-right,.contact-left
+    {
+        width: 100%;
+    }
+}
