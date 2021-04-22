@@ -373,6 +373,38 @@ header #menu-bar{
     transition-delay: .2s;
 }
 
+
+.events .box-container .eventbox {
+    
+    background:#fff;
+    width:35rem;
+    padding:2rem;
+    margin:2rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.2);
+    text-align: center;
+}
+
+.events .box-container .eventbox img{
+    padding: 1vmin;
+    width: 80%;
+}
+
+.events .box-container .eventbox h3{
+    padding-top: 1vmin;
+    text-align: center;
+    font-size: 5vmin;
+}
+
+.dark-mode .events .box-container .eventbox .btn{
+    color: black;
+}
+
+.dark-mode .events .box-container .eventbox .btn:hover{
+    background-color:var(--yellow);
+}
+
+
 .events .box-container .box::before{
     content: '';
     position: absolute;
