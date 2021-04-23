@@ -21,7 +21,7 @@
 /* Left side Design*/
 .contact .contact-left
 {
-    width: 60%;
+    width: 70%;
     padding: 20px;
     color: #52565e;
 }
@@ -73,7 +73,7 @@ margin: 0 10px;
 .contact #submit + label
 {
     position: absolute;
-    font-size: 14px;
+    font-size: 30px;
     bottom: 20px;
     right: 20px;
     padding: 10px;
