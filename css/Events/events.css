@@ -537,3 +537,16 @@ transition: all 1s ease;
 
     height: 5vmax;
 } 
+
+.eventimg{
+    width: 40vmin;
+    height: 40vmin;
+}
+
+
+/* Filter */
+
+
+.hidden{
+    display: none;
+}
