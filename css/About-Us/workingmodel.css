@@ -81,7 +81,6 @@ header{
     top:0; left:0;
     z-index: 1000;
     width:100%;
-    height: 10vmin;
     background:#fff;
     padding:1.5rem 10%;
     box-shadow: 0 .3rem 2rem rgba(0,0,0,.1);
@@ -144,14 +143,13 @@ header #menu-bar{
     flex-wrap: wrap;
 }
 
-.projects .row .video1{
-    width: 4vmin;
-    height: 50vmin;
+.projects .row .internimg{
+    
+    /* margin-left: 5vmin ; */
     margin:2rem;
     padding:2rem;
     flex:1 1 40rem;
     border-radius: 1rem;
-    
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
@@ -167,12 +165,13 @@ header #menu-bar{
 
 
 .projects .row .videotext1{
-
+    
     margin:2rem;
     padding:2rem;
     flex:1 1 40rem;
     border-radius: 1rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    
 }
 
 
@@ -182,6 +181,7 @@ header #menu-bar{
     flex:1 1 40rem;
     border-radius: 1rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    
 }
 
 .projects .row .content{
@@ -211,6 +211,11 @@ header #menu-bar{
     color:#666;
 }
 
+.projects  .form{ 
+    
+    text-align: center;
+}
+
 .textp1{
     
     font-size: 2.5vmin;
@@ -221,8 +226,8 @@ header #menu-bar{
     font-size: 3vmin;
 }
 
-.hashheading{
-    font-size: 6vmin;
+.subheading{
+    font-size: 4vmin;
     text-align: center;
 }
 
@@ -525,10 +530,6 @@ transition: all 1s ease;
         padding-top: 8.5rem;
     }
 }
-
-
-
-
 
 
 
