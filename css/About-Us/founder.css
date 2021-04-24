@@ -556,3 +556,19 @@ transition: all 1s ease;
 
     height: 5vmax;
 } 
+
+
+.founderimg{
+    text-align: center;
+}
+.founderimg img{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 39vmin;
+    margin:2rem;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 3vmin;
+}
