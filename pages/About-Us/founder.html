@@ -65,31 +65,38 @@
         <h1 class="heading">FOUNDER PROFILE</h1>
 
 
+        <div class="internimg">
+            <img src="../../images/founder.png">
+        </div>
 
         <div class="row" id="intern" data-aos="fade-right">
 
-            <div><img class="internimg" src="../../images/founder.png">
-            </div>
 
             <div class="videotext1">
-                <p class="subheading">Ekawali Singh<br>
-                    Founder and Chief Editor</p>
-
-                <p class="textp1">
-                    A Perfectionist at everything she lays her hands on, Ekawali is an indispensable block in building
-                    SFC. Not only a leader, But also a Doer Ekawali has always been a Social Worker since her childhood.
-                    Her modest heart and ever helping nature makes her a class apart. Ekawali once said, “While I was
-                    talking to a small boy about his dreams, he exclaimed with joy that his biggest dream is to get new
-                    books and this moved my heart. I earnestly wanted to help those kids whose Wonderland gets shattered
-                    due to these indigent conditions!”
-                    And this pulled Ekawali to such an extent that, she strived relentlessly, and founded SFC Foundation
-                    a platform to encourage and popularize Voluntary work amongst Youth for the welfare of the society.
-                    With her undying spirit and dauntless determination, Ekawali took SFC from Tricity to Delhi and made
-                    ample Projects for different categories of People. Her vision is to create a Society where every
-                    woman is self-sufficient and every child is cultured and this is what the substratum of SFC
-                    Foundation is.
+                <p class="subheading">EKAWALI SINGH
                 </p>
+                <p class="role">Founder and Chief Editor
+                </p>
+
+
             </div>
+        </div>
+        <div class="know"><button class="btn" onclick="myfunction()">KNOW MORE</button></div>
+        <div class="row hidden" id="knowmore">
+            <p class="videotext2 textp1 ">
+                A Perfectionist at everything she lays her hands on, Ekawali is an indispensable block in building
+                SFC. Not only a leader, But also a Doer Ekawali has always been a Social Worker since her childhood.
+                Her modest heart and ever helping nature makes her a class apart. Ekawali once said, “While I was
+                talking to a small boy about his dreams, he exclaimed with joy that his biggest dream is to get new
+                books and this moved my heart. I earnestly wanted to help those kids whose Wonderland gets shattered
+                due to these indigent conditions!”
+                And this pulled Ekawali to such an extent that, she strived relentlessly, and founded SFC Foundation
+                a platform to encourage and popularize Voluntary work amongst Youth for the welfare of the society.
+                With her undying spirit and dauntless determination, Ekawali took SFC from Tricity to Delhi and made
+                ample Projects for different categories of People. Her vision is to create a Society where every
+                woman is self-sufficient and every child is cultured and this is what the substratum of SFC
+                Foundation is.
+            </p>
         </div>
     </section>
 
@@ -153,7 +160,19 @@
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-
+    <script>
+        function myfunction() {
+            var div1 = document.getElementById("knowmore");
+            if (div1.style.display !== "none") {
+                div1.style.display = "none";
+            }
+            else {
+                div1.style.display = "block";
+            }
+            div2.style.display = "none";
+            div3.style.display = "none";
+        }
+    </script>
     <!-- initializing aos  -->
 
     <script>

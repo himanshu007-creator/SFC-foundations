@@ -68,9 +68,9 @@ section{
 }
 
 .heading{
-    margin-top: 7vmin;
+    margin-bottom: 0%;
     text-align: center;
-    font-size: 7rem;
+    font-size: 8vmin;
     padding:0 .5rem;
     color:black;
 }
@@ -81,6 +81,7 @@ header{
     top:0; left:0;
     z-index: 1000;
     width:100%;
+    height: 10vmin;
     background:#fff;
     padding:1.5rem 10%;
     box-shadow: 0 .3rem 2rem rgba(0,0,0,.1);
@@ -134,18 +135,34 @@ header #menu-bar{
     opacity: 1;
 }
 
-
-
-.projects .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.internimg{
+    margin-top: 0%;
+    text-align: center;
+    margin-bottom: 0%;
 }
 
-.projects .row .internimg{
-    
-    /* margin-left: 5vmin ; */
+.know{
+    text-align: center;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.role{
+    font-style: italic;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-size: 4vmin;
+    color: grey;
+}
+
+.internimg img{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 39vmin;
     margin:2rem;
     padding:2rem;
     flex:1 1 40rem;
@@ -166,10 +183,10 @@ header #menu-bar{
 
 .projects .row .videotext1{
     
-    margin:2rem;
-    padding:2rem;
+    /* margin:2rem; */
+    /* padding:2rem; */
     flex:1 1 40rem;
-    border-radius: 1rem;
+    border-radius: 10rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
@@ -191,7 +208,7 @@ header #menu-bar{
 }
 
 .projects .row .content .info h3{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     font-size: 2.4rem;
     color:#333;
@@ -225,7 +242,9 @@ header #menu-bar{
 }
 
 .subheading{
-    font-size: 4vmin;
+    margin: 0%;
+    padding: 0%;
+    font-size: 5vmin;
     text-align: center;
 }
 
@@ -491,9 +510,9 @@ header button .icon-box .fa{
 
 
 
-.dark-mode .hashheading{
+.dark-mode .subheading{
+    margin-top: 0%;
     color: white;
-    font-size: 6vmin;
     text-align: center;
 }
 
