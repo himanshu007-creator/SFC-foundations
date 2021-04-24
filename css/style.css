@@ -81,9 +81,10 @@ header{
     position: fixed;
     top:0; left:0;
     z-index: 1000;
-    width:100%;
+    width: 100%;
     background:#fff;
     padding:1.5rem 10%;
+    height: 10vmin;
     box-shadow: 0 .3rem 2rem rgba(0,0,0,.1);
     display: flex;
     align-items: center;
@@ -167,37 +168,18 @@ header #menu-bar{
 }
 
 .about{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
+    height: 30vmin;
+    margin-top: 20vmin;
+    margin-bottom: 0vmin;
+    
 }
 
 
-.about .image{
-    flex:1 1 40rem;
-    height:50rem;
-    background:url(../images/about-frame-img.png), url(../images/about-img.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: screen;
+.about .btn{
+    
+    font-size: 3vmin;
 }
-
-.about .content{
-    flex:1 1 50rem;
-    padding:2rem;
-    margin-right: 40px;
-}
-.about .content h3{
-    font-size: 4rem;
-    color:#333;
-}
-
-.about .content p{
-    font-size: 2rem;
-    color:#666;
-    padding:1rem 0;
-} 
 
 .projects .list{
     display: flex;
@@ -325,6 +307,28 @@ header #menu-bar{
     box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
 }
 
+.banner{
+    margin-top: 3vmin;
+    width: 70%;
+}
+
+
+
+.joinimg{
+    margin-top: 3vmin;
+    width: 80%;
+}
+
+.dark-mode .banner{
+    width: 80%;
+}
+
+
+
+.dark-mode .joinimg{
+    width: 80%;
+}
+
 .events .box-container{
     display: flex;
     align-items: center;
@@ -333,12 +337,12 @@ header #menu-bar{
 }
 
 .events .box-container .box{
-    height:60rem;
-    width:45rem;
+
     margin:2rem;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative;
+    padding:2rem;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
 .events .box-container .box img{
@@ -362,6 +366,38 @@ header #menu-bar{
     opacity: 1;
     transition-delay: .2s;
 }
+
+
+.events .box-container .eventbox {
+    
+    background:#fff;
+    width:35rem;
+    padding:2rem;
+    margin:2rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.2);
+    text-align: center;
+}
+
+.events .box-container .eventbox img{
+    padding: 1vmin;
+    width: 80%;
+}
+
+.events .box-container .eventbox h3{
+    padding-top: 1vmin;
+    text-align: center;
+    font-size: 5vmin;
+}
+
+.dark-mode .events .box-container .eventbox .btn{
+    color: black;
+}
+
+.dark-mode .events .box-container .eventbox .btn:hover{
+    background-color:var(--yellow);
+}
+
 
 .events .box-container .box::before{
     content: '';
@@ -1127,7 +1163,6 @@ transition: all 1s ease;
         grid-row: 7/8;
     }
 }
-
 
 .modetoggle{
 
