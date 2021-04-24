@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 
 <head>
@@ -8,7 +9,7 @@
     <title>SFC FOUNDATIONS | ABOUT-US | WORKING MODEL</title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="../../images/logo-img - Copy.png" />
+    <link rel="icon" type="image/png" href="{% static "images/logo-img - Copy.png" %}" />
 
     <!-- aos css cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -22,8 +23,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="../../css/About-Us/workingmodel.css">
-    <link rel="stylesheet" href="../../css/darkmode.css">
+    <link rel="stylesheet" href="{% static 'css/About-Us/workingmodel.css' %}">
+    <link rel="stylesheet" href="{% static 'css/darkmode.css' %}">
 
 
 
@@ -32,14 +33,14 @@
     <!-- header section start-->
 
     <header>
-        <a href="#" class="logo"><img src="../../images/logo-img.png" alt=""></a>
+        <a href="#" class="logo"><img src="{% static 'images/logo-img.png' %}" alt=""></a>
         <div id="menu-bar" class="fas fa-hamburger"></div>
         <nav class="navbar">
             <ul>
-                <li><a href="../../index.html">Home</a></li>
+                <li><a href="{% url 'index' %}">Home</a></li>
                 <li><a class="active" href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="../../pages/Join-Us/joinus.html">Join Us</a></li>
+                <li><a href="{% url 'joinus' %}">Join Us</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#news">News</a></li>
                 <li><a href="#contact">Contact us</a></li>
@@ -51,7 +52,7 @@
     </header>
     <!-- header section ends -->
 
-    <img class="feed" src="../../images/feed.png">
+    <img class="feed" src="{% static 'images/feed.png' %}">
     <div class="counter">
         <p> 190</p>
     </div>
@@ -151,7 +152,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- custom js file link  -->
-    <script src="../../js/About-Us/workingmodel.js"></script>
+    <script src="{% static 'js/About-Us/workingmodel.js' %}"></script>
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
@@ -174,13 +175,13 @@
             });
         });
     </script>
-    <script src="../../js/About-Us/workingmodel.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="{% static 'js/About-Us/workingmodel.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="../../js/darkmode.js"></script>
+    <script src="{% static 'js/darkmode.js' %}"></script>
 </body>
 
 </html>
