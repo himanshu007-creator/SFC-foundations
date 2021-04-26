@@ -128,8 +128,8 @@ header #menu-bar{
 
 .feed{
     position: fixed; 
-    bottom: 60px; 
-    right: 12px; 
+    bottom: 12vmin; 
+    right: 1vmin; 
     width: 20vmin; 
     z-index: 99; 
     opacity: 1;
@@ -461,16 +461,15 @@ header #menu-bar{
 
  .counter{
     position: fixed; 
-    bottom: 0px; 
-    right: 12px; 
-    width: 100px; 
+    bottom: 0vmin; 
+    right: 3vmin; 
+    width: 15vmin; 
     z-index: 99; 
     opacity: 1;
-    font-size:40px;
+    font-size: 6vmin;;
     color: aliceblue;
-    border-right: 15px;
+    border-right: 1vmin;
     text-align: center;
-    margin-right: 40px;
     background-image: linear-gradient(to right,#bdc3c7,#2c3e50);
 }
 
