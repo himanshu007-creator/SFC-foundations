@@ -155,7 +155,7 @@ header #menu-bar{
     text-align: center;
     padding: 0%;
     margin: 0%;
-    font-size: 4vmin;
+    font-size: 3vmin;
     color: grey;
 }
 
@@ -233,8 +233,8 @@ header #menu-bar{
 .founderimg img{
     margin-top: 0%;
     margin-bottom: 0%;
-    width: 39vmin;
-    margin:2rem;
+    width: 40vh;
+    margin:1.5rem;
     flex:1 1 40rem;
     border-radius: 1rem;
     border-style: solid;
@@ -261,7 +261,7 @@ header #menu-bar{
 .subheading{
     margin: 0%;
     padding: 0%;
-    font-size: 5vmin;
+    font-size: 4vmax;
     text-align: center;
 }
 
