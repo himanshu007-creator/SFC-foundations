@@ -180,21 +180,21 @@
     }
 
   /* Add a hover effect if you want */
-.fa:hover {
+/* .fa:hover {
     opacity: 0.7;
     font-size: 10vmin;
-  }
+  } */
   
   /* Set a specific color for each brand */
   
   /* Facebook */
-  .fa-facebook {
+  /* .fa-facebook {
     background: #3B5998;
     color: white;
   }
-  
+   */
   /* Twitter */
-  .fa-twitter {
+  /* .fa-twitter {
     background: #55ACEE;
     color: white;
   }
@@ -206,11 +206,19 @@
   .fa-linkedin {
     background: #01218a ;
     color: white;
-  }
-        
+  } */
+       
 
-
-
+.whole{
+    margin-top: 11vmin;
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+    /* margin-bottom: 10vmin; */
+    background-image: url(../../images/Colorful\ Neon\ Marble\ Gaming\ YouTube\ Channel\ Art.png);
+    background-size: 100%;
+    padding-bottom: 25vh;
+    /* background-repeat: no-repeat; */
+}
             
 
             
@@ -247,11 +255,13 @@
 }
 
 .block .box2{
+    opacity: 0.9;
     width: 50%;
     
 }
 
 .box3{
+    opacity: 0.9;
     background-color: rgb(245, 190, 9);
     margin: 1vmin;
     height: 100%;
@@ -265,9 +275,11 @@
 
 }
 
+/* 
 
-
-
+body{
+    background-image: url(../../images/Colorful\ Neon\ Marble\ Gaming\ YouTube\ Channel\ Art.png);
+} */
 
 
 h1, h3{
