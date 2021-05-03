@@ -220,12 +220,7 @@
     /* background-repeat: no-repeat; */
 }
 
-body{
-    /* background-position-y: 10vmin; */
-    
-    
 
-}
 
             
 
@@ -310,8 +305,18 @@ body{
     background-size: 100%;
     overflow-x: hidden;
     transition: 0.2s linear;
-    /* height:200rem; */
-}
+    background-repeat: no-repeat;
+    background-size: contain;
+}   
+
+@media screen and (max-width: 600px) {
+    body {
+        background-position-y: 25vh;
+        background-color: #326deb;
+    }
+    }
+  
+
 
 html::-webkit-scrollbar{
     width:1.4rem;
