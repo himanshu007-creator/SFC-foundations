@@ -534,3 +534,32 @@ transition: all 1s ease;
 
     height: 5vmax;
 } 
+
+
+.dark-mode .blogs .row .blogname{
+    color: white;
+    font-size: 5vmin;
+    text-align: center;
+    text-decoration: underline;
+}
+.dark-mode .blogs .row .blogdescription{
+    
+    color: white;
+    font-size: 2vmin;
+    text-align: left;
+}
+
+.dark-mode .blogs .row .blogauthor{
+    color: white;
+    font-size: 3vmin;
+    text-align: left;
+}
+.dark-mode .blogs .row .blogdate{
+    color: white;
+    font-size: 3vmin;
+    text-align: left;
+}
+
+.dark-mode .slider {
+    color: white;
+}
