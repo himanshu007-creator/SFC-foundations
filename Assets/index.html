@@ -1,213 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SFC FOUNDATIONS</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="images/logo-img - Copy.png" />
+
     <!-- aos css cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <!-- google fonts cdn link  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
     <link href="  https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/darkmode.css">
 </head>
-   
-<body>
+
+<body id="DarkModeTogglerId">
     <div class="spinner-wrapper">
-       <img class="pim" src="images/home.png">
+        <img class="pim" src="images/home.png">
     </div>
-    
-<!-- header section starts  -->
-<header >
-    <a href="#" class="logo"><img src="images/logo-img.png" alt=""></a>
-    <div id="menu-bar" class="fas fa-hamburger"></div>
-    <nav class="navbar">
-        <ul>
-            <li><a class="active" href="#home">  </a></li>
-            <li><a href="#about">   </a></li>
-            <li><a href="#projects">  </a></li>
-            <li><a href="#events">  </a></li>
-            <li><a href="#news">  </a></li>
-            <li><a href="#contact">  </a></li>
-            <li><a href="#">  </a></li>
+    <!-- header section starts  -->
+    <header>
+        <a href="#" class="logo"><img src="images/logo-img.png" alt=""></a>
+        <div id="menu-bar" class="fas fa-hamburger"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About-Us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#joinus">Join Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="pages/Contact-Us/contact.html">Contact us</a></li>
+                <li><a href="pages/Blog/blog.html">Blogs</a></li>
+                <li><a href="../Assets/Donate.html">Donate</a></li>
+                <li id="darkmodeli"><input type="checkbox" id="toggle" name="checkbox" class="switch" onclick="myfun()">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header section ends -->
+
+    <img class="feed" src="images/feed.png">
+    <div class="counter">
+        <p> 190</p>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+        <div class="content" data-aos="fade-right">
+            <h3>SFC FOUNDATIONS</h3>
+            <p>SFC Foundations-CHD presenting Educate to ElevateTauhfa-e-Taleem. "If the darkness of ignorance is to be
+                dispelled then the sun of education has to rise."So many children are born talented, have immense
+                capacity for understanding...</p>
+            <a href="#"><button class="btn">Explore</button></a>
+        </div>
+        <div class="image" data-aos="fade-up">
+            <img src="images/home.png" alt="logo">
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+    <section class="about" id="about" data-aos="fade-right">
+        <div>
+            <h1 class="heading">About <span>Us</span></h1>
+            <a href="pages/About-Us/knowsfc.html"><button class="btn">Know SFC</button></a>
+            <a href="pages/About-Us/objectives.html"><button class="btn">Objectives</button></a>
+            <a href="pages/About-Us/founder.html"><button class="btn">Founder's Profile</button></a>
+            <a href="#"><button class="btn">Core Team</button></a>
+            <a href="pages/About-Us/workingmodel.html"><button class="btn">Working Model</button></a>
+        </div>
+        <img class="banner" src="images/banner.png">
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- Project section  -->
+
+    <section class="projects" id="projects">
+        <h1 class="heading"> Our Projects <span>List</span> </h1>
+        <ul class="list" data-aos="fade-down">
+            <li class="btn active" data-src="images/SAMPURAN.png">Sampuran</li>
+            <li class="btn" data-src="images/GYAN.png">Gyan</li>
+            <li class="btn" data-src="images/VATAVARAN.jpg">Vatavaran</li>
         </ul>
-    </nav>
-<!--    darktheme-->
-    <button onclick="myFunction()"><div class="icon-box" ><i class="fa fa-moon-o"></i></div></button>
-    
-</header>
-<!-- header section ends -->
-
-<img class="feed" src="images/feed.png">
-<div class="counter">
-    <p>  </p>
-    </div>
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-    <div class="content" data-aos="fade-right">
-        <h3>  </h3>
-        <p>  </p>
-        <a href="#"><button class="btn">  </button></a>
-    </div>
-    <div class="image"  data-aos="fade-up">
-        <img src="images/home.png" alt="logo">
-    </div>
-</section>
-
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-    <div class="image" data-aos="fade-right"></div>
-    <div class="content" data-aos="fade-left">
-        <h3> </h3>
-        <p>  </p>
-        <a href="#"><button class="btn">  </button></a>
-    </div>
-</section>
-
-<!-- about section ends -->
-
-<!-- Project section  -->
-
-<section class="projects" id="projects">
-    <h1 class="heading">   <span>  </span> </h1>
-    <ul class="list" data-aos="fade-down">
-    <li class="btn active" data-src="images/SAMPURAN.png">  </li>
-    <li class="btn" data-src="images/GYAN.png">  </li>
-    <li class="btn" data-src="images/VATAVARAN.jpg">  </li>
-</ul>
-<div class="row" data-aos="fade-right">
-    <div class="image" data-aos="fade-left">
-        <img src="images/SAMPURAN.png" id="menu-img" alt="">
-    </div>
-    <div class="content">
-        <div class="info">
-            <h3> <span> </span>   </h3>
-            <p>  </p>
-            <a href="#"><button class="btn">  </button></a>
+        <div class="row" data-aos="fade-right">
+            <div class="image" data-aos="fade-left">
+                <img src="images/SAMPURAN.png" id="menu-img" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3> <span>01.</span>Sampuran</h3>
+                    <p>holistic project of SFC which focuses to revive the lives that are long lost and forgotten
+                        through numerous activities like Old Age Home Visits, Awareness Drives etc. …</p>
+                    <a href="pages/Projects/Sampuran.html"><button class="btn">Read</button></a>
+                </div>
+                <div class="info">
+                    <h3> <span>02.</span>Gyan</h3>
+                    <p>aims to impart education to the underprivileged Kids. To unveil the hidden talents of the youth
+                        via enhancing their Learning Curve is the true objective of Gyan. …</p>
+                    <a href="pages/Projects/gyan.html"><button class="btn">Read</button></a>
+                </div>
+                <div class="info">
+                    <h3> <span>03.</span>Vatavaran</h3>
+                    <p>is a campaigns focusing on the protection of our environment, animal protection and other
+                        creatures too. Currently, our ongoing campaign, under this project is #Feedingpaws </p>
+                    <a href="pages/Projects/vatavaran.html"><button class="btn">Read</button></a>
+                </div>
+            </div>
         </div>
-        <div class="info">
-            <h3> <span> </span>   </h3>
-            <p>  </p>
-            <a href="#"><button class="btn">  </button></a>
+    </section>
+
+
+    <!-- Join Us Section Starts-->
+    <section class="joinus" id="joinus">
+        <div>
+            <h1 class="heading">Join <span>Us</span></h1>
+            <a href="pages/Join-Us/joinus.html"><button class="btn Join">INTERN</button></a>
+            <a href="pages/Join-Us/joinus.html"><button class="btn Join">VOLUNTEER</button></a>
         </div>
-        <div class="info">
-            <h3> <span> </span>   </h3>
-            <p>  </p>
-            <a href="#"><button class="btn">  </button></a>
+        <img class="joinimg" src="images/joinusbanner.png">
+    </section>
+    <!-- Join Us Section Ends -->
+
+
+
+
+
+
+    <!-- EVENTS SECTION -->
+    <section class="events" id="events">
+        <h1 class="heading"> Upcoming <span>Events</span> </h1>
+        <div class="box-container">
+            <div class="eventbox">
+                <h3>Indradhanush</h3>
+                <img src="images/id.jpg" alt="">
+
+            </div>
+            <div class="eventbox">
+                <h3>Rehnuma</h3>
+                <img src="images/reh.jpg" alt="">
+
+            </div>
+            <div class="eventbox">
+                <a href="pages/Events/events.html"><button class="btn Join">MORE <br>EVENTS</button></a>
+            </div>
+
+
         </div>
-    </div>
-</div>
-</section>
-    
-<!-- EVENTS SECTION -->
-<section class="events" id="events">
-<h1 class="heading">   <span> </span> </h1>
-<div class="box-container">
-    <div class="box" data-aos="fade-up">
-        <img >
-        <h3>  </h3>
-    </div>
-    <div class="box" data-aos="fade-up">
-        <img>
-        <h3> </h3>
-    </div>
-</div>
-</section>
+    </section>
 
-<!-- EVENT SECTION END -->
+    <!-- EVENT SECTION END -->
 
-<!-- NEWS SECTION -->
-    
-<section class="news" >
-<h1 class="heading">   <span>  </span> </h1>
+    <!-- NEWS SECTION -->
+
+    <section class="news" id="news">
+        <h1 class="heading"> SFC <span>In News</span> </h1>
 
 
-<div class="row" data-aos="fade-right">
-    
-<!-- news news item -->
-<div class="news-item padd-15">
-<div class="news-item-inner shadow-dark">
-<div class="news-img">
-<img>
-</div>
-<div class="news-info">
-<h4 class="news-title"></h4>
-<p class="news-tags"> <a href="#">  </a></p>
-</div>
-</div>
-</div>
-<!-- news item end -->
+        <div class="row" data-aos="fade-right">
 
-<!-- news item -->
-<div class="news-item padd-15">
-<div class="news-item-inner shadow-dark">
-<div class="news-img">
-<img src="images/n2.jpeg" alt="news">
-</div>
-<div class="news-info">
-<h4 class="news-title"> </h4>
-<p class="news-tags"> <a href="#"> </a></p>
-</div>
-</div>
-</div>
-<!-- news item end -->
-</div>
+            <!-- news news item -->
+            <div class="news-item padd-15">
+                <div class="news-item-inner shadow-dark">
+                    <div class="news-img">
+                        <img src="images/n1.jpg" alt="news">
+                    </div>
+                    <div class="news-info">
+                        <h4 class="news-title">The Times Of India</h4>
+                        <p class="news-tags"> Inspired by the Army, Navy, and Air Force’s gesture of thanking corona
+                            warriors, local NGO SFC Foundation.. <a href="pages/Templates/news.html"> Read more </a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- news item end -->
 
-</section>
+            <!-- news item -->
+            <div class="news-item padd-15">
+                <div class="news-item-inner shadow-dark">
+                    <div class="news-img">
+                        <img src="images/n2.jpeg" alt="news">
+                    </div>
+                    <div class="news-info">
+                        <h4 class="news-title">Fast Media</h4>
+                        <p class="news-tags">Fast Media, a renowned Punjabi newspaper honoured three-days training
+                            programme by.. <a href="pages/Templates/news.html"> Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- news item end -->
+        </div>
 
-<!-- popular section ends -->
+    </section>
 
-<!-- order section starts  -->
+    <!-- popular section ends -->
 
-<section class="talks" id="order">
-<h1 class="heading">   <span>   </span> </h1>
-   <div class="slideshow-container">
+    <!-- talks section starts  -->
 
-<div class="mySlides">
-  <q></q>
-  <p class="author"></p>
-</div>
+    <section class="talks" id="order">
+        <h1 class="heading"> What <span>People Say</span> </h1>
+        <div class="slideshow-container">
 
-<div class="mySlides">
-  <q></q>
-  <p class="author"></p>
-</div>
+            <div class="mySlides">
+                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. </q>
+                <p class="author">- Lorem ipsum</p>
+            </div>
 
-<div class="mySlides">
-  <q></q>
-  <p class="author"></p>
-</div>
+            <div class="mySlides">
+                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. </q>
+                <p class="author">- Lorem ipsum</p>
+            </div>
 
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
+            <div class="mySlides">
+                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. </q>
+                <p class="author">- Lorem ipsum</p>
+            </div>
 
-</div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
 
-<div class="dot-container">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+        </div>
 
-</section>
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
 
-<hr>
+    </section>
 
-<!-- order section ends -->
+    <hr>
+
+    <!-- talks section ends -->
     <!--team------------------------>
     <section id="team">
         <!--heading---->
-        <strong class="team-heading"></strong>
+        <strong class="team-heading">Our Team</strong>
         <!--team-container---------->
         <div class="team-box-container">
             <!--member-box-1--->
@@ -221,8 +268,8 @@
                 </div>
                 <!--text----->
                 <div class="member-name">
-                    <h3> </h3>
-                    <h5> </h5>
+                    <h3>Person X</h3>
+                    <h5>Executive Director | Tech & Creative Lead</h5>
                 </div>
             </div>
             <!--member-box-2--->
@@ -230,14 +277,14 @@
                 <!--img---->
                 <div class="member-img">
                     <!--front-img-->
-                    <img>
+                    <img src="/images/man1.png">
                     <!--hover-img-->
-                    <img class="hover-img" >
+                    <img class="hover-img" src="/images/man2.png">
                 </div>
                 <!--text----->
                 <div class="member-name">
-                    <h3> </h3>
-                    <h5> </h5>
+                    <h3>Person Y</h3>
+                    <h5>Executive Director | Tech & Creative Lead</h5>
                 </div>
             </div>
             <!--member-box-3--->
@@ -245,17 +292,51 @@
                 <!--img---->
                 <div class="member-img">
                     <!--front-img-->
-                    <img src="images/t3-a.jpg">
+                    <img src="/images/man1.png">
                     <!--hover-img-->
-                    <img class="hover-img" >
+                    <img class="hover-img" src="/images/man2.png">
                 </div>
                 <!--text----->
                 <div class="member-name">
-                    <h3> </h3>
-                    <h5></h5>
+                    <h3>Person Z</h3>
+                    <h5>Executive Director | Tech & Creative Lead</h5>
                 </div>
             </div>
             <!--detail-box-1----------------------------->
+            <div class="detail-box-2">
+                <div class="member-detail-box">
+                    <!--img---->
+                    <div class="detail-box-img">
+                        <img src="images/man1.png">
+                    </div>
+                    <!--text-->
+                    <div class="detail-box-text">
+                        <!--cancel-btn---->
+                        <a href="javascript:void(0);" class="cancel">
+                            <i class="fas fa-times"></i>
+                        </a>
+                        <!--name-->
+                        <a href="#" class="detail-name">Person X</a>
+                        <!--social-links-->
+                        <div class="member-social-links">
+                            <!--facebook-->
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <!--instagram-->
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <!--position---->
+                        <h5 class="position">Position: Executive Director</h5>
+                        <!--details--->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. -btn---->
+                            <a href="#" class="view-work-btn">View Work</a>
+                    </div>
+                </div>
+            </div>
+            <!--detail-box-2---------------------------->
             <div class="detail-box-1">
                 <div class="member-detail-box">
                     <!--img---->
@@ -269,7 +350,7 @@
                             <i class="fas fa-times"></i>
                         </a>
                         <!--name-->
-                        <a href="#" class="detail-name"></a>
+                        <a href="#" class="detail-name">Person X</a>
                         <!--social-links-->
                         <div class="member-social-links">
                             <!--facebook-->
@@ -280,42 +361,12 @@
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                         </div>
                         <!--position---->
-                        <h5 class="position"></h5>
+                        <h5 class="position">Position: Executive Director</h5>
                         <!--details--->
-                        <p></p>
-                        <!--view-btn---->
-                        <a href="#" class="view-work-btn"></a>
-                    </div>
-                </div>
-            </div>
-            <!--detail-box-2---------------------------->
-            <div class="detail-box-2">
-                <div class="member-detail-box">
-                    <!--img---->
-                    <div class="detail-box-img">
-                        <img src="images/t2-b.jpg">
-                    </div>
-                    <!--text-->
-                    <div class="detail-box-text">
-                        <!--cancel-btn---->
-                        <a href="javascript:void(0);" class="cancel">
-                            <i class="fas fa-times"></i>
-                        </a>
-                        <!--name-->
-                        <a href="#" class="detail-name"></a>
-                        <!--social-links-->
-                        <div class="member-social-links">
-                            <!--facebook-->
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <!--instagram-->
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <!--position---->
-                        <h5 class="position"></h5>
-                        <!--details--->
-                        <p></p>
-                        <!--view-btn---->
-                        <a href="#" class="view-work-btn"></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. -btn---->
+                            <a href="#" class="view-work-btn">View Work</a>
                     </div>
                 </div>
             </div>
@@ -324,7 +375,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="images/t3-b.jpg">
+                        <img src="images/man1.png">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -333,20 +384,23 @@
                             <i class="fas fa-times"></i>
                         </a>
                         <!--name-->
-                        <a href="#" class="detail-name"></a>
+                        <a href="#" class="detail-name">Person X</a>
                         <!--social-links-->
                         <div class="member-social-links">
                             <!--facebook-->
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
                             <!--instagram-->
                             <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
                         </div>
                         <!--position---->
-                        <h5 class="position"></h5>
+                        <h5 class="position">Position: Executive Director</h5>
                         <!--details--->
-                        <p></p>
-                        <!--view-btn---->
-                        <a href="#" class="view-work-btn"></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. -btn---->
+                            <a href="#" class="view-work-btn">View Work</a>
                     </div>
                 </div>
             </div>
@@ -355,7 +409,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="images/t4-b.jpg">
+                        <img src="images/man1.png">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -364,20 +418,23 @@
                             <i class="fas fa-times"></i>
                         </a>
                         <!--name-->
-                        <a href="#" class="detail-name"></a>
+                        <a href="#" class="detail-name">Person X</a>
                         <!--social-links-->
                         <div class="member-social-links">
                             <!--facebook-->
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
                             <!--instagram-->
                             <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
                         </div>
                         <!--position---->
-                        <h5 class="position"></h5>
+                        <h5 class="position">Position: Executive Director</h5>
                         <!--details--->
-                        <p></p>
-                        <!--view-btn---->
-                        <a href="#" class="view-work-btn"></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. -btn---->
+                            <a href="#" class="view-work-btn">View Work</a>
                     </div>
                 </div>
             </div>
@@ -386,7 +443,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="images/t5-b.jpg">
+                        <img src="images/man1.png">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -395,20 +452,23 @@
                             <i class="fas fa-times"></i>
                         </a>
                         <!--name-->
-                        <a href="#" class="detail-name"></a>
+                        <a href="#" class="detail-name">Person X</a>
                         <!--social-links-->
                         <div class="member-social-links">
                             <!--facebook-->
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
                             <!--instagram-->
                             <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
                         </div>
                         <!--position---->
-                        <h5 class="position"></h5>
+                        <h5 class="position">Position: Executive Director</h5>
                         <!--details--->
-                        <p></p>
-                        <!--view-btn---->
-                        <a href="#" class="view-work-btn"></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. -btn---->
+                            <a href="#" class="view-work-btn">View Work</a>
                     </div>
                 </div>
             </div>
@@ -417,7 +477,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="#">
+                        <img src="images/man1.png">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -426,97 +486,149 @@
                             <i class="fas fa-times"></i>
                         </a>
                         <!--name-->
-                        <a href="#" class="detail-name">Y</a>
+                        <a href="#" class="detail-name">Person X</a>
                         <!--social-links-->
                         <div class="member-social-links">
                             <!--facebook-->
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
                             <!--instagram-->
                             <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
                         </div>
                         <!--position---->
-                        <h5 class="position"></h5>
+                        <h5 class="position">Position: Executive Director</h5>
                         <!--details--->
-                        <p></p>
-                        <!--view-btn---->
-                        <a href="#" class="view-work-btn"></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. -btn---->
+                            <a href="#" class="view-work-btn">View Work</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    
 
-<!-- footer section starts  -->
 
-<div class="footer">
+    <footer>
+        <svg viewBox="0 0 120 28">
+            <defs>
+                <mask id="xxx">
+                    <circle cx="7" cy="12" r="40" fill="#fff" />
+                </mask>
 
-    <div class="box-container">
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="
+           1 0 0 0 0  
+           0 1 0 0 0  
+           0 0 1 0 0  
+           0 0 0 13 -9" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+                <path id="wave"
+                    d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+            </defs>
 
-        <div class="box">
-            <h3></h3>
-            <p> <i class="fas fa-map-marker-alt"></i>  </p>
-            <p> <i class="fas fa-envelope"></i> </p>
-            <p> <i class="fas fa-phone"></i>  </p>
-            <p> <i class="fas fa-phone"></i>  </p>
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
+
+
+            <g class="gooeff">
+                <circle class="drop drop1" cx="20" cy="2" r="1.8" />
+                <circle class="drop drop2" cx="25" cy="2.5" r="1.5" />
+                <circle class="drop drop3" cx="16" cy="2.8" r="1.2" />
+                <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+
+                <!-- g mask="url(#xxx)">
+    <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+    </g>
+  </g -->
+
+        </svg>
+
+
+    </footer>
+
+    <!-- footer section starts  -->
+
+    <div class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Contact information</h3>
+                <p>
+                <h3>OFFICE ADDRESS</h3>
+                <div class="map-responsive">
+                    <!-- this iframe contains a random address please update the address accoeding to your requirment -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.981047239018!2d72.97651361446418!3d19.23965775180843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbc82e88d5f1%3A0x301dc7daa82d8040!2sAzad%20Nagar!5e0!3m2!1sen!2sin!4v1615011389811!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0" allowfullscreen></iframe>
+                </div>
+                </p>
+                <p> <i class="fas fa-envelope"></i> XYZ@gmail.com </p>
+                <p> <i class="fas fa-phone"></i> +91 XXXX XXXXX </p>
+                <p> <i class="fas fa-phone"></i> [contact no]</p>
+            </div>
+
+            <div class="box">
+                <h3>Branch locations</h3>
+                <a href="#">Delhi</a>
+                <a href="#">Tricity</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.linkedin.com/company/sfc-foundations"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                <a href="https://m.facebook.com/profile.php?id=1630269837076825&ref=content_filter"><i
+                        class="fa fa-facebook"></i> Facebook</a>
+                <a href="https://instagram.com/sfc_foundations?igshid=aydainwtfmeh"><i class="fa fa-instagram"></i>
+                    Instagram</a>
+                <a href="#"> <i class="fa fa-twitter"></i> Twitter</a>
+            </div>
         </div>
-
-        <div class="box">
-            <h3> </h3>
-            <a href="#"> </a>
-            <a href="#"> </a>
-        </div>
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#"><i class="fa fa-linkedin"></i>   </a>
-            <a href="#"><i class="fa fa-facebook"></i>   </a>
-            <a href="#"><i class="fa fa-instagram"></i>   </a>
-            <a href="#">  <i class="fa fa-twitter"></i>   </a>
-        </div>
+        <h1 class="credit">Copyright © All right reserved. SFC FOUNDATIONS </h1>
     </div>
-<!--    copyright-->
-    <h1 class="credit"> </h1>
-</div>
 
-<!-- footer section ends -->
+    <!-- footer section ends -->
 
-<!-- aos js cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- aos js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!-- custom js file link  -->
-<script src="script.js"></script>
-    
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 
-<!-- initializing aos  -->
+    <!-- initializing aos  -->
 
-<script>
+    <script>
 
-    AOS.init({
-        delay:400,
-        duration:1000
-    })
+        AOS.init({
+            delay: 400,
+            duration: 1000
+        })
 
-</script>
-<script>
-    jQuery(document).ready(function($)
-       {
-            $('.counter').counterUp({
-            delay: 2,
-            time: 1000
-});
-});
     </script>
-    
-    <script src="jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 2,
+                time: 1000
+            });
+        });
+    </script>
+
+    <script src="js/jquery.counterup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/darkmode.js"></script>
 </body>
+
 </html>
