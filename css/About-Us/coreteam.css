@@ -530,9 +530,7 @@ transition: all 1s ease;
 }
 
 .teamintro{
-    width: 57vw;
-    margin: 2vmin;
-    padding-top: 3vmin;
+    margin: 1vmin;
 }
 
 .name{
@@ -546,7 +544,7 @@ transition: all 1s ease;
 
 .role{
     font-weight: 500;
-    margin-top: 0%;
+    
     font-size: 3vmin;
     text-align: center;
 }
@@ -575,6 +573,7 @@ transition: all 1s ease;
     width: 30vmin;
     height: 40vh;
     margin:2rem;
+    margin-top: 0%;
     padding:2rem;
     flex:1 1 40rem;
     border-radius: 1rem;
@@ -625,6 +624,8 @@ transition: all 1s ease;
 }
 
 .teams{
+    word-spacing: 2vmin;
+    display: flex;
     margin:1vmin;
     padding:2vmin;
     flex:1 1 40rem;
@@ -642,20 +643,17 @@ transition: all 1s ease;
 
 .teamselectbox{
     display: flex;
-    width: 80vw;  
 }
 
 .teammember{
     text-align: center;
-    
-    width:49vw;
     margin: 2vmin;
     display: block;
 }
 
 .team1{
-    
-    
+    margin-top: 5vh;
+    margin-bottom: 15vh;
     display: inline-flex;
 }
 
@@ -679,10 +677,12 @@ transition: all 1s ease;
 }
 
 .teambox{
-    height: 220vh;
+    height: 180vh;
     width: 59vw;  
     
 }
+
+
 
 
 
@@ -693,16 +693,14 @@ transition: all 1s ease;
   
   .dropdown-content {
     display: none;
-    /* position: absolute; */
     background-color: #f9f9f9;
-    width: 20vw;
+    width: 30vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
   }
 
   .dark-mode .dropdown-content {
     display: none;
-    /* position: absolute; */
     background-color: black;
     width: 20vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -710,5 +708,8 @@ transition: all 1s ease;
   }
   
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: flex;
+    position: absolute;
+    
   }
+
