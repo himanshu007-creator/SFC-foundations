@@ -1,13 +1,13 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SFC FOUNDATIONS</title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="images/logo-img - Copy.png" />
+    <link rel="icon" type="image/png" href="{% static 'images/logo-img - Copy.png' %}" />
 
     <!-- aos css cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -21,28 +21,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/darkmode.css' %}">
 </head>
 
 <body id="DarkModeTogglerId">
     <div class="spinner-wrapper">
-        <img class="pim" src="images/home.png">
+        <img class="pim" src="{% static 'images/home.png' %}">
     </div>
     <!-- header section starts  -->
     <header>
-        <a href="#" class="logo"><img src="images/logo-img.png" alt=""></a>
+        <a href="#" class="logo"><img src="{% static 'images/logo-img.png' %}" alt=""></a>
         <div id="menu-bar" class="fas fa-hamburger"></div>
         <nav class="navbar">
             <ul>
                 <li><a class="active" href="#home">Home</a></li>
                 <li><a href="#about">About-Us</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#joinus">Join Us</a></li>
+                <li><a href="{% url 'join' %}">Join Us</a></li>
                 <li><a href="#events">Events</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="pages/Contact-Us/contact.html">Contact us</a></li>
-                <li><a href="pages/Blog/blog.html">Blogs</a></li>
+                <li><a href="{% url 'news' %}">News</a></li>
+                <li><a href="{% url 'contact' %}">Contact us</a></li>
+                <li><a href="{% url 'blog' %}">Blogs</a></li>
                 <li><a href="#">DONATE</a></li>
                 <li id="darkmodeli"><input type="checkbox" id="toggle" name="checkbox" class="switch" onclick="myfun()">
                 </li>
@@ -51,7 +51,7 @@
     </header>
     <!-- header section ends -->
 
-    <img class="feed" src="images/feed.png">
+    <img class="feed" src="{% static 'images/feed.png' %}">
     <div class="counter">
         <p> 190</p>
     </div>
@@ -67,7 +67,7 @@
             <a href="#"><button class="btn">Explore</button></a>
         </div>
         <div class="image" data-aos="fade-up">
-            <img src="images/home.png" alt="logo">
+            <img src="{% static 'images/home.png' %}" alt="logo">
         </div>
     </section>
 
@@ -77,13 +77,13 @@
     <section class="about" id="about" data-aos="fade-right">
         <div>
             <h1 class="heading">About <span>Us</span></h1>
-            <a href="pages/About-Us/knowsfc.html"><button class="btn">Know SFC</button></a>
-            <a href="pages/About-Us/objectives.html"><button class="btn">Objectives</button></a>
-            <a href="pages/About-Us/founder.html"><button class="btn">Founder's Profile</button></a>
+            <a href="{% url 'know' %}"><button class="btn">Know SFC</button></a>
+            <a href="{% url 'objectives' %}"><button class="btn">Objectives</button></a>
+            <a href="{% url 'founder' %}"><button class="btn">Founder's Profile</button></a>
             <a href="#"><button class="btn">Core Team</button></a>
-            <a href="pages/About-Us/workingmodel.html"><button class="btn">Working Model</button></a>
+            <a href="{% url 'workingmodel' %}"><button class="btn">Working Model</button></a>
         </div>
-        <img class="banner" src="images/banner.png">
+        <img class="banner" src="{% static 'images/banner.png' %}">
     </section>
 
     <!-- about section ends -->
@@ -93,32 +93,32 @@
     <section class="projects" id="projects">
         <h1 class="heading"> Our Projects <span>List</span> </h1>
         <ul class="list" data-aos="fade-down">
-            <li class="btn active" data-src="images/SAMPURAN.png">Sampuran</li>
-            <li class="btn" data-src="images/GYAN.png">Gyan</li>
-            <li class="btn" data-src="images/VATAVARAN.jpg">Vatavaran</li>
+            <li class="btn active" data-src="{% static 'images/SAMPURAN.png' %}">Sampuran</li>
+            <li class="btn" data-src="{% static 'images/GYAN.png' %}">Gyan</li>
+            <li class="btn" data-src="{% static 'images/VATAVARAN.jpg' %}">Vatavaran</li>
         </ul>
         <div class="row" data-aos="fade-right">
             <div class="image" data-aos="fade-left">
-                <img src="images/SAMPURAN.png" id="menu-img" alt="">
+                <img src="{% static 'images/SAMPURAN.png' %}" id="menu-img" alt="">
             </div>
             <div class="content">
                 <div class="info">
                     <h3> <span>01.</span>Sampuran</h3>
                     <p>holistic project of SFC which focuses to revive the lives that are long lost and forgotten
                         through numerous activities like Old Age Home Visits, Awareness Drives etc. …</p>
-                    <a href="pages/Projects/Sampuran.html"><button class="btn">Read</button></a>
+                    <a href="{% url 'sampuran' %}"><button class="btn">Read</button></a>
                 </div>
                 <div class="info">
                     <h3> <span>02.</span>Gyan</h3>
                     <p>aims to impart education to the underprivileged Kids. To unveil the hidden talents of the youth
                         via enhancing their Learning Curve is the true objective of Gyan. …</p>
-                    <a href="pages/Projects/gyan.html"><button class="btn">Read</button></a>
+                    <a href="{% url 'gyan' %}"><button class="btn">Read</button></a>
                 </div>
                 <div class="info">
                     <h3> <span>03.</span>Vatavaran</h3>
                     <p>is a campaigns focusing on the protection of our environment, animal protection and other
                         creatures too. Currently, our ongoing campaign, under this project is #Feedingpaws </p>
-                    <a href="pages/Projects/vatavaran.html"><button class="btn">Read</button></a>
+                    <a href="{% url 'vatavaran' %}"><button class="btn">Read</button></a>
                 </div>
             </div>
         </div>
@@ -129,10 +129,10 @@
     <section class="joinus" id="joinus">
         <div>
             <h1 class="heading">Join <span>Us</span></h1>
-            <a href="pages/Join-Us/joinus.html"><button class="btn Join">INTERN</button></a>
-            <a href="pages/Join-Us/joinus.html"><button class="btn Join">VOLUNTEER</button></a>
+            <a href="{% url 'join' %}"><button class="btn Join">INTERN</button></a>
+            <a href="{% url 'join' %}"><button class="btn Join">VOLUNTEER</button></a>
         </div>
-        <img class="joinimg" src="images/joinusbanner.png">
+        <img class="joinimg" src="{% static 'images/joinusbanner.png' %}">
     </section>
     <!-- Join Us Section Ends -->
 
@@ -147,16 +147,16 @@
         <div class="box-container">
             <div class="eventbox">
                 <h3>Indradhanush</h3>
-                <img src="images/id.jpg" alt="">
+                <img src="{% static 'images/id.jpg' %}" alt="">
 
             </div>
             <div class="eventbox">
                 <h3>Rehnuma</h3>
-                <img src="images/reh.jpg" alt="">
+                <img src="{% static 'images/reh.jpg' %}" alt="">
 
             </div>
             <div class="eventbox">
-                <a href="pages/Events/events.html"><button class="btn Join">MORE <br>EVENTS</button></a>
+                <a href="{% url 'event' %}"><button class="btn Join">MORE <br>EVENTS</button></a>
             </div>
 
 
@@ -177,12 +177,12 @@
             <div class="news-item padd-15">
                 <div class="news-item-inner shadow-dark">
                     <div class="news-img">
-                        <img src="images/n1.jpg" alt="news">
+                        <img src="{% static 'images/n1.jpg' %}" alt="news">
                     </div>
                     <div class="news-info">
                         <h4 class="news-title">The Times Of India</h4>
                         <p class="news-tags"> Inspired by the Army, Navy, and Air Force’s gesture of thanking corona
-                            warriors, local NGO SFC Foundation.. <a href="pages/Templates/news.html"> Read more </a></p>
+                            warriors, local NGO SFC Foundation.. <a href="{% url 'news' %}"> Read more </a></p>
                     </div>
                 </div>
             </div>
@@ -192,12 +192,12 @@
             <div class="news-item padd-15">
                 <div class="news-item-inner shadow-dark">
                     <div class="news-img">
-                        <img src="images/n2.jpeg" alt="news">
+                        <img src="{% static 'images/n2.jpeg' %}" alt="news">
                     </div>
                     <div class="news-info">
                         <h4 class="news-title">Fast Media</h4>
                         <p class="news-tags">Fast Media, a renowned Punjabi newspaper honoured three-days training
-                            programme by.. <a href="pages/Templates/news.html"> Read more</a></p>
+                            programme by.. <a href="{% url 'news' %}"> Read more</a></p>
                     </div>
                 </div>
             </div>
@@ -262,9 +262,9 @@
                 <!--img---->
                 <div class="member-img">
                     <!--front-img-->
-                    <img src="images/man2.png">
+                    <img src="{% static 'images/man2.png' %}">
                     <!--hover-img-->
-                    <img class="hover-img" src="images/man1.png">
+                    <img class="hover-img" src="{% static 'images/man1.png' %}">
                 </div>
                 <!--text----->
                 <div class="member-name">
@@ -277,9 +277,9 @@
                 <!--img---->
                 <div class="member-img">
                     <!--front-img-->
-                    <img src="/images/man1.png">
+                    <img src="{% static 'images/man1.png' %}">
                     <!--hover-img-->
-                    <img class="hover-img" src="/images/man2.png">
+                    <img class="hover-img" src="{% static 'images/man2.png' %}">
                 </div>
                 <!--text----->
                 <div class="member-name">
@@ -292,9 +292,9 @@
                 <!--img---->
                 <div class="member-img">
                     <!--front-img-->
-                    <img src="/images/man1.png">
+                    <img src="{% static 'images/man1.png' %}">
                     <!--hover-img-->
-                    <img class="hover-img" src="/images/man2.png">
+                    <img class="hover-img" src="{% static 'images/man2.png' %}">
                 </div>
                 <!--text----->
                 <div class="member-name">
@@ -307,7 +307,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="images/man1.png">
+                        <img src="{% static 'images/man1.png' %}">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -341,7 +341,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="images/man1.png">
+                        <img src="{% static 'images/man1.png' %}">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -375,7 +375,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="images/man1.png">
+                        <img src="{% static 'images/man1.png' %}">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -409,7 +409,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="images/man1.png">
+                        <img src="{% static 'images/man1.png' %}">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -443,7 +443,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="images/man1.png">
+                        <img src="{% static 'images/man1.png' %}">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -477,7 +477,7 @@
                 <div class="member-detail-box">
                     <!--img---->
                     <div class="detail-box-img">
-                        <img src="images/man1.png">
+                        <img src="{% static 'images/man1.png' %}">
                     </div>
                     <!--text-->
                     <div class="detail-box-text">
@@ -599,7 +599,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- custom js file link  -->
-    <script src="js/script.js"></script>
+    <script src="{% static 'js/script.js' %}"></script>
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
@@ -623,12 +623,12 @@
         });
     </script>
 
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="js/darkmode.js"></script>
+    <script src="{% static 'js/darkmode.js' %}"></script>
 </body>
 
 </html>
