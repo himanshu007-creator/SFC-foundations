@@ -136,167 +136,7 @@ header #menu-bar{
 
 
 
-.projects .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
-.projects .row .box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.projects .row .internimg{
-    display: flex;
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-
-.projects .row .video2{
-    height: 75vh;
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-
-.projects .row .box{
-    display: flex;
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-.projects  .box2{
-    
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-
-.name{
-    font-weight: 600;
-    font-size: 4vmin;
-    text-align: center;
-    margin-bottom: 0%;
-}
-
-
-
-.role{
-    font-weight: 500;
-    margin-top: 0%;
-    font-size: 3vmin;
-    text-align: center;
-}
-
-.dark-mode .name{
-    color: white;
-    font-weight: 600;
-    font-size: 4vmin;
-    text-align: center;
-    margin-bottom: 0%;
-}
-
-
-
-
-.dark-mode .role{
-    color: white;
-    font-weight: 500;
-    margin-top: 0%;
-    font-size: 3vmin;
-    text-align: center;
-}
-
-.boximg img{
-    width: 40vmin;
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-
-.projects .teammemberimg{
-
-    width: fit-content;
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);/
-}
-
-
-.projects .row .videotext2{
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-
-.projects .row .content{
-    flex:1 1 40rem;
-}
-
-.projects .row .content .info{
-    padding:1rem 0;
-}
-
-.projects .row .content .info h3{
-    display: flex;
-    align-items: center;
-    font-size: 2.4rem;
-    color:#333;
-}
-
-.projects .row .content .info h3 span{
-    padding-right: 1rem;
-    color:var(--yellow);
-}
-
-.projects .row .content .info p{
-    padding:1rem 0;
-    padding-left: 4.5rem;
-    font-size: 1.5rem;
-    color:#666;
-}
-
-.projects .row .teams{
-    text-align: center;
-}
-.projects .row .teams .btn{
-    font-size: 3vmin;
-}
-
-.textp1{
-    
-    font-size: 2.5vmin;
-}
-
-.textp2{
-    
-    font-size: 3vmin;
-}
-
-.subheading{
-    font-size: 4vmin;
-    text-align: center;
-}
 
 /* Footer Section Starts */
 .footer{
@@ -474,8 +314,8 @@ header #menu-bar{
 .dark-mode .about .content p,
 .dark-mode .about .content h3,
 .dark-mode .btn,
-.dark-mode .projects .row .content .info h3,
-.dark-mode .projects .row .content .info p,
+.dark-mode .coreteams .row .content .info h3,
+.dark-mode .coreteams .row .content .info p,
 .dark-mode .counter,
 .dark-mode .navbar a{
     color: white;
@@ -611,3 +451,264 @@ transition: all 1s ease;
 .hidden{
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.coreteams .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coreteams .row .box{
+    /* display: flexbox; */
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.row{
+    display: flex;
+}
+
+.teambox{
+    width: fit-content;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.coreteams .row .internimg{
+    display: flex;
+    margin:2rem;
+    padding:2rem;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.coreteams .row .video2{
+    height: 75vh;
+    margin:2rem;
+    padding:2rem;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+
+.coreteams  .box2{
+    width: fit-content;
+    padding:2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+.boximg{
+    text-align: center;
+}
+.boximg img{
+    width: 10vw;
+    height: 40vh;
+}
+
+.teamintro{
+    width: 57vw;
+    margin: 2vmin;
+    padding-top: 3vmin;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 4vmin;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+
+
+.role{
+    font-weight: 500;
+    margin-top: 0%;
+    font-size: 3vmin;
+    text-align: center;
+}
+
+.dark-mode .name{
+    color: white;
+    font-weight: 600;
+    font-size: 4vmin;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+
+
+
+.dark-mode .role{
+    
+    color: white;
+    font-weight: 500;
+    margin-top: 0%;
+    font-size: 3vmin;
+    text-align: center;
+}
+
+.boximg img{
+    width: 30vmin;
+    height: 40vh;
+    margin:2rem;
+    padding:2rem;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+
+
+
+.coreteams .row .videotext2{
+    margin:2rem;
+    padding:2rem;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.coreteams .row .content{
+    flex:1 1 40rem;
+}
+
+.coreteams .row .content .info{
+    padding:1rem 0;
+}
+
+.coreteams .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    color:#333;
+}
+
+.coreteams .row .content .info h3 span{
+    padding-right: 1rem;
+    color:var(--yellow);
+}
+
+.coreteams .row .content .info p{
+    padding:1rem 0;
+    padding-left: 4.5rem;
+    font-size: 1.5rem;
+    color:#666;
+}
+
+.coreteams  .teams .btn{
+    width: 25vw;
+    font-size: 3vmin;
+}
+
+.teams{
+    margin:1vmin;
+    padding:2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.teamss{
+    margin:1vmin;
+    padding:2vmin;
+    
+}
+
+
+
+.teamselectbox{
+    display: flex;
+    width: 80vw;  
+}
+
+.teammember{
+    text-align: center;
+    
+    width:49vw;
+    margin: 2vmin;
+    display: block;
+}
+
+.team1{
+    
+    
+    display: inline-flex;
+}
+
+.team2{
+    
+    display: inline-flex;
+}
+
+.textp1{
+    font-size: 2.5vmin;
+}
+
+.textp2{
+    
+    font-size: 3vmin;
+}
+
+.subheading{
+    font-size: 4vmin;
+    text-align: center;
+}
+
+.teambox{
+    height: 220vh;
+    width: 59vw;  
+    
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    width: 20vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+  }
+
+  .dark-mode .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: black;
+    width: 20vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
