@@ -12,6 +12,278 @@
     transition:all .2s linear;
 }
 
+
+
+
+#fs-frm input,
+            #fs-frm select,
+            #fs-frm textarea,
+            #fs-frm fieldset,
+            #fs-frm optgroup,
+            #fs-frm label,
+            #fs-frm #card-element:disabled {
+                
+                color: inherit;
+                border: none;
+                border-radius: 0;
+                display: block;
+            }
+          
+            #fs-frm label{
+                font-size: 3vmin;
+                margin-bottom: .5rem;
+                padding-top: .2rem;
+                
+            }
+            #fs-frm legend
+             {
+                font-size: 3vmin;
+                margin-bottom: .5rem;
+                padding-top: .2rem;
+                
+            }
+            #fs-frm ::placeholder{
+                font-size: 2vmin;
+                margin-bottom: .5rem;
+                padding : 1vmin;
+                
+                
+            }
+
+            /* border, padding, margin, width */
+            #fs-frm input,
+            #fs-frm select,
+            #fs-frm textarea,
+            #fs-frm #card-element {
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                background-color: rgba(255, 255, 255, 0.9);
+                border-color: black;
+                height: 5vmin;
+                margin-bottom: 1.5rem;
+            }
+
+            #fs-frm input:focus,
+            #fs-frm select:focus,
+            #fs-frm textarea:focus {
+
+                background-color: white;
+                outline-style: solid;
+                outline-width: thin;
+                outline-color: gray;
+                outline-offset: -1px;
+            }
+
+            #fs-frm [type="text"],
+            #fs-frm [type="email"], 
+            #fs-frm [type="telephone"]{
+                
+                border-radius: 2vmin;
+                padding: 1vmin;
+                font-size: 2vmin;
+                width: 25vw;
+            }
+
+            #fs-frm textarea{
+                border-radius: 2vmin;
+                /* padding: 1vmin; */
+                font-size: 2vmin;
+                width:25vw;
+                height: 10vh;
+
+            }
+
+            #fs-frm [type="submit"]:hover{
+                border-width: 0.5vmin;
+                background-color:rgb(255, 153, 0);
+                border-color: red;
+                font-size: 3vmin;
+                width: fit-content;
+                height: fit-content;
+                padding: 1vmin;
+                border-radius: 1.5vmin;
+                
+                cursor: pointer;
+                -webkit-appearance: button;
+                -moz-appearance: button;
+                appearance: button;
+            }
+
+
+            
+            
+            #fs-frm [type="submit"]
+            {
+                border-width: 0.5vmin;
+                background-color: white;
+                border-color: rgb(245, 190, 9);
+                font-size: 3vmin;
+                width: fit-content;
+                height: fit-content;
+                padding: 1vmin;
+                border-radius: 1.5vmin;
+                
+                cursor: pointer;
+                -webkit-appearance: button;
+                -moz-appearance: button;
+                appearance: button;
+            }
+
+
+            .phonebox{
+                
+                height: fit-content; 
+                text-align: left; 
+                width: 100%;
+            }
+            .phonebox p{
+                font-size: 2vmax;
+            }
+            .textbox{
+               
+                height: fit-content; 
+                text-align: center;
+                font-size: 2vmax; 
+                width: 100%;
+            }
+            
+
+
+
+.iconbox{
+    height: fit-content; 
+    text-align: center; 
+    width: 100%;
+}
+
+.iconbox:hover{
+    cursor: pointer; 
+
+}
+
+.fa {
+        margin: 1vmin;
+        padding: 2vmin;
+        font-size: 2vw;
+        width: fit-content;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .fas {
+        
+        margin: 1vmin;
+        padding: 2vmin;
+        font-size: 2vw;
+        width: fit-content;
+        text-align: center;
+        text-decoration: none;
+    }
+
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    font-size: 10vmin;
+  } 
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #3B5998 ;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #01218a ;
+    color: white;
+  } */
+       
+
+.whole{
+    margin-top: 11vmin;
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+    /* margin-bottom: 10vmin; */
+    
+    background-size: 100%;
+    padding-bottom: 25vh;
+    /* background-repeat: no-repeat; */
+}
+
+
+
+            
+
+.block{
+    
+    margin: 1vmin;
+    height: 100%;
+    align-items: left;
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    padding: 2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    /* border-width: 2vmin; */
+    /* border-style: solid; */
+    /* border-color: white; */
+}
+
+.block .contactform{
+
+    background-color: rgb(245, 190, 9);
+    margin: 1vmin;
+    height: 100%;
+    align-items: right;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+
+}
+
+.block .box2{
+    opacity: 0.9;
+    width: 50%;
+    
+}
+
+.box3{
+    opacity: 0.9;
+    background-color: rgb(245, 190, 9);
+    margin: 1vmin;
+    height: 100%;
+    align-items: right;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+
+}
+
+/* 
+
+body{
+    background-image: url(../../images/Colorful\ Neon\ Marble\ Gaming\ YouTube\ Channel\ Art.png);
+} */
+
+
 h1, h3{
     font-family: 'Oswald', sans-serif;
 }
@@ -28,11 +300,23 @@ html{
 }
 
 body{
+    background-image: url(../../images/contactbg\ \(2\).gif) ;
+    background-size: 100px;
     background-size: 100%;
     overflow-x: hidden;
     transition: 0.2s linear;
-    /* height:200rem; */
-}
+    background-repeat: no-repeat;
+    background-size: contain;
+}   
+
+@media screen and (max-width: 600px) {
+    body {
+        background-position-y: 25vh;
+        background-color: #326deb;
+    }
+    }
+  
+
 
 html::-webkit-scrollbar{
     width:1.4rem;
@@ -68,9 +352,9 @@ section{
 }
 
 .heading{
-    /* margin-bottom: 1vmin; */
+    
     text-align: center;
-    font-size: 7rem;
+    font-size: 5vmin;
     padding:0 .5rem;
     color:black;
 }
@@ -81,6 +365,7 @@ header{
     top:0; left:0;
     z-index: 1000;
     width:100%;
+    height: 10vmin;
     background:#fff;
     padding:1.5rem 10%;
     box-shadow: 0 .3rem 2rem rgba(0,0,0,.1);
@@ -143,9 +428,9 @@ header #menu-bar{
     flex-wrap: wrap;
 }
 
-.projects .row .video1{
-    width: 4vmin;
-    height: 50vmin;
+.projects .row .internimg{
+    
+    /* margin-left: 5vmin ; */
     margin:2rem;
     padding:2rem;
     flex:1 1 40rem;
@@ -165,7 +450,7 @@ header #menu-bar{
 
 
 .projects .row .videotext1{
-
+    
     margin:2rem;
     padding:2rem;
     flex:1 1 40rem;
@@ -209,6 +494,11 @@ header #menu-bar{
     color:#666;
 }
 
+.projects  .form{ 
+    
+    text-align: center;
+}
+
 .textp1{
     
     font-size: 2.5vmin;
@@ -219,8 +509,8 @@ header #menu-bar{
     font-size: 3vmin;
 }
 
-.hashheading{
-    font-size: 6vmin;
+.subheading{
+    font-size: 4vmin;
     text-align: center;
 }
 
@@ -375,9 +665,6 @@ header #menu-bar{
 
 
 
-
-
-
 /*dark mode*/
 .dark-mode,
 .dark-mode nav,
@@ -416,7 +703,6 @@ header #menu-bar{
     background-color: white;
 }
 
-
  .counter{
     position: fixed; 
     bottom: 0px; 
@@ -432,9 +718,6 @@ header #menu-bar{
     background-image: linear-gradient(to right,#bdc3c7,#2c3e50);
 }
 
-
-
-
 header button .icon-box .fa{
     font-size: 40px;
     background-color: white;
@@ -445,7 +728,6 @@ header button .icon-box .fa{
     font-size: 40px;
     background-color: black;
     color:white;
-   
 }
 
 .dark-mode header .navbar ul li a.active,
@@ -462,6 +744,30 @@ header button .icon-box .fa{
 .dark-mode .cancel:hover{
     color:#0e0e0e ;
     background-color: #fff;
+}
+
+.dark-mode .row .video1{
+    background-color: white;
+}
+
+.dark-mode .row .video2{
+    background-color: white;
+}
+
+.dark-mode .textp1 {
+    
+    color: white;
+    font-size: 2.5vmin;
+}
+
+.dark-mode .textp2 {
+    color: white;
+    font-size: 2.5vmin;
+}
+
+.dark-mode .subheading{
+    color: white;
+    text-align: center;
 }
 
 .spinner-wrapper {
@@ -495,60 +801,7 @@ transition: all 1s ease;
         padding-top: 8.5rem;
     }
 }
-
-
-
-
-
-
-
-
-
 .modetoggle{
 
     height: 5vmax;
 } 
-
-.checkbox {
-opacity: 0;
-	position: absolute;
-	}
-
-	.label {
-	background-color: #111;
-	border-radius: 50px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 5px;
-	position: relative;
-	height: 26px;
-	width: 50px;
-	transform: scale(1.5);
-	}
-
-	.label .ball {
-	background-color: #fff;
-	border-radius: 50%;
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	height: 22px;
-	width: 22px;
-	transform: translateX(0px);
-	transition: transform 0.2s linear;
-	}
-
-	.checkbox:checked + .label .ball {
-	transform: translateX(24px);
-	}
-
-
-	.fa-moon {
-	color: #f1c40f;
-	}
-
-	.fa-sun {
-	color: #f39c12;
-	}
