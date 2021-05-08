@@ -11,7 +11,19 @@
     text-transform: none;
     transition:all .2s linear;
 }
-
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:35.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 h1, h3{
     font-family: 'Oswald', sans-serif;
 }
