@@ -11,19 +11,7 @@
     text-transform: none;
     transition:all .2s linear;
 }
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:35.25%;
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+
 h1, h3{
     font-family: 'Oswald', sans-serif;
 }
@@ -80,6 +68,7 @@ section{
 }
 
 .heading{
+    margin-top: 7vmin;
     text-align: center;
     font-size: 7rem;
     padding:0 .5rem;
@@ -92,7 +81,6 @@ header{
     top:0; left:0;
     z-index: 1000;
     width:100%;
-    height: 10vmin;
     background:#fff;
     padding:1.5rem 10%;
     box-shadow: 0 .3rem 2rem rgba(0,0,0,.1);
@@ -145,13 +133,6 @@ header #menu-bar{
     z-index: 99; 
     opacity: 1;
 }
-
-
-
-
-
-
-
 
 
 
@@ -308,6 +289,9 @@ header #menu-bar{
 
 
 
+
+
+
 /*dark mode*/
 .dark-mode,
 .dark-mode nav,
@@ -330,8 +314,8 @@ header #menu-bar{
 .dark-mode .about .content p,
 .dark-mode .about .content h3,
 .dark-mode .btn,
-.dark-mode .projects .row .content .info h3,
-.dark-mode .projects .row .content .info p,
+.dark-mode .coreteams .row .content .info h3,
+.dark-mode .coreteams .row .content .info p,
 .dark-mode .counter,
 .dark-mode .navbar a{
     color: white;
@@ -345,6 +329,8 @@ header #menu-bar{
     color: black;
     background-color: white;
 }
+
+
 
  .counter{
     position: fixed; 
@@ -361,6 +347,9 @@ header #menu-bar{
     background-image: linear-gradient(to right,#bdc3c7,#2c3e50);
 }
 
+
+
+
 header button .icon-box .fa{
     font-size: 40px;
     background-color: white;
@@ -371,6 +360,7 @@ header button .icon-box .fa{
     font-size: 40px;
     background-color: black;
     color:white;
+   
 }
 
 .dark-mode header .navbar ul li a.active,
@@ -408,8 +398,11 @@ header button .icon-box .fa{
     font-size: 2.5vmin;
 }
 
-.dark-mode .subheading{
+
+
+.dark-mode .hashheading{
     color: white;
+    font-size: 6vmin;
     text-align: center;
 }
 
@@ -444,89 +437,227 @@ transition: all 1s ease;
         padding-top: 8.5rem;
     }
 }
+
+
+
+
+
 .modetoggle{
 
     height: 5vmax;
 } 
 
 
+.hidden{
+    display: none;
+}
 
 
-.group1{
-    margin: 4vmin;
-    display: block;
-    text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.coreteams .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coreteams .row .box{
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
-.internimg{
-    width: 20vw;
-    height: 40vh;
-    padding: 2vmin;
+
+.row{
+    display: flex;
+}
+
+.teambox{
+    width: fit-content;
     flex:1 1 40rem;
     border-radius: 1rem;
-    box-shadow: 0 .5rem 2rem rgb(195, 0, 255);
-    /* width: fit-content; */
-    margin-left: 2vmin;
-    margin-right: 2vmin;
+    box-shadow: 0 .5rem 1rem rgba(192, 11, 247,1);
 }
 
-.internimg1{
-    width: 20vw;
-    height: 40vh;
-    padding: 2vmin;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 2rem rgb(255, 81, 0);
-    /* width: fit-content; */
-    margin-left: 2vmin;
-    margin-right: 2vmin;
-}
-
-.group2{
-    margin: 4vmin;
-    display: inline-flex;
-    text-align: center;
-}
-
-.kmpbox{
-    text-align: center;
+.coreteams .row .internimg{
+    display: flex;
     margin:2rem;
     padding:2rem;
     flex:1 1 40rem;
     border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-
+    box-shadow: 0 .5rem 1rem rgba(81, 255, 0, 1);
 }
 
-.role{
-    font-size: 4vmin;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+
+
+.boximg{
+    text-align: center;
+}
+.boximg img{
+    width: 10vw;
+    height: 40vh;
+}
+
+.teamintro{
+    margin: 1vmin;
 }
 
 .name{
-    
-        font-size: 4vmin;
-        margin-bottom: 0%;
-        padding-bottom: 0%;
-    
+    font-weight: 600;
+    font-size: 4vmin;
+    text-align: center;
+    margin-bottom: 0%;
 }
 
-.dark-mode .role{
-    font-size: 4vmin;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    color: white;
+
+
+.role{
+    font-weight: 500;
+    
+    font-size: 3vmin;
+    text-align: center;
 }
 
 .dark-mode .name{
+    color: white;
+    font-weight: 600;
+    font-size: 4vmin;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+
+
+
+.dark-mode .role{
     
-        font-size: 4vmin;
-        margin-bottom: 0%;
-        padding-bottom: 0%;
-        color: white;
+    color: white;
+    font-weight: 500;
+    margin-top: 0%;
+    font-size: 3vmin;
+    text-align: center;
+}
+
+.boximg img{
+    width: 30vmin;
+    height: 40vh;
+    margin:2rem;
+    margin-top: 0%;
+    padding:2rem;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgb(72, 255, 154);
+}
+
+
+
+
+
+.coreteams .row .content{
+    flex:1 1 40rem;
+}
+
+.coreteams .row .content .info{
+    padding:1rem 0;
+}
+
+.coreteams .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    color:#333;
+}
+
+.coreteams .row .content .info h3 span{
+    padding-right: 1rem;
+    color:var(--yellow);
+}
+
+.coreteams .row .content .info p{
+    padding:1rem 0;
+    padding-left: 4.5rem;
+    font-size: 1.5rem;
+    color:#666;
+}
+
+.coreteams  .teams .btn{
+    width: 19vw;
+    font-size: 3vmin;
+}
+
+.teams{
+    word-spacing: 2vmin;
+    display: flex;
+    margin:1vmin;
+    padding:2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.teamss{
+    margin:1vmin;
+    padding:2vmin;
     
 }
+
+
+
+.teamselectbox{
+    display: flex;
+}
+
+.teammember{
+    text-align: center;
+    margin: 2vmin;
+    display: block;
+}
+
+.team1{
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    display: inline-flex;
+}
+
+.team2{
+    
+    display: inline-flex;
+}
+
+.textp1{
+    font-size: 2.5vmin;
+}
+
+.textp2{
+    
+    font-size: 3vmin;
+}
+
+.subheading{
+    font-size: 4vmin;
+    text-align: center;
+}
+
+.teambox{
+    height: 180vh;
+    width: 59vw;  
+    
+}
+
+
 
 
 
@@ -536,7 +667,6 @@ transition: all 1s ease;
   }
   
   .dropdown-content {
-      font-size: 2vmin;
     display: none;
     background-color: #f9f9f9;
     width: 30vw;
@@ -557,3 +687,5 @@ transition: all 1s ease;
     position: absolute;
     
   }
+
+
