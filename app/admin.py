@@ -3,3 +3,4 @@ from app.models import *
 # Register your models here.
 
 admin.site.register(BlogPost)
+admin.site.register(BlogPostComment)

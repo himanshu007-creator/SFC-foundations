@@ -5,9 +5,11 @@ import os
 
 class BlogPost(models.Model):
     author=models.CharField(max_length=200)
-    image=models.ImageField(upload_to='media')
+    role=models.CharField(max_length=200)
+    image=models.ImageField(upload_to='blogMedia/')
     title=models.CharField(max_length=200)
-    text=models.TextField()
+    displayText=models.TextField()
+    body=models.TextField()
     date=models.DateTimeField(default=timezone.now)
 
     def delete(self):
@@ -22,4 +24,7 @@ class BlogPostComment(models.Model):
     author=models.CharField(max_length=200)
     comment=models.TextField()
     date=models.DateTimeField(default=timezone.now)
+    
+    def __str__(self):
+        return str(self.post)+' | '+str(self.author)
     
