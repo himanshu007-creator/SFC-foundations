@@ -14,25 +14,16 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
 from django.conf.urls import url
 from app import views
+from django.conf import settings
+from django.conf.urls.static import static
 urlpatterns = [
     #general
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    # path('blog/', views.blog, name="blog"),
-    url(r'^$',views.PostListView.as_view(),name='post_list'),
-    url(r'^about/$',views.AboutView.as_view(),name='about'),
-    url(r'^post/(?P<pk>\d+)$', views.PostDetailView.as_view(), name='post_detail'),
-    url(r'^post/new/$', views.CreatePostView.as_view(), name='post_new'),
-    url(r'^post/(?P<pk>\d+)/edit/$', views.PostUpdateView.as_view(), name='post_edit'),
-    url(r'^drafts/$', views.DraftListView.as_view(), name='post_draft_list'),
-    url(r'^post/(?P<pk>\d+)/remove/$', views.PostDeleteView.as_view(), name='post_remove'),
-    url(r'^post/(?P<pk>\d+)/publish/$', views.post_publish, name='post_publish'),
-    url(r'^post/(?P<pk>\d+)/comment/$', views.add_comment_to_post, name='add_comment_to_post'),
-    url(r'^comment/(?P<pk>\d+)/approve/$', views.comment_approve, name='comment_approve'),
-    url(r'^comment/(?P<pk>\d+)/remove/$', views.comment_remove, name='comment_remove'),
+    path('blog/',include('app.urls'),name='blog'),
     path('contact/', views.contact, name="contact"),
     path('events/', views.events, name='event'),
     path('joinus/', views.join, name='join'),
@@ -48,4 +39,4 @@ urlpatterns = [
     path('know/', views.know, name='know'),
     path('objectives/', views.objectives, name='objectives'),
     path('workingmodel/', views.workingmodel, name='workingmodel'),
-]
+]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
