@@ -387,7 +387,17 @@ header #menu-bar {
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-
+.newsbox {
+  background: #fff;
+  width: 35rem;
+  height: fit-content;
+  padding: 3vmin;
+  margin: 2rem;
+  margin-top: 25vmin;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
 .events .box-container .eventbox img {
   padding: 1vmin;
   width: 80%;
