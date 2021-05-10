@@ -17,12 +17,13 @@ from django.contrib import admin
 from django.urls import path,include
 from django.conf.urls import url
 from app import views
+from django.conf import settings
+from django.conf.urls.static import static
 urlpatterns = [
     #general
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('blog/', views.blog, name="blog"),
-    path('dev/',include('app.urls')),
+    path('blog/',include('app.urls'),name='blog'),
     path('contact/', views.contact, name="contact"),
     path('events/', views.events, name='event'),
     path('joinus/', views.join, name='join'),
@@ -38,4 +39,4 @@ urlpatterns = [
     path('know/', views.know, name='know'),
     path('objectives/', views.objectives, name='objectives'),
     path('workingmodel/', views.workingmodel, name='workingmodel'),
-]
+]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
