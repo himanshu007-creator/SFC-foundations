@@ -459,6 +459,8 @@ transition: all 1s ease;
     
 }
 .internimg{
+    width: 20vw;
+    height: 40vh;
     padding: 2vmin;
     flex:1 1 40rem;
     border-radius: 1rem;
@@ -469,6 +471,8 @@ transition: all 1s ease;
 }
 
 .internimg1{
+    width: 20vw;
+    height: 40vh;
     padding: 2vmin;
     flex:1 1 40rem;
     border-radius: 1rem;
