@@ -11,6 +11,19 @@
     transition:all .2s linear;
 }
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:35.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 h1, h3{
     font-family: 'Oswald', sans-serif;
 }
@@ -378,7 +391,18 @@ header #menu-bar{
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.2);
     text-align: center;
 }
-
+.newsbox {
+    
+    background:#fff;
+    width:35rem;
+    height: fit-content;
+    padding: 3vmin;
+    margin:2rem;
+    margin-top: 25vmin;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.2);
+    text-align: center;
+}
 .events .box-container .eventbox img{
     padding: 1vmin;
     width: 80%;
@@ -490,6 +514,7 @@ text-transform: capitalize;
 text-decoration: none;
 font-weight: 600;
 }
+
 
 
 

@@ -80,7 +80,6 @@ section{
 }
 
 .heading{
-    margin-top: 7vmin;
     text-align: center;
     font-size: 7rem;
     padding:0 .5rem;
@@ -149,130 +148,9 @@ header #menu-bar{
 
 
 
-.blog {
-    
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.heading{
-    font-size: 7vmin;
-}
-
-.blog .blogbox{
-    
-    /* margin-left: 5vmin ; */
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-
-.blog .blogbox .blogheaderbox{
-    font-size: 2vmin;
-    
-}
-
-.blog .blogbox .blogheaderbox .date{
-    margin: 3vmin;
-    font-size: 3vmin;
-}
-
-.blog .blogbox  .author{
-    display: block;
-    font-size: 3vmin;
-}
-
-.blog .blogbox  .role{
-    font-size: 3vmin;
-}
-.blog .blogbox .blogauthorimg{
-    text-align: center;
-    width: fit-content;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    
-}
-
-.blog .blogbox .blogauthor{
-    text-align: center;
-}
-
-.blog .blogbox .blogauthor .blogauthorimg{
-   
-    width: fit-content;
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    
-}
-
-.blog .blogbox .blogcontent{
-    text-align: left;
-    font-size: 3vmin;
-    margin: 3vmin;
-}
-
-.navigator{
-    word-spacing: 5vmin;
-    display: flex;
-}
-
-.pre{
-    margin-left: 2vmin;
-    margin-right: 64vmin;
-    text-align: left;
-}
 
 
-.nxt {
-    margin-left: 61vmin;
-    text-align: right;
-}
 
-.blog .commentsbox{
-    
-    
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-
-.blog .commentsbox .comment{
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    font-size: 2vmin;
-}
-
-.blog .commentsbox .reply{
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    font-size: 2vmin;
-}
-
-.namebox,.emailbox,.mobilebox{
-    margin: 1vmin;
-    font-size: 3vmin;
-}
-
-.replybox{
-    padding: 3vmin;
-    font-size: 2vmin;
-}
-.commentsbox p{
-    font-size: 3vmin;
-}
 
 
 
@@ -574,82 +452,104 @@ transition: all 1s ease;
 
 
 
-
-.dark-mode .blog .blogbox .blogheaderbox{
-    font-size: 2vmin;
-    color: white;
+.group1{
+    margin: 4vmin;
+    display: block;
+    text-align: center;
     
 }
-
-.dark-mode .blog .blogbox .blogheaderbox .date{
-    margin: 3vmin;
-    font-size: 3vmin;
-    color: white;
+.internimg{
+    padding: 2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 2rem rgb(195, 0, 255);
+    /* width: fit-content; */
+    margin-left: 2vmin;
+    margin-right: 2vmin;
 }
 
-.dark-mode .blog .blogbox  .author{
-    display: block;
-    font-size: 3vmin;
-    color: white;
+.internimg1{
+    padding: 2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 2rem rgb(255, 81, 0);
+    /* width: fit-content; */
+    margin-left: 2vmin;
+    margin-right: 2vmin;
 }
 
-.dark-mode .blog .blogbox  .role{
-    color: white;
-    font-size: 3vmin;
-}
-
-
-.dark-mode .blog .blogbox .blogauthor{
-    color: white;
+.group2{
+    margin: 4vmin;
+    display: inline-flex;
     text-align: center;
 }
 
-
-
-.dark-mode .blog .blogbox .blogcontent{
-    text-align: left;
-    font-size: 3vmin;
-    margin: 3vmin;
-    color: white;
-}
-
-
-
-
-
-
-.dark-mode .blog .commentsbox .comment{
+.kmpbox{
+    text-align: center;
     margin:2rem;
     padding:2rem;
     flex:1 1 40rem;
     border-radius: 1rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    font-size: 2vmin;
+
+}
+
+.role{
+    font-size: 4vmin;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.name{
+    
+        font-size: 4vmin;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    
+}
+
+.dark-mode .role{
+    font-size: 4vmin;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
     color: white;
 }
 
-.dark-mode .blog .commentsbox .reply{
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    font-size: 2vmin;
-    color: white;
+.dark-mode .name{
+    
+        font-size: 4vmin;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        color: white;
+    
 }
 
-.dark-mode .namebox,.emailbox,.mobilebox{
-    margin: 1vmin;
-    font-size: 3vmin;
-    color: white;
-}
 
-.dark-mode .replybox{
-    padding: 3vmin;
-    font-size: 2vmin;
-    color: white;
-}
-.dark-mode .commentsbox p{
-    color: white;
-    font-size: 3vmin;
-}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+      font-size: 2vmin;
+    display: none;
+    background-color: #f9f9f9;
+    width: 30vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+  }
+
+  .dark-mode .dropdown-content {
+    display: none;
+    background-color: black;
+    width: 20vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    position: absolute;
+    
+  }
