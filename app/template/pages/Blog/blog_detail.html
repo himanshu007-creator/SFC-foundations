@@ -82,28 +82,32 @@
         </div>
         <div class="commentsbox">
             <p>Comments</p>
-            <div class="comment">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eum quos natus fugit commodi fugiat
-                    corporis assumenda quis fuga quod!</p>
+           
+            {% if not object.comments.all %}
+             <div class="comment">
+                    <p>No comments yet</p>
             </div>
-            <div class="comment">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eum quos natus fugit commodi fugiat
-                    corporis assumenda quis fuga quod!</p>
-            </div>
-            <div class="comment">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eum quos natus fugit commodi fugiat
-                    corporis assumenda quis fuga quod!</p>
+                    {% else %}
+                        {% for comment in object.comments.all %}
+                       <div class="comment">
+                            <p>
+                                {{comment.comment}}
+                            </p>
+                            <p>
+                                {{comment.date}}
+                            </p>
+                       </div>
+                        {% endfor %}
+                    {% endif %}
+                
             </div>
             <div class="reply">
-                <form>
+                <form>  
                     <div>
-                        <label class="namebox">Name* <input type="text" name="" id="" required></label>
-                        <label class="emailbox">Email* <input type="email" name="" id="" required></label>
-                        <label class="mobilebox">Mobile No.* <input type="number" name="" id="" required></label>
+                        <label class="namebox">Name :<input type="text" name="" id="" required></label>
                     </div>
                     <div>
-                        <label class="replybox"><textarea cols="152" rows="5"
-                                required>Please write Something ...</textarea></label>
+                        <label class="replybox"><textarea cols="152" rows="5" required placeholder="Your comment"></textarea></label>
                     </div>
                     <div>
                         <input class="btn" type="submit" value="Send">

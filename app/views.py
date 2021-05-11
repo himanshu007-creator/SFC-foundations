@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from app.models import *
-from django.views.generic import ListView,DetailView
+from django.views.generic import ListView,DetailView,CreateView
 from django.core.paginator import Paginator
 from django.http import Http404
 # Create your views here.
@@ -61,6 +61,7 @@ class BlogListView(ListView):
     model=BlogPost
     template_name='pages/Blog/blog_list.html'
     paginate_by=12
+    ordering=['-id']
 
     def get_context_data(self, *args, **kwargs):
         try:
@@ -74,3 +75,4 @@ class BlogListView(ListView):
 class BlogDetailView(DetailView):
     model=BlogPost
     template_name='pages/Blog/blog_detail.html'
+    
