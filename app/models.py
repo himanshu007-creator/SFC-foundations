@@ -20,11 +20,12 @@ class BlogPost(models.Model):
         return self.title+' | '+self.author
 
 class BlogPostComment(models.Model):
-    post=models.ForeignKey(BlogPost,on_delete=models.CASCADE)
+    post=models.ForeignKey(BlogPost, related_name='comments',on_delete=models.CASCADE)
     author=models.CharField(max_length=200)
     comment=models.TextField()
-    date=models.DateTimeField(default=timezone.now)
+    date=models.DateTimeField(auto_now_add=True)
+    approved=models.BooleanField(default=False)
     
     def __str__(self):
-        return str(self.post)+' | '+str(self.author)
-    
+        return str(self.post.title)+' | '+str(self.author)
+

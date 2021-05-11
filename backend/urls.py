@@ -19,6 +19,9 @@ from django.conf.urls import url
 from app import views
 from django.conf import settings
 from django.conf.urls.static import static
+
+admin.site.site_header='SFC Foundation'
+
 urlpatterns = [
     #general
     path('admin/', admin.site.urls),
