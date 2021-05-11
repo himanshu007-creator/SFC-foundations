@@ -1,8 +1,16 @@
-from django.shortcuts import render
+from django.contrib import auth
+from django.forms.forms import Form
+from django.shortcuts import get_object_or_404, render, redirect
+from django.http import JsonResponse, request
+from django.http.response import HttpResponseRedirect
+from django.shortcuts import get_object_or_404, render
 from app.models import *
+from app import views
+from django.urls import reverse_lazy
 from django.views.generic import ListView,DetailView,CreateView
 from django.core.paginator import Paginator
-from django.http import Http404
+import json
+from django.http import Http404, HttpResponse, request
 # Create your views here.
 
 
@@ -26,7 +34,8 @@ def workingmodel(request):
     return render(request, 'pages/About-Us/workingmodel.html')
 
 
-def blog(request):
+def blog(request,id):
+    
     return render(request, 'pages/Blog/blog.html')
 
 
@@ -72,7 +81,20 @@ class BlogListView(ListView):
     
     
 
-class BlogDetailView(DetailView):
-    model=BlogPost
+def BlogDetailView(request,pk):
+    model = BlogPost
     template_name='pages/Blog/blog_detail.html'
+    object = BlogPost.objects.get(id = pk)
     
+    if request.method == 'POST':
+        author = request.POST['name']
+        comment = request.POST['comment']
+        x= BlogPostComment.objects.create(author=author, comment=comment, post=object)
+        x.save()
+        
+        
+    context ={
+        'object':object,
+    }
+    
+    return render(request, 'pages/Blog/blog_detail.html', context)
