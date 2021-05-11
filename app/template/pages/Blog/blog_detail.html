@@ -94,7 +94,9 @@
                                 {{comment.comment}}
                             </p>
                             <p>
-                                {{comment.date}}
+                                {{comment.author}} - 
+                                {{comment.date}} 
+                                
                             </p>
                        </div>
                         {% endfor %}
@@ -102,12 +104,14 @@
                 
             </div>
             <div class="reply">
-                <form>  
+                <form method="POST">   
+                    {% csrf_token %}
+                    {{ comment_form.as_p }}
                     <div>
-                        <label class="namebox">Name :<input type="text" name="" id="" required></label>
+                        <label class="namebox">Name :<input type="text" name="name" id="" required></label>
                     </div>
                     <div>
-                        <label class="replybox"><textarea cols="152" rows="5" required placeholder="Your comment"></textarea></label>
+                        <label class="replybox"><textarea cols="152" rows="5" required placeholder="Your comment" name="comment"></textarea></label>
                     </div>
                     <div>
                         <input class="btn" type="submit" value="Send">
