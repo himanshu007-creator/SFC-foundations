@@ -148,9 +148,13 @@ header #menu-bar{
 }
 
 
+.blogs{
+    padding: 2vmin;
+}
+
 
 .blogs .row{
-    display: flex;
+    display: inline-flexbox;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -159,23 +163,19 @@ header #menu-bar{
 .blogs .row .blogbox{
     
    display: inline-flex;
-    margin:2rem;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    margin:2vmin;
+    padding: 2vmin;
+    text-align: center;
 }
 
 .blogs .row .blogimg{
     
-    padding-top: 4vmin;
+    /* padding-top: 4vmin; */
 }
 
 .blogs .row .blogimg img{
     
     width: 50vmin;
-    /* margin:2rem; */
-    /* padding:2rem; */
     flex:1 1 40rem;
     border-radius: 1rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
