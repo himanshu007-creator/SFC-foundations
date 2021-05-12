@@ -98,3 +98,22 @@ def BlogDetailView(request,pk):
     }
     
     return render(request, 'pages/Blog/blog_detail.html', context)
+
+
+class NewsListView(ListView):
+    model = New
+    template_name = 'pages/news/newsList.html'
+    paginate_by = 12
+    ordering = ['-id']
+
+    def get_context_data(self, *args, **kwargs):
+        try:
+            return super(NewsListView, self).get_context_data(*args, **kwargs)
+        except Http404:
+            self.kwargs['page'] = 'last'
+            return super(NewsListView, self).get_context_data(*args, **kwargs)
+
+
+class NewsDetailView(DetailView):
+    model=New
+    template_name='pages/news/newsDetail.html'

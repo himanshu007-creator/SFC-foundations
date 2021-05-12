@@ -1,6 +1,8 @@
 from django.db import models
 from django.utils import timezone
 import os
+
+
 #BLOGS 
 
 class BlogPost(models.Model):
@@ -29,3 +31,22 @@ class BlogPostComment(models.Model):
     def __str__(self):
         return str(self.post.title)+' | '+str(self.author)+': '+str(self.comment)
 
+
+
+#News
+
+class New(models.Model):
+    image=models.ImageField(upload_to='newsMedia')
+    title = models.CharField(max_length=200)
+    subtitle = models.CharField(max_length=200)
+    source = models.URLField()
+    date=models.DateTimeField(auto_now_add=True)
+    body=models.TextField()
+
+    def delete(self):
+        self.image.storage.delete(str(self.image))
+        super(New, self).delete()
+
+
+    def __str__(self):
+        return str(self.title)+' | '+str(self.date)
