@@ -39,7 +39,7 @@ class New(models.Model):
     image=models.ImageField(upload_to='newsMedia')
     title = models.CharField(max_length=200)
     subtitle = models.CharField(max_length=200)
-    source = models.URLField()
+    source = models.CharField(max_length=500)
     date=models.DateTimeField(auto_now_add=True)
     body=models.TextField()
 
