@@ -12,3 +12,4 @@ class BlogPostAdmin(admin.ModelAdmin):
         js= ('js/admin_blog.js',)
 
     
+admin.site.register(New)
