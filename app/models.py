@@ -27,5 +27,5 @@ class BlogPostComment(models.Model):
     approved =models.BooleanField(default=False)
     
     def __str__(self):
-        return str(self.post.title)+' | '+str(self.author)
+        return str(self.post.title)+' | '+str(self.author)+': '+str(self.comment)
 
