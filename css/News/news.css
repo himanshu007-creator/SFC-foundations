@@ -148,97 +148,6 @@ header #menu-bar{
 }
 
 
-.blogs{
-    padding: 2vmin;
-}
-
-
-.blogs .row{
-    display: inline-flexbox;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.blogs .row .blogbox{
-    
-   display: inline-flex;
-    margin:2vmin;
-    padding: 2vmin;
-    text-align: center;
-}
-
-.blogs .row .blogimg img{
-    
-    width: 50vmin;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-
-.blogs .row .blogcontent{
-    
-    width: fit-content;
-    margin-left: 3vmin;
-    padding:2rem;
-    flex:1 1 40rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-}
-
-.blogs .row .blogname{
-    
-    font-size: 5vmin;
-    text-align: center;
-    text-decoration: underline;
-}
-.blogs .row .blogdescription{
-    
-    font-size: 2vmin;
-    text-align: left;
-}
-
-.blogs .row .blogauthor{
-    
-    font-size: 3vmin;
-    text-align: left;
-}
-.blogs .row .blogdate{
-    
-    font-size: 3vmin;
-    text-align: left;
-}
-
-.blogs .row .blogbtn{
-    
-    text-align: right;
-    
-}
-
-
-.slider{
-
-    font-size: 3vmin;
-    text-align: center;
-    padding: 5vmin;
-    
-}
-
-.slider button{
-    border-radius: 1vmin;
-    background-color: white;
-    border-color: white;   
-}
-
-.slider button:hover{
-    background-color: gold;
-    border-color: white;  
-     
-}
-
-.hide{
-    display: none;
-}
 
 
 
@@ -569,4 +478,97 @@ transition: all 1s ease;
 
 .dark-mode .slider {
     color: white;
+}
+
+
+.blogs{
+    padding: 2vmin;
+}
+
+
+.blogs .row{
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blogbox{
+    
+   display: inline-flex;
+    margin:2vmin;
+    padding: 2vmin;
+    text-align: center;
+}
+
+.blogs .row .blogimg img{
+    
+    width: 50vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.blogs .row .blogcontent{
+    
+    width: fit-content;
+    margin-left: 3vmin;
+    padding:2rem;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.blogs .row .blogname{
+    
+    font-size: 5vmin;
+    text-align: center;
+    text-decoration: underline;
+}
+.blogs .row .blogdescription{
+    
+    font-size: 2vmin;
+    text-align: left;
+}
+
+.blogs .row .blogauthor{
+    
+    font-size: 3vmin;
+    text-align: left;
+}
+.blogs .row .blogdate{
+    
+    font-size: 3vmin;
+    text-align: left;
+}
+
+.blogs .row .blogbtn{
+    
+    text-align: right;
+    
+}
+
+
+.slider{
+
+    font-size: 3vmin;
+    text-align: center;
+    padding: 5vmin;
+    
+}
+
+.slider button{
+    border-radius: 1vmin;
+    background-color: white;
+    border-color: white;   
+}
+
+.slider button:hover{
+    background-color: gold;
+    border-color: white;  
+     
+}
+
+.hide{
+    display: none;
 }
