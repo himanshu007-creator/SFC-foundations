@@ -168,11 +168,6 @@ header #menu-bar{
     text-align: center;
 }
 
-.blogs .row .blogimg{
-    
-    /* padding-top: 4vmin; */
-}
-
 .blogs .row .blogimg img{
     
     width: 50vmin;
