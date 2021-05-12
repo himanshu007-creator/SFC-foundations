@@ -89,16 +89,18 @@
             </div>
                     {% else %}
                         {% for comment in object.comments.all %}
-                       <div class="comment">
+                       {% if comment.approved %}
+                        <div class="comment">
                             <p>
                                 {{comment.comment}}
                             </p>
                             <p>
-                                {{comment.author}} - 
-                                {{comment.date}} 
-                                
+                                {{comment.author}} -
+                                {{comment.date}}
+                        
                             </p>
-                       </div>
+                        </div>
+                       {% endif %}
                         {% endfor %}
                     {% endif %}
                 
@@ -120,12 +122,6 @@
             </div>
 
         </div>
-
-
-
-
-
-
     </section>
 
     <!-- Join Us as Intern Ends   -->
