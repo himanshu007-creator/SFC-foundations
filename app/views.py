@@ -104,7 +104,7 @@ class NewsListView(ListView):
     model = New
     template_name = 'pages/news/newsList.html'
     paginate_by = 12
-    ordering = ['-id']
+    ordering = ['-date']
 
     def get_context_data(self, *args, **kwargs):
         try:
@@ -117,3 +117,21 @@ class NewsListView(ListView):
 class NewsDetailView(DetailView):
     model=New
     template_name='pages/news/newsDetail.html'
+
+
+class EventListView(ListView):
+    model=Event
+    template_name='pages/Events/eventList.html'
+    paginate_by = 12
+    ordering = ['-date']
+
+    def get_context_data(self, *args, **kwargs):
+        try:
+            return super(EventListView, self).get_context_data(*args, **kwargs)
+        except Http404:
+            self.kwargs['page'] = 'last'
+            return super(EventListView, self).get_context_data(*args, **kwargs)
+
+class EventDetailView(DetailView):
+    model=Event
+    template_name = 'pages/Events/eventDetail.html'
