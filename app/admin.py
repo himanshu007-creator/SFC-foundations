@@ -9,12 +9,15 @@ admin.site.register(BlogPostComment)
 @admin.register(BlogPost)
 class BlogPostAdmin(admin.ModelAdmin):
     class Media:
-        js= ('js/adminjs/admin_blog.js',)
+        js= ('js/adminjs/admin_pg.js',)
 
     
 @admin.register(New)
 class NewAdmin(admin.ModelAdmin):
     class Media:
-        js= ('js/adminjs/admin_news.js',)
+        js= ('js/adminjs/admin_pg.js',)
 
-admin.site.register(Event)
+@admin.register(Event)
+class EventAdmin(admin.ModelAdmin):
+    class Media:
+        js= ('js/adminjs/admin_pg.js',)
