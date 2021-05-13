@@ -26,11 +26,11 @@ urlpatterns = [
     #general
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('blog/',include('app.urlsBlog'),name='blog'),
+    path('blog/',include('app.urlsBlog')),
     path('contact/', views.contact, name="contact"),
-    path('events/', views.events, name='event'),
+    path('events/', include('app.urlsEvent')),
     path('joinus/', views.join, name='join'),
-    path('news/', include('app.urlsNews'),name='news'),
+    path('news/', include('app.urlsNews')),
 
     #projects
     path('sampuran/', views.sampuran, name="sampuran"),

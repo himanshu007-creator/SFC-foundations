@@ -5,5 +5,5 @@ from django.conf.urls.static import static
 from django.conf import settings
 urlpatterns = [
     path('',views.BlogListView.as_view(),name='blog'),
-    path('blog/<int:pk>',views.BlogDetailView,name='BlogDetailView'),
+    path('<int:pk>/',views.BlogDetailView,name='BlogDetailView'),
 ]
