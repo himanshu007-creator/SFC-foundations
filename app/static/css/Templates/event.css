@@ -183,7 +183,6 @@ header #menu-bar{
 }
 .event .eventbox .eventimg{
     text-align: center;
-    width: 100%;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     
 }

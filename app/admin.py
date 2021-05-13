@@ -16,3 +16,5 @@ class BlogPostAdmin(admin.ModelAdmin):
 class NewAdmin(admin.ModelAdmin):
     class Media:
         js= ('js/adminjs/admin_news.js',)
+
+admin.site.register(Event)
