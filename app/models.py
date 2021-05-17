@@ -59,13 +59,14 @@ class Event(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=200)
     bannerimage=models.ImageField(upload_to='eventMedia')
-    image1=models.ImageField(upload_to='eventMedia')
-    image2=models.ImageField(upload_to='eventMedia')
-    image3 = models.ImageField(upload_to='eventMedia')
-    image4 = models.ImageField(upload_to='eventMedia')
+    image1=models.ImageField(upload_to='eventMedia', blank=True)
+    image2=models.ImageField(upload_to='eventMedia', blank=True)
+    image3 = models.ImageField(upload_to='eventMedia', blank=True)
+    image4 = models.ImageField(upload_to='eventMedia', blank=True)
     body = models.TextField()
 
     def delete(self):
+        self.bannerimage.storage.delete(str(self.bannerimage))
         self.image1.storage.delete(str(self.image1))
         self.image2.storage.delete(str(self.image2))
         self.image3.storage.delete(str(self.image3))
