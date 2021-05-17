@@ -1355,3 +1355,13 @@ svg {
   text-align: center;
   
 }
+
+@media only screen and (max-width: 600px) {
+.about .btn{
+  font-size: 6vmin;
+}
+
+.joinus .btn{
+  font-size: 6vmin;
+}
+}
