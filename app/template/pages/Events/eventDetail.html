@@ -72,10 +72,18 @@
 
             </div>
             <div class="events">
+                {% if object.image1 %}
                 <img class="eventimg" src="{{object.image1.url}}">
+                {% endif %}
+                {% if object.image2 %}
                 <img class="eventimg" src="{{object.image2.url}}">
+                {% endif %}
+                {% if object.image3 %}
                 <img class="eventimg" src="{{object.image3.url}}">
+                {% endif %}
+                {% if object.image3 %}
                 <img class="eventimg" src="{{object.image4.url}}">
+                {% endif %}
             </div>
             <div class="eventcontent">
                 <p>
