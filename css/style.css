@@ -1358,10 +1358,45 @@ svg {
 
 @media only screen and (max-width: 600px) {
 .about .btn{
-  font-size: 6vmin;
+  font-size: 8vmin;
+}
+.about .heading{
+  font-size: 20vmin;
+}
+.joinus .btn{
+  font-size: 10vmin;
+}
+.joinus .heading{
+  font-size: 20vmin;
+}
+.events .heading{
+  font-size: 13vmin;
+}
+.news .heading{
+  font-size: 18vmin;
+}
+.news .btn{
+  font-size: 10vmin;
 }
 
-.joinus .btn{
-  font-size: 6vmin;
+.banner {
+  margin-top: 3vmin;
+  width: 100%;
+}
+.events .btn{
+  font-size: 10vmin;
+}
+.joinimg {
+  margin-top: 3vmin;
+  width: 100%;
+  margin-right: 9vmin;
+}
+
+.projects .heading{
+  font-size: 12vmin;
+}
+
+.projects .list .btn{
+  font-size: 7vmin;
 }
 }
