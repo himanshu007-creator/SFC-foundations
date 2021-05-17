@@ -188,12 +188,7 @@ header #menu-bar{
 .blog .blogbox  .role{
     font-size: 3vmin;
 }
-.blog .blogbox .blogauthorimg{
-    text-align: center;
-    width: fit-content;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    
-}
+
 
 .blog .blogbox .blogauthor{
     text-align: center;
@@ -201,8 +196,8 @@ header #menu-bar{
 
 .blog .blogbox .blogauthor .blogauthorimg{
    
-    width: fit-content;
-    margin:2rem;
+    width: 60vmin;
+    margin:1vmin;
     padding:2rem;
     flex:1 1 40rem;
     border-radius: 1rem;
@@ -262,6 +257,7 @@ header #menu-bar{
 }
 
 .namebox,.emailbox,.mobilebox{
+    
     margin: 1vmin;
     font-size: 3vmin;
 }
@@ -273,7 +269,6 @@ header #menu-bar{
 .commentsbox p{
     font-size: 3vmin;
 }
-
 
 
 
@@ -638,11 +633,6 @@ transition: all 1s ease;
     color: white;
 }
 
-.dark-mode .namebox,.emailbox,.mobilebox{
-    margin: 1vmin;
-    font-size: 3vmin;
-    color: white;
-}
 
 .dark-mode .replybox{
     padding: 3vmin;
@@ -653,3 +643,72 @@ transition: all 1s ease;
     color: white;
     font-size: 3vmin;
 }
+
+
+.emailbox{
+    color: black;
+}
+
+.mobilebox{
+    color: black;
+}
+
+.namebox,.emailbox,.mobilebox{
+    margin: 1vmin;
+    font-size: 3vmin;
+    color:black;
+}
+
+.dark-mode .namebox{
+    margin: 1vmin;
+    font-size: 3vmin;
+    color:white;
+}
+.dark-mode .emailbox{
+    margin: 1vmin;
+    font-size: 3vmin;
+    color:white;
+}
+.dark-mode .mobilebox{
+    margin: 1vmin;
+    font-size: 3vmin;
+    color:white;
+}
+
+.counter {
+    position: fixed;
+    bottom: 8vmin;
+    right: 3.5vmin;
+    width: 100px;
+    z-index: 99;
+    opacity: 1;
+    font-size: 40px;
+    color: black;
+    border-right: 15px;
+    text-align: center;
+    margin-right: 40px;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    
+   
+  }
+  .feed {
+    position: fixed;
+    bottom: 17vmin;
+    right: 3.5vmin;
+    width: 12vmax;
+    z-index: 99;
+    /* opacity: 0.7; */
+    
+  }
+  
+  .feedknowmore {
+    position: fixed;
+    bottom: 1vmin;
+    right: 4.5vmin;
+    /* width: 15vmax; */
+    z-index: 99;
+    /* opacity: 0.7; */
+    
+  }

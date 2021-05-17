@@ -193,12 +193,7 @@ header #menu-bar{
 .event .eventbox  .role{
     font-size: 3vmin;
 }
-.event .eventbox .eventimg{
-    text-align: center;
-    width: fit-content;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    
-}
+
 
 .event .eventbox .events{
     text-align: center;
@@ -206,8 +201,8 @@ header #menu-bar{
 
 .event .eventbox .events .eventimg{
    
-    width: fit-content;
-    margin:2rem;
+    width: 60vmin;
+    margin:2vmin;
     padding:2rem;
     flex:1 1 40rem;
     border-radius: 1rem;
@@ -658,3 +653,42 @@ transition: all 1s ease;
     color: white;
     font-size: 3vmin;
 }
+
+
+.counter {
+    position: fixed;
+    bottom: 8vmin;
+    right: 3.5vmin;
+    width: 100px;
+    z-index: 99;
+    opacity: 1;
+    font-size: 40px;
+    color: black;
+    border-right: 15px;
+    text-align: center;
+    margin-right: 40px;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    
+   
+  }
+  .feed {
+    position: fixed;
+    bottom: 17vmin;
+    right: 3.5vmin;
+    width: 12vmax;
+    z-index: 99;
+    /* opacity: 0.7; */
+    
+  }
+  
+  .feedknowmore {
+    position: fixed;
+    bottom: 1vmin;
+    right: 4.5vmin;
+    /* width: 15vmax; */
+    z-index: 99;
+    /* opacity: 0.7; */
+    
+  }

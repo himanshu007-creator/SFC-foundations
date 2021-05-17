@@ -149,25 +149,7 @@ header #menu-bar {
   overflow: hidden;
 }
 
-.feed {
-  position: fixed;
-  bottom: 17vmin;
-  right: 3.5vmin;
-  width: 12vmax;
-  z-index: 99;
-  /* opacity: 0.7; */
-  
-}
 
-.feedknowmore {
-  position: fixed;
-  bottom: 1vmin;
-  right: 4.5vmin;
-  /* width: 15vmax; */
-  z-index: 99;
-  /* opacity: 0.7; */
-  
-}
 
 
 
@@ -178,6 +160,17 @@ header #menu-bar {
 .home .image img {
   width: 70%;
 }
+
+@media only screen and (max-width: 600px) {
+  .home .image img {
+    width: 100%;
+  }
+  .newsbox {
+    margin-left: 10vmin;
+    margin-top: 0%;
+  }
+}
+
 
 .home .content {
   flex: 1 1 39rem;
@@ -401,17 +394,9 @@ header #menu-bar {
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-.newsbox {
-  background: #fff;
-  width: 35rem;
-  height: fit-content;
-  padding: 3vmin;
-  margin: 2rem;
-  margin-top: 25vmin;
-  border-radius: 1rem;
-  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
+
+
+
 .events .box-container .eventbox img {
   padding: 1vmin;
   width: 80%;
@@ -450,13 +435,32 @@ header #menu-bar {
 .news .container {
   padding-bottom: 40px;
 }
+
+.news .row{
+  display: block;
+}
+
 .news .news-item {
   -ms-flex: 0 0 33.33%;
   flex: 0 0 33.33%;
-  max-width: 25%;
+
   margin-bottom: 30px;
   display: inline-block;
   margin: 19px;
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .news .news-item {
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+  
+    margin-bottom: 30px;
+    display: inline-block;
+    margin: 19px;
+    width: 90%;
+  }
+  
 }
 .news .news-item-inner {
   border-radius: 10px;
@@ -710,6 +714,25 @@ header #menu-bar {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   
  
+}
+.feed {
+  position: fixed;
+  bottom: 17vmin;
+  right: 3.5vmin;
+  width: 12vmax;
+  z-index: 99;
+  /* opacity: 0.7; */
+  
+}
+
+.feedknowmore {
+  position: fixed;
+  bottom: 1vmin;
+  right: 4.5vmin;
+  /* width: 15vmax; */
+  z-index: 99;
+  /* opacity: 0.7; */
+  
 }
 
 header button .icon-box .fa {
@@ -1310,4 +1333,25 @@ svg {
     width: 35vmin;
     font-size: 3vmin;
   }
+}
+
+.newsbox {
+  background: #fff;
+ 
+  width: 35rem;
+
+  padding: 3vmin;
+ margin-bottom: 60vmin;
+
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  
+  
+}
+
+
+.newsbtnbox {
+  display: inline-flex;
+  text-align: center;
+  
 }
