@@ -193,12 +193,9 @@ header #menu-bar{
 .event .eventbox  .role{
     font-size: 3vmin;
 }
-.event .eventbox .eventimg{
-    text-align: center;
-    width: fit-content;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-    
-}
+
+
+
 
 .event .eventbox .events{
     text-align: center;
@@ -206,7 +203,7 @@ header #menu-bar{
 
 .event .eventbox .events .eventimg{
    
-    width: fit-content;
+    width: 70vmin;
     margin:2rem;
     padding:2rem;
     flex:1 1 40rem;
@@ -214,6 +211,7 @@ header #menu-bar{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     
 }
+
 
 .event .eventbox .eventcontent{
     text-align: left;
@@ -658,3 +656,86 @@ transition: all 1s ease;
     color: white;
     font-size: 3vmin;
 }
+
+@media only screen and (max-width: 800px ) {
+    .events .eventimg{
+        width: 60vmin;
+    }
+    
+  }
+
+
+
+
+  .counter {
+    position: fixed;
+    bottom: 8vmin;
+    right: 3.5vmin;
+    width: 100px;
+    z-index: 99;
+    opacity: 1;
+    font-size: 40px;
+    color: black;
+    border-right: 15px;
+    text-align: center;
+    margin-right: 40px;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    
+   
+  }
+  .feed {
+    position: fixed;
+    bottom: 19vmin;
+    right: 3.5vmin;
+    width: 12vmax;
+    z-index: 99;
+    /* opacity: 0.7; */
+    
+  }
+  
+  .feedknowmore {
+    position: fixed;
+    bottom: 1vmin;
+    right: 4.5vmin;
+    /* width: 15vmax; */
+    z-index: 99;
+    /* opacity: 0.7; */
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .feed {
+      position: fixed;
+      bottom: 27vmin;
+      right: 5vmin;
+      width: 12vmax;
+      z-index: 99;
+    }
+    .feedknowmore {
+      position: fixed;
+      bottom: 1vmin;
+      right: 1vmin;
+      z-index: 99;
+      font-size: 0.1vw;
+    }
+    .counter {
+      position: fixed;
+      bottom: 12vmin;
+      right: 4vmin;
+      z-index: 99;
+      opacity: 1;
+      font-size: 8vmin;
+    background-color: white;
+      text-align: center;
+      margin-right: 0%;
+      flex: 1 1 40rem;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+    .feedknowmore .btn{
+      background-color: rgb(250, 196, 48);
+      width: 35vmin;
+      font-size: 3vmin;
+    }
+  }

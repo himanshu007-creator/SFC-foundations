@@ -550,3 +550,77 @@ transition: all 1s ease;
 
     height: 5vmax;
 } 
+
+
+.counter {
+    position: fixed;
+    bottom: 8vmin;
+    right: 3.5vmin;
+    width: 100px;
+    z-index: 99;
+    opacity: 1;
+    font-size: 40px;
+    color: black;
+    border-right: 15px;
+    text-align: center;
+    margin-right: 40px;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    
+   
+  }
+  .feed {
+    position: fixed;
+    bottom: 19vmin;
+    right: 3.5vmin;
+    width: 12vmax;
+    z-index: 99;
+    /* opacity: 0.7; */
+    
+  }
+  
+  .feedknowmore {
+    position: fixed;
+    bottom: 1vmin;
+    right: 4.5vmin;
+    /* width: 15vmax; */
+    z-index: 99;
+    /* opacity: 0.7; */
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .feed {
+      position: fixed;
+      bottom: 27vmin;
+      right: 5vmin;
+      width: 12vmax;
+      z-index: 99;
+    }
+    .feedknowmore {
+      position: fixed;
+      bottom: 1vmin;
+      right: 1vmin;
+      z-index: 99;
+      font-size: 0.1vw;
+    }
+    .counter {
+      position: fixed;
+      bottom: 12vmin;
+      right: 4vmin;
+      z-index: 99;
+      opacity: 1;
+      font-size: 8vmin;
+    background-color: white;
+      text-align: center;
+      margin-right: 0%;
+      flex: 1 1 40rem;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    }
+    .feedknowmore .btn{
+      background-color: rgb(250, 196, 48);
+      width: 35vmin;
+      font-size: 3vmin;
+    }
+  }
