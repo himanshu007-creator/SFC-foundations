@@ -156,9 +156,9 @@ $(document).ready(function () {
 
 
 let x = document.querySelector(".spot").addEventListener("mouseover", function () {
-    let y = document.querySelector(".spotimg").src = "/images/spotify_hover.png";
+    let y = document.querySelector(".spotimg").src = "images/spotify_hover.png";
 })
 
 let a = document.querySelector(".spot").addEventListener("mouseout", function () {
-    let b = document.querySelector(".spotimg").src = "/images/spotify.png";
+    let b = document.querySelector(".spotimg").src = "images/spotify.png";
 })
