@@ -11,11 +11,16 @@ SFC has set up two more units (JALANDHAR,MUMBAI)✨
 ![Pull Requests](https://img.shields.io/github/issues-pr/himanshu007-creator/SFC-foundations)
 ![Forks](https://img.shields.io/github/forks/himanshu007-creator/SFC-foundations)
 ![Stars](https://img.shields.io/github/stars/himanshu007-creator/SFC-foundations)
+![Issues](https://img.shields.io/github/issues/himanshu007-creator/SFC-foundations)
+![Forks](https://img.shields.io/github/forks/himanshu007-creator/SFC-foundations?style=social)
+![Stars](https://img.shields.io/github/stars/himanshu007-creator/SFC-foundations?style=social)
 [![License](https://img.shields.io/github/license/himanshu007-creator/SFC-foundations)](https://github.com/himanshu007-creator/SFC-foundations/blob/master/LICENSE)
-![](https://img.shields.io/github/repo-size/himanshu007-creator/SFC-foundations.svg?label=Repo%20size&style=flat-square)&nbsp;
+![](https://img.shields.io/github/repo-size/himanshu007-creator/SFC-foundations.svg?label=Repo%20size&style=flat-square)
+[![codecov](https://codecov.io/gh/himanshu007-creator/SFC-foundations/branch/master/graph/badge.svg)](https://img.shields.io/codecov/c/github/himanshu007-creator/SFC-foundations)&nbsp;
 
 
 </p>
+<h1 align="center">GitHub Page Deployment can be found <a href="https://himanshu007-creator.github.io/SFC-foundations/">Here</a></h1>&nbsp;
 <hr>
 
 <h2 >Objectives :</h2>
@@ -26,20 +31,21 @@ SFC has set up two more units (JALANDHAR,MUMBAI)✨
 <li>Create an Admin Dashboard.</li>
 <li>Blog Uploading Feature.</li>
 </ul>
-<hr>
+</hr>
 
 <h2 align="center" >TECH STACK :</h2>
 <p align="center">
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>  <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
 <img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img alt="Django" src="https://img.shields.io/badge/django-%23092E20.svg?&style=for-the-badge&logo=django&logoColor=white"/></p>
-<hr>
-<h1 align="center">GitHub Page Deployment can be found <a href="https://himanshu007-creator.github.io/SFC-foundations/">Here</a></h1>
-<hr>
+
 
 <h2 >Contributions :</h2>
+
 <p >
 We welcome developers to contribute to our project. Their efforts will be supporting a noble cause, and they will get Hands-on experience with their skills.
 </p>
+
+<img src="Assets/CodingGIF.gif" align="center">
 <hr>
 
 <h2 >How to get started with Us :</h2>
@@ -62,5 +68,5 @@ We welcome developers to contribute to our project. Their efforts will be suppor
 	</tr>
 </table>
 <hr>
-<h1 align="center">Made With 💖 By Developers !</h1>
+<h1 align="center">Made With 💖 By Developers around the GLOBE!</h1>
 
