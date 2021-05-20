@@ -17,7 +17,7 @@
   transition: all 0.2s linear;
 }
 
-h1,
+h1,h2,
 h3 {
   font-family: "Oswald", sans-serif;
 }
@@ -484,6 +484,13 @@ header #menu-bar {
   font-weight: normal;
 }
 
+.footer .box-container .box  h4{
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
 .footer .box-container .box p {
   font-size: 1.7rem;
   color: #eee;
@@ -521,6 +528,10 @@ header #menu-bar {
 
 .footer .credit a {
   color: var(--yellow);
+}
+
+.footer .box-container .box .spot{
+  width: 40vmin;
 }
 
 @media (max-width: 991px) {
@@ -1093,3 +1104,4 @@ header button .icon-box .fa {
     grid-row: 7/8;
   }
 }
+
