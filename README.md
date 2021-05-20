@@ -16,6 +16,8 @@ SFC has set up two more units (JALANDHAR,MUMBAI)✨
 
 
 </p>
+
+<h1 align="center">GitHub Page Deployment can be found <a href="https://himanshu007-creator.github.io/SFC-foundations/">Here</a><p>&nbsp;</p></h1>
 <hr>
 
 <h2 >Objectives :</h2>
@@ -27,12 +29,6 @@ SFC has set up two more units (JALANDHAR,MUMBAI)✨
 <li>Blog Uploading Feature.</li>
 </ul>
 <hr>
-
-
-
-<h1 align="center">GitHub Page Deployment can be found <a href="https://himanshu007-creator.github.io/SFC-foundations/">Here</a></h1>
-
-
 
 <h2 align="center" >TECH STACK :</h2>
 <p align="center">
