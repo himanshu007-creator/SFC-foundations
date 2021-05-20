@@ -26,7 +26,7 @@ Below you will find the process and workflow used to review and merge your chang
 - Note : Every change in this project should/must have an associated issue.
 
 
-### Step 1 : Fork the Repo😆
+### Step 1 : Fork the Repository🔗
 
 **1.** Fork this Repository .  Click on the <img src="https://img.icons8.com/ios/24/000000/code-fork.png"> symbol at the top right corner. This will create a Local Copy of this Repository on your Github Profile.
 Keep a reference to the original project in `upstream` remote.  
