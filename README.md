@@ -40,9 +40,12 @@ SFC has set up two more units (JALANDHAR,MUMBAI)✨
 
 
 <h2 >Contributions :</h2>
+
 <p >
 We welcome developers to contribute to our project. Their efforts will be supporting a noble cause, and they will get Hands-on experience with their skills.
 </p>
+
+<img src="Assets/CodingGIF.gif" align="center">
 <hr>
 
 <h2 >How to get started with Us :</h2>
