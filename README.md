@@ -11,6 +11,9 @@ SFC has set up two more units (JALANDHAR,MUMBAI)✨
 ![Pull Requests](https://img.shields.io/github/issues-pr/himanshu007-creator/SFC-foundations)
 ![Forks](https://img.shields.io/github/forks/himanshu007-creator/SFC-foundations)
 ![Stars](https://img.shields.io/github/stars/himanshu007-creator/SFC-foundations)
+![Issues](https://img.shields.io/github/issues/himanshu007-creator/SFC-foundations)
+![Forks](https://img.shields.io/github/forks/himanshu007-creator/SFC-foundations?style=social)
+![Stars](https://img.shields.io/github/stars/himanshu007-creator/SFC-foundations?style=social)
 [![License](https://img.shields.io/github/license/himanshu007-creator/SFC-foundations)](https://github.com/himanshu007-creator/SFC-foundations/blob/master/LICENSE)
 ![](https://img.shields.io/github/repo-size/himanshu007-creator/SFC-foundations.svg?label=Repo%20size&style=flat-square)
 [![codecov](https://codecov.io/gh/himanshu007-creator/SFC-foundations/branch/master/graph/badge.svg)](https://img.shields.io/codecov/c/github/himanshu007-creator/SFC-foundations)&nbsp;
