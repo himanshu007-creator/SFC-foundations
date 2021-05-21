@@ -172,17 +172,7 @@
 
 }
 
-.fa {
-        margin: 1vmin;
-        padding: 2vmin;
-        font-size: 2vw;
-        width: fit-content;
-        text-align: center;
-        text-decoration: none;
-    }
-
-    .fas {
-        
+.fadupli {
         margin: 1vmin;
         padding: 2vmin;
         font-size: 2vw;
@@ -192,34 +182,34 @@
     }
 
   /* Add a hover effect if you want */
-.fa:hover {
+/* .fa:hover {
     opacity: 0.7;
     font-size: 10vmin;
-  } 
+  }   */
   
   /* Set a specific color for each brand */
   
   /* Facebook */
-  .fa-facebook {
+  .f1 {
     background: #3B5998;
     color: white;
   }
 
   /* Twitter */
-.fa-twitter {
+.t1 {
     background: #55ACEE;
     color: white;
   }
 
-  .fa-instagram {
+  .i1 {
     background: #3B5998 ;
     color: white;
   }
-  .fa-linkedin {
+  .l1 {
     background: #01218a ;
     color: white;
-  } */
-       
+  }
+        
 
 .whole{
     margin-top: 11vmin;
