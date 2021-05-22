@@ -625,3 +625,75 @@ transition: all 1s ease;
       font-size: 3vmin;
     }
   }
+
+  /* css for wave */
+svg {
+    width: 100%;
+  }
+  .wave {
+    animation: wave 3s linear;
+    animation-iteration-count: infinite;
+    fill: #ffc107;
+  }
+  .drop {
+    fill: transparent;
+    animation: drop 5s ease infinite normal;
+    stroke: #4478e3;
+    stroke-width: 0.5;
+    opacity: 0.6;
+    transform: translateY(80%);
+  }
+  .drop1 {
+    transform-origin: 20px 3px;
+  }
+  .drop2 {
+    animation-delay: 3s;
+    animation-duration: 3s;
+    transform-origin: 25px 3px;
+  }
+  .drop3 {
+    animation-delay: -2s;
+    animation-duration: 3.4s;
+    transform-origin: 16px 3px;
+  }
+  .gooeff {
+    filter: url(#goo);
+  }
+  #wave2 {
+    animation-duration: 5s;
+    animation-direction: reverse;
+    opacity: 0.6;
+  }
+  #wave3 {
+    animation-duration: 7s;
+    opacity: 0.3;
+  }
+  @keyframes drop {
+    0% {
+      transform: translateY(80%);
+      opacity: 0.6;
+    }
+    80% {
+      transform: translateY(80%);
+      opacity: 0.6;
+    }
+    90% {
+      transform: translateY(10%);
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateY(0%) scale(1.5);
+      stroke-width: 0.2;
+      opacity: 0;
+    }
+  }
+  @keyframes wave {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes ball {
+    to {
+      transform: translateY(20%);
+    }
+  }
