@@ -289,6 +289,8 @@
 
 }
 
+
+
 /* 
 
 body{
@@ -891,3 +893,37 @@ transition: all 1s ease;
       font-size: 3vmin;
     }
   }
+
+  .sendbox{
+    width: 18vmin;
+   font-size: 10vmin;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .button {
+
+    width: 15vw;
+    height: 8vh;
+    border-radius: 2vmin;
+    background-color: #1c89ff;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 4vmin;
+    font-weight: 300;
+    
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+  }
+  
+  
+
+  
