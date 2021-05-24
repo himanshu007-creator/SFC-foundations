@@ -150,89 +150,124 @@
     <!-- Join Us as Intern Ends   -->
 
 
+    <footer>
+        <svg viewBox="0 0 120 28">
+            <defs>
+                <mask id="xxx">
+                    <circle cx="7" cy="12" r="40" fill="#fff" />
+                </mask>
+
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="
+           1 0 0 0 0  
+           0 1 0 0 0  
+           0 0 1 0 0  
+           0 0 0 13 -9" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+                <path id="wave"
+                    d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+            </defs>
+
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
 
 
+            <g class="gooeff">
+                <circle class="drop drop1" cx="20" cy="2" r="1.8" />
+                <circle class="drop drop2" cx="25" cy="2.5" r="1.5" />
+                <circle class="drop drop3" cx="16" cy="2.8" r="1.2" />
+                <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
 
-    <!-- footer section starts  -->
+                <!-- g mask="url(#xxx)">
+    <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+    </g>
+  </g -->
 
-    <div class="footer">
+        </svg>
 
-        <div class="box-container">
 
-            <div class="box">
-                <h3>Contact information</h3>
-                <p>
+        <!-- footer section starts  -->
 
-                </p>
-                <p> <i class="fas fa-envelope"></i> XYZ@gmail.com </p>
-                <p> <i class="fas fa-phone"></i> +91 XXXX XXXXX </p>
-                <p> <i class="fas fa-phone"></i> [contact no]</p>
+        <div class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Contact information</h3>
+                    <p>
+
+                    </p>
+                    <p> <i class="fas fa-envelope"></i> XYZ@gmail.com </p>
+                    <p> <i class="fas fa-phone"></i> +91 XXXX XXXXX </p>
+                    <p> <i class="fas fa-phone"></i> [contact no]</p>
+                </div>
+
+                <div class="box">
+                    <h3>Want to Hear Us ?</h3>
+                    <p>Tune-In</p>
+                    <a class="spot"><i class="fab fa-spotify fa-3x"></i></a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="https://www.linkedin.com/company/sfc-foundations"><i class="fa fa-linkedin"></i>
+                        LinkedIn</a>
+                    <a href="https://m.facebook.com/profile.php?id=1630269837076825&ref=content_filter"><i
+                            class="fa fa-facebook"></i> Facebook</a>
+                    <a href="https://instagram.com/sfc_foundations?igshid=aydainwtfmeh"><i class="fa fa-instagram"></i>
+                        Instagram</a>
+                    <a href="#"> <i class="fa fa-twitter"></i> Twitter</a>
+                </div>
             </div>
-
-            <div class="box">
-                <h3>Want to Hear Us ?</h3>
-                <p>Tune-In</p>
-                <a class="spot"><i class="fab fa-spotify fa-3x"></i></a>
+            <div class="map-responsive">
+                <!-- this iframe contains a random address please update the address accoeding to your requirment -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.981047239018!2d72.97651361446418!3d19.23965775180843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbc82e88d5f1%3A0x301dc7daa82d8040!2sAzad%20Nagar!5e0!3m2!1sen!2sin!4v1615011389811!5m2!1sen!2sin"
+                    width="1300" height="400" style="border:0;"></iframe>
             </div>
-            <div class="box">
-                <h3>follow us</h3>
-                <a href="https://www.linkedin.com/company/sfc-foundations"><i class="fa fa-linkedin"></i>
-                    LinkedIn</a>
-                <a href="https://m.facebook.com/profile.php?id=1630269837076825&ref=content_filter"><i
-                        class="fa fa-facebook"></i> Facebook</a>
-                <a href="https://instagram.com/sfc_foundations?igshid=aydainwtfmeh"><i class="fa fa-instagram"></i>
-                    Instagram</a>
-                <a href="#"> <i class="fa fa-twitter"></i> Twitter</a>
-            </div>
+            <h1 class="credit">Copyright © All right reserved. SFC FOUNDATIONS </h1>
         </div>
-        <div class="map-responsive">
-            <!-- this iframe contains a random address please update the address accoeding to your requirment -->
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.981047239018!2d72.97651361446418!3d19.23965775180843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbc82e88d5f1%3A0x301dc7daa82d8040!2sAzad%20Nagar!5e0!3m2!1sen!2sin!4v1615011389811!5m2!1sen!2sin"
-                width="1300" height="400" style="border:0;"></iframe>
-        </div>
-        <h1 class="credit">Copyright © All right reserved. SFC FOUNDATIONS </h1>
-    </div>
 
-    <!-- footer section ends -->
+        <!-- footer section ends -->
 
-    <!-- aos js cdn link  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <!-- aos js cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-    <!-- jquery cdn link  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- jquery cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <!-- custom js file link  -->
-    <script src="../../js/KMP/kmp.js"></script>
+        <!-- custom js file link  -->
+        <script src="../../js/KMP/kmp.js"></script>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 
-    <!-- initializing aos  -->
+        <!-- initializing aos  -->
 
-    <script>
+        <script>
 
-        AOS.init({
-            delay: 400,
-            duration: 1000
-        })
+            AOS.init({
+                delay: 400,
+                duration: 1000
+            })
 
-    </script>
-    <script>
-        jQuery(document).ready(function ($) {
-            $('.counter').counterUp({
-                delay: 2,
-                time: 1000
+        </script>
+        <script>
+            jQuery(document).ready(function ($) {
+                $('.counter').counterUp({
+                    delay: 2,
+                    time: 1000
+                });
             });
-        });
-    </script>
-    <script src="../../js/KMP/kmp.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="../../js/darkmode.js"></script>
+        </script>
+        <script src="../../js/KMP/kmp.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="../../js/darkmode.js"></script>
 </body>
 
 </html>

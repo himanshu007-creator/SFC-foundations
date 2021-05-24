@@ -780,6 +780,7 @@ header button .icon-box .fa {
   background-color: #333;
   margin-left: 33%;
   margin-top: 50px;
+  border-radius: 30vmin;
 }
 
 @media (max-width: 500px) {
@@ -1099,9 +1100,10 @@ header button .icon-box .fa {
 @media (max-width: 800px) {
   .spinner-wrapper .pim {
     width: 40vh;
+    border-radius: 40vmin;
     height: 40vh;
     margin-top: 20vh;
-    margin-left: 15vw;
+    margin-left: 10vw;
   }
   .team-box-container {
     grid-template-columns: 340px 340px;
@@ -1291,6 +1293,8 @@ svg {
     transform: translateY(20%);
   }
 }
+
+
 
 @media only screen and (max-width: 600px) {
   .feed {
