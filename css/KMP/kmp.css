@@ -470,6 +470,18 @@ transition: all 1s ease;
     margin-right: 2vmin;
 }
 
+.internimg:hover{
+    width: 20vw;
+    height: 40vh;
+    padding: 2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 5rem rgb(0 13 173);
+    /* width: fit-content; */
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+}
+
 .internimg1{
     width: 20vw;
     height: 40vh;
@@ -482,6 +494,18 @@ transition: all 1s ease;
     margin-right: 2vmin;
 }
 
+.internimg1:hover{
+    width: 20vw;
+    height: 40vh;
+    padding: 2vmin;
+    flex:1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 5rem rgb(255 0 0);
+    /* width: fit-content; */
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+}
+
 .group2{
     margin: 4vmin;
     display: inline-flex;
@@ -489,6 +513,8 @@ transition: all 1s ease;
 }
 
 .kmpbox{
+    border: 10px double black;
+    background: wheat;
     text-align: center;
     margin:2rem;
     padding:2rem;
@@ -656,7 +682,7 @@ transition: all 1s ease;
     padding: 2vmin;
     flex:1 1 40rem;
     border-radius: 1rem;
-    box-shadow: 0 .5rem 2rem rgb(195, 0, 255);
+    box-shadow: 0 0.5rem 2rem rgb(0 0 0 / 92%);
     /* width: fit-content; */
     margin-left: 2vmin;
     margin-right: 2vmin;
@@ -668,7 +694,7 @@ transition: all 1s ease;
     padding: 2vmin;
     flex:1 1 40rem;
     border-radius: 1rem;
-    box-shadow: 0 .5rem 2rem rgb(255, 81, 0);
+    box-shadow: 0 0.5rem 2rem rgb(0 0 0 / 92%);
     /* width: fit-content; */
     margin-left: 2vmin;
     margin-right: 2vmin;
@@ -694,6 +720,8 @@ transition: all 1s ease;
     font-size: 7vw;
     margin-bottom: 2vmin;
     padding-bottom: 0%;
+    font-weight: 700;
+
 }
 
 .name{
