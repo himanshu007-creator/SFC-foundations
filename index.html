@@ -59,7 +59,7 @@
     <a href="#" class="feedknowmore"><button class="btn">Know More</button></a>
 
     <!-- home section starts  -->
-
+    <!-- 
     <section class="home" id="home">
         <div class="content" data-aos="fade-right">
             <h3>SFC FOUNDATIONS</h3>
@@ -70,9 +70,70 @@
         <div class="image" data-aos="fade-up">
             <img src="images/home.png" alt="logo">
         </div>
-    </section>
+    </section> -->
 
     <!-- home section ends -->
+    <section class="home" id="home">
+        <div class="sliderbox">
+            <div class="mySlides">
+
+                <div class="content" data-aos="fade-right">
+                    <h3>SFC FOUNDATIONS</h3>
+                    <p>SFC Foundations-CHD presenting Educate to ElevateTauhfa-e-Taleem. "If the darkness of ignorance
+                        is to be
+                        dispelled then the sun of education has to rise."So many children are born talented, have
+                        immense
+                        capacity for understanding...</p>
+                </div>
+                <div class="image" data-aos="fade-up">
+                    <img src="images/home.png" alt="logo">
+                </div>
+
+
+            </div>
+
+            <div class="mySlides event1">
+
+                <div class="content " data-aos="fade-right">
+                    <h3>LET’S FIND WHO IS LOST</h3>
+                    <p> ENDANGERED SPECIES DAY (21May, 2021) Hola! SFC FOUNDATIONS DElHI is back with an amazing
+                        activity for ENDANGERED SPECIES DAY ( 21st May, 2021) LET'S FIND WHO IS LOST Endangered
+                        species... </p>
+                    <div>
+                        <a href=""><button class="btn">LEARN MORE</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mySlides">
+
+
+                <div class="content event2" data-aos="fade-right">
+                    <h3>Each One Feed One</h3>
+                    <p>Hunger is a painful symptom of larger issue of poverty and inequality but imagine prolonged
+                        hunger, over days, weeks and months when all you get is abuses, violence and humiliation... </p>
+                    <div>
+                        <a href=""><button class="btn">LEARN MORE</button></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mySlides">
+
+
+                <div class="content event3" data-aos="fade-right">
+                    <h3>Umeedo Bhari Aasha</h3>
+                    <p>Hello Everyone Umeedo Bhari Aasha उम्मीदों भरी आशा ~Hope Is An Antidote. As we know that In this
+                        Tension Torn world, It has become difficult for us to lead a peaceful... </p>
+                    <div class="eventbox">
+                        <a href=""><button class="btn ">LEARN MORE</button></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <!-- about section starts  -->
     <section class="about" id="about" data-aos="fade-right">
@@ -89,8 +150,7 @@
     </section>
 
     <!-- about section ends -->
-<br>
-<br>
+
     <!-- Project section  -->
 
     <section class="projects" id="projects">
@@ -371,6 +431,27 @@
                 time: 1000
             });
         });
+    </script>
+
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {
+                slideIndex = 1;
+                x[slideIndex - 1].style.display = "block";
+            }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
     </script>
 
     <script src="js/jquery.counterup.min.js"></script>

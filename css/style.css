@@ -158,7 +158,7 @@ header #menu-bar {
 }
 
 .home .image img {
-  width: 70%;
+  width: 20%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1404,5 +1404,12 @@ svg {
   font-size: 7vmin;
 }
 }
+
+
+.mySlides {
+  display:none;
+ 
+}
+
 
 
