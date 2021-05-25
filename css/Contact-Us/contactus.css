@@ -405,6 +405,10 @@ header .navbar ul li a:hover{
     text-decoration: none;
 }
 
+header .navbar{
+   height: 10vmin;
+}
+
 header #menu-bar{
     font-size: 3rem;
     color:#666;

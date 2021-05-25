@@ -1406,3 +1406,6 @@ svg {
 }
 
 
+header .navbar{
+  height: 10vmin;
+}
