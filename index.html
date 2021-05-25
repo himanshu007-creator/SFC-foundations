@@ -73,67 +73,99 @@
     </section> -->
 
     <!-- home section ends -->
+
+
+    <!-- Image slider start -->
+
+
     <section class="home" id="home">
-        <div class="sliderbox">
-            <div class="mySlides">
+        <div class="border">
+            <div class="slider">
+                <div class="slides">
+                    <!--  radio buttons start    -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
 
-                <div class="content" data-aos="fade-right">
-                    <h3>SFC FOUNDATIONS</h3>
-                    <p>SFC Foundations-CHD presenting Educate to ElevateTauhfa-e-Taleem. "If the darkness of ignorance
-                        is to be
-                        dispelled then the sun of education has to rise."So many children are born talented, have
-                        immense
-                        capacity for understanding...</p>
-                </div>
-                <div class="image" data-aos="fade-up">
-                    <img src="images/home.png" alt="logo">
-                </div>
-
-
-            </div>
-
-            <div class="mySlides event1">
-
-                <div class="content " data-aos="fade-right">
-                    <h3>LET’S FIND WHO IS LOST</h3>
-                    <p> ENDANGERED SPECIES DAY (21May, 2021) Hola! SFC FOUNDATIONS DElHI is back with an amazing
-                        activity for ENDANGERED SPECIES DAY ( 21st May, 2021) LET'S FIND WHO IS LOST Endangered
-                        species... </p>
-                    <div>
-                        <a href=""><button class="btn">LEARN MORE</button></a>
+                    <div class="live">
+                        <a href=""><button class="btn">⚪ LIVE</button></a>
                     </div>
-                </div>
+                    <!--  radio buttons ends    -->
+                    <!--   slide images start   -->
+                    <div class="slide first">
 
-            </div>
-
-            <div class="mySlides">
-
-
-                <div class="content event2" data-aos="fade-right">
-                    <h3>Each One Feed One</h3>
-                    <p>Hunger is a painful symptom of larger issue of poverty and inequality but imagine prolonged
-                        hunger, over days, weeks and months when all you get is abuses, violence and humiliation... </p>
-                    <div>
-                        <a href=""><button class="btn">LEARN MORE</button></a>
+                        <h3>SFC FOUNDATIONS</h3>
+                        <p>SFC Foundations-CHD presenting Educate to ElevateTauhfa-e-Taleem. "If the darkness of
+                            ignorance
+                            is to be
+                            dispelled then the sun of education has to rise."So many children are born talented, have
+                            immense
+                            capacity for understanding...</p>
+                        <div class="image">
+                            <img src="images/home.png" alt="logo">
+                        </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="mySlides">
-
-
-                <div class="content event3" data-aos="fade-right">
-                    <h3>Umeedo Bhari Aasha</h3>
-                    <p>Hello Everyone Umeedo Bhari Aasha उम्मीदों भरी आशा ~Hope Is An Antidote. As we know that In this
-                        Tension Torn world, It has become difficult for us to lead a peaceful... </p>
-                    <div class="eventbox">
-                        <a href=""><button class="btn ">LEARN MORE</button></a>
+                    <div class="slide">
+                        <h3>LET’S FIND WHO IS LOST</h3>
+                        <p> ENDANGERED SPECIES DAY (21May, 2021) Hola! SFC FOUNDATIONS DElHI is back with an amazing
+                            activity for ENDANGERED SPECIES DAY ( 21st May, 2021) LET'S FIND WHO IS LOST Endangered
+                            species... </p>
+                        <div class="learnmore">
+                            <a href=""><button class="btn">READ MORE</button></a>
+                        </div>
                     </div>
-                </div>
 
+                    <div class="slide">
+                        <h3>Each One Feed One</h3>
+                        <p>Hunger is a painful symptom of larger issue of poverty and inequality but imagine prolonged
+                            hunger, over days, weeks and months when all you get is abuses, violence and humiliation...
+                        </p>
+                        <div class="learnmore">
+                            <a href=""><button class="btn">READ MORE</button></a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <h3>Umeedo Bhari Aasha</h3>
+                        <p>Hello Everyone Umeedo Bhari Aasha उम्मीदों भरी आशा ~Hope Is An Antidote. As we know that In
+                            this
+                            Tension Torn world, It has become difficult for us to lead a peaceful... </p>
+                        <div class="learnmore">
+                            <a href=""><button class="btn ">READ MORE</button></a>
+                        </div>
+                    </div>
+
+                    <!--   slide images ends   -->
+
+                    <!--  Automatic navigation starts    -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--  Automatic navigation ends    -->
+                </div>
+                <!-- manual navigation start   -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!-- manual navigation ends   -->
             </div>
         </div>
     </section>
+
+
+    <!-- Image slider ends -->
+
+
+
+
 
     <!-- about section starts  -->
     <section class="about" id="about" data-aos="fade-right">
@@ -410,7 +442,16 @@
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-
+    <script>
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
     <!-- initializing aos  -->
 
     <script>
