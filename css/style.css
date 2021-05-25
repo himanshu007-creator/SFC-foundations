@@ -1465,7 +1465,7 @@ svg {
 .slider{
   margin-left: 10vmin;
 background-color: white;
-background-image: url(/images/beatplasticpollution.png);
+background-image: url(images/beatplasticpollution.png);
    filter: blur(0.3px);
    -webkit-filter: blur(0.5px);
    background-repeat: no-repeat;
@@ -1654,7 +1654,7 @@ background-image: url(/images/beatplasticpollution.png);
   .slider{
     margin-left: 10vmin;
    background-color: white;
-   background-image: url(/images/beatplasticpollution.png);
+   background-image: url(images/beatplasticpollution.png);
    filter: blur(0.3px);
    -webkit-filter: blur(0.5px);
    background-repeat: no-repeat;
