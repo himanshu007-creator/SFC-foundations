@@ -799,3 +799,42 @@ svg {
       transform: translateY(20%);
     }
   }
+
+
+.eventcontent {
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+}
+
+.eventdetails {
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+}
+
+.eventdetails p{
+    font-size: 3vmin;
+}
+
+.eventtime{
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+    font-size: 3vmin;
+}
+
+.registerlink{
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+    font-size: 3vmin;
+}
+
+
+.ending{
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+    font-size: 3vmin;
+}
