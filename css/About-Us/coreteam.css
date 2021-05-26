@@ -11,7 +11,9 @@
     text-transform: none;
     transition:all .2s linear;
 }
-
+header .navbar{
+    height: 10vmin;
+ }
 h1, h3{
     font-family: 'Oswald', sans-serif;
 }

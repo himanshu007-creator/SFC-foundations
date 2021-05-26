@@ -1807,3 +1807,6 @@ background-image: url(../images/beatplasticpollution.png);
 }
 
 
+header .navbar{
+  height: 10vmin;
+}

@@ -17,6 +17,9 @@
     position:relative;
     height:0;
 }
+header .navbar{
+    height: 10vmin;
+ }
 .map-responsive iframe{
     left:0;
     top:0;
