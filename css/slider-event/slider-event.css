@@ -838,3 +838,49 @@ svg {
     padding-bottom: 5vmin;
     font-size: 3vmin;
 }
+
+
+
+.dark-mode .eventcontent {
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+    color: white;
+}
+
+.dark-mode .eventdetails {
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+    color: white;
+}
+
+.dark-mode .eventdetails p{
+    font-size: 3vmin;
+    color: white;
+}
+
+.dark-mode .eventtime{
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+    font-size: 3vmin;
+    color: white;
+}
+
+.dark-mode .registerlink{
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+    font-size: 3vmin;
+    color: white;
+}
+
+
+.dark-mode .ending{
+    margin-top: 3vmin;
+    padding-top: 3vmin;
+    padding-bottom: 5vmin;
+    font-size: 3vmin;
+    color: white;
+}
