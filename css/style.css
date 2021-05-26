@@ -1576,8 +1576,9 @@ background-image: url(../images/beatplasticpollution.png);
 }
 
 .live{
- position: fixed;
- right: 20vmin;
+ /* position: fixed; */
+ text-align: right;
+
 
 }
 
@@ -1589,6 +1590,21 @@ background-image: url(../images/beatplasticpollution.png);
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }
 
+.live button:hover{
+  background-color: red;
+  color: white;
+  font-size: 3vmin;
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+.dark-mode .live button:hover{
+  background-color: red;
+  color: white;
+  font-size: 3vmin;
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
 @keyframes blink-animation {
   to {
     visibility: hidden;
@@ -1764,9 +1780,9 @@ background-image: url(../images/beatplasticpollution.png);
   }
   
   .live{
-   position: fixed;
+  position: fixed;
    right: 2vmin;
-  top: 40vmin;
+  opacity: 0.2;
   }
   
   .live button{
