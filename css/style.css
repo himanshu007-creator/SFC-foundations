@@ -1829,9 +1829,6 @@ background-image: url(../images/beatplasticpollution.png);
 
 }
 
-
-
-
 .dark-mode .newsbox{
   color: black;
 }
@@ -1856,5 +1853,9 @@ background-image: url(../images/beatplasticpollution.png);
 .dark-mode .eventbtnbox button{
   
   background-color:white ;
-  color: black;
+  color: black; }
+  
+header .navbar{
+  height: 10vmin;
+
 }
