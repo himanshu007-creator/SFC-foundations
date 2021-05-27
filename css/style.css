@@ -1353,6 +1353,20 @@ svg {
   
 }
 
+.eventbox {
+  background: #fff;
+ 
+  width: 35rem;
+
+  padding: 3vmin;
+ margin-bottom: 60vmin;
+
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  
+  
+}
+
 
 
 
@@ -1361,6 +1375,13 @@ svg {
   text-align: center;
   
 }
+.eventbtnbox {
+  display: inline-flex;
+  text-align: center;
+  
+}
+
+
 
 @media only screen and (max-width: 600px) {
 .about .btn{
@@ -1818,4 +1839,22 @@ background-image: url(../images/beatplasticpollution.png);
 .dark-mode .newsbox:hover{
   
   background-color:rgb(250, 196, 48) ;
+}
+
+
+.eventbtnbox button{
+  width: 35rem;
+
+  padding: 3vmin;
+}
+
+.dark-mode .eventbtnbox button:hover{
+  
+  background-color:rgb(250, 196, 48) ;
+}
+
+.dark-mode .eventbtnbox button{
+  
+  background-color:white ;
+  color: black;
 }
