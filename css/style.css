@@ -1354,6 +1354,8 @@ svg {
 }
 
 
+
+
 .newsbtnbox {
   display: inline-flex;
   text-align: center;
@@ -1807,3 +1809,13 @@ background-image: url(../images/beatplasticpollution.png);
 }
 
 
+
+
+.dark-mode .newsbox{
+  color: black;
+}
+
+.dark-mode .newsbox:hover{
+  
+  background-color:rgb(250, 196, 48) ;
+}
