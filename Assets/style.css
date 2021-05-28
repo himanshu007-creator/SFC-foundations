@@ -17,7 +17,8 @@
   transition: all 0.2s linear;
 }
 
-h1,h2,
+h1,
+h2,
 h3 {
   font-family: "Oswald", sans-serif;
 }
@@ -146,6 +147,7 @@ header #menu-bar {
   width: 175px;
   z-index: 99;
   opacity: 1;
+  border-radius: 100px;
 }
 .home .image {
   flex: 1 1 39rem;
@@ -484,7 +486,7 @@ header #menu-bar {
   font-weight: normal;
 }
 
-.footer .box-container .box  h4{
+.footer .box-container .box h4 {
   font-size: 2.5rem;
   color: #fff;
   padding: 1rem 0;
@@ -530,7 +532,7 @@ header #menu-bar {
   color: var(--yellow);
 }
 
-.footer .box-container .box .spot{
+.footer .box-container .box .spot {
   width: 40vmin;
 }
 
@@ -648,6 +650,8 @@ header #menu-bar {
   text-align: center;
   margin-right: 4px;
   background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+  color: orange !important;
+  background-color: #92858552;
 }
 
 .dark-mode .counter {
@@ -1104,4 +1108,3 @@ header button .icon-box .fa {
     grid-row: 7/8;
   }
 }
-
