@@ -78,7 +78,7 @@
 
 #fs-frm [type="text"],
 #fs-frm [type="email"],
-#fs-frm [type="telephone"] {
+#fs-frm [type="number"] {
   border-radius: 2vmin;
   padding: 1vmin;
   font-size: 2vmin;
