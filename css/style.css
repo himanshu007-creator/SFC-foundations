@@ -726,6 +726,14 @@ header #menu-bar {
   /* opacity: 0.7; */
 }
 
+.feedknowmore .btn{
+  background-color: rgba(6, 255, 139, 0.562);
+}
+
+.feedknowmore .btn:hover{
+  background-color: rgb(6, 255, 139);
+}
+
 header button .icon-box .fa {
   font-size: 40px;
   background-color: white;
