@@ -15,7 +15,8 @@ header .navbar {
 }
 h1,
 h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 *::selection {
