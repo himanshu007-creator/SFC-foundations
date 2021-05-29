@@ -489,7 +489,8 @@ header button .icon-box .fa {
 
 .kmpbox {
   border: 10px double black;
-  background: rgba(241, 214, 163, 0.103);
+  /* background: rgba(241, 214, 163, 0.103); */
+  background: rgb(203, 81, 18,  24%);
   text-align: center;
   margin: 2rem;
   padding: 2rem;
@@ -671,7 +672,9 @@ header button .icon-box .fa {
   .kmpbox {
     text-align: center;
     margin: 2rem;
-    background: rgba(241, 214, 163, 0.103);
+    /* background: rgba(241, 214, 163, 0.103); */
+    background: rgb(203, 81, 18,  24%);
+
     padding: 2rem;
     flex: 1 1 40rem;
     border-radius: 1rem;
