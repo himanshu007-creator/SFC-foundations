@@ -665,7 +665,7 @@ svg {
 }
 
 
-.box{
+.knowbox{
   display: flex;
 }
 
@@ -985,7 +985,7 @@ svg {
   .box1 p{
     font-size: 3vmin;
   }
- .box{
+ .knowbox{
   display: block;
  }
 }
