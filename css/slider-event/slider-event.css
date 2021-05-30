@@ -841,3 +841,13 @@ svg {
   font-size: 3vmin;
   color: white;
 }
+
+.dark-mode .btn{
+  background-color: white ;
+  color: black;
+}
+
+.dark-mode .btn:hover{
+  background-color: rgb(250, 196, 48) ;
+  color: black;
+}

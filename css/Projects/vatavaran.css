@@ -659,3 +659,13 @@ svg {
     transform: translateY(20%);
   }
 }
+
+.dark-mode .btn{
+  background-color: white ;
+  color: black;
+}
+
+.dark-mode .btn:hover{
+  background-color: rgb(250, 196, 48) ;
+  color: black;
+}
