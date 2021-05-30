@@ -671,7 +671,7 @@ svg {
 
 .box1{
   height: max-content;
-  margin-top: 15vmin;
+  margin-top: 1vmin;
   width: 50%;
   border-width: 1vmin;
   border-style: solid;
@@ -679,6 +679,13 @@ svg {
   border-color: black;
   padding: 2vmin;
   background-color: rgba(240, 230, 140, 0.445);
+}
+
+.box1 p{
+  font-size: 3vmin;
+}
+.dark-mode .box1 p{
+  font-size: 3vmin;
 }
 
 .dark-mode .box1{
@@ -729,16 +736,18 @@ svg {
 
 
 .border {
-  background-color: #333;
-  padding: 2vmin;
-  padding-right: 2vmin;
+  background-color: black;
+  padding: 1vmin;
   border-radius: 2vmin;
 }
 
 
 
-
-
+.dark-mode .border {
+  background-color: white;
+  padding: 1vmin;
+  border-radius: 2vmin;
+}
 
 
 
@@ -845,7 +854,7 @@ svg {
 .sliderimg{
   width: 37vw;
   height: 50vh;
-  /* width:fit-content; */
+ 
 }
 
 @media only screen and (max-width: 600px) {
