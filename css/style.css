@@ -1587,21 +1587,7 @@ svg {
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }
 
-.live button:hover {
-  background-color: red;
-  color: white;
-  font-size: 3vmin;
-  animation: blink-animation 3s steps(5, start) infinite;
-  -webkit-animation: blink-animation 1s steps(5, start) infinite;
-}
 
-.dark-mode .live button:hover {
-  background-color: red;
-  color: white;
-  font-size: 3vmin;
-  animation: blink-animation 3s steps(5, start) infinite;
-  -webkit-animation: blink-animation 1s steps(5, start) infinite;
-}
 @keyframes blink-animation {
   to {
     visibility: hidden;
@@ -1860,4 +1846,39 @@ header .navbar {
 #button.show {
   opacity: 1;
   visibility: visible;
+}
+
+
+.dark-mode .btn{
+  background-color: white ;
+  color: black;
+}
+
+.dark-mode .btn:hover{
+  background-color: rgb(250, 196, 48) ;
+  color: black;
+}
+
+.live button:hover {
+  background-color: red;
+  color: white;
+  font-size: 3vmin;
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+.dark-mode .live button:hover {
+  background-color: red;
+  color: white;
+  font-size: 3vmin;
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+.dark-mode .live button{
+  background-color: red;
+  color: white;
+  font-size: 3vmin;
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }
