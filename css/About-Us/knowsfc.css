@@ -717,6 +717,7 @@ svg {
   padding: 3vmin;
 }
 .box2a p{
+  font-weight: bolder;
   font-size: 3vmin;
   background-color: rgba(172, 255, 47, 0.658);
   border-width: 1vmin;
