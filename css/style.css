@@ -599,7 +599,6 @@ header #menu-bar {
     top: 8rem;
     left: 0;
     width: 100%;
-    background: var(--yellow);
     border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
     transform: scaleY(0);
     transform-origin: top;
@@ -609,6 +608,8 @@ header #menu-bar {
   header .navbar ul {
     flex-flow: column;
     padding: 2rem;
+    width: 100%;
+    background-color: white;
   }
 
   header .navbar ul li {
@@ -618,7 +619,7 @@ header #menu-bar {
 
   header .navbar ul li a {
     display: block;
-    color: #fff;
+    color: black;
     padding-left: 2rem;
     border-left: 0.2rem solid #fff;
     font-size: 2rem;
@@ -649,6 +650,9 @@ header #menu-bar {
 
   .talks .row .image {
     display: none;
+  }
+  .dark-mode header .navbar ul {
+    background-color: #121212;
   }
 }
 
@@ -1350,7 +1354,7 @@ svg {
 }
 .eventbox {
   background: #fff;
- 
+
   width: 35rem;
 
   padding: 3vmin;
@@ -1358,8 +1362,8 @@ svg {
 
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
   text-align: center;
-  
-  
+
+
 }
 
 
@@ -1372,7 +1376,7 @@ svg {
 .eventbtnbox {
   display: inline-flex;
   text-align: center;
-  
+
 }
 
 
@@ -1778,7 +1782,7 @@ svg {
 }
 
 .dark-mode .newsbox:hover{
-  
+
   background-color:rgb(250, 196, 48) ;
 }
 
@@ -1790,15 +1794,15 @@ svg {
 }
 
 .dark-mode .eventbtnbox button:hover{
-  
+
   background-color:rgb(250, 196, 48) ;
 }
 
 .dark-mode .eventbtnbox button{
-  
+
   background-color:white ;
   color: black; }
-  
+
 header .navbar{
   height: 10vmin;
 
@@ -1821,7 +1825,7 @@ header .navbar {
   position: fixed;
   bottom: 30px;
   left: 30px;
-  transition: background-color .3s, 
+  transition: background-color .3s,
     /* opacity .5s, visibility .5s; */
   opacity: 0;
   /* visibility: hidden; */
