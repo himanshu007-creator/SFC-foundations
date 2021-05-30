@@ -61,12 +61,9 @@
 
     <section class="projects" id="about">
         <h1 class="heading">KNOW SFC</h1>
-        <div class="row" id="knowsfc" data-aos="fade-right">
+        <div class="knowbox" id="knowsfc" data-aos="fade-right">
 
-            <div><img class="internimg" src="../../images/knowsfc.jpeg">
-            </div>
-
-            <div class="videotext1">
+            <div class="box1">
                 <p class="textp1">
                     The SFC is a Youth NGO that has its roots in PAN India; working across Tricity (Chandigarh, Mohali
                     and Panchkula), Delhi, Jalandhar and Mumbai. SFC inspires the younger generation to come forward to
@@ -78,10 +75,65 @@
                     help of our stalwart Volunteers, we are able to focus on capacity building activities rather than
                     the traditional gap filling initiatives. SFC is an organization of dedicated and staunch amateurs
                     who are dead set at uplifting the unfortunate lots in our society and sheltering our Country.
-
-
-
                 </p>
+            </div>
+            <div class="box2">
+
+                <div class="box2a">
+                    <p>"You can not Revive Lives if you are hollow from inside. It's like, you can't help someone until
+                        you've helped yourself. Be compassionate with yourself first, as there is no exercise better for
+                        the heart than reaching down for ourselves and then lifting people up!" ~ Ekawali Singh</p>
+                </div>
+
+                <div class="box2b">
+                    <div class="border">
+                        <div class="slider">
+                            <div class="slides">
+                                <!--  radio buttons start    -->
+                                <input type="radio" name="radio-btn" id="radio1">
+                                <input type="radio" name="radio-btn" id="radio2">
+                                <input type="radio" name="radio-btn" id="radio3">
+                                <input type="radio" name="radio-btn" id="radio4">
+                                <!--  radio buttons ends    -->
+
+                                <!--   slide images start   -->
+                                <div class="slide first">
+                                    <img class="sliderimg" src="../../images/trial1.jpeg">
+                                </div>
+
+                                <div class="slide">
+                                    <img class="sliderimg" src="../../images/trial2.jpeg">
+                                </div>
+
+                                <div class="slide">
+                                    <img class="sliderimg" src="../../images/trial3.jpeg">
+                                </div>
+
+                                <div class="slide">
+                                    <img class="sliderimg" src="../../images/knowsfc.jpeg">
+                                </div>
+
+                                <!--   slide images ends   -->
+
+                                <!--  Automatic navigation starts    -->
+                                <div class="navigation-auto">
+                                    <div class="auto-btn1"></div>
+                                    <div class="auto-btn2"></div>
+                                    <div class="auto-btn3"></div>
+                                </div>
+                                <!--  Automatic navigation ends    -->
+                            </div>
+                            <!-- manual navigation start   -->
+                            <div class="navigation-manual">
+                                <label for="radio1" class="manual-btn"></label>
+                                <label for="radio2" class="manual-btn"></label>
+                                <label for="radio3" class="manual-btn"></label>
+                            </div>
+                            <!-- manual navigation ends   -->
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -199,6 +251,26 @@
                     time: 1000
                 });
             });
+        </script>
+        <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+
+                var i;
+                var x = document.getElementsByClassName("slide");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {
+                    slideIndex = 1;
+                    x[slideIndex - 1].style.display = "block";
+                }
+                x[slideIndex - 1].style.display = "block";
+                setTimeout(carousel, 3000);
+            }
         </script>
         <script src="../../js/About-Us/knowsfc.js"></script>
         <script src="js/jquery.counterup.min.js"></script>
