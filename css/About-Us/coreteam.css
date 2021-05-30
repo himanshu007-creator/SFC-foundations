@@ -219,7 +219,6 @@ header #menu-bar {
     top: 8rem;
     left: 0;
     width: 100%;
-    background: var(--yellow);
     border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
     transform: scaleY(0);
     transform-origin: top;
@@ -229,6 +228,8 @@ header #menu-bar {
   header .navbar ul {
     flex-flow: column;
     padding: 2rem;
+    width: 100%;
+    background-color: white;
   }
 
   header .navbar ul li {
@@ -238,7 +239,7 @@ header #menu-bar {
 
   header .navbar ul li a {
     display: block;
-    color: #fff;
+    color: black;
     padding-left: 2rem;
     border-left: 0.2rem solid #fff;
     font-size: 2rem;
@@ -269,6 +270,9 @@ header #menu-bar {
 
   .talks .row .image {
     display: none;
+  }
+  .dark-mode header .navbar ul {
+    background-color: #121212;
   }
 }
 
@@ -864,4 +868,14 @@ svg {
   to {
     transform: translateY(20%);
   }
+}
+
+.dark-mode .btn{
+  background-color: white ;
+  color: black;
+}
+
+.dark-mode .btn:hover{
+  background-color: rgb(250, 196, 48) ;
+  color: black;
 }
