@@ -859,15 +859,37 @@ svg {
 
 @media only screen and (max-width: 600px) {
   .sliderimg{
-    width: 36vw;
+    width: 87vw;
     height: 25vh;
-    
   }
 
+  
+.slider {
+  background-color: white;
+  height: 50vmin;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 20%;
+  transition: 2s;
+}
 
   .navigation-manual {
     position: absolute;
-    /* margin-left: 5vmin; */
+
+    margin-left: 35vmin;
     /* width: 70vmin; */
     margin-top: -340px;
     display: flex;
@@ -908,7 +930,7 @@ svg {
   
   .navigation-auto {
     position: absolute;
-    /* margin-left: 5vmin; */
+    margin-left: 35vmin;
     display: flex;
     /* width: 5.6vmin; */
     justify-content: left;
@@ -951,7 +973,22 @@ svg {
     padding: 2vmin;
     background-color: rgba(240, 230, 140, 0.445);
   }
+  .box1{
+    position: fixed;
+    top: 87vmin;
 
+    width: 100%;
+  }
+  .box2{
+    width: 100%;
+  }
+  .box1 p{
+    font-size: 3vmin;
+  }
+ .box{
+  display: block;
+ }
+}
 .dark-mode .btn{
   background-color: white ;
   color: black;
