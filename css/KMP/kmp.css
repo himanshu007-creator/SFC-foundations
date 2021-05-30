@@ -254,14 +254,13 @@ header #menu-bar {
     display: block;
     color: black;
     padding-left: 2rem;
-    border-left: 0.2rem solid #fff;
     font-size: 2rem;
   }
 
   header .navbar ul li a:hover,
   header .navbar ul li a.active {
     color: #333;
-    border-color: #333;
+    background-color: #1e73c161;
   }
 
   .fa-times {
@@ -829,14 +828,12 @@ svg {
   border-color: white;
 }
 
-
-.dark-mode .btn{
-  background-color: white ;
+.dark-mode .btn {
+  background-color: white;
   color: black;
 }
 
-.dark-mode .btn:hover{
-  background-color: rgb(250, 196, 48) ;
+.dark-mode .btn:hover {
+  background-color: rgb(250, 196, 48);
   color: black;
 }
-
