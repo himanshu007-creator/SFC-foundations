@@ -731,7 +731,7 @@ header #menu-bar {
 }
 
 .feedknowmore .btn{
-  background-color: rgba(6, 255, 139, 0.562);
+  background-color: rgba(6, 255, 139, 0.562) !important;
 }
 
 .feedknowmore .btn:hover{
