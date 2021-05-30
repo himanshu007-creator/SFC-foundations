@@ -1335,7 +1335,7 @@ svg {
     background-color: #92858552 !important;
   }
   .feedknowmore .btn {
-    background-color: rgb(250, 196, 48);
+    background-color: rgba(6, 255, 139, 0.562) !important;
     width: 35vmin;
     font-size: 3vmin;
   }
