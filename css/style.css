@@ -1300,7 +1300,7 @@ svg {
   .feed {
     position: fixed;
     bottom: 28vmin;
-    right: 8vmin;
+    right: 6vmin;
     width: 12vmax;
     z-index: 99;
     border-radius: 100px;
@@ -1317,7 +1317,7 @@ svg {
   .counter {
     position: fixed;
     bottom: 12vmin;
-    right: 4vmin;
+    right: 5vmin;
 
     /* width: 100px; */
     z-index: 99;
@@ -1884,4 +1884,18 @@ header .navbar {
   font-size: 3vmin;
   animation: blink-animation 3s steps(5, start) infinite;
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .feed {
+    position: fixed;
+    bottom: 15vmin;
+    right: 6vmin;
+    width: 12vmax;
+    z-index: 99;
+    border-radius: 100px;
+    /* opacity: 0.7; */
+  }
+
 }
