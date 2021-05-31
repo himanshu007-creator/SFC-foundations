@@ -80,7 +80,8 @@
             <div class="box2">
 
                 <div class="box2a">
-                    <p>"Revive your own light to lighten someone’s else, because you can’t revive a life if you are hollow from within." ~ Ekawali Singh</p>
+                    <p>"Revive your own light to lighten someone’s else, because you can’t revive a life if you are
+                        hollow from within." ~ Ekawali Singh</p>
                 </div>
 
                 <div class="box2b">
@@ -134,6 +135,54 @@
 
             </div>
         </div>
+        <p class="heading">Our Goals & Objectives </p>
+        <div class="hexdesign">
+
+            <p class="hex1">Eradicating Illiteracy</p>
+            <p class="hex2">Female Self Sureness</p>
+            <p class="hex3">Standing up for Underprivileged</p>
+            <p class="hex4">Environmental Conservation</p>
+            <p class="hex5">Nurturing Elderly</p>
+            <p class="hex6">Insights on Iniquity</p>
+
+
+
+            <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                    <div class="hexagon-in2">
+
+                        <p class="hexp1">We aim at enlightening underprivileged children and capable young
+                            millennials by providing them the access to basic education and equal opportunities by
+                            sponsoring their education and by popularizing creative development.</p>
+                        <p class="hexp2">We believe in elimination of discrimination and all forms of violence against
+                            women and girl child. Our aim is to build a positive image of women in the society and
+                            recognising their contributions in every sphere. Women's equality and empowerment, is
+                            therefore, our primary objective.</p>
+                        <p class="hexp3">SFC, to demonstrate that everyone in this country, regardless of geography,
+                            race or socioeconomic status, was deserving of a basic, liveable income and a decent place
+                            to live, aims at standing up and giving more power to those who belongs to underprivileged
+                            section of the society.</p>
+                        <p class="hexp4">We, to protect and improve the environment and environmental conditions, are
+                            continuously striving for sustainable living by creating awareness on- Reducing Carbon
+                            footprint, 4R's and to develop a world population that is aware of and concerned about the
+                            environment.</p>
+                        <p class="hexp5">SFC, to help the socially isolated senior citizens and disabled persons,
+                            strives to create an inclusive environment by popularizing voluntary work and by assisting
+                            old age homes, orphanages, rehabilitation centres and destitute homes.</p>
+                        <p class="hexp6">Stressing the need for promoting nationalistic outlook among the youth and
+                            involving them in constructive nation-building activities, we believe in creating an
+                            atmosphere where there is no place for social evils such as gender discrimination, poverty,
+                            malnutrition, unemployment, atrocities against women, corruption, hunger etc by instilling
+                            the feeling of ‘Society first’ among them and by encouraging them to actively participate in
+                            community development</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
     </section>
 
     <!-- KNOW SFC Ends   -->
@@ -219,7 +268,7 @@
         </div>
 
         <!-- footer section ends -->
-
+        <script src="../../js/About-Us/knowsfc.js"></script>
         <!-- aos js cdn link  -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
@@ -230,7 +279,89 @@
         <script src="../../js/About-Us/knowsfc.js"></script>
 
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".hex1").hover(function () {
+                    $(".hexp1").css("display", "block");
+                    $(".hexp2").css("display", "none");
+                    $(".hexp3").css("display", "none");
+                    $(".hexp4").css("display", "none");
+                    $(".hexp5").css("display", "none");
+                    $(".hexp6").css("display", "none");
+                }, function () {
+                    $(".hexp1").css("display", "block");
+                });
+            });
+            $(document).ready(function () {
+                $(".hex2").hover(function () {
+                    $(".hexp1").css("display", "none");
+                    $(".hexp2").css("display", "block");
+                    $(".hexp3").css("display", "none");
+                    $(".hexp4").css("display", "none");
+                    $(".hexp5").css("display", "none");
+                    $(".hexp6").css("display", "none");
+                }, function () {
 
+                    $(".hexp2").css("display", "block");
+
+                });
+            });
+            $(document).ready(function () {
+                $(".hex3").hover(function () {
+                    $(".hexp1").css("display", "none");
+                    $(".hexp2").css("display", "none");
+                    $(".hexp3").css("display", "block");
+                    $(".hexp4").css("display", "none");
+                    $(".hexp5").css("display", "none");
+                    $(".hexp6").css("display", "none");
+                }, function () {
+
+                    $(".hexp3").css("display", "block");
+
+                });
+            });
+            $(document).ready(function () {
+                $(".hex4").hover(function () {
+                    $(".hexp1").css("display", "none");
+                    $(".hexp2").css("display", "none");
+                    $(".hexp3").css("display", "none");
+                    $(".hexp4").css("display", "block");
+                    $(".hexp5").css("display", "none");
+                    $(".hexp6").css("display", "none");
+                }, function () {
+
+                    $(".hexp4").css("display", "block");
+
+                });
+            });
+            $(document).ready(function () {
+                $(".hex5").hover(function () {
+                    $(".hexp1").css("display", "none");
+                    $(".hexp2").css("display", "none");
+                    $(".hexp3").css("display", "none");
+                    $(".hexp4").css("display", "none");
+                    $(".hexp5").css("display", "block");
+                    $(".hexp6").css("display", "none");
+                }, function () {
+
+                    $(".hexp5").css("display", "block");
+
+                });
+            });
+            $(document).ready(function () {
+                $(".hex6").hover(function () {
+                    $(".hexp1").css("display", "none");
+                    $(".hexp2").css("display", "none");
+                    $(".hexp3").css("display", "none");
+                    $(".hexp4").css("display", "none");
+                    $(".hexp5").css("display", "none");
+                    $(".hexp6").css("display", "block");
+                }, function () {
+
+                    $(".hexp6").css("display", "block");
+                });
+            });
+        </script>
 
         <!-- initializing aos  -->
 
@@ -270,6 +401,16 @@
                 setTimeout(carousel, 3000);
             }
         </script>
+        <script>
+            $(document).ready(function () {
+                $(".hex1").hover(function () {
+                    $(".hexp1").css("color", "white");
+                }, function () {
+                    $(".hexp1").css("color", "purple");
+                });
+            });
+        </script>
+
         <script src="../../js/About-Us/knowsfc.js"></script>
         <script src="js/jquery.counterup.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
