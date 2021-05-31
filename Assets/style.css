@@ -547,7 +547,7 @@ header #menu-bar {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   header #menu-bar {
     display: block;
   }
