@@ -878,3 +878,83 @@ svg {
   background-color: rgb(250, 196, 48);
   color: black;
 }
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+  .team1 {
+    display: block;
+  }
+  .team1 .box {
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+  }
+  .team2 .box {
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+  }
+  .team2 {
+    display: block;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .team1 .role {
+    font-size: 5vmin;
+  }
+  .team1 .boximg img {
+    width: 50vmin;
+  }
+  .team1 .name {
+    font-size: 3vmin;
+  }
+  .teambox {
+    height: max-content;
+  }
+  .team2 .box {
+    display: block;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .team2 .role {
+    font-size: 5vmin;
+  }
+  .team2 .boximg img {
+    width: 50vmin;
+  }
+  .team2 .name {
+    font-size: 3vmin;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    width: 60vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+
+  .dark-mode .dropdown-content {
+    display: none;
+    background-color: black;
+    width: 60vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    position: absolute;
+  }
+}
