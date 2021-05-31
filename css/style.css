@@ -1888,6 +1888,181 @@ header .navbar {
 
 
 @media only screen and (max-width: 800px) {
+
+  .border {
+    background-color: #333;
+    padding: 1vmin;
+    padding-right: 9vmin;
+    border-radius: 5vmin;
+    width: 110%;
+
+  }
+
+  .slides h3 {
+    font-size: 5vmin;
+    /* padding: 5vmin; */
+  }
+
+  .slides p {
+    font-size: 3vmin;
+    /* padding: 5vmin; */
+  }
+
+  .dark-mode .slides h3 {
+    font-size: 7vmin;
+    /* padding: 5vmin; */
+    color: black;
+  }
+
+  .dark-mode .slides p {
+    font-size: 3vmin;
+    /* padding: 5vmin; */
+    color: black;
+  }
+
+  .slides .learnmore {
+    font-size: 3vmin;
+    /* padding: 5vmin; */
+    padding-bottom: 0;
+  }
+
+  .dark-mode .slide .btn {
+    color: #000000;
+  }
+
+  .slide .image {
+    width: 50vmin;
+    padding-left: 20vmin;
+  }
+
+  .slider {
+    margin-left: 10vmin;
+    background-color: white;
+    background-image: url(../images/beatplasticpollution.png);
+    filter: blur(0.3px);
+    -webkit-filter: blur(0.5px);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 48vh;
+  }
+
+  .slides {
+    width: 500%;
+    height: 400px;
+    display: flex;
+  }
+
+  .slides input {
+    display: none;
+  }
+
+  .slide {
+    width: 20%;
+    transition: 2s;
+  }
+
+  /* manual navigation */
+
+  .navigation-manual {
+    position: absolute;
+    margin-left: 2vmin;
+    width: 70vmin;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .manual-btn {
+    border: 2px solid #40d3dc;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .manual-btn:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .margin-btn:hover {
+    background: #40d3dc;
+  }
+
+  #radio1:checked ~ .first {
+    margin-left: 0%;
+  }
+  #radio2:checked ~ .first {
+    margin-left: -20%;
+  }
+  #radio3:checked ~ .first {
+    margin-left: -40%;
+  }
+  #radio4:checked ~ .first {
+    margin-left: -60%;
+  }
+
+  /* css for auto nav */
+
+  .navigation-auto {
+    position: absolute;
+    margin-left: 2vmin;
+    display: flex;
+    width: 75.6vmin;
+    justify-content: center;
+    margin-top: 450px;
+  }
+
+  .navigation-auto div {
+    border: 2px solid #40d3dc;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  .navigation-auto div:not(last-child) {
+    margin-right: 40px;
+  }
+
+  #radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: #40d3dc;
+  }
+
+  #radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: #40d3dc;
+  }
+  #radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: #40d3dc;
+  }
+  #radio4:checked ~ .navigation-auto .auto-btn4 {
+    background: #40d3dc;
+  }
+
+  .live {
+    position: fixed;
+    right: 2vmin;
+    opacity: 0.2;
+  }
+
+  .live button {
+    background-color: red;
+    color: white;
+    font-size: 3vmin;
+    animation: blink-animation 3s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
   .feed {
     position: fixed;
     bottom: 15vmin;
@@ -1897,5 +2072,6 @@ header .navbar {
     border-radius: 100px;
     /* opacity: 0.7; */
   }
+
 
 }
