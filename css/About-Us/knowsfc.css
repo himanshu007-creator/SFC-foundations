@@ -1049,7 +1049,7 @@ top: 158%;
 } 
 .hex3:hover{
   font-size: 5vmin;
-  right: 2%;
+  left: 2%;
 } 
 .hex4:hover{
   font-size: 6vmin;
@@ -1070,7 +1070,7 @@ top: 158%;
 .hex3{
   position: absolute;
   font-size: 4vmin;
-  right: 8%;
+  right: 6%;
   top: 193%;
 }
 
