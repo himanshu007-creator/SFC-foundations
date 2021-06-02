@@ -443,7 +443,7 @@ header #menu-bar {
   width: 30%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .news .news-item {
     -ms-flex: 0 0 33.33%;
     flex: 0 0 33.33%;
@@ -1362,7 +1362,6 @@ svg {
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
   text-align: center;
 
-
 }
 
 
@@ -1889,6 +1888,12 @@ header .navbar {
 
 @media only screen and (max-width: 800px) {
 
+
+  .newsbtnbox{
+    margin-left: 25%;
+  }
+
+
   .border {
     background-color: #333;
     padding: 1vmin;
@@ -2072,6 +2077,7 @@ header .navbar {
     border-radius: 100px;
     /* opacity: 0.7; */
   }
+
 
 
 }
