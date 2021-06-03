@@ -509,8 +509,8 @@ header button .icon-box .fa {
   margin-top: 0%;
   padding: 2rem;
   flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgb(72, 255, 154);
+ 
+  
 }
 
 .coreteams .row .content {
@@ -978,4 +978,36 @@ svg {
     display: flex;
     position: absolute;
   }
+}
+
+
+.bio{
+  font-size: 3vmin;
+  /* padding-bottom: 15%; */
+  margin-bottom: 0%;
+}
+
+.fa-caret-down{
+  padding-top: 1vmin;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .bio{
+    font-size: 5vmin;
+    /* padding-bottom: 15%; */
+    margin-bottom: 0%;
+  }
+  
+  .fa-caret-down{
+    padding-top: 1vmin;
+  
+  }
+
+}  
+
+.dark-mode .bio{
+  color: white;
 }
