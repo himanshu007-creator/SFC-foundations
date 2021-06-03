@@ -884,7 +884,27 @@ svg {
 
 
 @media only screen and (max-width: 800px) {
+  .teams {
+    display: block;
+    text-align: center;
+  }
 
+  #btnc {
+    width: 60vmin;
+    font-size: 5vmin;
+  }
+  #btnd {
+    width: 60vmin;
+    font-size: 5vmin;
+  }
+  #btnj {
+    width: 60vmin;
+    font-size: 5vmin;
+  }
+  #btnm {
+    width: 60vmin;
+    font-size: 5vmin;
+  }
 
   .team1 {
     display: block;
