@@ -436,9 +436,7 @@ header button .icon-box .fa {
   height: 40vh;
 
   flex: 1 1 40rem;
-  border-radius: 1rem;
-  border-style: solid;
-  border-width: 2vmin;
+
   /* width: fit-content; */
   margin-left: 2vmin;
   margin-right: 2vmin;
@@ -449,9 +447,7 @@ header button .icon-box .fa {
   height: 40vh;
 
   flex: 1 1 40rem;
-  border-radius: 1rem;
-  border-style: solid;
-  border-width: 2vmin;
+
   /* width: fit-content; */
   margin-left: 2vmin;
   margin-right: 2vmin;
@@ -462,9 +458,7 @@ header button .icon-box .fa {
   height: 40vh;
 
   flex: 1 1 40rem;
-  border-radius: 1rem;
-  border-style: solid;
-  border-width: 2vmin;
+
 
   /* width: fit-content; */
   margin-left: 2vmin;
@@ -474,10 +468,9 @@ header button .icon-box .fa {
 .internimg1:hover {
   width: 20vw;
   height: 40vh;
-  border-style: solid;
-  border-width: 2vmin;
+
   flex: 1 1 40rem;
-  border-radius: 1rem;
+
 
   /* width: fit-content; */
   margin-left: 2vmin;
@@ -635,6 +628,8 @@ header button .icon-box .fa {
   .heading {
     font-size: 8vmin;
   }
+  
+
   .group1 {
     margin: 4vmin;
     display: block;
@@ -643,10 +638,9 @@ header button .icon-box .fa {
   .internimg {
     width: 60vw;
     height: 40vh;
-    border-style: solid;
-    border-width: 2vmin;
+
     flex: 1 1 40rem;
-    border-radius: 1rem;
+
 
     /* width: fit-content; */
     margin-left: 2vmin;
@@ -656,10 +650,9 @@ header button .icon-box .fa {
   .internimg1 {
     width: 60vw;
     height: 40vh;
-    border-style: solid;
-    border-width: 2vmin;
+
     flex: 1 1 40rem;
-    border-radius: 1rem;
+
 
     /* width: fit-content; */
     margin-left: 2vmin;
@@ -812,20 +805,8 @@ svg {
   }
 }
 
-.dark-mode .internimg1 {
-  border-color: white;
-}
-
-.dark-mode .internimg {
-  border-color: white;
-}
-
-.dark-mode .internimg1:hover {
-  border-color: white;
-}
-
-.dark-mode .internimg:hover {
-  border-color: white;
+.dark-mode .bio{
+  color: white;
 }
 
 .dark-mode .btn {
@@ -836,4 +817,32 @@ svg {
 .dark-mode .btn:hover {
   background-color: rgb(250, 196, 48);
   color: black;
+}
+
+
+
+.bio{
+  font-size: 3vmin;
+  /* padding-bottom: 15%; */
+  margin-bottom: 0%;
+}
+
+.fa-caret-down{
+  padding-top: 1vmin;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .bio{
+    font-size: 5vmin;
+    /* padding-bottom: 15%; */
+    margin-bottom: 0%;
+  }
+  
+  .fa-caret-down{
+    padding-top: 1vmin;
+  
+  }
 }
