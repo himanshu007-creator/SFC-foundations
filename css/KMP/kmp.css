@@ -821,6 +821,7 @@ svg {
 
 
 
+
 .bio{
   font-size: 3vmin;
   /* padding-bottom: 15%; */
@@ -843,6 +844,114 @@ svg {
   
   .fa-caret-down{
     padding-top: 1vmin;
-  
+
+
+@media only screen and (max-width: 800px) {
+  .heading {
+    font-size: 8vmin;
+  }
+  .group1 {
+    margin: 4vmin;
+    display: block;
+    text-align: center;
+  }
+  .internimg {
+    width: 60vw;
+    height: 40vh;
+    border-style: solid;
+    border-width: 2vmin;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+
+    /* width: fit-content; */
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+  }
+
+  .internimg1 {
+    width: 60vw;
+    height: 40vh;
+    border-style: solid;
+    border-width: 2vmin;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+
+    /* width: fit-content; */
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+  }
+
+  .group2 {
+    margin: 4vmin;
+    display: block;
+    text-align: center;
+  }
+
+  .kmpbox {
+    text-align: center;
+    margin: 2rem;
+    /* background: rgba(241, 214, 163, 0.103); */
+    background: rgb(203, 81, 18, 24%);
+
+    padding: 2rem;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  .role {
+    font-size: 5vw;
+    margin-bottom: 2vmin;
+    padding-bottom: 0%;
+    font-weight: 700;
+  }
+
+  .name {
+    font-size: 5vmin;
+    margin-top: 2vmin;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
+
+  .dark-mode .role {
+    font-size: 5vmin;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color: white;
+  }
+
+  .dark-mode .name {
+    font-size: 5vmin;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color: white;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    font-size: 4vmin;
+    display: none;
+    background-color: #f9f9f9;
+    width: 60vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+
+  .dark-mode .dropdown-content {
+    display: none;
+    background-color: black;
+    width: 60vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    position: absolute;
+
   }
 }
