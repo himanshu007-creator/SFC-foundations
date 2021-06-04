@@ -401,6 +401,16 @@ header #menu-bar {
   .dark-mode header .navbar ul {
     background-color: #121212;
   }
+
+  .blog .blogbox .blogauthor .blogauthorimg {
+    /* width: 60vmin; */
+    margin: 1vmin;
+    padding: 2rem;
+    flex: 1 1 40rem;
+    width: 55vw;
+    height: 32vh;
+    border-radius: 65vmax;
+  }
 }
 
 /*dark mode*/
