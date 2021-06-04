@@ -166,9 +166,8 @@ header #menu-bar {
 }
 
 .blogs .row .blogimg img {
-  width: 50vmin;
-  /* margin:2rem; */
-  /* padding:2rem; */
+  width: 25vw;
+  height: 40vh;
   flex: 1 1 40rem;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
@@ -497,7 +496,19 @@ header button .icon-box .fa {
   margin-top: 50px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+
+  .blogs .row .blogimg img {
+    width:35vw;
+    height: 15vh;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  .blogs .row .blogimg{
+    padding-top: 35%;
+  }
+
   html {
     font-size: 50%;
   }

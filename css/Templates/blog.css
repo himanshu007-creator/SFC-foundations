@@ -190,12 +190,13 @@ header #menu-bar {
 }
 
 .blog .blogbox .blogauthor .blogauthorimg {
-  width: 60vmin;
+  /* width: 60vmin; */
   margin: 1vmin;
   padding: 2rem;
   flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  width: 15vw;
+  height: 32vh;
+  border-radius: 65vmax;
 }
 
 .blog .blogbox .blogcontent {
