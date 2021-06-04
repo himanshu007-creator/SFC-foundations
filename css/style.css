@@ -1476,7 +1476,7 @@ svg {
 .slider {
   margin-left: 10vmin;
   background: rgb(30,150,0);
-  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,242,0,1) 35%,  rgba(30,150,0,1)100%);
+  background: url(../images/slider-bg.png);
   background-repeat: no-repeat;
  
   border-radius: 10px;
