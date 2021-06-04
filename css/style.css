@@ -1475,12 +1475,10 @@ svg {
 
 .slider {
   margin-left: 10vmin;
-  background-color: white;
-  background-image: url(../images/beatplasticpollution.png);
-  /* filter: blur(0.3px); */
-  /* -webkit-filter: blur(0.5px); */
+  background: rgb(30,150,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,242,0,1) 35%,  rgba(30,150,0,1)100%);
   background-repeat: no-repeat;
-  background-size: 100vmin;
+ 
   border-radius: 10px;
   overflow: hidden;
 }
@@ -1649,8 +1647,9 @@ svg {
 
   .slider {
     margin-left: 10vmin;
-    background-color: white;
-    background-image: url(../images/beatplasticpollution.png);
+    background: rgb(30,150,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,242,0,1) 35%,  rgba(30,150,0,1)100%);
+    background-repeat: no-repeat;
     filter: blur(0.3px);
     -webkit-filter: blur(0.5px);
     background-repeat: no-repeat;
@@ -1942,8 +1941,9 @@ header .navbar {
 
   .slider {
     margin-left: 10vmin;
-    background-color: white;
-    background-image: url(../images/beatplasticpollution.png);
+    background: rgb(30,150,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,242,0,1) 35%,  rgba(30,150,0,1)100%);
+    background-repeat: no-repeat;
     filter: blur(0.3px);
     -webkit-filter: blur(0.5px);
     background-repeat: no-repeat;
