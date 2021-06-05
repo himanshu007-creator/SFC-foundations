@@ -21,6 +21,10 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
     <!-- custom css file link  -->
     <link rel="stylesheet" href="../../css/Blog/blog.css">
     <link rel="stylesheet" href="../../css/darkmode.css">
@@ -61,6 +65,17 @@
     <section class="blogs" id="blogs">
         <h1 class="heading">BLOGS</h1>
 
+        <div class="dropdown">
+            <select>
+                <option selected class="selectdrop all">Select All<i class="fas fa-caret-down fa-2x"></i></option>
+                <option class="social">Social Issues</option>
+                <option class="mental">Mental Health</option>
+                <option class="environment">Ecology and Environment</option>
+                <option class="women">Women Empowerment</option>
+                <option class="misc">Miscellaneous</option>
+                <option class="gold">Golden Verses</option>
+            </select>
+        </div>
 
         <!-- PAGE 1 -->
         <div class="" id="page1">
@@ -1353,6 +1368,67 @@
                 });
             });
         </script>
+
+
+
+
+        <script>
+            filterSelection("all")
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("filterDiv");
+                if (c == "all") c = "";
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                }
+            }
+
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+                }
+            }
+
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(" ");
+            }
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
