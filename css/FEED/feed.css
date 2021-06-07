@@ -522,15 +522,7 @@ header button .icon-box .fa {
   color: orange !important;
   background-color: #92858552;
 }
-.feed {
 
-  bottom: 19vmin;
-  right: 3.5vmin;
-  width: 12vmax;
-  z-index: 99;
-  border-radius: 100px;
-  /* opacity: 0.7; */
-}
 
 .feedknowmore {
   position: fixed;
@@ -542,14 +534,7 @@ header button .icon-box .fa {
 }
 
 @media only screen and (max-width: 600px) {
-  .feed {
-    position: fixed;
-    bottom: 27vmin;
-    right: 5vmin;
-    width: 12vmax;
-    z-index: 99;
-    border-radius: 100px;
-  }
+
   .feedknowmore {
     position: fixed;
     bottom: 1vmin;
@@ -706,4 +691,48 @@ svg {
   flex: 1 1 40rem;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem white;
+}
+
+@media only screen and (max-width: 600px) {
+  .feedimages {
+    display: inline-flex;
+  }
+  .projects .row .videotext1 {
+    margin: 2rem;
+    padding: 2rem;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    font-size: 3vmin;
+  }
+  .row{
+    margin-bottom: 2vmin;
+  }
+  .feeder{
+    text-align: center;
+
+}
+.feed{
+  bottom: 30vmin;
+}
+
+.feeder img{
+    width: 50vmin;
+}
+
+.counter{
+    margin-left: 22%;
+    font-size: 10vmin;
+    width: 50vmin;
+    padding: 2vmin;
+}
+.feed {
+
+  bottom: 19vmin;
+  right: 3.5vmin;
+  width: 12vmax;
+  z-index: 99;
+  border-radius: 100px;
+  /* opacity: 0.7; */
+}
 }

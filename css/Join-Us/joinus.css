@@ -693,12 +693,12 @@ body{
   body{
     background-image: url(../../images/joinusback.png);
     background-repeat: no-repeat;
-    background-position-y: 280vmin;
+    background-position-y: 275vmin;
     
   }
 
   .projects{
-    margin-bottom: 60vmin;
+    margin-bottom: 30vmin;
   }
 
 }
