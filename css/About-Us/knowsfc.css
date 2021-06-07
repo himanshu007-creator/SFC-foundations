@@ -1265,6 +1265,8 @@ top: 158%;
       -o-transform: rotate(120deg);
       transform: rotate(120deg);
       cursor: pointer;
+      
+
   }
   
   .hexagon-in1
@@ -1276,6 +1278,7 @@ top: 158%;
       -moz-transform: rotate(-60deg);
       -o-transform: rotate(-60deg);
       transform: rotate(-60deg);
+      
   }
   
   .hexagon-in2
@@ -1290,6 +1293,7 @@ top: 158%;
       -moz-transform: rotate(-60deg);
       -o-transform: rotate(-60deg);
       transform: rotate(-60deg);
+      
   }
   
   
@@ -1297,22 +1301,22 @@ top: 158%;
   
   
   .hexagon2
-  {   width: 35vw;
-      height: 60vh;
-      /* margin-top: 30vh; */
-      /* margin-left: 25%; */
+  {   width: 65vw;
+      height: 100vh;
+    margin-left: 10vmin;
   }
   
   .hexdesign{
     text-align: center;
     justify-content: center;
+   
   }
   
   .hex1{
   position: absolute;
-  font-size: 4vmin;
-  right: 40%;
-  top: 138%;
+  font-size: 3vmin;
+  right: 35%;
+  top: 162%;
   }
   
   .hex1:hover{
@@ -1336,112 +1340,116 @@ top: 158%;
   } 
   .hex2{
     position: absolute;
-    font-size: 2vmin;
+    font-size: 3vmin;
     right: 8%;
-    top: 148%;
+    top: 172%;
   }
   
   .hex3{
     position: absolute;
     font-size: 3vmin;
     right: 2%;
-    top: 158%;
+    top: 208%;
     font-size: 3vmin;
     left: 64%;
   }
   
   .hex4{
     position: absolute;
-    font-size: 4vmin;
-    right: 25%;
-    top: 165%;
+    font-size: 3vmin;
+    right: 30%;
+    top: 215%;
   }
   
   .hex5{
     position: absolute;
     font-size: 3vmin;
     right: 75%;
-    top: 158%;
+    top: 208%;
   }
   
   .hex6{
     position: absolute;
     font-size: 3vmin;
     right:72%;
-    top: 145%;
+    top: 172%;
   }
   
   .hexp1{
     position: fixed;
-    display: block;
+    display: none;
     color: white;
-    font-size: 2vmin;
+    font-size: 3vmin;
     padding: 3vmin;
-    /* padding-top: 13vmin; */
+    padding-top: 79vmin;
     text-align: justify;
-    width: 48vmin;
-    /* margin-left: 14vmin; */
+    width: 49vmin;
+    
+    margin-left: 9vmin;
   }
   .hexp2{
     position: fixed;
     display: none;
     color: white;
-    font-size: 2vmin;
+    font-size: 3vmin;
     padding: 3vmin;
-    padding-top: 10vmin;
+    padding-top: 79vmin;
     text-align: justify;
-    width: 48vmin;
-    margin-left: 14vmin;
+    width: 49vmin;
+    
+    margin-left: 9vmin;
   
   }
   .hexp3{
     position: fixed;
     display: none;
     color: white;
-    font-size: 2.8vmin;
+    font-size: 3vmin;
     padding: 3vmin;
-    padding-top: 10vmin;
+    padding-top: 79vmin;
     text-align: justify;
-    width: 48vmin;
-    margin-left: 14vmin;
+    width: 49vmin;
+    
+    margin-left: 9vmin;
   }
   .hexp4{
     position: fixed;
     display: none;
     color: white;
-    font-size: 2.8vmin;
+    font-size: 3vmin;
     padding: 3vmin;
-    padding-top: 13vmin;
+    padding-top: 79vmin;
     text-align: justify;
-    width: 48vmin;
-    margin-left: 14vmin;
+    width: 49vmin;
+    
+    margin-left: 9vmin;
   }
   
   .hexp5{
     position: fixed;
     display: none;
     color: white;
-    font-size: 2.8vmin;
+    font-size: 3vmin;
     padding: 3vmin;
-    padding-top: 13vmin;
+    padding-top: 79vmin;
     text-align: justify;
-    width: 48vmin;
-    margin-left: 14vmin;
+    width: 49vmin;
+    
+    margin-left: 9vmin;
   }
   
   .hexp6{
     position: fixed;
     display: none;
     color: white;
-    font-size: 2.3vmin;
+    font-size: 2.4vmin;
     padding: 3vmin;
-    padding-top: 9vmin;
+    padding-top: 79vmin;
     text-align: justify;
-    width: 48vmin;
-    margin-left: 14vmin;
+    width: 49vmin;
+    
+    margin-left: 9vmin;
+
   }
   
-
-
-
 }
