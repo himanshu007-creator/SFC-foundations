@@ -668,3 +668,37 @@ svg {
   background-color: rgb(250, 196, 48);
   color: black;
 }
+
+
+.joinusback{
+  width: 80%;
+position: relative;
+
+}
+
+body{
+  background-image: url(../../images/joinusback.png);
+  background-repeat: no-repeat;
+  background-position-y: 130vmin;
+  
+}
+
+.projects{
+  margin-bottom: 70vmin;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  body{
+    background-image: url(../../images/joinusback.png);
+    background-repeat: no-repeat;
+    background-position-y: 280vmin;
+    
+  }
+
+  .projects{
+    margin-bottom: 60vmin;
+  }
+
+}

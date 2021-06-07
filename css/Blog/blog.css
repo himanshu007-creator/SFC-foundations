@@ -705,3 +705,24 @@ svg {
   background-color: rgb(250, 196, 48);
   color: black;
 }
+
+
+
+.dropdown{
+  float: right;
+  margin-right: 5vmin;
+}
+
+.dropdown option{
+  font-size: 2vmin;
+  background-color: white;
+  color: black;
+}
+
+select{
+  background-color: rgb(250, 196, 48);
+  width: 15vmin;
+  font-size: 2vmin;
+  padding: 1vmin;
+}
+
