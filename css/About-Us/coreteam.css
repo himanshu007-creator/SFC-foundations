@@ -1006,8 +1006,14 @@ svg {
   
   }
 
+#btnc{
+    font-size: 4vmin;
+  }
+
 }  
 
 .dark-mode .bio{
   color: white;
 }
+
+

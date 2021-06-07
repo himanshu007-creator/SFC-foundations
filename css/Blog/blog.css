@@ -726,3 +726,71 @@ select{
   padding: 1vmin;
 }
 
+
+
+@media only screen and (max-width: 800px) {
+  .blogs .row .blogbox {
+    width: 10vmin;
+    display: inline;
+  }
+
+
+
+  blogs .row .blogbox {
+    /* display: inline-flexbox; */
+
+    margin: 2rem;
+    padding: 2rem;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .blogs .row .blogimg {
+    padding-top: 4vmin;
+    padding-left: 5vmin;
+  }
+  
+  .blogs .row .blogimg img {
+    width: 45vw;
+    height: 20vh;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .blogs .row .blogcontent {
+    width: fit-content;
+
+    margin-left: 3vmin;
+    padding: 2rem;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .blogs .row .blogname {
+    font-size: 5vmin;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .blogs .row .blogdescription {
+    font-size: 3vmin;
+    text-align: left;
+  }
+  
+  .blogs .row .blogauthor {
+    font-size: 3vmin;
+    text-align: left;
+  }
+  .blogs .row .blogdate {
+    font-size: 3vmin;
+    text-align: left;
+  }
+  
+  .blogs .row .blogbtn {
+    text-align: right;
+  }
+
+}
