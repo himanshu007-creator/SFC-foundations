@@ -485,7 +485,6 @@ header button .icon-box .fa {
 
 .kmpbox {
   /* background: rgba(241, 214, 163, 0.103); */
-  background: rgb(0 228 255 / 24%);
   text-align: center;
   margin: 2rem;
   padding: 2rem;
@@ -668,7 +667,6 @@ header button .icon-box .fa {
     text-align: center;
     margin: 2rem;
     /* background: rgba(241, 214, 163, 0.103); */
-    background: rgb(0 228 255 / 24%);
 
     padding: 2rem;
     flex: 1 1 40rem;
@@ -889,9 +887,6 @@ svg {
   .kmpbox {
     text-align: center;
     margin: 2rem;
-    /* background: rgba(241, 214, 163, 0.103); */
-    background: rgb(0 228 255 / 24%);
-
     padding: 2rem;
     flex: 1 1 40rem;
     border-radius: 1rem;
