@@ -58,6 +58,7 @@ We welcome developers to contribute to our project. Their efforts will be suppor
 
 <h2> Code Architecture :</h2>
 
+<span style="background-color:black">
 ```bash
 ├───.github
 │   ├───ISSUE_TEMPLATE
@@ -168,6 +169,7 @@ We welcome developers to contribute to our project. Their efforts will be suppor
             └───jquery
 
 ```
+</span>
 
 <hr>
 
