@@ -58,7 +58,7 @@ We welcome developers to contribute to our project. Their efforts will be suppor
 
 <h2> Code Architecture of the project :</h2>
 
-[Code Architecture](CodeArchitecture.md)
+Visit : [Code Architecture](CodeArchitecture.md)
 
 <hr>
 
