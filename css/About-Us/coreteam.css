@@ -504,13 +504,11 @@ header button .icon-box .fa {
 
 .boximg img {
   width: 30vmin;
-  height: 40vh;
+  height: 30vmin;
   margin: 2rem;
   margin-top: 0%;
   padding: 2rem;
   flex: 1 1 40rem;
- 
-  
 }
 
 .coreteams .row .content {
@@ -748,7 +746,8 @@ header button .icon-box .fa {
     font-size: 10vmin;
   }
   .team1 .boximg img {
-    width: 70vmin;
+    width: 50vmin;
+    height: 50vmin;
   }
   .team1 .name {
     font-size: 7vmin;
@@ -765,7 +764,8 @@ header button .icon-box .fa {
     font-size: 10vmin;
   }
   .team2 .boximg img {
-    width: 70vmin;
+    width: 50vmin;
+    height: 50vmin;
   }
   .team2 .name {
     font-size: 7vmin;
@@ -880,9 +880,6 @@ svg {
   color: black;
 }
 
-
-
-
 @media only screen and (max-width: 800px) {
   .teams {
     display: block;
@@ -931,6 +928,7 @@ svg {
   }
   .team1 .boximg img {
     width: 50vmin;
+    height: 50vmin;
   }
   .team1 .name {
     font-size: 3vmin;
@@ -948,6 +946,7 @@ svg {
   }
   .team2 .boximg img {
     width: 50vmin;
+    height: 50vmin;
   }
   .team2 .name {
     font-size: 3vmin;
@@ -980,40 +979,32 @@ svg {
   }
 }
 
-
-.bio{
+.bio {
   font-size: 3vmin;
   /* padding-bottom: 15%; */
   margin-bottom: 0%;
 }
 
-.fa-caret-down{
+.fa-caret-down {
   padding-top: 1vmin;
-
 }
 
-
-
 @media only screen and (max-width: 600px) {
-  .bio{
+  .bio {
     font-size: 5vmin;
     /* padding-bottom: 15%; */
     margin-bottom: 0%;
   }
-  
-  .fa-caret-down{
+
+  .fa-caret-down {
     padding-top: 1vmin;
-  
   }
 
-#btnc{
+  #btnc {
     font-size: 4vmin;
   }
-
-}  
-
-.dark-mode .bio{
-  color: white;
 }
 
-
+.dark-mode .bio {
+  color: white;
+}
