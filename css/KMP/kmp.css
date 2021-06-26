@@ -432,8 +432,8 @@ header button .icon-box .fa {
   text-align: center;
 }
 .internimg {
-  width: 20vw;
-  height: 40vh;
+  width: 30vmin;
+  height: 30vmin;
 
   flex: 1 1 40rem;
 
@@ -443,8 +443,8 @@ header button .icon-box .fa {
 }
 
 .internimg:hover {
-  width: 20vw;
-  height: 40vh;
+  width: 40vmin;
+  height: 40vmin;
 
   flex: 1 1 40rem;
 
@@ -454,8 +454,8 @@ header button .icon-box .fa {
 }
 
 .internimg1 {
-  width: 20vw;
-  height: 40vh;
+  width: 30vmin;
+  height: 30vmin;
 
   flex: 1 1 40rem;
 
@@ -466,8 +466,8 @@ header button .icon-box .fa {
 }
 
 .internimg1:hover {
-  width: 20vw;
-  height: 40vh;
+  width: 40vmin;
+  height: 40vmin;
 
   flex: 1 1 40rem;
 
