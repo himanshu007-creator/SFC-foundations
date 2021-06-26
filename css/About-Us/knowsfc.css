@@ -671,10 +671,8 @@ svg {
   height: max-content;
   margin-top: 1vmin;
   width: 50%;
-  border-width: 1vmin;
-  border-style: solid;
+  border: 4px solid rgba(0, 0, 0, 0.466);
   border-radius: 2vmin;
-  border-color: black;
   padding: 2vmin;
   background-color: rgba(240, 230, 140, 0.445);
 }
@@ -708,20 +706,18 @@ svg {
   background-color: rgba(172, 255, 47, 0.438);
   font-size: 3vmin;
   color: white;
-  border-width: 1vmin;
+  border: 4px solid white;
+  border-radius: 2vmin;
   border-style: solid;
   border-radius: 2vmin;
-  border-color: white;
   padding: 3vmin;
 }
 .box2a p {
   font-weight: bolder;
   font-size: 3vmin;
   background-color: rgba(172, 255, 47, 0.658);
-  border-width: 1vmin;
-  border-style: solid;
+  border: 4px solid rgba(0, 0, 0, 0.466);
   border-radius: 2vmin;
-  border-color: black;
   padding: 3vmin;
 }
 
@@ -982,120 +978,113 @@ svg {
   color: black;
 }
 
-
-
-.hexagon
-{   
+.hexagon {
   overflow: hidden;
-    visibility: hidden;
-    -webkit-transform: rotate(120deg);
-    -moz-transform: rotate(120deg);
-    -o-transform: rotate(120deg);
-    transform: rotate(120deg);
-    cursor: pointer;
+  visibility: hidden;
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg);
+  cursor: pointer;
 }
 
-.hexagon-in1
-{   overflow: hidden;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
+.hexagon-in1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
 }
 
-.hexagon-in2
-{   width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-color: purple;
-    visibility: visible;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
+.hexagon-in2 {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: purple;
+  visibility: visible;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
 }
 
-
-
-
-
-.hexagon2
-{   width: 35vw;
-    height: 60vh;
-    margin-top: 30vh;
-    margin-left: 25%;
+.hexagon2 {
+  width: 35vw;
+  height: 60vh;
+  margin-top: 30vh;
+  margin-left: 25%;
 }
 
-.hexdesign{
+.hexdesign {
   text-align: center;
   justify-content: center;
 }
 
-.hex1{
-position: absolute;
-font-size: 4vmin;
-right: 60%;
-top: 158%;
+.hex1 {
+  position: absolute;
+  font-size: 4vmin;
+  right: 60%;
+  top: 158%;
 }
 
-.hex1:hover{
+.hex1:hover {
   font-size: 6vmin;
-} 
-.hex2:hover{
+}
+.hex2:hover {
   font-size: 6vmin;
-} 
-.hex3:hover{
+}
+.hex3:hover {
   font-size: 4.4vmin;
   left: 64%;
-} 
-.hex4:hover{
+}
+.hex4:hover {
   font-size: 6vmin;
-} 
-.hex5:hover{
+}
+.hex5:hover {
   font-size: 6vmin;
-} 
-.hex6:hover{
+}
+.hex6:hover {
   font-size: 6vmin;
-} 
-.hex2{
+}
+.hex2 {
   position: absolute;
   font-size: 4vmin;
   right: 28%;
   top: 158%;
 }
 
-.hex3{
+.hex3 {
   position: absolute;
   font-size: 4vmin;
   right: 6%;
   top: 193%;
 }
 
-.hex4{
+.hex4 {
   position: absolute;
   font-size: 4vmin;
   right: 22%;
   top: 230%;
 }
 
-.hex5{
+.hex5 {
   position: absolute;
   font-size: 4vmin;
   right: 60%;
   top: 230%;
 }
 
-.hex6{
+.hex6 {
   position: absolute;
   font-size: 4vmin;
-  right:70%;
+  right: 70%;
   top: 193%;
 }
 
-.hexp1{
+.hexp1 {
   position: fixed;
   display: block;
   color: white;
@@ -1106,19 +1095,7 @@ top: 158%;
   width: 48vmin;
   margin-left: 14vmin;
 }
-.hexp2{
-  position: fixed;
-  display: none;
-  color: white;
-  font-size: 2.8vmin;
-  padding: 3vmin;
-  padding-top: 10vmin;
-  text-align: justify;
-  width: 48vmin;
-  margin-left: 14vmin;
-
-}
-.hexp3{
+.hexp2 {
   position: fixed;
   display: none;
   color: white;
@@ -1129,7 +1106,18 @@ top: 158%;
   width: 48vmin;
   margin-left: 14vmin;
 }
-.hexp4{
+.hexp3 {
+  position: fixed;
+  display: none;
+  color: white;
+  font-size: 2.8vmin;
+  padding: 3vmin;
+  padding-top: 10vmin;
+  text-align: justify;
+  width: 48vmin;
+  margin-left: 14vmin;
+}
+.hexp4 {
   position: fixed;
   display: none;
   color: white;
@@ -1141,7 +1129,7 @@ top: 158%;
   margin-left: 14vmin;
 }
 
-.hexp5{
+.hexp5 {
   position: fixed;
   display: none;
   color: white;
@@ -1153,7 +1141,7 @@ top: 158%;
   margin-left: 14vmin;
 }
 
-.hexp6{
+.hexp6 {
   position: fixed;
   display: none;
   color: white;
@@ -1164,9 +1152,6 @@ top: 158%;
   width: 48vmin;
   margin-left: 14vmin;
 }
- 
-
-
 
 @media only screen and (max-width: 800px) {
   .navigation-manual {
@@ -1240,112 +1225,96 @@ top: 158%;
   color: black;
 }
 
-
-
-
 @media only screen and (max-width: 800px) {
-  .heading2{
-  
-      margin-top: 50vh;
-      text-align: center;
-      font-size: 7rem;
-      padding: 0 0.5rem;
-      color: black;
+  .heading2 {
+    margin-top: 50vh;
+    text-align: center;
+    font-size: 7rem;
+    padding: 0 0.5rem;
+    color: black;
   }
 
-
-  .hexagon
-  {   
+  .hexagon {
     position: relative;
     bottom: 40vh;
     overflow: hidden;
-      visibility: hidden;
-      -webkit-transform: rotate(120deg);
-      -moz-transform: rotate(120deg);
-      -o-transform: rotate(120deg);
-      transform: rotate(120deg);
-      cursor: pointer;
-      
-
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
   }
-  
-  .hexagon-in1
-  {   overflow: hidden;
-      width: 100%;
-      height: 100%;
 
-      -webkit-transform: rotate(-60deg);
-      -moz-transform: rotate(-60deg);
-      -o-transform: rotate(-60deg);
-      transform: rotate(-60deg);
-      
+  .hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
   }
-  
-  .hexagon-in2
-  {   
+
+  .hexagon-in2 {
     /* width: 100%; */
-      /* height: 100%; */
-      background-repeat: no-repeat;
-      background-position: 50%;
-      background-color: purple;
-      visibility: visible;
-      -webkit-transform: rotate(-60deg);
-      -moz-transform: rotate(-60deg);
-      -o-transform: rotate(-60deg);
-      transform: rotate(-60deg);
-      
+    /* height: 100%; */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: purple;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
   }
-  
-  
-  
-  
-  
-  .hexagon2
-  {   width: 65vw;
-      height: 100vh;
+
+  .hexagon2 {
+    width: 65vw;
+    height: 100vh;
     margin-left: 10vmin;
   }
-  
-  .hexdesign{
+
+  .hexdesign {
     text-align: center;
     justify-content: center;
-   
   }
-  
-  .hex1{
-  position: absolute;
-  font-size: 3vmin;
-  right: 35%;
-  top: 162%;
+
+  .hex1 {
+    position: absolute;
+    font-size: 3vmin;
+    right: 35%;
+    top: 162%;
   }
-  
-  .hex1:hover{
+
+  .hex1:hover {
     font-size: 3vmin;
-  } 
-  .hex2:hover{
+  }
+  .hex2:hover {
     font-size: 3vmin;
-  } 
-  .hex3:hover{
+  }
+  .hex3:hover {
     font-size: 3vmin;
     left: 64%;
-  } 
-  .hex4:hover{
+  }
+  .hex4:hover {
     font-size: 3vmin;
-  } 
-  .hex5:hover{
+  }
+  .hex5:hover {
     font-size: 3vmin;
-  } 
-  .hex6:hover{
+  }
+  .hex6:hover {
     font-size: 3vmin;
-  } 
-  .hex2{
+  }
+  .hex2 {
     position: absolute;
     font-size: 3vmin;
     right: 8%;
     top: 172%;
   }
-  
-  .hex3{
+
+  .hex3 {
     position: absolute;
     font-size: 3vmin;
     right: 2%;
@@ -1353,29 +1322,29 @@ top: 158%;
     font-size: 3vmin;
     left: 64%;
   }
-  
-  .hex4{
+
+  .hex4 {
     position: absolute;
     font-size: 3vmin;
     right: 30%;
     top: 215%;
   }
-  
-  .hex5{
+
+  .hex5 {
     position: absolute;
     font-size: 3vmin;
     right: 75%;
     top: 208%;
   }
-  
-  .hex6{
+
+  .hex6 {
     position: absolute;
     font-size: 3vmin;
-    right:72%;
+    right: 72%;
     top: 172%;
   }
-  
-  .hexp1{
+
+  .hexp1 {
     position: fixed;
     display: none;
     color: white;
@@ -1384,10 +1353,10 @@ top: 158%;
     padding-top: 79vmin;
     text-align: justify;
     width: 49vmin;
-    
+
     margin-left: 9vmin;
   }
-  .hexp2{
+  .hexp2 {
     position: fixed;
     display: none;
     color: white;
@@ -1396,11 +1365,10 @@ top: 158%;
     padding-top: 79vmin;
     text-align: justify;
     width: 49vmin;
-    
+
     margin-left: 9vmin;
-  
   }
-  .hexp3{
+  .hexp3 {
     position: fixed;
     display: none;
     color: white;
@@ -1409,10 +1377,10 @@ top: 158%;
     padding-top: 79vmin;
     text-align: justify;
     width: 49vmin;
-    
+
     margin-left: 9vmin;
   }
-  .hexp4{
+  .hexp4 {
     position: fixed;
     display: none;
     color: white;
@@ -1421,11 +1389,11 @@ top: 158%;
     padding-top: 79vmin;
     text-align: justify;
     width: 49vmin;
-    
+
     margin-left: 9vmin;
   }
-  
-  .hexp5{
+
+  .hexp5 {
     position: fixed;
     display: none;
     color: white;
@@ -1434,11 +1402,11 @@ top: 158%;
     padding-top: 79vmin;
     text-align: justify;
     width: 49vmin;
-    
+
     margin-left: 9vmin;
   }
-  
-  .hexp6{
+
+  .hexp6 {
     position: fixed;
     display: none;
     color: white;
@@ -1447,9 +1415,7 @@ top: 158%;
     padding-top: 79vmin;
     text-align: justify;
     width: 49vmin;
-    
-    margin-left: 9vmin;
 
+    margin-left: 9vmin;
   }
-  
 }
