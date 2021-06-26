@@ -568,6 +568,23 @@ header button .icon-box .fa {
   display: block;
 }
 
+#btnc {
+  /* width: 80vmin; */
+  font-size: 2vmin;
+}
+#btnd {
+  /* width: 80vmin; */
+  font-size: 2vmin;
+}
+#btnj {
+  /* width: 80vmin; */
+  font-size: 2vmin;
+}
+#btnm {
+  /* width: 80vmin; */
+  font-size: 2vmin;
+}
+
 .team1 {
   margin-top: 5vh;
   margin-bottom: 15vh;
@@ -880,7 +897,7 @@ svg {
   color: black;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   .teams {
     display: block;
     text-align: center;
