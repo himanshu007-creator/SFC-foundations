@@ -56,6 +56,12 @@ We welcome developers to contribute to our project. Their efforts will be suppor
 </ol>
 <hr>
 
+<h2> Code Architecture of the project :</h2>
+
+Visit : [Code Architecture](CodeArchitecture.md)
+
+<hr>
+
 <h2 >Contributors :</h2>
 <h3 >Credit goes to these people !!</h3>
 <table>
