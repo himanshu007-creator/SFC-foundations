@@ -1,6 +1,6 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
- * {
+* {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
@@ -145,10 +145,9 @@ header #menu-bar {
   justify-content: center;
   flex-wrap: wrap;
 }
-.card-text{
+.card-text {
   font-size: 17px;
   padding: 2px 12px;
-
 }
 .projects .row .internimg {
   /* margin-left: 5vmin ; */
@@ -236,7 +235,7 @@ header #menu-bar {
   font-size: 4vmin;
   text-align: center;
 }
-.content .box{
+.content .box {
   width: calc(25% - 30px);
   border: 1px;
 }
@@ -432,7 +431,6 @@ header #menu-bar {
   background-color: #92858552;
 }
 
-
 header button .icon-box .fa {
   font-size: 40px;
   background-color: white;
@@ -533,7 +531,6 @@ header button .icon-box .fa {
   color: orange !important;
   background-color: #92858552;
 }
-
 
 .feedknowmore {
   position: fixed;
@@ -664,14 +661,12 @@ svg {
   width: 50vmin;
 }
 
-
 .counter {
   margin-left: 36%;
   font-size: 10vmin;
   width: 50vmin;
   padding: 2vmin;
 }
-
 
 .dark-mode .videotext1 {
   color: white;
@@ -727,7 +722,6 @@ svg {
     width: 50vmin;
   }
 
-
   .counter {
     margin-left: 22%;
     font-size: 10vmin;
@@ -743,10 +737,6 @@ svg {
     /* opacity: 0.7; */
   }
 }
-
-
-.feed {
-
 
 .btmbox {
   display: flex;
@@ -825,6 +815,3 @@ svg {
     border: 1px solid black;
   }
 }
-
-}
-
