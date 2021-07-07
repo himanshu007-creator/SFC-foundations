@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="https://github.com/rohan-kulkarni-25/Tribute-To-Contributors/blob/460d1edbf904a0ab07abc6724f5d2bba07b565a9/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .contributorbox {
+            background-color: #b1dbff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: max-content;
+            margin: 2vmin;
+            padding: 2em;
+            padding-bottom: 0%;
+            border-radius: 12px;
+        }
+
+        .avatar {
+            width: 8em;
+            border-radius: 12px;
+        }
+
+        .contributorbox a {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logo {
+            width: 2.5em;
+            border-radius: 52px;
+            cursor: pointer;
+            margin: 2vmin;
+
+        }
+
+        #head {
+            display: flex;
+            justify-content: center;
+            align-content: space-around;
+            border-radius: 12px;
+            background-color: rgb(13, 50, 75);
+        }
+
+        #head p {
+            margin: 0;
+            text-align: center;
+            padding: 2vmin;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .foot {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 1vmin;
+            font-size: 3vmin;
+
+        }
+
+        .foot a {
+            text-decoration: none;
+            color: black;
+            /* padding-left: 5vmin; */
+            margin-left: 3vmin;
+            border-radius: 12px;
+            padding: 0.5vmin;
+            text-align: right;
+            font-size: 3.2vmin;
+            background-color: white;
+        }
+
+        #head img {
+            /* width: 1vmin; */
+            height: 8vmin;
+            padding: 1vmin;
+            border-radius: 12px;
+        }
+    </style>
+
+    <title>Tribute-To-Contributors</title>
+</head>
+
+<body>
+
+    <div id="head">
+
+    </div>
+    <div id="list">
+
+    </div>
+    <foot class="foot">MADE WITH ❤️ BY ROHAN KULKARNI <a href="https://rohankulkarni.tech">Get Connected</a></foot>
+    <script>
+
+        async function getCollaborator() {
+            let repo = `himanshu007-creator/SFC-foundations/`
+            const url = `https://api.github.com/repos/${repo}/contributors`
+            const response = await fetch(url,)
+            const result = await response.json()
+            for (let index = 0; index < result.length; index++) {
+                let box = document.createElement('div');
+                box.innerHTML = `<div class="contributorbox">
+        <img class="avatar" src="https://www.github.com/${result[index].login}.png">
+        <a href="https://github.com/${result[index].login}"><img class="logo" src="https://avatars.githubusercontent.com/u/9919?v=4"></a>
+        </div>`
+
+                document.getElementById('list').appendChild(box);
+
+            }
+            document.getElementById('head').innerHTML = `<img src="https://raw.githubusercontent.com/rohan-kulkarni-25/Tribute-To-Contributors/460d1edbf904a0ab07abc6724f5d2bba07b565a9/logo.png"><p>CONTRIBUTORS OF  ${repo} !! All Credit Goes to Them</p>`
+        }
+        getCollaborator();
+
+    </script>
+</body>
+
+</html>
