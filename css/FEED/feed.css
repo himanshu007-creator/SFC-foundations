@@ -765,10 +765,12 @@ svg {
 
 .textbox h1 {
   font-size: 8vmax;
+  color: #d6d6d6;
 }
 
 .textbox p {
   font-size: 2vmax;
+  color: rgb(138, 135, 135);
 }
 
 .heading {

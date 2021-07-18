@@ -70,6 +70,7 @@ Visit : [Code Architecture](CodeArchitecture.md)
 <hr>
 
 <h2 >Contributors :</h2>
+<a href="https://himanshu007-creator.github.io/SFC-foundations/Tribute_To_Contributors.html">Tribute to contributors</a>
 <h3 >Credit goes to these people !!</h3>
 <table>
 	<tr>
