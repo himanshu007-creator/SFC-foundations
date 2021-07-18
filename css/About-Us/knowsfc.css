@@ -382,6 +382,14 @@ header #menu-bar {
 .dark-mode header {
   background-color: #121212;
 }
+.dark-mode .hex1,
+.dark-mode .hex2,
+.dark-mode .hex3,
+.dark-mode .hex4,
+.dark-mode .hex5,
+.dark-mode .hex6 {
+  color: white;
+}
 
 .dark-mode .detail-name,
 .dark-mode .member-social-links a {
@@ -406,8 +414,7 @@ header #menu-bar {
 .dark-mode .hexdesign .hex3,
 .dark-mode .hexdesign .hex4,
 .dark-mode .hexdesign .hex5,
-.dark-mode .hexdesign .hex6,
-{
+.dark-mode .hexdesign .hex6 {
   color: white;
 }
 .dark-mode .logo {
@@ -1055,11 +1062,10 @@ svg {
   font-size: 4vmin;
   right: 60%;
   top: 180%;
- 
 }
 
 img.hexa_img {
- display: none;
+  display: none;
 }
 
 .hex1:hover {
@@ -1086,7 +1092,6 @@ img.hexa_img {
   font-size: 4vmin;
   right: 28%;
   top: 180%;
- 
 }
 
 .hex3 {
@@ -1094,7 +1099,6 @@ img.hexa_img {
   font-size: 4vmin;
   right: 4%;
   top: 215%;
-  
 }
 
 .hex4 {
@@ -1102,7 +1106,6 @@ img.hexa_img {
   font-size: 4vmin;
   right: 18%;
   top: 260%;
-  
 }
 
 .hex5 {
@@ -1110,7 +1113,6 @@ img.hexa_img {
   font-size: 4vmin;
   right: 60%;
   top: 260%;
- 
 }
 
 .hex6 {
@@ -1118,10 +1120,9 @@ img.hexa_img {
   font-size: 4vmin;
   right: 75%;
   top: 217%;
-  
 }
 
- .hexp1 {
+.hexp1 {
   position: fixed;
   display: block;
   color: white;
@@ -1131,7 +1132,7 @@ img.hexa_img {
   text-align: justify;
   width: 48vmin;
   margin-left: 14vmin;
-} 
+}
 .hexp2 {
   position: fixed;
   display: none;
@@ -1251,21 +1252,19 @@ img.hexa_img {
 
   .navigation-auto div:not(last-child) {
     margin-right: 18px;
-  }  
+  }
 }
 
-@media (min-width:320px) and (max-width: 1230px){
-      .hexdesign{
-        display: none;
-      }
-      img.hexa_img{
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-      }
+@media (min-width: 320px) and (max-width: 1230px) {
+  .hexdesign {
+    display: none;
+  }
+  img.hexa_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
-
 
 .heading2 {
   margin-top: 7vmin;
@@ -1307,7 +1306,7 @@ img.hexa_img {
     transform: rotate(-60deg);
   }
 
-   .hexagon-in2 {
+  .hexagon-in2 {
     /* width: 50%; 
     height: 50%; */
     background-repeat: no-repeat;
@@ -1467,5 +1466,5 @@ img.hexa_img {
     width: 49vmin;
 
     margin-left: 9vmin;
-  } 
+  }
 }
