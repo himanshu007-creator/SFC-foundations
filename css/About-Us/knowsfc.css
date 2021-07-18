@@ -1047,7 +1047,12 @@ svg {
   position: absolute;
   font-size: 4vmin;
   right: 60%;
-  top: 158%;
+  top: 180%;
+ 
+}
+
+img.hexa_img {
+ display: none;
 }
 
 .hex1:hover {
@@ -1073,38 +1078,43 @@ svg {
   position: absolute;
   font-size: 4vmin;
   right: 28%;
-  top: 158%;
+  top: 180%;
+ 
 }
 
 .hex3 {
   position: absolute;
   font-size: 4vmin;
-  right: 6%;
-  top: 193%;
+  right: 4%;
+  top: 215%;
+  
 }
 
 .hex4 {
   position: absolute;
   font-size: 4vmin;
-  right: 22%;
-  top: 230%;
+  right: 18%;
+  top: 260%;
+  
 }
 
 .hex5 {
   position: absolute;
   font-size: 4vmin;
   right: 60%;
-  top: 230%;
+  top: 260%;
+ 
 }
 
 .hex6 {
   position: absolute;
   font-size: 4vmin;
-  right: 70%;
-  top: 193%;
+  right: 75%;
+  top: 217%;
+  
 }
 
-.hexp1 {
+ .hexp1 {
   position: fixed;
   display: block;
   color: white;
@@ -1114,7 +1124,7 @@ svg {
   text-align: justify;
   width: 48vmin;
   margin-left: 14vmin;
-}
+} 
 .hexp2 {
   position: fixed;
   display: none;
@@ -1234,8 +1244,21 @@ svg {
 
   .navigation-auto div:not(last-child) {
     margin-right: 18px;
-  }
+  }  
 }
+
+@media (min-width:320px) and (max-width: 1230px){
+      .hexdesign{
+        display: none;
+      }
+      img.hexa_img{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+      }
+}
+
+
 
 .heading2 {
   margin-top: 7vmin;
@@ -1245,7 +1268,7 @@ svg {
   color: black;
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 800px) and (max-width: 1024px) {
   .heading2 {
     margin-top: 50vh;
     text-align: center;
@@ -1277,9 +1300,9 @@ svg {
     transform: rotate(-60deg);
   }
 
-  .hexagon-in2 {
-    /* width: 100%; */
-    /* height: 100%; */
+   .hexagon-in2 {
+    /* width: 50%; 
+    height: 50%; */
     background-repeat: no-repeat;
     background-position: 50%;
     background-color: purple;
@@ -1437,5 +1460,5 @@ svg {
     width: 49vmin;
 
     margin-left: 9vmin;
-  }
+  } 
 }
