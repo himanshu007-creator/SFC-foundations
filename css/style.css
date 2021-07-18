@@ -1446,6 +1446,7 @@ svg {
   width: 500%;
   height: 500px;
   display: flex;
+
 }
 
 .slides input {
@@ -1534,7 +1535,9 @@ svg {
 }
 
 .live {
-  /* position: fixed; */
+  /* margin-right:0 ;
+  display: inline; */
+  position: sticky;
   text-align: right;
 }
 
@@ -1544,6 +1547,7 @@ svg {
   font-size: 3vmin;
   animation: blink-animation 3s steps(5, start) infinite;
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  margin: 1rem 1rem auto auto;
 }
 
 
@@ -1743,7 +1747,6 @@ svg {
   background-color:rgb(250, 196, 48) ;
 }
 
-
 .eventbtnbox button{
   width: 35rem;
 
@@ -1768,9 +1771,6 @@ header .navbar{
 header .navbar {
   height: 10vmin;
 }
-
-
-
 
 #button {
   display: inline-block;
@@ -2006,7 +2006,7 @@ header .navbar {
   }
 
   .live {
-    position: fixed;
+    /* position: fixed; */
     right: 2vmin;
     opacity: 0.2;
   }
@@ -2041,7 +2041,7 @@ header .navbar {
   }
 
 
-
+  
 }
 
 
