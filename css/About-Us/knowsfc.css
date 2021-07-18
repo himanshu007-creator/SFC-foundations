@@ -400,7 +400,14 @@ header #menu-bar {
 .dark-mode .projects .row .content .info h3,
 .dark-mode .projects .row .content .info p,
 .dark-mode .counter,
-.dark-mode .navbar a {
+.dark-mode .navbar a,
+.dark-mode .hexdesign .hex1,
+.dark-mode .hexdesign .hex2,
+.dark-mode .hexdesign .hex3,
+.dark-mode .hexdesign .hex4,
+.dark-mode .hexdesign .hex5,
+.dark-mode .hexdesign .hex6,
+{
   color: white;
 }
 .dark-mode .logo {
