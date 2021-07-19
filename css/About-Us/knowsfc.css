@@ -735,7 +735,7 @@ svg {
 }
 
 .dark-mode .box2aa p {
-  background-color:rgb(1 142 148 / 66%);
+  background-color: rgb(1 142 148 / 66%);
   font-size: 3vmin;
   color: white;
   border: 4px solid white;
@@ -752,7 +752,7 @@ svg {
   border-radius: 2vmin;
   padding: 3vmin;
 }
-  font-weight: bolder;
+
 .box2a button {
   width: 100%;
   margin-top: 10px;
