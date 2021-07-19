@@ -727,25 +727,44 @@ svg {
   padding: 3vmin;
 }
 .box2a p {
-  font-weight: bolder;
   font-size: 3vmin;
   background-color: rgba(172, 255, 47, 0.658);
   border: 4px solid rgba(0, 0, 0, 0.466);
   border-radius: 2vmin;
   padding: 3vmin;
 }
+
+.dark-mode .box2aa p {
+  background-color:rgb(1 142 148 / 66%);
+  font-size: 3vmin;
+  color: white;
+  border: 4px solid white;
+  border-radius: 2vmin;
+  border-style: solid;
+  border-radius: 2vmin;
+  padding: 3vmin;
+}
+
+.box2aa p {
+  font-size: 3vmin;
+  background-color: rgb(19 220 228 / 66%);
+  border: 4px solid rgba(0, 0, 0, 0.466);
+  border-radius: 2vmin;
+  padding: 3vmin;
+}
+  font-weight: bolder;
 .box2a button {
   width: 100%;
   margin-top: 10px;
   font-weight: bolder;
   font-size: 3vmin;
-  background-color: rgba(172, 255, 47, 0.658);
+  background-color: rgb(212 95 7 / 66%);
   border: 4px solid rgba(0, 0, 0, 0.466);
   border-radius: 2vmin;
   padding: 3vmin;
 }
 .dark-mode .box2a button {
-  background-color: rgba(172, 255, 47, 0.438);
+  background-color: rgb(212 95 7 / 66%);
   font-size: 3vmin;
   color: white;
   border: 4px solid white;
