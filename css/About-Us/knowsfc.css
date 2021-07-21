@@ -382,6 +382,14 @@ header #menu-bar {
 .dark-mode header {
   background-color: #121212;
 }
+.dark-mode .hex1,
+.dark-mode .hex2,
+.dark-mode .hex3,
+.dark-mode .hex4,
+.dark-mode .hex5,
+.dark-mode .hex6 {
+  color: white;
+}
 
 .dark-mode .detail-name,
 .dark-mode .member-social-links a {
@@ -400,7 +408,13 @@ header #menu-bar {
 .dark-mode .projects .row .content .info h3,
 .dark-mode .projects .row .content .info p,
 .dark-mode .counter,
-.dark-mode .navbar a {
+.dark-mode .navbar a,
+.dark-mode .hexdesign .hex1,
+.dark-mode .hexdesign .hex2,
+.dark-mode .hexdesign .hex3,
+.dark-mode .hexdesign .hex4,
+.dark-mode .hexdesign .hex5,
+.dark-mode .hexdesign .hex6 {
   color: white;
 }
 .dark-mode .logo {
@@ -720,6 +734,26 @@ svg {
   border-radius: 2vmin;
   padding: 3vmin;
 }
+.box2a button {
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 3vmin;
+  background-color: rgba(172, 255, 47, 0.658);
+  border: 4px solid rgba(0, 0, 0, 0.466);
+  border-radius: 2vmin;
+  padding: 3vmin;
+}
+.dark-mode .box2a button {
+  background-color: rgba(172, 255, 47, 0.438);
+  font-size: 3vmin;
+  color: white;
+  border: 4px solid white;
+  border-radius: 2vmin;
+  border-style: solid;
+  border-radius: 2vmin;
+  padding: 3vmin;
+}
 
 .border {
   background-color: black;
@@ -1027,7 +1061,11 @@ svg {
   position: absolute;
   font-size: 4vmin;
   right: 60%;
-  top: 158%;
+  top: 180%;
+}
+
+img.hexa_img {
+  display: none;
 }
 
 .hex1:hover {
@@ -1053,35 +1091,35 @@ svg {
   position: absolute;
   font-size: 4vmin;
   right: 28%;
-  top: 158%;
+  top: 180%;
 }
 
 .hex3 {
   position: absolute;
   font-size: 4vmin;
-  right: 6%;
-  top: 193%;
+  right: 4%;
+  top: 215%;
 }
 
 .hex4 {
   position: absolute;
   font-size: 4vmin;
-  right: 22%;
-  top: 230%;
+  right: 18%;
+  top: 260%;
 }
 
 .hex5 {
   position: absolute;
   font-size: 4vmin;
   right: 60%;
-  top: 230%;
+  top: 260%;
 }
 
 .hex6 {
   position: absolute;
   font-size: 4vmin;
-  right: 70%;
-  top: 193%;
+  right: 75%;
+  top: 217%;
 }
 
 .hexp1 {
@@ -1217,6 +1255,17 @@ svg {
   }
 }
 
+@media (min-width: 320px) and (max-width: 1230px) {
+  .hexdesign {
+    display: none;
+  }
+  img.hexa_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .heading2 {
   margin-top: 7vmin;
   text-align: center;
@@ -1225,7 +1274,7 @@ svg {
   color: black;
 }
 
-@media only screen and (max-width: 800px) {
+@media (min-width: 800px) and (max-width: 1024px) {
   .heading2 {
     margin-top: 50vh;
     text-align: center;
@@ -1258,8 +1307,8 @@ svg {
   }
 
   .hexagon-in2 {
-    /* width: 100%; */
-    /* height: 100%; */
+    /* width: 50%; 
+    height: 50%; */
     background-repeat: no-repeat;
     background-position: 50%;
     background-color: purple;

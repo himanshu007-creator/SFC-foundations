@@ -186,7 +186,7 @@ header #menu-bar {
 .about {
   text-align: center;
   height: 30vmin;
-  margin-top: 20vmin;
+  margin-top: 5vmin;
   margin-bottom: 0vmin;
 }
 
@@ -692,50 +692,7 @@ header #menu-bar {
   background-color: white;
 }
 
-.counter {
-  position: fixed;
-  bottom: 8vmin;
-  right: 3.5vmin;
-  width: 100px;
-  z-index: 99;
-  opacity: 1;
-  font-size: 40px;
-  color: black;
-  border-right: 15px;
-  text-align: center;
-  margin-right: 40px;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  color: orange !important;
-  background-color: #92858552;
-}
-.feed {
-  position: fixed;
-  bottom: 17vmin;
-  right: 3.5vmin;
-  width: 12vmax;
-  z-index: 99;
-  border-radius: 100px;
-  /* opacity: 0.7; */
-}
 
-.feedknowmore {
-  position: fixed;
-  bottom: 1vmin;
-  right: 4.5vmin;
-  /* width: 15vmax; */
-  z-index: 99;
-  /* opacity: 0.7; */
-}
-
-.feedknowmore .btn{
-  background-color: rgba(6, 255, 139, 0.562) !important;
-}
-
-.feedknowmore .btn:hover{
-  background-color: rgb(6, 255, 139);
-}
 
 header button .icon-box .fa {
   font-size: 40px;
@@ -1489,6 +1446,7 @@ svg {
   width: 500%;
   height: 500px;
   display: flex;
+
 }
 
 .slides input {
@@ -1577,7 +1535,9 @@ svg {
 }
 
 .live {
-  /* position: fixed; */
+  /* margin-right:0 ;
+  display: inline; */
+  position: sticky;
   text-align: right;
 }
 
@@ -1587,6 +1547,7 @@ svg {
   font-size: 3vmin;
   animation: blink-animation 3s steps(5, start) infinite;
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  margin: 1rem 1rem auto auto;
 }
 
 
@@ -1786,7 +1747,6 @@ svg {
   background-color:rgb(250, 196, 48) ;
 }
 
-
 .eventbtnbox button{
   width: 35rem;
 
@@ -1811,9 +1771,6 @@ header .navbar{
 header .navbar {
   height: 10vmin;
 }
-
-
-
 
 #button {
   display: inline-block;
@@ -1892,7 +1849,7 @@ header .navbar {
 
 
   .newsbtnbox{
-    margin-left: 2%;
+    margin-left: 10%;
   }
 
 
@@ -2049,7 +2006,7 @@ header .navbar {
   }
 
   .live {
-    position: fixed;
+    /* position: fixed; */
     right: 2vmin;
     opacity: 0.2;
   }
@@ -2084,5 +2041,154 @@ header .navbar {
   }
 
 
+  
+}
 
+
+.counter {
+  position: fixed;
+  bottom: 7vmin;
+  right: 2vmin;
+  width: 100px;
+  z-index: 99;
+  opacity: 1;
+  font-size: 2vmax;
+  color: black;
+  border-right: 15px;
+  text-align: center;
+  margin-right: 40px;
+  flex: 1 1 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  color: orange !important;
+  background-color: white;
+}
+.feed {
+  position: fixed;
+  bottom: 9em;
+  right: 3vmin;
+  width: 12vmax;
+  z-index: 99;
+  border-radius: 100px;
+}
+
+.feedknowmore {
+  position: fixed;
+  bottom: 1vmin;
+  right: 3.5vmin;
+  z-index: 99;
+  /* opacity: 0.7; */
+}
+
+.feedknowmore .btn{
+  background-color: rgba(6, 255, 139, 0.562) !important;
+  font-size: 1vmax;
+
+}
+
+.feedknowmore .btn:hover{
+  background-color: rgb(6, 255, 139);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .counter {
+    position: fixed;
+    bottom: 10vmin;
+    right: 1vmin;
+    left: 67vmin;
+    width: 100px;
+    z-index: 99;
+    opacity: 1;
+    font-size: 4vmax;
+    color: black;
+    border-right: 15px;
+    text-align: center;
+    margin-right: 40px;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    color: orange !important;
+    background-color: white;
+  }
+  .feed {
+    position: fixed;
+    bottom: 12em;
+    right: 10vmin;
+    width: 12vmax;
+    z-index: 99;
+    border-radius: 100px;
+  }
+  
+  .feedknowmore {
+    position: fixed;
+    bottom: 1vmin;
+    right: 3.5vmin;
+    z-index: 99;
+    /* opacity: 0.7; */
+  }
+  
+  .feedknowmore .btn{
+    background-color: rgba(6, 255, 139, 0.562) !important;
+    font-size: 2vmax;
+  
+  }
+  
+  .feedknowmore .btn:hover{
+    background-color: rgb(6, 255, 139);
+  }
+  
+}
+
+@media only screen and (max-width: 400px) {
+  
+  .counter {
+    position: fixed;
+    bottom: 10vmin;
+    right: 1vmin;
+    left: 60vmin;
+    width: 100px;
+    z-index: 99;
+    opacity: 1;
+    font-size: 4vmax;
+    color: black;
+    border-right: 15px;
+    text-align: center;
+    margin-right: 40px;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    color: orange !important;
+    background-color: white;
+  }
+  .feed {
+    position: fixed;
+    bottom: 9em;
+    right: 10vmin;
+    width: 12vmax;
+    z-index: 99;
+    border-radius: 100px;
+  }
+  
+  .feedknowmore {
+    position: fixed;
+    bottom: 1vmin;
+    right: 3.5vmin;
+    z-index: 99;
+    /* opacity: 0.7; */
+  }
+  
+  .feedknowmore .btn{
+    background-color: rgba(6, 255, 139, 0.562) !important;
+    font-size: 1vmax;
+  
+  }
+  
+  .feedknowmore .btn:hover{
+    background-color: rgb(6, 255, 139);
+  }
+  
 }
