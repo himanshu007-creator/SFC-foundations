@@ -186,7 +186,7 @@ header #menu-bar {
 .about {
   text-align: center;
   height: 30vmin;
-  margin-top: 20vmin;
+  margin-top: 5vmin;
   margin-bottom: 0vmin;
 }
 
@@ -1849,7 +1849,7 @@ header .navbar {
 
 
   .newsbtnbox{
-    margin-left: 2%;
+    margin-left: 10%;
   }
 
 
