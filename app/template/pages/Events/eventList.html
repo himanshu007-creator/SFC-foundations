@@ -25,8 +25,7 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="{% static 'css/Events/events.css' %}">
     <link rel="stylesheet" href="{% static 'css/darkmode.css' %}">
-
-
+    <link rel="stylesheet" href="/static/css/pagination.css">
 
 
 <body id="DarkModeTogglerId">
@@ -84,7 +83,7 @@
         <div class="row" id="events" data-aos="fade-right">
         {% for event in page_obj %}
         <div>
-                <div class="videotext1">
+                <div class="videotext1 line-content">
                     <p class="subheading ">{{event.name}}</p>
                     <img class="eventimg" src="{{event.bannerimage.url}}">
                     <div><a href="{% url 'EventDetailView' event.pk %}"><button class="btn">READ MORE</button></a></div>
@@ -92,7 +91,9 @@
             </div>
         {% endfor %}
         </div>
+    <ul id="pagin">
 
+</ul>
         <div class="wrapper">
         {% if page_obj.has_previous %}
         <a href="?page={{page_obj.previous_page_number}}" class=' navigation left btn'>Previous</a>
@@ -203,6 +204,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="{% static 'js/darkmode.js' %}"></script>
+<script src="/static/js/pagination.js"></script>
 </body>
 
 </html>

@@ -71,7 +71,6 @@ class BlogListView(ListView):
     template_name='pages/Blog/blog_list.html'
     paginate_by=12
     ordering=['-id']
-
     def get_context_data(self, *args, **kwargs):
         try:
             return super(BlogListView, self).get_context_data(*args, **kwargs)
@@ -85,7 +84,6 @@ def BlogDetailView(request,pk):
     model = BlogPost
     template_name='pages/Blog/blog_detail.html'
     object = BlogPost.objects.get(id = pk)
-    
     if request.method == 'POST':
         author = request.POST['name']
         comment = request.POST['comment']
