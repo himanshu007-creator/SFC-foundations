@@ -9,7 +9,7 @@
     <title>SFC FOUNDATIONS | BLOGS</title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="{% static "images/logo-img - Copy.png" %}" />
+  <link rel="icon" type="image/png" href="{% static 'images/logo-img - Copy.png' %}" />
 
     <!-- aos css cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -23,8 +23,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="{% static 'css/Templates/event.css' %}">
+    <link rel="stylesheet" href="{% static 'css/News/news.css' %}">
     <link rel="stylesheet" href="{% static 'css/darkmode.css' %}">
+    <link rel="stylesheet" href="/static/css/pagination.css">
 
 
 
@@ -32,20 +33,20 @@
 <body id="DarkModeTogglerId">
     <!-- header section start-->
 
-     <header>
+    <header>
         <a href="#" class="logo"><img src="{% static 'images/logo-img.png' %}" alt=""></a>
-        <div id="menu-bar" class="fas fa-hamburger"></div>
+        <div id="menu-bar" class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
-                <li><a href="{% url 'index' %}">Home</a></li>
-                <li><a href="#about">About-Us</a></li>
-                <li><a href="#projects">Projects</a></li>
+                 <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'index' %}">About</a></li>
+                <li><a href="{% url 'index' %}">Projects</a></li>
                 <li><a href="{% url 'join' %}">Join Us</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="{% url 'news' %}" class="active">News</a></li>
+                <li><a href="{% url 'event' %}">Events</a></li>
+                <li class="active"><a href="#">News</a></li>
                 <li><a href="{% url 'contact' %}">Contact us</a></li>
-                <li><a href="{% url 'blog' %}">Blogs</a></li>
-                <li><a href="#">DONATE</a></li>
+                <li> <a href="{% url 'blog' %}">Blogs</a></li>
+                <li><a href="#DONATE">DONATE</a></li>
                 <li id="darkmodeli"><input type="checkbox" id="toggle" name="checkbox" class="switch" onclick="myfun()">
                 </li>
             </ul>
@@ -53,152 +54,229 @@
     </header>
     <!-- header section ends -->
 
-    <img class="feed" src="{% static 'images/feed.png' %}">
-    <div class="counter">
-        <p> 190</p>
-    </div>
 
 
 
 
-    <!-- Event Template Starts   -->
+    <!-- Blog Starts   -->
 
-    <section class="event">
-        <h1 class="heading">NEWS TITLE</h1>
-        <div class="eventbox" data-aos="fade-right">
-            <div class="eventheaderbox">
-                <span class="date">DATE :-</span>
-                <h3 class="title">SubTitle :- </h3>
-                <h3 class="title">Source :- </h3>
+    <section class="blogs" id="news">
+        <h1 class="heading">NEWS</h1>
+
+
+        <!-- PAGE 1 -->
+        <div class="" id="page1">
+            <div class="row" data-aos="fade-right">
+
+  {% for news in page_obj %}
+                <!-- BLOG 1 -->
+                <div class="blogbox  line-content">
+                    <div class="blogcontent">
+                        <div class="blogimg"><img src="{{news.image.url}}">
+                            <p class="blogauthor">
+                              {{news.source}}
+                            </p>
+                            <p class="blogdate">
+                                 {{news.date}}
+                            </p>
+                            <a href="{% url 'NewsDetailView' news.pk %}"><button class="btn">READ MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+
+    {% endfor %}
+
 
             </div>
-            <div class="events">
-                <img class="eventimg" src="{% static 'images/n1.jpg' %}">
-            </div>
-            <div class="eventcontent">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iste asperiores exercitationem dicta
-                    voluptatibus neque nam aliquam assumenda ipsum, sint totam debitis veritatis illo libero numquam
-                    voluptatem id repellendus omnis! Est suscipit, aspernatur commodi harum ullam facere veritatis,
-                    atque voluptatibus architecto expedita illo quidem aliquid tempore placeat pariatur quis explicabo.
+               <ul id="pagin">
 
-
-                </p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus dolorem cum commodi, earum animi fuga
-                    magni error necessitatibus nemo unde facere adipisci, omnis ad qui molestias nulla laudantium.
-                    Debitis rerum repellendus ipsa dolorum ratione quam qui consectetur? Sequi illum aliquid, quas odio
-                    laboriosam quasi minima magni quam laudantium. Provident illum amet excepturi eaque nostrum, debitis
-                    ea libero perferendis sed voluptatibus dolorem, ipsa ab magni inventore sequi adipisci cupiditate
-                    magnam! Eos voluptas illo, eveniet quia cupiditate repellat iusto nam quas atque perferendis. Ullam
-                    necessitatibus dignissimos harum molestias autem placeat natus labore deserunt, ad alias! Dicta
-                    nihil animi, similique incidunt quidem suscipit exercitationem ea quos illum a praesentium facilis
-                    dolorem ipsam eveniet ut beatae, nobis maxime! Libero modi inventore porro, ratione sed nostrum
-                    dolor? Libero sequi maiores non saepe eos aliquam adipisci enim. Quod fugit distinctio cum
-                    recusandae, dicta delectus fuga, blanditiis officia, eius hic tenetur suscipit aperiam quos placeat
-                    enim dignissimos.
-
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, recusandae, debitis voluptates ut
-                    quos accusantium laudantium modi, rem cumque dicta nostrum inventore cupiditate totam omnis!
-                </p>
-            </div>
-
+</ul>
         </div>
-        <div class="navigator">
-            <div class="pre">
-                <button class="btn">PREVIOUS</button>
-            </div>
-            <div class="nxt">
-                <button class="btn">NEXT</button>
-            </div>
-        </div>
+
     </section>
 
-    <!-- Event template Ends   -->
+<!--    <div class="slider">-->
+<!--        Page :- -->
+<!--        <button class="1">1</button>-->
+<!--        <button class="2">2</button>-->
+<!--        <button class="3">3</button>-->
+<!--        <button class="4">4</button>-->
+<!--    </div>-->
+
+    <!-- BLOG Ends :)  -->
 
 
+    <footer>
+        <svg viewBox="0 0 120 28">
+            <defs>
+                <mask id="xxx">
+                    <circle cx="7" cy="12" r="40" fill="#fff" />
+                </mask>
+
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="
+           1 0 0 0 0
+           0 1 0 0 0
+           0 0 1 0 0
+           0 0 0 13 -9" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+                <path id="wave"
+                    d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+            </defs>
+
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
 
 
+            <g class="gooeff">
+                <circle class="drop drop1" cx="20" cy="2" r="1.8" />
+                <circle class="drop drop2" cx="25" cy="2.5" r="1.5" />
+                <circle class="drop drop3" cx="16" cy="2.8" r="1.2" />
+                <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
 
-    <!-- footer section starts  -->
+                <!-- g mask="url(#xxx)">
+    <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+    </g>
+  </g -->
 
-    <div class="footer">
+        </svg>
 
-        <div class="box-container">
 
-            <div class="box">
-                <h3>Contact information</h3>
-                <p>
-                <h3>OFFICE ADDRESS</h3>
-                <div class="map-responsive">
-                    <!-- this iframe contains a random address please update the address accoeding to your requirment -->
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.981047239018!2d72.97651361446418!3d19.23965775180843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbc82e88d5f1%3A0x301dc7daa82d8040!2sAzad%20Nagar!5e0!3m2!1sen!2sin!4v1615011389811!5m2!1sen!2sin"
-                        width="100%" height="100%" style="border:0" allowfullscreen></iframe>
+        <!-- footer section starts  -->
+
+        <div class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Contact information</h3>
+                    <p>
+
+                    </p>
+                    <p> <i class="fas fa-envelope"></i> sfcfoundations@gmail.com </p>
+                    <p> <i class="fas fa-phone"></i> +91 85569 51762 </p>
+                    <p> <i class="fas fa-whatsapp"></i><a href="http://api.whatsapp.com/send?phone=+918556951762">Drop a HI!👋🏼</a></p>
                 </div>
-                </p>
-                <p> <i class="fas fa-envelope"></i> XYZ@gmail.com </p>
-                <p> <i class="fas fa-phone"></i> +91 XXXX XXXXX </p>
-                <p> <i class="fas fa-phone"></i> [contact no]</p>
-            </div>
 
-            <div class="box">
-                <h3>Branch locations</h3>
-                <a href="#">Delhi</a>
-                <a href="#">Tricity</a>
+                <div class="box">
+                    <h3>Want to Hear Us ?</h3>
+                    <p>Tune-In</p>
+                    <a class="spot"><i class="fab fa-spotify fa-3x"></i></a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="https://www.linkedin.com/company/sfc-foundations"><i class="fa fa-linkedin"></i>
+                        LinkedIn</a>
+                    <a href="https://m.facebook.com/profile.php?id=1630269837076825&ref=content_filter"><i
+                            class="fa fa-facebook"></i> Facebook</a>
+                    <a href="https://instagram.com/sfc_foundations?igshid=aydainwtfmeh"><i class="fa fa-instagram"></i>
+                        Instagram</a>
+                    <a href="#"> <i class="fa fa-twitter"></i> Twitter</a>
+                </div>
             </div>
-            <div class="box">
-                <h3>follow us</h3>
-                <a href="https://www.linkedin.com/company/sfc-foundations"><i class="fa fa-linkedin"></i>
-                    LinkedIn</a>
-                <a href="https://m.facebook.com/profile.php?id=1630269837076825&ref=content_filter"><i
-                        class="fa fa-facebook"></i> Facebook</a>
-                <a href="https://instagram.com/sfc_foundations?igshid=aydainwtfmeh"><i class="fa fa-instagram"></i>
-                    Instagram</a>
-                <a href="#"> <i class="fa fa-twitter"></i> Twitter</a>
+            <div class="map-responsive">
+                <!-- this iframe contains a random address please update the address accoeding to your requirment -->
+                <iframe
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1ufkNDvPWS-mvHMV0U7Yf1UGOqIwapKdY"
+                    width="1300" height="400" style="border:0;"></iframe>
             </div>
+            <h1 class="credit">Copyright © All right reserved. SFC FOUNDATIONS </h1>
         </div>
-        <h1 class="credit">Copyright © All right reserved. SFC FOUNDATIONS </h1>
-    </div>
 
-    <!-- footer section ends -->
+        <!-- footer section ends -->
 
-    <!-- aos js cdn link  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <!-- aos js cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-    <!-- jquery cdn link  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- jquery cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <!-- custom js file link  -->
-    <script src="{% static 'js/Events/events.js' %}"></script>
+        <!-- custom js file link  -->
+        <script src="../../js/News/news.js"></script>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 
-    <!-- initializing aos  -->
+        <!-- initializing aos  -->
 
-    <script>
+        <script>
 
-        AOS.init({
-            delay: 400,
-            duration: 1000
-        })
+            // function function2() {
+            //     const var1 = document.getElementById('page2').classList.remove('hide');
+            // };
 
-    </script>
-    <script>
-        jQuery(document).ready(function ($) {
-            $('.counter').counterUp({
-                delay: 2,
-                time: 1000
+            AOS.init({
+                delay: 400,
+                duration: 1000
+            })
+
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('.1').click(function () {
+                    $('#page1').removeClass("hide");
+                    $('#page2').addClass("hide");
+                    $('#page3').addClass("hide");
+                    $('#page4').addClass("hide");
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                });
             });
-        });
-    </script>
 
-    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+            $(document).ready(function () {
+                $('.2').click(function () {
+                    $('#page2').removeClass("hide");
+                    $('#page1').addClass("hide");
+                    $('#page3').addClass("hide");
+                    $('#page4').addClass("hide");
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+                });
+            });
+
+            $(document).ready(function () {
+                $('.3').click(function () {
+                    $('#page3').removeClass("hide");
+                    $('#page1').addClass("hide");
+                    $('#page2').addClass("hide");
+                    $('#page4').addClass("hide");
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                });
+            });
+            $(document).ready(function () {
+                $('.4').click(function () {
+                    $('#page4').removeClass("hide");
+                    $('#page1').addClass("hide");
+                    $('#page2').addClass("hide");
+                    $('#page3').addClass("hide");
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                });
+            });
+        </script>
+
+
+
+        <script>
+            jQuery(document).ready(function ($) {
+                $('.counter').counterUp({
+                    delay: 2,
+                    time: 1000
+                });
+            });
+        </script>
+        <script src="{% static 'js/News/news.js' %}"></script>
+    <script src="js/jquery.counterup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="{% static 'js/darkmode.js' %}"></script>
+<script src="/static/js/pagination.js"></script>
 </body>
 
 </html>

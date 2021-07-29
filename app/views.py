@@ -102,7 +102,7 @@ def BlogDetailView(request,pk):
 
 class NewsListView(ListView):
     model = New
-    template_name = 'pages/news/newsList.html'
+    template_name = 'pages/news/news.html'
     paginate_by = 12
     ordering = ['-date']
 
@@ -121,7 +121,7 @@ class NewsDetailView(DetailView):
 
 class EventListView(ListView):
     model=Event
-    template_name='pages/Events/eventList.html'
+    template_name='pages/Events/events.html'
     paginate_by = 12
     ordering = ['-date']
 
