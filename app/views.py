@@ -68,7 +68,7 @@ def vatavaran(request):
 
 class BlogListView(ListView):
     model=BlogPost
-    template_name='pages/Blog/blog_list.html'
+    template_name='pages/Blog/blog_list2.html'
     paginate_by=12
     ordering=['-id']
 
