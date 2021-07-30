@@ -26,8 +26,7 @@
   <link rel="stylesheet" href="{% static "css/Blog/blog.css" %}">
   <link rel="stylesheet" href="{% static "css/darkmode.css" %}">
 
-<link rel="stylesheet" href="/static/css/pagination.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
 
 <body id="DarkModeTogglerId">
@@ -69,7 +68,7 @@
 
       <div class="row" data-aos="fade-right">
       {% for post in page_obj %}
-        <div class="blogbox line-content">
+        <div class="blogbox">
           <div class="blogimg"><img src="{{post.image.url}}">
           </div>
           <div class="blogcontent">
@@ -91,9 +90,6 @@
           </div>
           {% endfor %}
       </div>
-    <ul id="pagin">
-
-</ul>
       <div class="wrapper">
         {% if page_obj.has_previous %}
         <a href="?page={{page_obj.previous_page_number}}" class=' navigation left btn'>Previous</a>
@@ -159,7 +155,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!-- custom js file link  -->
-<!--<script src="{% static 'js/Blog/blog.js' %}"></script>-->
+<script src="{% static 'js/Blog/blog.js' %}"></script>
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
@@ -241,7 +237,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
 <script src="{% static "js/darkmode.js" %}"></script>
-<script src="/static/js/pagination.js"></script>
 </body>
 
 </html>
