@@ -124,7 +124,6 @@ class EventListView(ListView):
     template_name='pages/Events/events.html'
     paginate_by = 12
     ordering = ['-date']
-
     def get_context_data(self, *args, **kwargs):
         try:
             return super(EventListView, self).get_context_data(*args, **kwargs)
@@ -134,4 +133,39 @@ class EventListView(ListView):
 
 class EventDetailView(DetailView):
     model=Event
-    template_name = 'pages/Events/eventDetail.html'
+    dict1=(model.__dict__)
+    image_count = 0
+    print(dict1.keys())
+    try:
+        print(dict1['image1'])
+        image_count = image_count + 1
+    except Exception as e:
+        pass
+    try:
+        print(dict1['image2']['url'])
+        image_count = image_count + 1
+    except Exception as e:
+        pass
+    try:
+        print(dict1['image3']['url'])
+        image_count = image_count + 1
+    except Exception as e:
+        pass
+    try:
+        print(dict1['image4']['url'])
+        image_count = image_count + 1
+    except Exception as e:
+        print(e)
+        pass
+    try:
+        if image_count == 1:
+            template_name = 'pages/Events/event1.html'
+        if image_count == 2:
+            template_name = 'pages/Events/event2.html'
+        if image_count == 3:
+            template_name = 'pages/Events/event3.html'
+        if image_count == 4:
+            template_name = 'pages/Events/event4.html'
+
+    except:
+        template_name = 'pages/Events/eventDetail.html'

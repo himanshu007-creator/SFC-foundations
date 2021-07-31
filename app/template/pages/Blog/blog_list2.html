@@ -27,6 +27,7 @@
 
 
     <!-- custom css file link  -->
+
     <link rel="stylesheet" href="{% static 'css/Templates/blog.css' %}">
     <link rel="stylesheet" href="{% static 'css/darkmode.css' %}">
 <link rel="stylesheet" href="/static/css/pagination.css">
@@ -41,12 +42,12 @@
         <div id="menu-bar" class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
-                 <li><a href="{% url 'index' %}">Home</a></li>
-                <li><a href="{% url 'index' %}">About</a></li>
-                <li><a href="{% url 'index' %}">Projects</a></li>
-                <li><a href="{% url 'join' %}">Join Us</a></li>
-                <li><a href="{% url 'event' %}">Events</a></li>
-                <li><a href="{% url 'news' %}">News</a></li>
+                 <li><a href="/#home">Home</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#projects">Projects</a></li>
+                <li><a href="/#joinus">Join Us</a></li>
+                <li><a href="/#events">Events</a></li>
+                <li><a href="/#news">News</a></li>
                 <li><a href="{% url 'contact' %}">Contact us</a></li>
                 <li> <a href="#">Blogs</a></li>
                 <li><a href="#DONATE">DONATE</a></li>
@@ -83,11 +84,11 @@
         <div class="" id="page1">
             <div class="row" data-aos="fade-right">
                 <p>Page 1</p>
-
+ <
                 <!-- BLOG 1 -->
                       {% for post in page_obj %}
                 <div class="blogbox mental line-content">
-                    <div class="blogimg"><img width="500px" src="{{post.image.url}}">
+                    <div class="blogimg"><img width="500px" height="200px" src="{{post.image.url}}">
                     </div>
                     <div class="blogcontent">
                         <p class="blogname">{{post.title}}</p>
@@ -222,9 +223,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <!-- custom js file link  -->
-        <script src="../../js/Blog/blog.js"></script>
+         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="{% static 'js/blog.js' %}"></script>
 
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
         <script>
 
             $(document).ready(function () {
@@ -333,7 +335,7 @@
                 });
             });
         </script>
-<script src="{% static 'js/Blog/blog.js' %}"></script>
+<script src="{% static 'js/blog.js' %}"></script>
 <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
