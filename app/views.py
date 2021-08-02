@@ -138,20 +138,24 @@ class EventDetailView(DetailView):
     dict1=(model.__dict__)
     image_count = 0
     print(dict1.keys())
+    template_name = ''
     try:
-        print(dict1['image1'])
+        print(dict1['image1']['url'])
         image_count = image_count + 1
     except Exception as e:
+        print(e)
         pass
     try:
         print(dict1['image2']['url'])
         image_count = image_count + 1
     except Exception as e:
+        print(e)
         pass
     try:
         print(dict1['image3']['url'])
         image_count = image_count + 1
     except Exception as e:
+        print(e)
         pass
     try:
         print(dict1['image4']['url'])
@@ -167,7 +171,8 @@ class EventDetailView(DetailView):
         if image_count == 3:
             template_name = 'pages/Events/event3.html'
         if image_count == 4:
-            template_name = 'pages/Events/event4.html'
+            template_name = 'pages/Events/eventDetail.html'
 
     except:
         template_name = 'pages/Events/eventDetail.html'
+    print(template_name)

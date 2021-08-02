@@ -71,3 +71,4 @@ $("#pagin li a").click(function() {
 	 $(this).addClass("current");
 	 showPage(parseInt($(this).text()));
 });
+$('.current').hide();
