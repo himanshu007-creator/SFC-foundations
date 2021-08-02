@@ -49,7 +49,8 @@ def events(request):
 
 def join(request):
     return render(request, 'pages/Join-Us/joinus.html')
-
+def Donate(request):
+    return render(request, 'pages/Donate/Donate.html')
 
 def news(request):
     return render(request, 'pages/news/news.html')
@@ -117,6 +118,7 @@ class NewsListView(ListView):
 class NewsDetailView(DetailView):
     model=New
     template_name='pages/news/newsDetail.html'
+
 
 
 class EventListView(ListView):
