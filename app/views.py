@@ -39,6 +39,12 @@ def blog(request,id):
     return render(request, 'pages/Blog/blog.html')
 
 
+def BlogSlider(request):
+    return render(request, 'pages/slider-event/slider-event.html')
+
+def BlogDonate(request):
+    return render(request, 'pages/Donate/Donate.html')
+
 def contact(request):
     return render(request, 'pages/Contact-Us/contact.html')
 
@@ -138,7 +144,7 @@ class EventDetailView(DetailView):
     dict1=(model.__dict__)
     image_count = 0
     print(dict1.keys())
-    template_name = ''
+    template_name = 'pages/Events/eventDetail.html'
     try:
         print(dict1['image1']['url'])
         image_count = image_count + 1
@@ -174,5 +180,5 @@ class EventDetailView(DetailView):
             template_name = 'pages/Events/eventDetail.html'
 
     except:
-        template_name = 'pages/Events/eventDetail.html'
+        pass
     print(template_name)

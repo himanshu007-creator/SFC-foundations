@@ -47,7 +47,7 @@
                 <li><a href="{% url 'news' %}">News</a></li>
                 <li><a href="{% url 'contact' %}">Contact us</a></li>
                 <li> <a href="{% url 'blog' %}">Blogs</a></li>
-                <li><a href="#DONATE">DONATE</a></li>
+                <li><a href="{% url 'BlogDonate' %}">DONATE</a></li>
                 <li id="darkmodeli"><input type="checkbox" id="toggle" name="checkbox" class="switch" onclick="myfun()">
                 </li>
             </ul>
@@ -69,7 +69,7 @@
         <h1 class="heading">EVENTS</h1>
 
         <div>
-            <button class="btn" id="sort" onclick="myfunction()">Sort By</button>
+<!--            <button class="btn" id="sort" onclick="myfunction()">Sort By</button>-->
         </div>
         <div class=" sortby hidden" id="sortby">
             <button class="btn"> Show all</button>

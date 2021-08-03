@@ -9,7 +9,7 @@
     <title>SFC FOUNDATIONS |</title>
 
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="../../images/logo-img - Copy.png" />
+      <link rel="icon" type="image/png" href="{% static "images/logo-img - Copy.png" %}" />
 
     <!-- aos css cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -23,29 +23,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="{% static 'css/slider-event.css' %}">
-    <link rel="stylesheet" href="{% static 'css/darkmode.css' %}">
 
-<link rel="stylesheet" href="/static/css/pagination.css">
+        <link rel="stylesheet" href="{% static 'css/slider-event.css' %}">
+ <link rel="stylesheet" href="{% static 'css/darkmode.css' %}">
+
+
 
 
 <body id="DarkModeTogglerId">
     <!-- header section start-->
 
     <header>
-        <a href="#" class="logo"><img src="../../images/logo-img.png" alt=""></a>
+       <a href="#" class="logo"><img src="{% static "images/logo-img.png" %}" alt=""></a>
         <div id="menu-bar" class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
-                <li><a href="../../index.html">Home</a></li>
-                <li><a class="active" href="../../index.html#about">About</a></li>
-                <li><a href="../../index.html#projects">Projects</a></li>
-                <li><a href="../../index.html#joinus">Join Us</a></li>
-                <li><a href="../../index.html#events">Events</a></li>
-                <li><a href="../../index.html#news">News</a></li>
-                <li><a href="../../pages/Contact-Us/contact.html">Contact us</a></li>
-                <li><a href="../../pages/Blog/blog.html">Blogs</a></li>
-                <li><a href="../../pages/Donate/Donate.html">Donate</a></li>
+              <li><a href="{% url 'index' %}">Home</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#joinus">Join Us</a></li>
+        <li><a href="/#events">Events</a></li>
+        <li><a href="/#news">News</a></li>
+        <li><a href="{% url 'contact' %}">Contact us</a></li>
+        <li><a href="{% url 'blog' %}" >Blogs</a></li>
+        <li><a href="{% url 'BlogDonate' %}">DONATE</a></li>
                 <li id="darkmodeli"><input type="checkbox" id="toggle" name="checkbox" class="switch" onclick="myfun()">
                 </li>
             </ul>
@@ -230,8 +231,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <!-- custom js file link  -->
-        <script src="../../js/slider-event/slider-event.js"></script>
 
+        <script src="{% static "js/slider-event/slider-event.js" %}"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 
@@ -254,12 +255,14 @@
             });
         </script>
 
-        <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="{% static 'js/darkmode.js' %}"></script>
+         <script src="{% static 'js/Blog/blog.js' %}"></script>
+<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+<script src="{% static "js/darkmode.js" %}"></script>
+<script src="/static/js/pagination.js"></script>
 </body>
 
 </html>

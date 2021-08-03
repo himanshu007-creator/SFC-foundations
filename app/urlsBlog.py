@@ -6,4 +6,6 @@ from django.conf import settings
 urlpatterns = [
     path('',views.BlogListView.as_view(),name='blog'),
     path('<int:pk>/',views.BlogDetailView,name='BlogDetailView'),
+    path('blog_donate',views.BlogDonate,name='BlogDonate'),
+    path('blog_slider',views.BlogSlider,name='BlogSlider'),
 ]
