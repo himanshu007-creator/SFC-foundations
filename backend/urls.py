@@ -24,8 +24,10 @@ admin.site.site_header='SFC Foundation'
 
 urlpatterns = [
     #general
+    path('tinymce/', include('tinymce.urls')),
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
+    path('upcommingEvent/<int:pk>/', views.upcommingEvents, name='upcommingEvent'),
     path('blog/',include('app.urlsBlog')),
     path('contact/', views.contact, name="contact"),
     path('events/', include('app.urlsEvent')),
