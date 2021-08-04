@@ -15,7 +15,9 @@ from django.http import Http404, HttpResponse, request
 
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'index.html',{
+        'objects':BannerEvents.objects.all(),
+        })
 
 
 def founder(request):
@@ -182,3 +184,7 @@ class EventDetailView(DetailView):
     except:
         pass
     print(template_name)
+
+def upcommingEvents(request, pk):
+    model=BannerEvents.objects.get(id=pk)
+    return render(request, 'pages/slider-event/bannerEvents.html', {'model': model})

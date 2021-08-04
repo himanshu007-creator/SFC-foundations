@@ -21,3 +21,9 @@ class NewAdmin(admin.ModelAdmin):
 class EventAdmin(admin.ModelAdmin):
     class Media:
         js= ('js/adminjs/admin_pg.js',)
+
+
+@admin.register(BannerEvents)
+class BlogPostAdmin(admin.ModelAdmin):
+    class Media:
+        js = ('js/adminjs/admin_pg.js',)

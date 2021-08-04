@@ -2,7 +2,6 @@ from django.db import models
 from django.utils import timezone
 import os
 
-
 #BLOGS 
 
 class BlogPost(models.Model):
@@ -75,3 +74,13 @@ class Event(models.Model):
 
     def __str__(self):
         return str(self.name)
+
+class BannerEvents(models.Model):
+    heading = models.CharField(max_length=200)
+    subheading = models.CharField(max_length=200)
+    image=models.ImageField(upload_to='eventMedia')
+    date=models.DateTimeField(auto_now_add=True)
+    body=models.TextField()
+
+    def __str__(self):
+        return self.heading
