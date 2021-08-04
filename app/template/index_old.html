@@ -26,13 +26,23 @@
 </head>
 
 <body id="DarkModeTogglerId">
+    <a onclick="topFunction()" id="button"></a>
     <div class="spinner-wrapper">
+<<<<<<< HEAD:app/template/index_old.html
         <img class="pim" src="{% static 'images/home.png' %}">
     </div>
     <!-- header section starts  -->
     <header>
         <a href="#" class="logo"><img src="{% static 'images/logo-img.png' %}" alt=""></a>
         <div id="menu-bar" class="fas fa-hamburger"></div>
+=======
+        <img class="pim" src="images/home-wh.png">
+    </div>
+    <!-- header section starts  -->
+    <header>
+        <a href="#" class="logo"><img src="images/logo-img.png" alt=""></a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
         <nav class="navbar">
             <ul>
                 <li><a class="active" href="#home">Home</a></li>
@@ -41,47 +51,158 @@
                 <li><a href="#joinus">Join Us</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#news">News</a></li>
+<<<<<<< HEAD:app/template/index_old.html
                 <li><a href="{% url 'contact' %}">Contact us</a></li>
                 <li><a href="{% url 'blog' %}">Blogs</a></li>
                 <li><a href="#">DONATE</a></li>
+=======
+                <li><a href="pages/Contact-Us/contact.html">Contact us</a></li>
+                <li><a href="pages/Blog/blog.html">Blogs</a></li>
+                <li><a href="pages/Donate/Donate.html">Donate</a></li>
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
                 <li id="darkmodeli"><input type="checkbox" id="toggle" name="checkbox" class="switch" onclick="myfun()">
                 </li>
             </ul>
         </nav>
     </header>
     <!-- header section ends -->
+<<<<<<< HEAD:app/template/index_old.html
 
     <img class="feed" src="{% static 'images/feed.png' %}">
     <div class="counter">
         <p> 190</p>
+=======
+    <div class="feederbox">
+        <img class="feed" src="images/feeding_paws.png">
+        <div class="counter">
+            <p>3669</p>
+        </div>
+        <a href="pages/FEED/feed.html" class="feedknowmore"><button class="btn">Know More</button></a>
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
     </div>
-
     <!-- home section starts  -->
-
+    <!--
     <section class="home" id="home">
         <div class="content" data-aos="fade-right">
             <h3>SFC FOUNDATIONS</h3>
             <p>SFC Foundations-CHD presenting Educate to ElevateTauhfa-e-Taleem. "If the darkness of ignorance is to be
                 dispelled then the sun of education has to rise."So many children are born talented, have immense
                 capacity for understanding...</p>
-            <a href="#"><button class="btn">Explore</button></a>
         </div>
         <div class="image" data-aos="fade-up">
             <img src="{% static 'images/home.png' %}" alt="logo">
         </div>
-    </section>
+    </section> -->
 
     <!-- home section ends -->
+
+
+    <!-- Image slider start -->
+
+
+    <section class="home" id="home">
+        <div class="border">
+            <div class="slider">
+                <div class="live">
+                    <a href=""><button class=" btn">⚪ LIVE</button></a>
+                </div>
+                <div class="slides">
+                    <!--  radio buttons start    -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    
+                    <!--  radio buttons ends    -->
+                    <!--   slide images start   -->
+                    <div class="slide first">
+                        <h3>SFC FOUNDATIONS</h3>
+                        <p>SFC is a Youth-Run NGO working in PAN India.. "If the darkness of
+                            ignorance
+                            is to be
+                            dispelled then the sun of education has to rise."So many children are born talented, have
+                            immense
+                            capacity for understanding...</p>
+                        <div class="learnmore">
+                            <a href="pages/slider-event/slider-event.html"><button class="btn">READ MORE</button></a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="slide">
+                        <h3>LET’S FIND WHO IS LOST</h3>
+                        <p> ENDANGERED SPECIES DAY (21May, 2021) Hola! SFC FOUNDATIONS DElHI is back with an amazing
+                            activity for ENDANGERED SPECIES DAY ( 21st May, 2021) LET'S FIND WHO IS LOST Endangered
+                            species... </p>
+                        <div class="learnmore">
+                            <a href="pages/slider-event/slider-event.html"><button class="btn">READ MORE</button></a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <h3>Each One Feed One</h3>
+                        <p>Hunger is a painful symptom of larger issue of poverty and inequality but imagine prolonged
+                            hunger, over days, weeks and months when all you get is abuses, violence and humiliation...
+                        </p>
+                        <div class="learnmore">
+                            <a href="pages/slider-event/slider-event.html"><button class="btn">READ MORE</button></a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <h3>Umeedo Bhari Aasha</h3>
+                        <p>Hello Everyone Umeedo Bhari Aasha उम्मीदों भरी आशा ~Hope Is An Antidote. As we know that In
+                            this
+                            Tension Torn world, It has become difficult for us to lead a peaceful... </p>
+                        <div class="learnmore">
+                            <a href="pages/slider-event/slider-event.html"><button class="btn ">READ MORE</button></a>
+                        </div>
+                    </div>
+
+                    <!--   slide images ends   -->
+
+                    <!--  Automatic navigation starts    -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--  Automatic navigation ends    -->
+                </div>
+                <!-- manual navigation start   -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!-- manual navigation ends   -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Image slider ends -->
+
 
     <!-- about section starts  -->
     <section class="about" id="about" data-aos="fade-right">
         <div>
             <h1 class="heading">About <span>Us</span></h1>
+<<<<<<< HEAD:app/template/index_old.html
             <a href="{% url 'know' %}"><button class="btn">Know SFC</button></a>
             <a href="{% url 'objectives' %}"><button class="btn">Objectives</button></a>
             <a href="{% url 'founder' %}"><button class="btn">Founder's Profile</button></a>
             <a href="#"><button class="btn">Core Team</button></a>
             <a href="{% url 'workingmodel' %}"><button class="btn">Working Model</button></a>
+=======
+            <a href="pages/About-Us/knowsfc.html"><button class="btn">Know SFC</button></a>
+            <a href="pages/About-Us/founder.html"><button class="btn">Founder's Profile</button></a>
+            <a href="pages/KMP/kmp.html"><button class="btn">KMP</button></a>
+            <a href="pages/About-Us/coreteam.html"><button class="btn">Core Team</button></a>
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
         </div>
         <img class="banner" src="{% static 'images/banner.png' %}">
     </section>
@@ -93,6 +214,7 @@
     <section class="projects" id="projects">
         <h1 class="heading"> Our Projects <span>List</span> </h1>
         <ul class="list" data-aos="fade-down">
+<<<<<<< HEAD:app/template/index_old.html
             <li class="btn active" data-src="{% static 'images/SAMPURAN.png' %}">Sampuran</li>
             <li class="btn" data-src="{% static 'images/GYAN.png' %}">Gyan</li>
             <li class="btn" data-src="{% static 'images/VATAVARAN.jpg' %}">Vatavaran</li>
@@ -110,15 +232,34 @@
                 </div>
                 <div class="info">
                     <h3> <span>02.</span>Gyan</h3>
+=======
+            <li class="btn active" data-src="images/GYAN.png">Gyan</li>
+            <li class="btn" data-src="images/VATAVARAN.jpg">Vatavaran</li>
+            <li class="btn " data-src="images/SAMPURAN.png">Sampuran</li>
+        </ul>
+        <div class="row" data-aos="fade-right">
+            <div class="image" data-aos="fade-left">
+                <img src="images/GYAN.png" id="menu-img" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3> <span>01.</span>Gyan</h3>
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
                     <p>aims to impart education to the underprivileged Kids. To unveil the hidden talents of the youth
                         via enhancing their Learning Curve is the true objective of Gyan. …</p>
                     <a href="{% url 'gyan' %}"><button class="btn">Read</button></a>
                 </div>
                 <div class="info">
-                    <h3> <span>03.</span>Vatavaran</h3>
+                    <h3> <span>02.</span>Vatavaran</h3>
                     <p>is a campaigns focusing on the protection of our environment, animal protection and other
                         creatures too. Currently, our ongoing campaign, under this project is #Feedingpaws </p>
                     <a href="{% url 'vatavaran' %}"><button class="btn">Read</button></a>
+                </div>
+                <div class="info">
+                    <h3> <span>03.</span>Sampuran</h3>
+                    <p>holistic project of SFC which focuses to revive the lives that are long lost and forgotten
+                        through numerous activities like Old Age Home Visits, Awareness Drives etc. …</p>
+                    <a href="pages/Projects/Sampuran.html"><button class="btn">Read</button></a>
                 </div>
             </div>
         </div>
@@ -132,18 +273,18 @@
             <a href="{% url 'join' %}"><button class="btn Join">INTERN</button></a>
             <a href="{% url 'join' %}"><button class="btn Join">VOLUNTEER</button></a>
         </div>
+<<<<<<< HEAD:app/template/index_old.html
         <img class="joinimg" src="{% static 'images/joinusbanner.png' %}">
+=======
+        <img class="joining" src="images/joinusbanner.png">
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
     </section>
     <!-- Join Us Section Ends -->
 
 
-
-
-
-
     <!-- EVENTS SECTION -->
     <section class="events" id="events">
-        <h1 class="heading"> Upcoming <span>Events</span> </h1>
+        <h1 class="heading"><span>Events</span> </h1>
         <div class="box-container">
             <div class="eventbox">
                 <h3>Indradhanush</h3>
@@ -155,10 +296,14 @@
                 <img src="{% static 'images/reh.jpg' %}" alt="">
 
             </div>
+<<<<<<< HEAD:app/template/index_old.html
             <div class="eventbox">
                 <a href="{% url 'event' %}"><button class="btn Join">MORE <br>EVENTS</button></a>
+=======
+            <div class="eventbtnbox">
+                <a href="pages/Events/events.html"><button class="btn Join">MORE <br>EVENTS</button></a>
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
             </div>
-
 
         </div>
     </section>
@@ -202,9 +347,17 @@
                 </div>
             </div>
             <!-- news item end -->
+<<<<<<< HEAD:app/template/index_old.html
             <div class="newsbox" data-aos="fade-left">
                 <a href="{% url 'news' %}"><button class="btn Join">MORE <br>NEWS</button></a>
             </div>
+=======
+
+            <div class="newsbtnbox">
+                <a href="pages/News/news.html"><button class="newsbox btn Join">MORE <br>NEWS</button></a>
+            </div>
+
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
         </div>
 
     </section>
@@ -214,28 +367,39 @@
     <!-- talks section starts  -->
 
     <section class="talks" id="order">
-        <h1 class="heading"> What <span>People Say</span> </h1>
+        <h1 class="heading"> People <span> Speak</span> </h1>
         <div class="slideshow-container">
 
             <div class="mySlides">
-                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. </q>
-                <p class="author">- Lorem ipsum</p>
+                <q>SFC Foundation is truly an aid to the decrepit. How wonderful it is to see these young bloods running
+                    for the protection of those people who are long forgotten and secreted. Though changing and reviving
+                    lives is difficult but not an impossible work. Keep up the good work!</q>
+                <p class="author">- Dr Sukhwinder Jeet Singh</p>
+                <p class="author">District Health Officer, Sangrur, Punjab </p>
             </div>
 
             <div class="mySlides">
-                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. </q>
-                <p class="author">- Lorem ipsum</p>
+                <q>SFC Foundations is an epitome of knowledge and gives path of enlightenment to the underprivileged
+                    children and also to the other sections of society. It brings a smile to each person and teaches the
+                    art of living. </q>
+                <p class="author">- Mr. Dinesh Sood</p>
+                <p class="author"> Teacher</p>
             </div>
 
             <div class="mySlides">
-                <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. </q>
-                <p class="author">- Lorem ipsum</p>
+                <q>SFC is a center of excellence that provides intensive education and knowledge to the under privileged
+                    children’s which helps them to the understand the world in a better way. When I personally went to
+                    one of the Event, it was really blissful to see those smiling and blooming faces.</q>
+                <p class="author">- CS Misha Dhawan</p>
+            </div>
+
+            <div class="mySlides">
+                <q>In this cruel, brutish world, all we need is sensitivity. And its remarkable to see these efforts
+                    from the Youth of our Country. They are the ones who can actually make a change and SFC Foundation
+                    has already set its benchmarks high with them. Their unique approach in solving problems of the
+                    needy ones is extremely beautiful.</q>
+                <p class="author">- Ms. Meenu Gupta</p>
+                <p class="author"> Entrepreneur</p>
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -253,6 +417,7 @@
 
     <hr>
 
+<<<<<<< HEAD:app/template/index_old.html
     <!-- talks section ends -->
     <!--team------------------------>
     <section id="team">
@@ -513,6 +678,8 @@
     </section>
 
 
+=======
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
     <footer>
         <svg viewBox="0 0 120 28">
             <defs>
@@ -523,9 +690,9 @@
                 <filter id="goo">
                     <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
                     <feColorMatrix in="blur" mode="matrix" values="
-           1 0 0 0 0  
-           0 1 0 0 0  
-           0 0 1 0 0  
+           1 0 0 0 0
+           0 1 0 0 0
+           0 0 1 0 0
            0 0 0 13 -9" result="goo" />
                     <feBlend in="SourceGraphic" in2="goo" />
                 </filter>
@@ -562,23 +729,17 @@
             <div class="box">
                 <h3>Contact information</h3>
                 <p>
-                <h3>OFFICE ADDRESS</h3>
-                <div class="map-responsive">
-                    <!-- this iframe contains a random address please update the address accoeding to your requirment -->
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.981047239018!2d72.97651361446418!3d19.23965775180843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bbc82e88d5f1%3A0x301dc7daa82d8040!2sAzad%20Nagar!5e0!3m2!1sen!2sin!4v1615011389811!5m2!1sen!2sin"
-                        width="100%" height="100%" style="border:0" allowfullscreen></iframe>
-                </div>
-                </p>
-                <p> <i class="fas fa-envelope"></i> XYZ@gmail.com </p>
-                <p> <i class="fas fa-phone"></i> +91 XXXX XXXXX </p>
-                <p> <i class="fas fa-phone"></i> [contact no]</p>
-            </div>
 
+                </p>
+                <p> <i class="fas fa-envelope"></i> sfcfoundations@gmail.com </p>
+                <p> <i class="fas fa-phone"></i> +91 85569 51762 </p>
+                <p> <i class="fas fa-whatsapp"></i><a href="http://api.whatsapp.com/send?phone=+918556951762">Drop a
+                        HI!👋🏼</a></p>
+            </div>
             <div class="box">
-                <h3>Branch locations</h3>
-                <a href="#">Delhi</a>
-                <a href="#">Tricity</a>
+                <h3>Want to Hear Us ?</h3>
+                <p>Tune-In</p>
+                <a class="spot"><i class="fab fa-spotify fa-3x"></i></a>
             </div>
             <div class="box">
                 <h3>follow us</h3>
@@ -589,6 +750,11 @@
                     Instagram</a>
                 <a href="#"> <i class="fa fa-twitter"></i> Twitter</a>
             </div>
+        </div>
+        <div class="map-responsive">
+            <!-- this iframe contains a random address please update the address accoeding to your requirment -->
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ufkNDvPWS-mvHMV0U7Yf1UGOqIwapKdY" width="1300"
+                height="400" style="border:0;"></iframe>
         </div>
         <h1 class="credit">Copyright © All right reserved. SFC FOUNDATIONS </h1>
     </div>
@@ -606,10 +772,22 @@
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-
+    <script>
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
     <!-- initializing aos  -->
 
     <script>
+
+
+
 
         AOS.init({
             delay: 400,
@@ -626,7 +804,53 @@
         });
     </script>
 
+<<<<<<< HEAD:app/template/index_old.html
     <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+=======
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {
+                slideIndex = 1;
+                x[slideIndex - 1].style.display = "block";
+            }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
+
+    <script>//Get the button:
+        mybutton = document.getElementById("button");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }</script>
+
+
+    <script src="js/jquery.counterup.min.js"></script>
+>>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"

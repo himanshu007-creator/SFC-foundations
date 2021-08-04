@@ -36,6 +36,9 @@ def workingmodel(request):
     return render(request, 'pages/About-Us/workingmodel.html')
 
 
+def core_team(request):
+    return render(request, 'pages/About-Us/coreteam.html')
+
 def blog(request,id):
     
     return render(request, 'pages/Blog/blog.html')

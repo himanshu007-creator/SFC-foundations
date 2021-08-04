@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="{% static 'css/Templates/blog.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Blog/blog.css' %}">
     <link rel="stylesheet" href="{% static 'css/darkmode.css' %}">
 
 
@@ -37,12 +37,12 @@
         <div id="menu-bar" class="fas fa-hamburger"></div>
         <nav class="navbar">
             <ul>
-                <li><a href="{% url 'index' %}">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="{% url 'index' %}">Projects</a></li>
-                <li><a href="{% url 'join' %}">Join Us</a></li>
-                <li><a href="{% url 'event' %}">Events</a></li>
-                <li><a href="{% url 'news' %}">News</a></li>
+                   <li><a class="active" href="/#home">Home</a></li>
+              <li><a href="/#about">About-Us</a></li>
+                <li><a href=/"#projects">Projects</a></li>
+                <li><a href="/#joinus">Join Us</a></li>
+                <li><a href="/#events">Events</a></li>
+                <li><a href="/#news">News</a></li>
                 <li><a href="{% url 'contact' %}">Contact us</a></li>
                 <li><a href="{% url 'blog' %}">Blogs</a></li>
                 <li><a href="{% url 'BlogDonate' %}">DONATE</a></li>
@@ -53,10 +53,10 @@
     </header>
     <!-- header section ends -->
 
-    <img class="feed" src="{% static 'images/feed.png' %}">
-    <div class="counter">
-        <p> 190</p>
-    </div>
+<!--    <img class="feed" src="{% static 'images/feed.png' %}">-->
+<!--    <div class="counter">-->
+<!--        <p> 190</p>-->
+<!--    </div>-->
 
 
 

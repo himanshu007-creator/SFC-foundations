@@ -13,22 +13,10 @@
 header .navbar {
   height: 10vmin;
 }
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 35.25%;
-  position: relative;
-  height: 0;
-}
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
 h1,
 h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 *::selection {
@@ -82,6 +70,7 @@ section {
 }
 
 .heading {
+  margin-top: 7vmin;
   text-align: center;
   font-size: 7rem;
   padding: 0 0.5rem;
@@ -94,7 +83,6 @@ header {
   left: 0;
   z-index: 1000;
   width: 100%;
-  height: 10vmin;
   background: #fff;
   padding: 1.5rem 10%;
   box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
@@ -140,95 +128,11 @@ header #menu-bar {
 .feed {
   position: fixed;
   bottom: 60px;
-  border-radius: 100px;
   right: 12px;
   width: 20vmin;
   z-index: 99;
   opacity: 1;
-}
-
-.projects .row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.projects .row .video1 {
-  width: 4vmin;
-  height: 50vmin;
-  margin: 2rem;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.projects .row .video2 {
-  height: 75vh;
-  margin: 2rem;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.projects .row .videotext1 {
-  margin: 2rem;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.projects .row .videotext2 {
-  margin: 2rem;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.projects .row .content {
-  flex: 1 1 40rem;
-}
-
-.projects .row .content .info {
-  padding: 1rem 0;
-}
-
-.projects .row .content .info h3 {
-  display: flex;
-  align-items: center;
-  font-size: 2.4rem;
-  color: #333;
-}
-
-.projects .row .content .info h3 span {
-  padding-right: 1rem;
-  color: var(--yellow);
-}
-
-.projects .row .content .info p {
-  padding: 1rem 0;
-  padding-left: 4.5rem;
-  font-size: 1.5rem;
-  color: #666;
-}
-
-.textp1 {
-  font-size: 2.5vmin;
-}
-
-.textp2 {
-  font-size: 3vmin;
-}
-
-.hashheading {
-  font-size: 6vmin;
-  text-align: center;
+  border-radius: 100px;
 }
 
 /* Footer Section Starts */
@@ -394,8 +298,8 @@ header #menu-bar {
 .dark-mode .about .content p,
 .dark-mode .about .content h3,
 .dark-mode .btn,
-.dark-mode .projects .row .content .info h3,
-.dark-mode .projects .row .content .info p,
+.dark-mode .coreteams .row .content .info h3,
+.dark-mode .coreteams .row .content .info p,
 .dark-mode .counter,
 .dark-mode .navbar a {
   color: white;
@@ -512,6 +416,229 @@ header button .icon-box .fa {
   height: 5vmax;
 }
 
+.hidden {
+  display: none;
+}
+
+.coreteams .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.coreteams .row .box {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.teambox {
+  width: fit-content;
+  flex: 1 1 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(192, 11, 247, 1);
+}
+
+.coreteams .row .internimg {
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
+  flex: 1 1 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(81, 255, 0, 1);
+}
+
+.boximg {
+  text-align: center;
+}
+.boximg img {
+  width: 10vw;
+  height: 40vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .team1 .box {
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    display: inline-block;
+  }
+}
+
+.teamintro {
+  margin: 1vmin;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 4vmin;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.role {
+  font-weight: 500;
+
+  font-size: 3vmin;
+  text-align: center;
+}
+
+.dark-mode .name {
+  color: white;
+  font-weight: 600;
+  font-size: 4vmin;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.dark-mode .role {
+  color: white;
+  font-weight: 500;
+  margin-top: 0%;
+  font-size: 3vmin;
+  text-align: center;
+}
+
+.boximg img {
+  width: 30vmin;
+  height: 30vmin;
+  margin: 2rem;
+  margin-top: 0%;
+  padding: 2rem;
+  flex: 1 1 40rem;
+}
+
+.coreteams .row .content {
+  flex: 1 1 40rem;
+}
+
+.coreteams .row .content .info {
+  padding: 1rem 0;
+}
+
+.coreteams .row .content .info h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+  color: #333;
+}
+
+.coreteams .row .content .info h3 span {
+  padding-right: 1rem;
+  color: var(--yellow);
+}
+
+.coreteams .row .content .info p {
+  padding: 1rem 0;
+  padding-left: 4.5rem;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.coreteams .teams .btn {
+  width: 19vw;
+  font-size: 3vmin;
+}
+
+.teams {
+  word-spacing: 2vmin;
+  display: flex;
+  margin: 1vmin;
+  padding: 2vmin;
+  flex: 1 1 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.teamss {
+  margin: 1vmin;
+  padding: 2vmin;
+}
+
+.teamselectbox {
+  display: flex;
+}
+
+.teammember {
+  text-align: center;
+  margin: 2vmin;
+  display: block;
+}
+
+#btnc {
+  /* width: 80vmin; */
+  font-size: 2vmin;
+}
+#btnd {
+  /* width: 80vmin; */
+  font-size: 2vmin;
+}
+#btnj {
+  /* width: 80vmin; */
+  font-size: 2vmin;
+}
+#btnm {
+  /* width: 80vmin; */
+  font-size: 2vmin;
+}
+
+.team1 {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  display: inline-flex;
+}
+
+.team2 {
+  display: inline-flex;
+}
+
+.textp1 {
+  font-size: 2.5vmin;
+}
+
+.textp2 {
+  font-size: 3vmin;
+}
+
+.subheading {
+  font-size: 4vmin;
+  text-align: center;
+}
+
+.teambox {
+  height: 180vh;
+  width: 59vw;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  width: 30vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+}
+
+.dark-mode .dropdown-content {
+  display: none;
+  background-color: black;
+  width: 20vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  position: absolute;
+}
+
 .counter {
   position: fixed;
   bottom: 8vmin;
@@ -535,9 +662,8 @@ header button .icon-box .fa {
   bottom: 19vmin;
   right: 3.5vmin;
   width: 12vmax;
-  border-radius: 100px;
   z-index: 99;
-  /* opacity: 0.7; */
+  border-radius: 100px;
 }
 
 .feedknowmore {
@@ -548,14 +674,15 @@ header button .icon-box .fa {
   z-index: 99;
   /* opacity: 0.7; */
 }
+
 @media only screen and (max-width: 600px) {
   .feed {
     position: fixed;
     bottom: 27vmin;
-    border-radius: 100px;
     right: 5vmin;
     width: 12vmax;
     z-index: 99;
+    border-radius: 100px;
   }
   .feedknowmore {
     position: fixed;
@@ -584,6 +711,107 @@ header button .icon-box .fa {
     background-color: rgb(250, 196, 48);
     width: 35vmin;
     font-size: 3vmin;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .teams {
+    display: block;
+    text-align: center;
+  }
+
+  #btnc {
+    width: 80vmin;
+    font-size: 6vmin;
+  }
+  #btnd {
+    width: 80vmin;
+    font-size: 6vmin;
+  }
+  #btnj {
+    width: 80vmin;
+    font-size: 6vmin;
+  }
+  #btnm {
+    width: 80vmin;
+    font-size: 6vmin;
+  }
+  .textp1 {
+    font-size: 4vmin;
+  }
+  .team1 {
+    display: block;
+  }
+  .team1 .box {
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+  }
+  .team2 .box {
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+  }
+  .team2 {
+    display: block;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .team1 .role {
+    font-size: 10vmin;
+  }
+  .team1 .boximg img {
+    width: 50vmin;
+    height: 50vmin;
+  }
+  .team1 .name {
+    font-size: 7vmin;
+  }
+  .teambox {
+    height: max-content;
+  }
+  .team2 .box {
+    display: block;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .team2 .role {
+    font-size: 10vmin;
+  }
+  .team2 .boximg img {
+    width: 50vmin;
+    height: 50vmin;
+  }
+  .team2 .name {
+    font-size: 7vmin;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    width: 60vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+
+  .dark-mode .dropdown-content {
+    display: none;
+    background-color: black;
+    width: 60vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    position: absolute;
   }
 }
 
@@ -667,4 +895,133 @@ svg {
 .dark-mode .btn:hover {
   background-color: rgb(250, 196, 48);
   color: black;
+}
+
+@media only screen and (max-width: 850px) {
+  .teams {
+    display: block;
+    text-align: center;
+  }
+
+  #btnc {
+    width: 60vmin;
+    font-size: 5vmin;
+  }
+  #btnd {
+    width: 60vmin;
+    font-size: 5vmin;
+  }
+  #btnj {
+    width: 60vmin;
+    font-size: 5vmin;
+  }
+  #btnm {
+    width: 60vmin;
+    font-size: 5vmin;
+  }
+
+  .team1 {
+    display: block;
+  }
+  .team1 .box {
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+  }
+  .team2 .box {
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+  }
+  .team2 {
+    display: block;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .team1 .role {
+    font-size: 5vmin;
+  }
+  .team1 .boximg img {
+    width: 50vmin;
+    height: 50vmin;
+  }
+  .team1 .name {
+    font-size: 3vmin;
+  }
+  .teambox {
+    height: max-content;
+  }
+  .team2 .box {
+    display: block;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .team2 .role {
+    font-size: 5vmin;
+  }
+  .team2 .boximg img {
+    width: 50vmin;
+    height: 50vmin;
+  }
+  .team2 .name {
+    font-size: 3vmin;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    width: 60vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+
+  .dark-mode .dropdown-content {
+    display: none;
+    background-color: black;
+    width: 60vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    position: absolute;
+  }
+}
+
+.bio {
+  font-size: 3vmin;
+  /* padding-bottom: 15%; */
+  margin-bottom: 0%;
+}
+
+.fa-caret-down {
+  padding-top: 1vmin;
+}
+
+@media only screen and (max-width: 600px) {
+  .bio {
+    font-size: 5vmin;
+    /* padding-bottom: 15%; */
+    margin-bottom: 0%;
+  }
+
+  .fa-caret-down {
+    padding-top: 1vmin;
+  }
+
+  #btnc {
+    font-size: 4vmin;
+  }
+}
+
+.dark-mode .bio {
+  color: white;
 }

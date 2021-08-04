@@ -24,7 +24,7 @@ admin.site.site_header='SFC Foundation'
 
 urlpatterns = [
     #general
-    path('tinymce/', include('tinymce.urls')),
+    # path('tinymce/', include('tinymce.urls')),
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('upcommingEvent/<int:pk>/', views.upcommingEvents, name='upcommingEvent'),
@@ -44,4 +44,5 @@ urlpatterns = [
     path('know/', views.know, name='know'),
     path('objectives/', views.objectives, name='objectives'),
     path('workingmodel/', views.workingmodel, name='workingmodel'),
+    path('core_team/', views.core_team, name='core_team'),
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
