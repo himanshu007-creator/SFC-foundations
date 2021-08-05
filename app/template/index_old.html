@@ -28,21 +28,12 @@
 <body id="DarkModeTogglerId">
     <a onclick="topFunction()" id="button"></a>
     <div class="spinner-wrapper">
-<<<<<<< HEAD:app/template/index_old.html
         <img class="pim" src="{% static 'images/home.png' %}">
     </div>
     <!-- header section starts  -->
     <header>
         <a href="#" class="logo"><img src="{% static 'images/logo-img.png' %}" alt=""></a>
         <div id="menu-bar" class="fas fa-hamburger"></div>
-=======
-        <img class="pim" src="images/home-wh.png">
-    </div>
-    <!-- header section starts  -->
-    <header>
-        <a href="#" class="logo"><img src="images/logo-img.png" alt=""></a>
-        <div id="menu-bar" class="fas fa-bars"></div>
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
         <nav class="navbar">
             <ul>
                 <li><a class="active" href="#home">Home</a></li>
@@ -51,34 +42,19 @@
                 <li><a href="#joinus">Join Us</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#news">News</a></li>
-<<<<<<< HEAD:app/template/index_old.html
                 <li><a href="{% url 'contact' %}">Contact us</a></li>
                 <li><a href="{% url 'blog' %}">Blogs</a></li>
                 <li><a href="#">DONATE</a></li>
-=======
-                <li><a href="pages/Contact-Us/contact.html">Contact us</a></li>
-                <li><a href="pages/Blog/blog.html">Blogs</a></li>
-                <li><a href="pages/Donate/Donate.html">Donate</a></li>
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
                 <li id="darkmodeli"><input type="checkbox" id="toggle" name="checkbox" class="switch" onclick="myfun()">
                 </li>
             </ul>
         </nav>
     </header>
     <!-- header section ends -->
-<<<<<<< HEAD:app/template/index_old.html
 
     <img class="feed" src="{% static 'images/feed.png' %}">
     <div class="counter">
         <p> 190</p>
-=======
-    <div class="feederbox">
-        <img class="feed" src="images/feeding_paws.png">
-        <div class="counter">
-            <p>3669</p>
-        </div>
-        <a href="pages/FEED/feed.html" class="feedknowmore"><button class="btn">Know More</button></a>
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
     </div>
     <!-- home section starts  -->
     <!--
@@ -191,18 +167,11 @@
     <section class="about" id="about" data-aos="fade-right">
         <div>
             <h1 class="heading">About <span>Us</span></h1>
-<<<<<<< HEAD:app/template/index_old.html
             <a href="{% url 'know' %}"><button class="btn">Know SFC</button></a>
             <a href="{% url 'objectives' %}"><button class="btn">Objectives</button></a>
             <a href="{% url 'founder' %}"><button class="btn">Founder's Profile</button></a>
             <a href="#"><button class="btn">Core Team</button></a>
             <a href="{% url 'workingmodel' %}"><button class="btn">Working Model</button></a>
-=======
-            <a href="pages/About-Us/knowsfc.html"><button class="btn">Know SFC</button></a>
-            <a href="pages/About-Us/founder.html"><button class="btn">Founder's Profile</button></a>
-            <a href="pages/KMP/kmp.html"><button class="btn">KMP</button></a>
-            <a href="pages/About-Us/coreteam.html"><button class="btn">Core Team</button></a>
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
         </div>
         <img class="banner" src="{% static 'images/banner.png' %}">
     </section>
@@ -214,7 +183,6 @@
     <section class="projects" id="projects">
         <h1 class="heading"> Our Projects <span>List</span> </h1>
         <ul class="list" data-aos="fade-down">
-<<<<<<< HEAD:app/template/index_old.html
             <li class="btn active" data-src="{% static 'images/SAMPURAN.png' %}">Sampuran</li>
             <li class="btn" data-src="{% static 'images/GYAN.png' %}">Gyan</li>
             <li class="btn" data-src="{% static 'images/VATAVARAN.jpg' %}">Vatavaran</li>
@@ -232,19 +200,6 @@
                 </div>
                 <div class="info">
                     <h3> <span>02.</span>Gyan</h3>
-=======
-            <li class="btn active" data-src="images/GYAN.png">Gyan</li>
-            <li class="btn" data-src="images/VATAVARAN.jpg">Vatavaran</li>
-            <li class="btn " data-src="images/SAMPURAN.png">Sampuran</li>
-        </ul>
-        <div class="row" data-aos="fade-right">
-            <div class="image" data-aos="fade-left">
-                <img src="images/GYAN.png" id="menu-img" alt="">
-            </div>
-            <div class="content">
-                <div class="info">
-                    <h3> <span>01.</span>Gyan</h3>
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
                     <p>aims to impart education to the underprivileged Kids. To unveil the hidden talents of the youth
                         via enhancing their Learning Curve is the true objective of Gyan. …</p>
                     <a href="{% url 'gyan' %}"><button class="btn">Read</button></a>
@@ -273,11 +228,7 @@
             <a href="{% url 'join' %}"><button class="btn Join">INTERN</button></a>
             <a href="{% url 'join' %}"><button class="btn Join">VOLUNTEER</button></a>
         </div>
-<<<<<<< HEAD:app/template/index_old.html
         <img class="joinimg" src="{% static 'images/joinusbanner.png' %}">
-=======
-        <img class="joining" src="images/joinusbanner.png">
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
     </section>
     <!-- Join Us Section Ends -->
 
@@ -296,13 +247,8 @@
                 <img src="{% static 'images/reh.jpg' %}" alt="">
 
             </div>
-<<<<<<< HEAD:app/template/index_old.html
             <div class="eventbox">
                 <a href="{% url 'event' %}"><button class="btn Join">MORE <br>EVENTS</button></a>
-=======
-            <div class="eventbtnbox">
-                <a href="pages/Events/events.html"><button class="btn Join">MORE <br>EVENTS</button></a>
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
             </div>
 
         </div>
@@ -347,17 +293,9 @@
                 </div>
             </div>
             <!-- news item end -->
-<<<<<<< HEAD:app/template/index_old.html
             <div class="newsbox" data-aos="fade-left">
                 <a href="{% url 'news' %}"><button class="btn Join">MORE <br>NEWS</button></a>
             </div>
-=======
-
-            <div class="newsbtnbox">
-                <a href="pages/News/news.html"><button class="newsbox btn Join">MORE <br>NEWS</button></a>
-            </div>
-
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
         </div>
 
     </section>
@@ -417,7 +355,6 @@
 
     <hr>
 
-<<<<<<< HEAD:app/template/index_old.html
     <!-- talks section ends -->
     <!--team------------------------>
     <section id="team">
@@ -678,8 +615,6 @@
     </section>
 
 
-=======
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
     <footer>
         <svg viewBox="0 0 120 28">
             <defs>
@@ -804,9 +739,7 @@
         });
     </script>
 
-<<<<<<< HEAD:app/template/index_old.html
     <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
-=======
     <script>
         var slideIndex = 0;
         carousel();
@@ -850,7 +783,6 @@
 
 
     <script src="js/jquery.counterup.min.js"></script>
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:index.html
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"

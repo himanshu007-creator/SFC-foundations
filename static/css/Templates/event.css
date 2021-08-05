@@ -1,5 +1,4 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-<<<<<<< HEAD:static/css/Templates/event.css
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 *{
@@ -11,18 +10,6 @@
     outline: none; border:none;
     text-transform: none;
     transition:all .2s linear;
-=======
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap") * {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  text-transform: none;
-  transition: all 0.2s linear;
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Templates/blog.css
 }
 .map-responsive {
   overflow: hidden;
@@ -162,7 +149,6 @@ header #menu-bar {
   border-radius: 100px;
 }
 
-<<<<<<< HEAD:static/css/Templates/event.css
 
 
 .event {
@@ -170,19 +156,17 @@ header #menu-bar {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-=======
+}
 .blog {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Templates/blog.css
 }
 
 .heading {
   font-size: 7vmin;
 }
 
-<<<<<<< HEAD:static/css/Templates/event.css
 .event .eventbox{
     
     /* margin-left: 5vmin ; */
@@ -241,7 +225,7 @@ header #menu-bar {
     text-align: left;
     font-size: 3vmin;
     margin: 3vmin;
-=======
+}
 .blog .blogbox {
   /* margin-left: 5vmin ; */
   margin: 2rem;
@@ -287,7 +271,6 @@ header #menu-bar {
   text-align: left;
   font-size: 3vmin;
   margin: 3vmin;
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Templates/blog.css
 }
 
 .navigator {
@@ -306,7 +289,6 @@ header #menu-bar {
   text-align: right;
 }
 
-<<<<<<< HEAD:static/css/Templates/event.css
 .event .commentsbox{
     
     
@@ -333,7 +315,7 @@ header #menu-bar {
     border-radius: 1rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     font-size: 2vmin;
-=======
+}
 .blog .commentsbox {
   margin: 2rem;
   padding: 2rem;
@@ -358,7 +340,6 @@ header #menu-bar {
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   font-size: 2vmin;
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Templates/blog.css
 }
 
 .namebox,
@@ -670,51 +651,6 @@ header button .icon-box .fa {
   color: white;
 }
 
-<<<<<<< HEAD:static/css/Templates/event.css
-    height: 5vmax;
-} 
-
-
-
-
-
-.dark-mode .event .eventbox .eventheaderbox{
-    font-size: 2vmin;
-    color: white;
-    
-}
-
-.dark-mode .event .eventbox .eventheaderbox .date{
-    margin: 3vmin;
-    font-size: 3vmin;
-    color: white;
-}
-
-.dark-mode .event .eventbox  .author{
-    display: block;
-    font-size: 3vmin;
-    color: white;
-}
-
-.dark-mode .event .eventbox  .role{
-    color: white;
-    font-size: 3vmin;
-}
-
-
-.dark-mode .event .eventbox .eventauthor{
-    color: white;
-    text-align: center;
-}
-
-
-
-.dark-mode .event .eventbox .eventcontent{
-    text-align: left;
-    font-size: 3vmin;
-    margin: 3vmin;
-    color: white;
-=======
 .dark-mode .blog .blogbox .blogheaderbox .date {
   margin: 3vmin;
   font-size: 3vmin;
@@ -752,7 +688,6 @@ header button .icon-box .fa {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   font-size: 2vmin;
   color: white;
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Templates/blog.css
 }
 
 .dark-mode .blog .commentsbox .reply {
@@ -775,7 +710,6 @@ header button .icon-box .fa {
   font-size: 3vmin;
 }
 
-<<<<<<< HEAD:static/css/Templates/event.css
 
 
 
@@ -797,14 +731,13 @@ header button .icon-box .fa {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     font-size: 2vmin;
     color: white;
-=======
+}
 .emailbox {
   color: black;
 }
 
 .mobilebox {
   color: black;
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Templates/blog.css
 }
 
 .namebox,

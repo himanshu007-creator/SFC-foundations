@@ -66,7 +66,7 @@ section {
   padding-top: 8.5rem;
 }
 
-<<<<<<< HEAD:static/css/About-Us/objectives.css
+z HEAD:static/css/About-Us/objectives.css
 
 header{
     position: fixed;
@@ -80,7 +80,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-=======
+}
 .btn {
   font-size: 1.7rem;
   padding: 0.7rem 4rem;
@@ -90,7 +90,7 @@ header{
   color: #333;
   cursor: pointer;
   border: 0.2rem solid var(--yellow);
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Join-Us/joinus.css
+
 }
 
 .btn:hover {
@@ -390,7 +390,6 @@ header #menu-bar {
   }
 }
 
-<<<<<<< HEAD:static/css/About-Us/objectives.css
 
 
 
@@ -398,8 +397,6 @@ header #menu-bar {
 
 
 
-=======
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Join-Us/joinus.css
 /*dark mode*/
 .dark-mode,
 .dark-mode nav,
@@ -437,7 +434,6 @@ header #menu-bar {
   background-color: white;
 }
 
-<<<<<<< HEAD:static/css/About-Us/objectives.css
 
 
  .counter{
@@ -469,35 +465,6 @@ header button .icon-box .fa{
     background-color: black;
     color:white;
    
-=======
-.counter {
-  position: fixed;
-  bottom: 0px;
-  right: 12px;
-  width: 100px;
-  z-index: 99;
-  opacity: 1;
-  font-size: 40px;
-  color: aliceblue;
-  border-right: 15px;
-  text-align: center;
-  margin-right: 40px;
-  background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
-  color: orange !important;
-  background-color: #92858552;
-}
-
-header button .icon-box .fa {
-  font-size: 40px;
-  background-color: white;
-  color: black;
-}
-
-.dark-mode header button .icon-box .fa {
-  font-size: 40px;
-  background-color: black;
-  color: white;
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Join-Us/joinus.css
 }
 
 .dark-mode header .navbar ul li a.active,
@@ -534,17 +501,11 @@ header button .icon-box .fa {
   font-size: 2.5vmin;
 }
 
-<<<<<<< HEAD:static/css/About-Us/objectives.css
 
 
 .dark-mode .subheading{
     color: white;
     text-align: center;
-=======
-.dark-mode .subheading {
-  color: white;
-  text-align: center;
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Join-Us/joinus.css
 }
 
 .spinner-wrapper {
@@ -736,21 +697,14 @@ svg {
   background-color: rgb(250, 196, 48);
   color: black;
 }
-<<<<<<< HEAD:static/css/About-Us/objectives.css
 
 
 
 
 
-.modetoggle{
-=======
->>>>>>> 4c414c7523f1096656594d68601133480bc05167:css/Join-Us/joinus.css
-
-
-.joinusback{
-  width: 80%;
+.modetoggle .joinusback{
+width: 80%;
 position: relative;
-
 }
 
 body{
