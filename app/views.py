@@ -15,8 +15,8 @@ from django.http import Http404, HttpResponse, request
 
 
 def index(request):
-    return render(request, 'index.html',{
-        'objects':BannerEvents.objects.all(),
+    return render(request, 'index.html',{'objects':BannerEvents.objects.all(),'events':Event.objects.all()[:2],
+                                         'newslist': New.objects.all()[:2]
         })
 
 

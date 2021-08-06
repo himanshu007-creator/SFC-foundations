@@ -37,15 +37,15 @@
         <div id="menu-bar" class="fas fa-hamburger"></div>
         <nav class="navbar">
             <ul>
-                <li><a href="{% url 'index' %}">Home</a></li>
-                <li><a href="#about" class="active">About-Us</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="{% url 'join' %}">Join Us</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="{% url 'news' %}">News</a></li>
+                <li><a href="/#home">Home</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#projects">Projects</a></li>
+                <li><a href="/#joinus">Join Us</a></li>
+                <li><a href="/#events">Events</a></li>
+                <li><a href="/#news">News</a></li>
                 <li><a href="{% url 'contact' %}">Contact us</a></li>
                 <li><a href="{% url 'blog' %}">Blogs</a></li>
-                <li><a href="#">DONATE</a></li>
+                <li><a href="{% url 'BlogDonate' %}">DONATE</a></li>
                 <li id="darkmodeli"><input type="checkbox" id="toggle" name="checkbox" class="switch" onclick="myfun()">
                 </li>
             </ul>
@@ -65,14 +65,12 @@
 
 
 
+
     <!-- KNOW SFC Starts   -->
 
     <section class="projects" id="about">
         <h1 class="heading">KNOW SFC</h1>
-        <div class="row" id="knowsfc" data-aos="fade-right">
-
-            <div><img class="internimg" src="{% static 'images/knowsfc.jpeg' %}">
-            </div>
+        <div class="knowbox" id="knowsfc" data-aos="fade-right">
 
             <div class="box2aa">
                 <p class="textp1">
@@ -107,19 +105,19 @@
 
                                 <!--   slide images start   -->
                                 <div class="slide first">
-                                    <img class="sliderimg" src="../../images/trial1.jpeg">
+                                    <img class="sliderimg" src="{% static "images/trial1.jpeg" %}">
                                 </div>
 
                                 <div class="slide">
-                                    <img class="sliderimg" src="../../images/trial2.jpeg">
+                                    <img class="sliderimg" src="{% static "images/trial2.jpeg" %}">
                                 </div>
 
                                 <div class="slide">
-                                    <img class="sliderimg" src="../../images/trial3.jpeg">
+                                    <img class="sliderimg" src="{% static "images/trial3.jpeg" %}">
                                 </div>
 
                                 <div class="slide">
-                                    <img class="sliderimg" src="../../images/knowsfc.jpeg">
+                                    <img class="sliderimg" src="{% static "images/knowsfc.jpeg" %}">
                                 </div>
 
                                 <!--   slide images ends   -->
@@ -150,8 +148,8 @@
         </div>
         <!-- our team button ends -->
         <p class="heading">Our Goals & Objectives </p>
-        
-            <img class="hexa_img" src="../../images/hexagon.png" width="400" height="250">
+
+            <img class="hexa_img" src="{% static "images/hexagon.png" %}" width="400" height="250">
          <div class="hexdesign">
              <!--This part with 5 <br> tags works but a better solution is to be made. -->
              <br><br><br><br><br>
@@ -249,10 +247,6 @@
 
             <div class="box-container">
 
-
-    <!-- custom js file link  -->
-    <script src="{% static 'js/About-Us/knowsfc.js' %}"></script>
-
                 <div class="box">
                     <h3>Contact information</h3>
                     <p>
@@ -289,7 +283,7 @@
         </div>
 
         <!-- footer section ends -->
-        <script src="../../js/About-Us/knowsfc.js"></script>
+        <script src="{% static "js/About-Us/knowsfc.js" %}"></script>
         <!-- aos js cdn link  -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
@@ -297,7 +291,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <!-- custom js file link  -->
-        <script src="../../js/About-Us/knowsfc.js"></script>
+
 
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script>
@@ -430,8 +424,8 @@
                     $(".hexp1").css("color", "purple");
                 });
             });
-        });
-    </script>
+        </script>
+
     <script src="{% static 'js/About-Us/knowsfc.js' %}"></script>
     <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>

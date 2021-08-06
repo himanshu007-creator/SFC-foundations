@@ -200,16 +200,24 @@
     <section class="events" id="events">
         <h1 class="heading"><span>Events</span> </h1>
         <div class="box-container">
+            {% for event in events %}
             <div class="eventbox">
-                <h3>Indradhanush</h3>
-                <img src=" {% static "images/id.jpg" %}" alt="">
+                <h3>{{event.name}}</h3>
+                <img src=" {{event.bannerimage.url}}" alt="">
 
             </div>
-            <div class="eventbox">
-                <h3>Rehnuma</h3>
-                <img src=" {% static "images/reh.jpg" %}" alt="">
 
-            </div>
+            {% endfor %}
+<!--            <div class="eventbox">-->
+<!--                <h3>Indradhanush</h3>-->
+<!--                <img src=" {% static "images/id.jpg" %}" alt="">-->
+
+<!--            </div>-->
+<!--            <div class="eventbox">-->
+<!--                <h3>Rehnuma</h3>-->
+<!--                <img src=" {% static "images/reh.jpg" %}" alt="">-->
+
+<!--            </div>-->
             <div class="eventbtnbox">
                 <a href="/events"><button class="btn Join">MORE <br>EVENTS</button></a>
             </div>
@@ -226,35 +234,47 @@
 
 
         <div class="row" data-aos="fade-right">
-
+            {% for news in newslist %}
+            <div class="news-item padd-15">
+                <div class="news-item-inner shadow-dark">
+                    <div class="news-img">
+                        <img src="{{news.image.url}}" alt="news">
+                    </div>
+                    <div class="news-info">
+                        <h4 class="news-title">{{event.name}}</h4>
+                        <p class="news-tags"> {{news.source}}<a href="pages/Templates/news.html"> Read more </a></p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
             <!-- news news item -->
-            <div class="news-item padd-15">
-                <div class="news-item-inner shadow-dark">
-                    <div class="news-img">
-                        <img src=" {% static "images/n1.jpg" %}" alt="news">
-                    </div>
-                    <div class="news-info">
-                        <h4 class="news-title">The Times Of India</h4>
-                        <p class="news-tags"> Inspired by the Army, Navy, and Air Force’s gesture of thanking corona
-                            warriors, local NGO SFC Foundation.. <a href="pages/Templates/news.html"> Read more </a></p>
-                    </div>
-                </div>
-            </div>
-            <!-- news item end -->
+<!--            <div class="news-item padd-15">-->
+<!--                <div class="news-item-inner shadow-dark">-->
+<!--                    <div class="news-img">-->
+<!--                        <img src=" {% static "images/n1.jpg" %}" alt="news">-->
+<!--                    </div>-->
+<!--                    <div class="news-info">-->
+<!--                        <h4 class="news-title">The Times Of India</h4>-->
+<!--                        <p class="news-tags"> Inspired by the Army, Navy, and Air Force’s gesture of thanking corona-->
+<!--                            warriors, local NGO SFC Foundation.. <a href="pages/Templates/news.html"> Read more </a></p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; news item end &ndash;&gt;-->
 
-            <!-- news item -->
-            <div class="news-item padd-15">
-                <div class="news-item-inner shadow-dark">
-                    <div class="news-img">
-                        <img src=" {% static "images/n2.jpeg" %}" alt="news">
-                    </div>
-                    <div class="news-info">
-                        <h4 class="news-title">Fast Media</h4>
-                        <p class="news-tags">Fast Media, a renowned Punjabi newspaper honoured three-days training
-                            programme by.. <a href="pages/Templates/news.html"> Read more</a></p>
-                    </div>
-                </div>
-            </div>
+<!--            &lt;!&ndash; news item &ndash;&gt;-->
+<!--            <div class="news-item padd-15">-->
+<!--                <div class="news-item-inner shadow-dark">-->
+<!--                    <div class="news-img">-->
+<!--                        <img src=" {% static "images/n2.jpeg" %}" alt="news">-->
+<!--                    </div>-->
+<!--                    <div class="news-info">-->
+<!--                        <h4 class="news-title">Fast Media</h4>-->
+<!--                        <p class="news-tags">Fast Media, a renowned Punjabi newspaper honoured three-days training-->
+<!--                            programme by.. <a href="pages/Templates/news.html"> Read more</a></p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
             <!-- news item end -->
 
             <div class="newsbtnbox">
