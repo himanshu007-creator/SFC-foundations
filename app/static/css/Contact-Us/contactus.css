@@ -269,7 +269,7 @@ html {
 }
 
 body {
-  background-image: url(../../images/contactbg\\(2\).gif);
+  background-image: url("../../images/contactbg.gif");
   background-size: 100px;
   background-size: 100%;
   overflow-x: hidden;
