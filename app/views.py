@@ -50,6 +50,9 @@ def BlogSlider(request):
 def BlogDonate(request):
     return render(request, 'pages/Donate/Donate.html')
 
+def Blog_feed(request):
+    return render(request, 'pages/FEED/feed.html')
+
 def contact(request):
     return render(request, 'pages/Contact-Us/contact.html')
 
@@ -146,47 +149,8 @@ class EventListView(ListView):
 
 class EventDetailView(DetailView):
     model=Event
-    dict1=(model.__dict__)
-    image_count = 0
-    print(dict1.keys())
     template_name = 'pages/Events/eventDetail.html'
-    try:
-        print(dict1['image1']['url'])
-        image_count = image_count + 1
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        print(dict1['image2']['url'])
-        image_count = image_count + 1
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        print(dict1['image3']['url'])
-        image_count = image_count + 1
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        print(dict1['image4']['url'])
-        image_count = image_count + 1
-    except Exception as e:
-        print(e)
-        pass
-    try:
-        if image_count == 1:
-            template_name = 'pages/Events/event1.html'
-        if image_count == 2:
-            template_name = 'pages/Events/event2.html'
-        if image_count == 3:
-            template_name = 'pages/Events/event3.html'
-        if image_count == 4:
-            template_name = 'pages/Events/eventDetail.html'
 
-    except:
-        pass
-    print(template_name)
 
 def upcommingEvents(request, pk):
     model=BannerEvents.objects.get(id=pk)

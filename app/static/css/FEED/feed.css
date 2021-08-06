@@ -1,5 +1,6 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap") * {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
@@ -10,14 +11,14 @@
   text-transform: none;
   transition: all 0.2s linear;
 }
+header .navbar {
+  height: 10vmin;
+}
 .map-responsive {
   overflow: hidden;
   padding-bottom: 35.25%;
   position: relative;
   height: 0;
-}
-header .navbar {
-  height: 10vmin;
 }
 .map-responsive iframe {
   left: 0;
@@ -138,27 +139,17 @@ header #menu-bar {
   display: none;
 }
 
-.feed {
-  position: fixed;
-  bottom: 60px;
-  right: 12px;
-  width: 20vmin;
-  z-index: 99;
-  opacity: 1;
-  border-radius: 100px;
-}
-
-.event {
+.projects .row {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-
-.heading {
-  font-size: 7vmin;
+.card-text {
+  font-size: 17px;
+  padding: 2px 12px;
 }
-
-.event .eventbox {
+.projects .row .internimg {
   /* margin-left: 5vmin ; */
   margin: 2rem;
   padding: 2rem;
@@ -167,105 +158,87 @@ header #menu-bar {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.event .eventbox .eventheaderbox {
+.projects .row .video2 {
+  height: 75vh;
+  margin: 2rem;
+  padding: 2rem;
+  flex: 1 1 40rem;
+  border-radius: 1rem;
+
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.projects .row .feedimages {
+  margin: 2rem;
+  padding: 2rem;
+  flex: 1 1 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  font-size: 2vmin;
+}
+.projects .row .videotext1 {
+  margin: 2rem;
+  padding: 2rem;
+  flex: 1 1 50rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   font-size: 2vmin;
 }
 
-.event .eventbox .eventheaderbox .date {
-  margin: 3vmin;
-  font-size: 3vmin;
+.projects .row .videotext2 {
+  margin: 2rem;
+  padding: 2rem;
+  flex: 1 1 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.event .eventbox .eventheaderbox .title {
-  margin: 3vmin;
-  font-size: 3vmin;
+.projects .row .content {
+  flex: 1 1 40rem;
 }
 
-.event .eventbox .author {
-  display: block;
-  font-size: 3vmin;
+.projects .row .content .info {
+  padding: 1rem 0;
 }
 
-.event .eventbox .role {
-  font-size: 3vmin;
+.projects .row .content .info h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+  color: #333;
 }
 
-.event .eventbox .events {
+.projects .row .content .info h3 span {
+  padding-right: 1rem;
+  color: var(--yellow);
+}
+
+.projects .row .content .info p {
+  padding: 1rem 0;
+  padding-left: 4.5rem;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.projects .form {
   text-align: center;
 }
 
-.event .eventbox .events .eventimg {
-  width: 60vmin;
-  margin: 2vmin;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+.textp1 {
+  font-size: 2.5vmin;
 }
 
-.event .eventbox .eventcontent {
-  text-align: left;
-  font-size: 3vmin;
-  margin: 3vmin;
-}
-
-.navigator {
-  word-spacing: 5vmin;
-  display: flex;
-}
-
-.pre {
-  margin-left: 2vmin;
-  margin-right: 64vmin;
-  text-align: left;
-}
-
-.nxt {
-  margin-left: 61vmin;
-  text-align: right;
-}
-
-.event .commentsbox {
-  margin: 2rem;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-.event .commentsbox .comment {
-  margin: 2rem;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  font-size: 2vmin;
-}
-
-.event .commentsbox .reply {
-  margin: 2rem;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  font-size: 2vmin;
-}
-
-.namebox,
-.emailbox,
-.mobilebox {
-  margin: 1vmin;
+.textp2 {
   font-size: 3vmin;
 }
 
-.replybox {
-  padding: 3vmin;
-  font-size: 2vmin;
+.subheading {
+  font-size: 4vmin;
+  text-align: center;
 }
-.commentsbox p {
-  font-size: 3vmin;
+.content .box {
+  width: calc(25% - 30px);
+  border: 1px;
 }
-
 /* Footer Section Starts */
 .footer {
   background: #282727;
@@ -445,15 +418,12 @@ header #menu-bar {
 }
 
 .counter {
-  position: fixed;
-  bottom: 0px;
-  right: 12px;
   width: 100px;
   z-index: 99;
   opacity: 1;
   font-size: 40px;
   color: aliceblue;
-  border-right: 15px;
+  /* border-right: 15px; */
   text-align: center;
   margin-right: 40px;
   background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
@@ -541,86 +511,12 @@ header button .icon-box .fa {
     padding-top: 8.5rem;
   }
 }
+
 .modetoggle {
   height: 5vmax;
 }
 
-.dark-mode .event .eventbox .eventheaderbox {
-  font-size: 2vmin;
-  color: white;
-}
-
-.dark-mode .event .eventbox .eventheaderbox .date {
-  margin: 3vmin;
-  font-size: 3vmin;
-  color: white;
-}
-
-.dark-mode .event .eventbox .author {
-  display: block;
-  font-size: 3vmin;
-  color: white;
-}
-
-.dark-mode .event .eventbox .role {
-  color: white;
-  font-size: 3vmin;
-}
-
-.dark-mode .event .eventbox .eventauthor {
-  color: white;
-  text-align: center;
-}
-
-.dark-mode .event .eventbox .eventcontent {
-  text-align: left;
-  font-size: 3vmin;
-  margin: 3vmin;
-  color: white;
-}
-
-.dark-mode .event .commentsbox .comment {
-  margin: 2rem;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  font-size: 2vmin;
-  color: white;
-}
-
-.dark-mode .event .commentsbox .reply {
-  margin: 2rem;
-  padding: 2rem;
-  flex: 1 1 40rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  font-size: 2vmin;
-  color: white;
-}
-
-.dark-mode .namebox,
-.emailbox,
-.mobilebox {
-  margin: 1vmin;
-  font-size: 3vmin;
-  color: white;
-}
-
-.dark-mode .replybox {
-  padding: 3vmin;
-  font-size: 2vmin;
-  color: white;
-}
-.dark-mode .commentsbox p {
-  color: white;
-  font-size: 3vmin;
-}
-
 .counter {
-  position: fixed;
-  bottom: 8vmin;
-  right: 3.5vmin;
   width: 100px;
   z-index: 99;
   opacity: 1;
@@ -628,21 +524,12 @@ header button .icon-box .fa {
   color: black;
   border-right: 15px;
   text-align: center;
-  margin-right: 40px;
+  /* margin-right: 40px; */
   flex: 1 1 40rem;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   color: orange !important;
   background-color: #92858552;
-}
-.feed {
-  position: fixed;
-  bottom: 19vmin;
-  right: 3.5vmin;
-  width: 12vmax;
-  z-index: 99;
-  border-radius: 100px;
-  /* opacity: 0.7; */
 }
 
 .feedknowmore {
@@ -653,15 +540,8 @@ header button .icon-box .fa {
   z-index: 99;
   /* opacity: 0.7; */
 }
+
 @media only screen and (max-width: 600px) {
-  .feed {
-    position: fixed;
-    bottom: 27vmin;
-    right: 5vmin;
-    width: 12vmax;
-    z-index: 99;
-    border-radius: 100px;
-  }
   .feedknowmore {
     position: fixed;
     bottom: 1vmin;
@@ -669,22 +549,21 @@ header button .icon-box .fa {
     z-index: 99;
     font-size: 0.1vw;
   }
+
   .counter {
-    position: fixed;
-    bottom: 12vmin;
-    right: 4vmin;
     z-index: 99;
     opacity: 1;
     font-size: 8vmin;
     background-color: white;
     text-align: center;
-    margin-right: 0%;
+    /* margin-right: 0%; */
     flex: 1 1 40rem;
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     color: orange !important;
     background-color: #92858552;
   }
+
   .feedknowmore .btn {
     background-color: rgb(250, 196, 48);
     width: 35vmin;
@@ -772,4 +651,169 @@ svg {
 .dark-mode .btn:hover {
   background-color: rgb(250, 196, 48);
   color: black;
+}
+
+.feeder {
+  text-align: center;
+}
+
+.feeder img {
+  width: 50vmin;
+}
+
+.counter {
+  margin-left: 36%;
+  font-size: 10vmin;
+  width: 50vmin;
+  padding: 2vmin;
+}
+
+.dark-mode .videotext1 {
+  color: white;
+}
+
+.feedimages .image {
+  display: block;
+  width: 40vmin;
+  height: 40vmin;
+  padding: 1vmin;
+  margin: 2rem;
+  padding: 2rem;
+  flex: 1 1 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .feedimages .image {
+  display: block;
+  width: 40vmin;
+  height: 40vmin;
+  padding: 1vmin;
+  margin: 2rem;
+  padding: 2rem;
+  flex: 1 1 40rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem white;
+}
+
+@media only screen and (max-width: 600px) {
+  .feedimages {
+    display: inline-flex;
+  }
+  .projects .row .videotext1 {
+    margin: 2rem;
+    padding: 2rem;
+    flex: 1 1 40rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    font-size: 3vmin;
+  }
+  .row {
+    margin-bottom: 2vmin;
+  }
+  .feeder {
+    text-align: center;
+  }
+  .feed {
+    bottom: 30vmin;
+  }
+
+  .feeder img {
+    width: 50vmin;
+  }
+
+  .counter {
+    margin-left: 22%;
+    font-size: 10vmin;
+    width: 50vmin;
+    padding: 2vmin;
+  }
+  .feed {
+    bottom: 19vmin;
+    right: 3.5vmin;
+    width: 12vmax;
+    z-index: 99;
+    border-radius: 100px;
+    /* opacity: 0.7; */
+  }
+}
+
+.btmbox {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.imgbox img {
+  width: 70%;
+}
+
+.imgbox {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.textbox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textbox h1 {
+  font-size: 8vmax;
+  color: #d6d6d6;
+}
+
+.textbox p {
+  font-size: 2vmax;
+  color: rgb(138, 135, 135);
+}
+
+.heading {
+  font-size: 7vmax;
+}
+
+.topbox {
+  display: flex;
+}
+
+.topbox .textbox p {
+  font-size: 1.2vmax;
+  text-align: justify;
+}
+.topbox .textbox {
+  padding: 2vmin;
+  width: 60%;
+}
+.topbox .imgbox {
+  padding: 2vmin;
+  width: 40%;
+}
+
+.topbox .imgbox img {
+  width: 40vmin;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .topbox .textbox p {
+    font-size: 0.8vmax;
+    text-align: justify;
+  }
+  .topbox .textbox {
+    padding: 2vmin;
+    width: 70%;
+  }
+  .topbox .imgbox {
+    padding: 2vmin;
+    width: 30%;
+  }
+  .topbox .imgbox img {
+    width: 20vmin;
+    border: 1px solid black;
+  }
 }

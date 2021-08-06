@@ -1,6 +1,6 @@
 
 //Pagination
-pageSize = 12;
+pageSize = 1;
 incremSlide = 5;
 startPage = 0;
 numberPage = 0;
@@ -9,7 +9,7 @@ var pageCount =  $(".line-content").length / pageSize;
 var totalSlidepPage = Math.floor(pageCount / incremSlide);
 
 for(var i = 0 ; i<pageCount;i++){
-    $("#pagin").append('<li><a href="#">'+(i+1)+'</a></li> ');
+    $("#pagin").append('<li><botton><a href="#">'+(i+1)+'</a></li> ');
     if(i>pageSize){
        $("#pagin li").eq(i).hide();
     }
@@ -22,7 +22,7 @@ var prev = $("<li/>").addClass("prev").html("Prev").click(function(){
    slide();
 });
 
-prev.hide();
+//prev.hide();
 
 var next = $("<li/>").addClass("next").html("Next").click(function(){
    startPage+=5;
@@ -71,4 +71,4 @@ $("#pagin li a").click(function() {
 	 $(this).addClass("current");
 	 showPage(parseInt($(this).text()));
 });
-$('.current').hide();
+//$('.current').hide();

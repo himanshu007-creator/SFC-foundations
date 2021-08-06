@@ -8,4 +8,5 @@ urlpatterns = [
     path('<int:pk>/',views.BlogDetailView,name='BlogDetailView'),
     path('blog_donate',views.BlogDonate,name='BlogDonate'),
     path('blog_slider',views.BlogSlider,name='BlogSlider'),
+    path('Blog_feed',views.Blog_feed,name='Blog_feed'),
 ]
