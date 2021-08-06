@@ -230,6 +230,13 @@
     });
   });
 </script>
+  <script>
+                $('#menu-bar').click(function(){
+        $(this).toggleClass('fa-times');
+        $('.navbar').toggleClass('nav-toggle');
+    });
+
+        </script>
 <script src="{% static 'js/Blog/blog.js' %}"></script>
 <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>

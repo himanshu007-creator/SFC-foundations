@@ -33,7 +33,7 @@ def objectives(request):
 
 
 def workingmodel(request):
-    return render(request, 'pages/About-Us/workingmodel.html')
+    return render(request, 'pages/KMP/kmp.html')
 
 
 def core_team(request):

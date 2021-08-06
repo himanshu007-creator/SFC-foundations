@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFC FOUNDATIONS | JOIN-US | INTERN</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="../../images/logo-img - Copy.png" />
+
+    <!-- aos css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <link href="  https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="{% static "css/KMP/kmp.css" %}">
+    <link rel="stylesheet" href="{% static "css/darkmode.css" %}">
+
+
+
+
+<body id="DarkModeTogglerId">
+    <!-- header section start-->
+
+    <header>
+        <a href="#" class="logo"><img src="../../images/logo-img.png{% static "css/KMP/kmp.css" %}" alt=""></a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/#home">Home</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#projects">Projects</a></li>
+                <li><a href="/#joinus">Join Us</a></li>
+                <li><a href="/#events">Events</a></li>
+                <li><a href="/#news">News</a></li>
+                <li><a href="{% url 'contact' %}">Contact us</a></li>
+                <li><a href="{% url 'blog' %}">Blogs</a></li>
+                <li><a href="{% url 'BlogDonate' %}">DONATE</a></li>
+                <li id="darkmodeli"><input type="checkbox" id="toggle" name="checkbox" class="switch" onclick="myfun()">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header section ends -->
+
+
+
+
+
+    <!-- KMP Starts   -->
+
+    <section id="kmp">
+        <h1 class="heading">Key Managerial Personnel</h1>
+
+
+
+        <div class="kmpbox" data-aos="fade-right">
+            <div class="group1">
+                <p class="role">Managing Director</p>
+                <img class="internimg1" src="{% static "images/AASHNA _DIRECTOR.png" %}">
+                <p class="name">Aashna</p>
+                <div class="dropdown">
+                    <p class="bio">Bio <i class="fas fa-caret-down "></i></p>
+                    <div class="dropdown-content">
+                        <p class="textp1">
+                            Aashna, with her impeccability and passion secures a high administrative position in SFC
+                            Foundations. Being a debonair, she has a keen desire and passion to serve the society. With
+                            her great intellect she forms part of the BOD & works day in-out for expanding SFC reach
+                            worldwide. Elated by nature and efficacious by work, she justifies her personality and the
+                            definition of an actual leader. She is in all regards the backbone of SFC Foundations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="group2">
+                <div>
+                    <p class="role">Website Executive</p>
+                    <img class="internimg" src="{% static 'images/HIMANSHU.KMP.png' %}">
+                    <p class="name">Himanshu</p>
+                    <div class="dropdown">
+                        <p class="bio">Bio <i class="fas fa-caret-down "></i></p>
+                        <div class="dropdown-content">
+                            <p class="textp1">
+                                Himanshu, a tech enthusiast and a perfectionist, serves as the Website Executive. Having
+                                great skills and command in the Tech World he is an indispensable pillar of SFC and
+                                accomplishes every task incredibly and spectacularly. His professional acumen blended
+                                with a kind heart makes him a leader apart.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <p class="role">Executive Editor</p>
+                    <img class="internimg" src='{% static "images/ANKITA.KMP.png" %}'>
+                    <p class="name">Ankita</p>
+
+                    <div class="dropdown">
+                        <span>
+                            <p class="bio">Bio <i class="fas fa-caret-down "></i></p>
+                        </span>
+                        <div class="dropdown-content">
+                            <p class="textp1">
+                                Affable and responsible, Ankita accomplishes every task with great precision. Being the
+                                Executive Editor, she runs BMS with deep passion. A writer known for her persuasive
+                                personality & meticulousness her efforts have taken BMS to great heights, duly
+                                increasing our reader base day after day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <p class="role">Accounts Associate</p>
+                    <img class="internimg" src="{% static "images/DISHA.KMP.png" %}">
+                    <p class="name">Disha</p>
+                    <div class="dropdown">
+                        <p class="bio">Bio <i class="fas fa-caret-down "></i></p>
+                        <div class="dropdown-content">
+                            <p class="textp1">
+                                Disha is a quick-witted personality and a perfect combination of decisiveness and
+                                persistence. With her great interest in Accountancy she forms an important part of FMS.
+                                Being an amicable & trustworthy leader, she works with due sincerity in this realm of
+                                SFC.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- Join Us as Intern Ends   -->
+
+
+    <footer>
+        <svg viewBox="0 0 120 28">
+            <defs>
+                <mask id="xxx">
+                    <circle cx="7" cy="12" r="40" fill="#fff" />
+                </mask>
+
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="
+           1 0 0 0 0
+           0 1 0 0 0
+           0 0 1 0 0
+           0 0 0 13 -9" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+                <path id="wave"
+                    d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+            </defs>
+
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
+
+
+            <g class="gooeff">
+                <circle class="drop drop1" cx="20" cy="2" r="1.8" />
+                <circle class="drop drop2" cx="25" cy="2.5" r="1.5" />
+                <circle class="drop drop3" cx="16" cy="2.8" r="1.2" />
+                <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+
+                <!-- g mask="url(#xxx)">
+    <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+    </g>
+  </g -->
+
+        </svg>
+
+
+        <!-- footer section starts  -->
+
+        <div class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Contact information</h3>
+                    <p>
+
+                    </p>
+                    <p> <i class="fas fa-envelope"></i> sfcfoundations@gmail.com </p>
+                    <p> <i class="fas fa-phone"></i> +91 85569 51762 </p>
+                    <p> <i class="fas fa-whatsapp"></i><a href="http://api.whatsapp.com/send?phone=+918556951762">Drop a
+                            HI!👋🏼</a></p>
+                </div>
+
+                <div class="box">
+                    <h3>Want to Hear Us ?</h3>
+                    <p>Tune-In</p>
+                    <a href="https://www.buzzsprout.com/1798985/episodes" class="spot"><i
+                            class="fab fa-spotify fa-3x"></i></a>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="https://www.linkedin.com/company/sfc-foundations"><i class="fa fa-linkedin"></i>
+                        LinkedIn</a>
+                    <a href="https://m.facebook.com/profile.php?id=1630269837076825&ref=content_filter"><i
+                            class="fa fa-facebook"></i> Facebook</a>
+                    <a href="https://instagram.com/sfc_foundations?igshid=aydainwtfmeh"><i class="fa fa-instagram"></i>
+                        Instagram</a>
+                    <a href="#"> <i class="fa fa-twitter"></i> Twitter</a>
+                </div>
+            </div>
+            <div class="map-responsive">
+                <!-- this iframe contains a random address please update the address accoeding to your requirment -->
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ufkNDvPWS-mvHMV0U7Yf1UGOqIwapKdY" width="1300"
+                    height="400" style="border:0;"></iframe>
+            </div>
+            <h1 class="credit">Copyright © All right reserved. SFC FOUNDATIONS </h1>
+        </div>
+
+        <!-- footer section ends -->
+
+        <!-- aos js cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+        <!-- jquery cdn link  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- custom js file link  -->
+        <script src="../../js/KMP/kmp.js"></script>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+
+        <!-- initializing aos  -->
+
+        <script>
+
+            AOS.init({
+                delay: 400,
+                duration: 1000
+            })
+
+        </script>
+        <script>
+            jQuery(document).ready(function ($) {
+                $('.counter').counterUp({
+                    delay: 2,
+                    time: 1000
+                });
+            });
+        </script>
+<script>
+                $('#menu-bar').click(function(){
+        $(this).toggleClass('fa-times');
+        $('.navbar').toggleClass('nav-toggle');
+    });
+
+        </script>
+    <link rel="stylesheet" href="{% static "js/KMP/kmp.js" %}">
+        <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+<script src="{% static "js/darkmode.js" %}"></script>
+<script src="/static/js/pagination.js"></script>
+</body>
+
+</html>
