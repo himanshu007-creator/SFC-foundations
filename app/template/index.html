@@ -242,7 +242,7 @@
                     </div>
                     <div class="news-info">
                         <h4 class="news-title">{{event.name}}</h4>
-                        <p class="news-tags"> {{news.source}}<a href="pages/Templates/news.html"> Read more </a></p>
+                        <p class="news-tags"> {{news.source}}<a href="{% url 'NewsDetailView' news.pk %}"> Read more </a></p>
                     </div>
                 </div>
             </div>
