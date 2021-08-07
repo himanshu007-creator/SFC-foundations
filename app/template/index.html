@@ -96,7 +96,7 @@
                     <!--  radio buttons ends    -->
                     <!--   slide images start   -->
                     {% for object in objects %}
-                        <div class="slide">
+                        <div class="slide myevents">
                         <h3>{{object.heading}}</h3>
                         <p>{{object.subheading}}</p>
                         <div class="learnmore">
@@ -109,22 +109,6 @@
                     
 
                     <!--   slide images ends   -->
-
-                    <!--  Automatic navigation starts    -->
-                    <div class="navigation-auto">
-                       {% for i in object %}
-                        <div class="auto-btn1"></div>
-                       {% endfor %}
-                    </div>
-                    <!--  Automatic navigation ends    -->
-                </div>
-                <!-- manual navigation start   -->
-                <div class="navigation-manual">
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                </div>
-                <!-- manual navigation ends   -->
             </div>
         </div>
     </section>
@@ -482,6 +466,27 @@
             }
             x[slideIndex - 1].style.display = "block";
             setTimeout(carousel, 3000);
+        }
+
+
+    // slider logic
+    var eventid = 0;
+        eventslide();
+
+        function eventslide() {
+
+            var i;
+            var x = document.getElementsByClassName("myevents");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            eventid++;
+            if (eventid > x.length) {
+                eventid = 1;
+                x[eventid - 1].style.display = "block";
+            }
+            x[eventid - 1].style.display = "block";
+            setTimeout(eventslide, 3000);
         }
     </script>
 
