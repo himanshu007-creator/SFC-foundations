@@ -175,7 +175,8 @@
                 <div class="box">
                     <h3>Want to Hear Us ?</h3>
                     <p>Tune-In</p>
-                    <a class="spot"><i class="fab fa-spotify fa-3x"></i></a>
+                    <a href="https://www.buzzsprout.com/1798985/episodes" class="spot"><i
+                            class="fab fa-spotify fa-3x"></i></a>
                 </div>
                 <div class="box">
                     <h3>follow us</h3>
@@ -231,6 +232,13 @@
 
     </script>
     <script src="{% static 'js/Projects/vatavaran.js' %}"></script>
+    <script>
+        $('#menu-bar').click(function(){
+$(this).toggleClass('fa-times');
+$('.navbar').toggleClass('nav-toggle');
+});
+
+</script>
     <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
