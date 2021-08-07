@@ -1,6 +1,6 @@
 
 //Pagination
-pageSize = 1;
+pageSize = 12;
 incremSlide = 5;
 startPage = 0;
 numberPage = 0;
