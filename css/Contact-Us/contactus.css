@@ -64,6 +64,8 @@
   border-color: black;
   height: 5vmin;
   margin-bottom: 1.5rem;
+  border-radius: 2vmin;
+  width:25vw;
 }
 
 #fs-frm input:focus,
